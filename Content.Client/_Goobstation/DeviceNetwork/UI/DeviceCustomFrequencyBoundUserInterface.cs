@@ -28,23 +28,17 @@ public sealed class DeviceCustomFrequencyBoundUserInterface : BoundUserInterface
         base.Open();
 
         _window = this.CreateWindow<DeviceCustomFrequencyWindow>();
-        _window.OnReceiveFrequencyChanged += OnReceiveChanged;
-        _window.OnTransmitFrequencyChanged += OnTransmitChanged;
+        _window.OnFrequencyChanged += OnFrequencyChanged;
         _window.OnResetToDefault += OnReset;
 
         if (!EntMan.TryGetComponent(Owner, out DeviceCustomFrequencyComponent? deviceCustom))
             return;
 
-        _window.MinReceiveFrequency = deviceCustom.MinReceiveFrequency;
-        _window.MaxReceiveFrequency = deviceCustom.MaxReceiveFrequency;
-        _window.MinTransmitFrequency = deviceCustom.MinTransmitFrequency;
-        _window.MaxTransmitFrequency = deviceCustom.MaxTransmitFrequency;
+        _window.MinFrequency = deviceCustom.MinFrequency;
+        _window.MaxFrequency = deviceCustom.MaxFrequency;
 
-        if (deviceCustom.ReceiveChange)
-            _window.EnsureReceiveSpin(0);
-
-        if (deviceCustom.TransmitChange)
-            _window.EnsureTransmitSpin(0);
+        if (deviceCustom.FrequencyChange)
+            _window.EnsureSpin(0);
     }
 
     protected override void UpdateState(BoundUserInterfaceState state)
@@ -53,11 +47,8 @@ public sealed class DeviceCustomFrequencyBoundUserInterface : BoundUserInterface
         if (_window == null || state is not DeviceCustomFrequencyUserInterfaceState cast)
             return;
 
-        if (cast.TransmitFrequency != null)
-            _window.EnsureTransmitSpin(cast.TransmitFrequency.Value);
-
-        if (cast.ReceiveFrequency != null)
-            _window.EnsureReceiveSpin(cast.ReceiveFrequency.Value);
+        if (cast.Frequency != null)
+            _window.EnsureSpin(cast.Frequency.Value);
     }
 
     private void OnReset()
@@ -65,13 +56,8 @@ public sealed class DeviceCustomFrequencyBoundUserInterface : BoundUserInterface
         SendMessage(new DeviceCustomResetFrequencyMessage());
     }
 
-    private void OnReceiveChanged(uint value)
+    private void OnFrequencyChanged(uint value)
     {
-        SendMessage(new DeviceCustomReceiveFrequencyChangeMessage(value));
-    }
-
-    private void OnTransmitChanged(uint value)
-    {
-        SendMessage(new DeviceCustomTransmitFrequencyChangeMessage(value));
+        SendMessage(new DeviceCustomFrequencyChangeMessage(value));
     }
 }

@@ -9,24 +9,13 @@ public enum DeviceCustomFrequencyUiKey
 }
 
 [Serializable, NetSerializable]
-public sealed class DeviceCustomReceiveFrequencyChangeMessage : BoundUserInterfaceMessage
+public sealed class DeviceCustomFrequencyChangeMessage : BoundUserInterfaceMessage
 {
-    public uint ReceiveFrequency { get; }
+    public uint Frequency { get; }
 
-    public DeviceCustomReceiveFrequencyChangeMessage(uint receiveFrequency)
+    public DeviceCustomFrequencyChangeMessage(uint frequency)
     {
-        ReceiveFrequency = receiveFrequency;
-    }
-}
-
-[Serializable, NetSerializable]
-public sealed class DeviceCustomTransmitFrequencyChangeMessage : BoundUserInterfaceMessage
-{
-    public uint TransmitFrequency { get; }
-
-    public DeviceCustomTransmitFrequencyChangeMessage(uint transmitFrequency)
-    {
-        TransmitFrequency = transmitFrequency;
+        Frequency = frequency;
     }
 }
 
@@ -36,12 +25,10 @@ public sealed class DeviceCustomResetFrequencyMessage : BoundUserInterfaceMessag
 [Serializable, NetSerializable]
 public sealed class DeviceCustomFrequencyUserInterfaceState : BoundUserInterfaceState
 {
-    public uint? ReceiveFrequency;
-    public uint? TransmitFrequency;
+    public uint? Frequency;
 
-    public DeviceCustomFrequencyUserInterfaceState(uint? receiveFrequency, uint? transmitFrequency)
+    public DeviceCustomFrequencyUserInterfaceState(uint? frequency)
     {
-        ReceiveFrequency = receiveFrequency;
-        TransmitFrequency = transmitFrequency;
+        Frequency = frequency;
     }
 }

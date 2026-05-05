@@ -27,7 +27,7 @@
     receiveFrequencyId: StationRadio
     transmitFrequencyId: StationRadio # Default value, can be changed
   - type: DeviceCustomFrequency
-    transmitChange: true
+    frequencyChange: true
   - type: ActivatableUI
     key: enum.DeviceCustomFrequencyUiKey.Key
   - type: UserInterface

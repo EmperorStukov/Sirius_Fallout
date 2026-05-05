@@ -53,7 +53,7 @@
     deviceNetId: Wireless
     receiveFrequencyId: StationRadio # Default value, can be changed
   - type: DeviceCustomFrequency
-    receiveChange: true
+    frequencyChange: true
   - type: ActivatableUI
     key: enum.DeviceCustomFrequencyUiKey.Key
   - type: UserInterface

@@ -2,7 +2,6 @@ using Content.Goobstation.Shared.StationRadio.Components;
 using Content.Shared.DeviceLinking;
 using Content.Shared.DeviceLinking.Events;
 using Content.Shared.DeviceNetwork;
-using Content.Shared.Destructible;
 using Content.Shared.Power;
 using Content.Shared.Power.EntitySystems;
 using Robust.Shared.Audio;
@@ -91,6 +90,7 @@ public sealed class VinylPlayerSystem : EntitySystem
         {
             [DeviceNetworkConstants.Command] = StationRadioSystem.PlayAudioCommand,
             [StationRadioSystem.AudioPathData] = vinyl.Comp.Song,
+            [StationRadioSystem.AudioPlaybackData] = 0.0f
         };
 
         _link.InvokePort(ent.Owner, ent.Comp.MusicOutputPort, payload);

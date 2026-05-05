@@ -51,18 +51,13 @@ namespace Content.Client._Goobstation.DeviceNetwork.UI;
 [GenerateTypedNameReferences]
 public sealed partial class DeviceCustomFrequencyWindow : DefaultWindow
 {
-    public uint MinReceiveFrequency;
-    public uint MaxReceiveFrequency;
-    public uint MinTransmitFrequency;
-    public uint MaxTransmitFrequency;
+    public uint MinFrequency;
+    public uint MaxFrequency;
 
-    public event Action<uint>? OnReceiveFrequencyChanged;
-    public event Action<uint>? OnTransmitFrequencyChanged;
+    public event Action<uint>? OnFrequencyChanged;
     public event Action? OnResetToDefault;
 
-    public FloatSpinBox? ReceiveSpin;
-    public FloatSpinBox? TransmitSpin;
-
+    public FloatSpinBox? FrequencySpin;
     public DeviceCustomFrequencyWindow()
     {
         RobustXamlLoader.Load(this);
@@ -70,16 +65,10 @@ public sealed partial class DeviceCustomFrequencyWindow : DefaultWindow
         ResetToDefaults.OnPressed += _ => OnResetToDefault?.Invoke();
     }
 
-    private void OnReceiveChanged(FloatSpinBox.FloatSpinBoxEventArgs arg)
+    private void OnChanged(FloatSpinBox.FloatSpinBoxEventArgs arg)
     {
         var value = (uint) MathF.Round(arg.Value, MidpointRounding.ToZero);
-        OnReceiveFrequencyChanged?.Invoke(value);
-    }
-
-    private void OnTransmitChanged(FloatSpinBox.FloatSpinBoxEventArgs arg)
-    {
-        var value = (uint) MathF.Round(arg.Value, MidpointRounding.ToZero);
-        OnTransmitFrequencyChanged?.Invoke(value);
+        OnFrequencyChanged?.Invoke(value);
     }
 
     // We are using FloatSpinBox because for some reason only they have an event raised when the value is changed.
@@ -88,37 +77,18 @@ public sealed partial class DeviceCustomFrequencyWindow : DefaultWindow
     /// <summary>
     /// Ensures that receive frequency spinbox exists and sets it to some value.
     /// </summary>
-    public void EnsureReceiveSpin(uint frequency)
+    public void EnsureSpin(uint frequency)
     {
-        if (ReceiveSpin is null)
+        if (FrequencySpin is null)
         {
-            ReceiveSpin ??= new FloatSpinBox(1f, 0) { HorizontalExpand = true, MinWidth = 160 };
-            ReceiveSpin.IsValid = f => f > MinReceiveFrequency && f < MaxReceiveFrequency;
-            ReceiveSpin.OnValueChanged += OnReceiveChanged;
+            FrequencySpin ??= new FloatSpinBox(1f, 0) { HorizontalExpand = true, MinWidth = 160 };
+            FrequencySpin.IsValid = f => f > MinFrequency && f < MaxFrequency;
+            FrequencySpin.OnValueChanged += OnChanged;
 
-            ReceiveFrequencyContainer.AddChild(new Label { Text = Loc.GetString("ui-device-custom-frequency-receive-label") });
-            ReceiveFrequencyContainer.AddChild(ReceiveSpin);
+            FrequencyContainer.AddChild(new Label { Text = Loc.GetString("ui-device-custom-frequency-receive-label") });
+            FrequencyContainer.AddChild(FrequencySpin);
         }
 
-
-        ReceiveSpin.Value = frequency;
-    }
-
-    /// <summary>
-    /// Ensures that transmit frequency spinbox exists and sets it to some value.
-    /// </summary>
-    public void EnsureTransmitSpin(uint frequency)
-    {
-        if (TransmitSpin is null)
-        {
-            TransmitSpin = new FloatSpinBox(1f, 0) { HorizontalExpand = true, MinWidth = 160 };
-            TransmitSpin.IsValid = f => f > MinTransmitFrequency && f < MaxTransmitFrequency;
-            TransmitSpin.OnValueChanged += OnTransmitChanged;
-
-            TransmitFrequencyContainer.AddChild(new Label { Text = Loc.GetString("ui-device-custom-frequency-transmit-label") });
-            TransmitFrequencyContainer.AddChild(TransmitSpin);
-        }
-
-        TransmitSpin.Value = frequency;
+        FrequencySpin.Value = frequency;
     }
 }

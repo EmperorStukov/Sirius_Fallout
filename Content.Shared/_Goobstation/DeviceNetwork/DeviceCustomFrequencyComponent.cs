@@ -9,26 +9,14 @@ namespace Content.Goobstation.Shared.DeviceNetwork;
 public sealed partial class DeviceCustomFrequencyComponent : Component
 {
     /// <summary>
-    /// Should Transmit frequency be editable
+    /// Should Frequency be editable
     /// </summary>
     [DataField, AutoNetworkedField]
-    public bool TransmitChange;
-
-    /// <summary>
-    /// Should Receive frequency be editable
-    /// </summary>
-    [DataField, AutoNetworkedField]
-    public bool ReceiveChange;
+    public bool FrequencyChange;
 
     [DataField, AutoNetworkedField]
-    public uint MinTransmitFrequency = 1000;
+    public uint MinFrequency = 1000;
 
     [DataField, AutoNetworkedField]
-    public uint MaxTransmitFrequency = 9999;
-
-    [DataField, AutoNetworkedField]
-    public uint MinReceiveFrequency = 1000;
-
-    [DataField, AutoNetworkedField]
-    public uint MaxReceiveFrequency = 9999;
+    public uint MaxFrequency = 9999;
 }

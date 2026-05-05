@@ -1,7 +1,7 @@
-﻿using Content.Goobstation.Shared.DeviceNetwork;
+﻿using Content.Goobstation.Common.DeviceNetwork;
+using Content.Goobstation.Shared.DeviceNetwork;
 using Content.Server.DeviceNetwork.Components;
 using Content.Server.DeviceNetwork.Systems;
-using Content.Shared.DeviceNetwork.Components;
 using Content.Shared.UserInterface;
 using Robust.Server.GameObjects;
 
@@ -20,8 +20,7 @@ public sealed class DeviceCustomFrequencySystem : EntitySystem
         Subs.BuiEvents<DeviceCustomFrequencyComponent>(DeviceCustomFrequencyUiKey.Key,
             subs =>
         {
-            subs.Event<DeviceCustomReceiveFrequencyChangeMessage>(OnReceiveFrequencyChange);
-            subs.Event<DeviceCustomTransmitFrequencyChangeMessage>(OnTransmitFrequencyChange);
+            subs.Event<DeviceCustomFrequencyChangeMessage>(OnFrequencyChange);
         });
     }
 
@@ -30,35 +29,27 @@ public sealed class DeviceCustomFrequencySystem : EntitySystem
         if (!TryComp<DeviceNetworkComponent>(ent.Owner, out var device))
             return;
 
-        var newState = new DeviceCustomFrequencyUserInterfaceState(device.ReceiveFrequency, device.TransmitFrequency);
+        var newState = new DeviceCustomFrequencyUserInterfaceState(device.ReceiveFrequency);
         _userInterface.SetUiState(ent.Owner, DeviceCustomFrequencyUiKey.Key, newState);
     }
 
-    private void OnReceiveFrequencyChange(Entity<DeviceCustomFrequencyComponent> ent, ref DeviceCustomReceiveFrequencyChangeMessage args)
+    private void OnFrequencyChange(Entity<DeviceCustomFrequencyComponent> ent, ref DeviceCustomFrequencyChangeMessage args)
     {
-        if (!ent.Comp.ReceiveChange
+        if (!ent.Comp.FrequencyChange
             || !TryComp<DeviceNetworkComponent>(ent.Owner, out var device)
-            || args.ReceiveFrequency > ent.Comp.MaxReceiveFrequency
-            || args.ReceiveFrequency < ent.Comp.MinReceiveFrequency)
+            || args.Frequency > ent.Comp.MaxFrequency
+            || args.Frequency < ent.Comp.MinFrequency)
             return;
 
-        _deviceNetwork.SetReceiveFrequency(ent.Owner, args.ReceiveFrequency, device);
+        var oldFrequency = Comp<DeviceNetworkComponent>(ent.Owner).ReceiveFrequency;
 
-        var newState = new DeviceCustomFrequencyUserInterfaceState(device.ReceiveFrequency, device.TransmitFrequency);
-        _userInterface.SetUiState(ent.Owner, DeviceCustomFrequencyUiKey.Key, newState);
-    }
+        _deviceNetwork.SetReceiveFrequency(ent.Owner, args.Frequency, device);
+        _deviceNetwork.SetTransmitFrequency(ent.Owner, args.Frequency, device);
 
-    private void OnTransmitFrequencyChange(Entity<DeviceCustomFrequencyComponent> ent, ref DeviceCustomTransmitFrequencyChangeMessage args)
-    {
-        if (!ent.Comp.TransmitChange
-            || !TryComp<DeviceNetworkComponent>(ent.Owner, out var device)
-            || args.TransmitFrequency > ent.Comp.MaxTransmitFrequency
-            || args.TransmitFrequency < ent.Comp.MinTransmitFrequency)
-            return;
+        var ev = new DeviceNetworkFrequencyChangedEvent(oldFrequency, args.Frequency);
+        RaiseLocalEvent(ent.Owner, ref ev);
 
-        _deviceNetwork.SetTransmitFrequency(ent.Owner, args.TransmitFrequency, device);
-
-        var newState = new DeviceCustomFrequencyUserInterfaceState(device.ReceiveFrequency, device.TransmitFrequency);
+        var newState = new DeviceCustomFrequencyUserInterfaceState(device.ReceiveFrequency);
         _userInterface.SetUiState(ent.Owner, DeviceCustomFrequencyUiKey.Key, newState);
     }
 }
