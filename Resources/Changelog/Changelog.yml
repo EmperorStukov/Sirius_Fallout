@@ -4667,3 +4667,10 @@ Entries:
   id: 5842
   time: '2026-05-07T20:36:23.0000000+00:00'
   url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/445
+- author: Vixting
+  changes:
+    - type: Fix
+      message: Fix pill machine
+  id: 5843
+  time: '2026-05-07T23:49:56.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/446
