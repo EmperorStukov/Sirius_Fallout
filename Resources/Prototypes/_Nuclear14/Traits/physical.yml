@@ -252,7 +252,7 @@
 - type: trait
   id: N14UnnaturalReg
   category: Physical
-  points: -5
+  points: -8 # Look I buff it by quite a bit, so a change from 5 to 8 is justified
   requirements:
     - !type:CharacterTraitRequirement
       inverted: true
