@@ -1,8 +1,8 @@
 
 
-# Fallout-14
+# Fallout 14
 
-**Fallout-14M** - это русский форк проекта **isfits: Nuclear Wasteland**, Проект объединяет лучшие наработки в сеттинге Fallout с возможностями движка Space Station 14.
+**Fallout 14** - это русский форк проекта **isfits: Nuclear Wasteland**, Проект объединяет лучшие наработки в сеттинге Fallout с возможностями движка Space Station 14.
 
 ## О проекте
 
