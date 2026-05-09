@@ -1,75 +1,72 @@
-Here is the translation with the original Markdown formatting preserved:
 
-# Nuclear 14 / Misfits: Nuclear Wasteland
 
-**Misfits: Nuclear Wasteland** is a english fork of the first Russian-language adaptation of the original **Nuclear 14** fork, created by Peptide90 in 2022 with contributions from the community. The project combines the best Fallout-themed developments with the capabilities of the Space Station 14 engine.
+# Fallout-14
 
-## About the Project
+**Fallout-14M** — это русский форк проекта **isfits: Nuclear Wasteland**, Проект объединяет лучшие наработки в сеттинге Fallout с возможностями движка Space Station 14.
 
-Nuclear 14 is the first Fallout fork for Space Station 14, utilizing:
+## О проекте
 
-* Assets from various Fallout13 (F13/SS13) builds. Desert Rose 2, Lone Star, etc.
-* Unique materials created by the community
-* A highly modular system from the upstream Einstein Engines repository
+Fallout 14 — это первый русскоязычный Fallout-форк для Space Station 14, использующий:
 
-The theme and locations differ from classic F13, offering players a new experience. The codebase is licensed under AGPLv3, which allows for free use and development of the project.
+* Ассеты из различных билдов Fallout13 (F13/SS13), таких как Desert Rose 2, Lone Star и др.
+* Уникальные материалы, созданные сообществом.
+* Высокомодульную систему из оригинального репозитория Einstein Engines.
 
-## Features of the Russian Version
+Тематика и локации отличаются от классического F13, предлагая игрокам совершенно новый опыт.
 
-Misfits: Nuclear Wasteland adds:
+## Особенности русской версии
 
-* Full interface and content localization to English.
-* Regular updates and support
+* Полную локализацию интерфейса и контента на русский язык.
+* Регулярные обновления и поддержку.
 
-To participate in development, join our [Discord](https://discord.gg/yXsJnq3FbU).
+Чтобы принять участие в разработке, присоединяйтесь к нашему [Discord](https://discord.gg/uPwxRWBq7r).
 
-## Links
+## Ссылки
 
-* [Discord](https://discord.gg/yXsJnq3FbU) (official community)
-* Game servers: via launcher (`tbd`) or in Discord
+* [Discord](https://discord.gg/uPwxRWBq7r) (официальное сообщество)
 
-## Building
+## Сборка
 
-### Requirements
+### Требования
 
 * Git
 * .NET SDK 10.0.101
 
 ### Windows
 
-1. Clone the repository:
+1. Склонируйте репозиторий:
+
 ```sh
 git clone https://github.com/Misfit-Sanctuary/nuclear-14.git
 
 ```
 
+2. Инициализируйте подмодули:
 
-2. Initialize submodules:
 ```sh
 git submodule update --init --recursive
 
 ```
 
+3. Соберите проект:
 
-3. Build the project:
 ```sh
 Scripts/bat/buildAllDebug.bat
 
 ```
 
+4. Запустите клиент и сервер:
 
-4. Run client and server:
 ```sh
 Scripts/bat/runQuickAll.bat
 
 ```
 
-
-5. Connect to localhost via the client
+5. Подключитесь к `localhost` через клиент.
 
 ### Linux
 
-Similar to Windows, but use the `.sh` scripts:
+Процесс аналогичен Windows, но используются `.sh` скрипты:
 
 ```sh
 Scripts/sh/buildAllDebug.sh
@@ -79,15 +76,18 @@ Scripts/sh/runQuickAll.sh
 
 ### MacOS
 
-Theoretically similar to Linux, but has not been tested
+Теоретически процесс аналогичен Linux, но сборка на данной ОС не тестировалась.
 
-## License
+## Лицензия
 
-Detailed information about code and asset licensing is available in [LEGAL.md](https://www.google.com/search?q=./LEGAL.md). Key provisions:
+Подробная информация о лицензировании кода и ассетов доступна в [LEGAL.md](https://www.google.com/search?q=./LEGAL.md). Соблюдение авторских прав является обязательным.
 
-* Code: AGPLv3
-* Assets: individual licenses (check meta.json)
-* Copyright compliance is mandatory
+**Код:**
 
----
+* Содержимое, добавленное в этот репозиторий до коммита `87c70a89a67d0521a56388e6b1c3f2cb947943e4` (17 февраля 2024 23:00:00 UTC), распространяется по лицензии **MIT**, если не указано иное. См. `LICENSE-MIT`.
+* Содержимое, добавленное в этот репозиторий после коммита `87c70a89a67d0521a56388e6b1c3f2cb947943e4` (17 февраля 2024 23:00:00 UTC), распространяется по лицензии **GNU Affero General Public License версии 3.0 (AGPLv3)**, если не указано иное. См. `LICENSE-AGPLv3`.
+* Содержимое, добавленное в этот репозиторий после коммита `aa760f196d8e6dfc65136ece0dbbf51b92645ea8` (28 января 2026 20:00:00 UTC), распространяется по двойной лицензии **AGPLv3** и **WILDCARD WHITE DREAM PROJECT INDIVIDUAL CONTRIBUTOR LICENSE AGREEMENT (ICLA)**, если не указано иное. См. `LICENSE-ICLA-EN`.
 
+**Ассеты (Ресурсы):**
+
+* Большинство ресурсов лицензировано под **CC-BY-SA 3.0**, если не указано иное. Лицензия и авторские права на ресурсы указаны в файлах метаданных (например, `meta.json`).
