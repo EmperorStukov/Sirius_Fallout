@@ -225,6 +225,26 @@
         Piercing: 0.5
 
 - type: entity
+  parent: ClothingHeadBase
+  id: ClothingSuperMutantRangerHelmet
+  name: supermutant ranger helmet
+  description: An XXXXL ranger helmet made to fit even the biggest of people.
+  components:
+  - type: Sprite
+    sprite: _Misfits/Clothing/SuperMutant/ranger_helmet.rsi
+  - type: Clothing
+    sprite: _Misfits/Clothing/SuperMutant/ranger_helmet.rsi
+  - type: Tag
+    tags:
+    - SuperMutantWearable
+  - type: Armor # #Misfits Add - 50% physical damage resistance (head protection)
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+
+- type: entity
   parent: ClothingMaskBase
   id: ClothingSuperRangerGasmask
   name: Super Mutant Ranger Gasmask
