@@ -29,7 +29,7 @@
         factions:
           - PlayerSuperMutant
           - Wastelander
-      
+
 
 - type: playTimeTracker
   id: SuperMutant
@@ -40,7 +40,8 @@
   equipment:
     jumpsuit: ClothingSuperMutantVaultSuit
     id: N14ClothingNeckDogtags # #Misfits Change - wastelander supermutants get dogtag IDs
-
+    ears: MisfitsClothingHeadsetWastelandScrap
+    
 # #Misfits Add - Nightkin variant with its own whitelist entry.
 - type: job
   id: Nightkin
@@ -56,7 +57,7 @@
   whitelisted: true
   hideWithoutWhitelist: true
   spawnLoadout: true
-  startingGear: SuperMutantVaultSuitGear
+  startingGear: NightkinVaultSuitGear # #Misfits changed to nightkin starting gear
   applyTraits: true
   requirements:
     - !type:CharacterSpeciesRequirement
@@ -70,6 +71,14 @@
           - PlayerSuperMutant
           - Wastelander
 
+# #Misfits changed to nightkin starting gear
+- type: startingGear
+  id: NightkinVaultSuitGear
+  equipment:
+    jumpsuit: ClothingSuperMutantVaultSuit
+    ears: MisfitsClothingHeadsetWastelandScrap
+  inhand:
+    -  MisfitsStealthBoy # # Misfits: Add - stealthboy for nightkin role on spawn
 - type: playTimeTracker
   id: Nightkin
 
@@ -153,7 +162,8 @@
 - type: startingGear
   id: SuperMutantRangerGear
   equipment:
-    head: ClothingSuperMutantRangerHat
+    mask: ClothingSuperRangerGasmask
+    head: ClothingSuperMutantRangerHelmet
     jumpsuit: ClothingSuperMutantRangerShirt
     outerClothing: ClothingSuperMutantRangerArmor
     back: N14ClothingBackpackMilitary
@@ -193,6 +203,7 @@
 - type: startingGear
   id: SuperMutantTrooperGear
   equipment:
+    head: ClothingSuperMutantTrooperHelmet
     outerClothing: ClothingSuperMutantTrooperArmor
     back: N14ClothingBackpackMilitary
 
@@ -237,7 +248,8 @@
 - type: startingGear
   id: SuperMutantNCRRangerGear
   equipment:
-    head: ClothingSuperMutantRangerHat
+    mask: ClothingSuperRangerGasmask
+    head: ClothingSuperMutantRangerHelmet
     shoes: ClothingSuperMutantGladiatorBoots # Placeholder untill we get NCR boots
     jumpsuit: ClothingSuperMutantRangerShirt
     outerClothing: ClothingSuperMutantRangerArmor
@@ -259,8 +271,6 @@
   playTimeTracker: SuperMutantNCRTrooper
   icon: JobIconBorg
   supervisors: job-supervisors-ncr
-  access:
-    - NCR
   canBeAntag: false
   setPreference: true
   overrideConsoleVisibility: true
@@ -284,6 +294,7 @@
 - type: startingGear
   id: SuperMutantNCRTrooperGear
   equipment:
+    head: ClothingSuperMutantTrooperHelmet
     shoes: ClothingSuperMutantGladiatorBoots # Placeholder untill we get NCR boots
     jumpsuit: ClothingSuperMutantJumpsuit
     outerClothing: ClothingSuperMutantTrooperArmor
@@ -407,7 +418,7 @@
     shoes: ClothingSuperMutantGladiatorBoots
     gloves: SupermutantFollowerGloves
     neck: ClothingNeckStethoscope
-    id: N14IDFollowerDoctor
+    id: N14IDDoctorFollower
     ears: N14ClothingHeadsetFollowers
     pocket1: N14HandheldHealthAnalyzer
     pocket2: SurgicalSterilanSpray

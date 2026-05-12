@@ -952,6 +952,7 @@ namespace Content.Client.Lobby.UI
             RefreshJobs();
             RefreshSpecies();
             RefreshFlavorText();
+            UpdateTraitPreferences();
             ReloadPreview();
 
             if (Profile != null)
@@ -2397,7 +2398,7 @@ namespace Content.Client.Lobby.UI
                     .Count(t => !t.Value)));
             AdminUIHelpers.RemoveConfirm(TraitsRemoveUnusableButton, _confirmationData);
 
-            IsDirty = true;
+            SetDirty();
             ReloadProfilePreview();
         }
 
@@ -2420,7 +2421,7 @@ namespace Content.Client.Lobby.UI
             {
                 foreach (var tab in TraitsTabs.Tabs)
                     TraitsTabs.RemoveTab(tab);
-                _loadoutPreferences.Clear();
+                _traitPreferences.Clear();
             }
 
 

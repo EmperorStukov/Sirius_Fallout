@@ -4775,3 +4775,134 @@ Entries:
   id: 5853
   time: '2026-05-10T07:25:11.0000000+00:00'
   url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/454
+- author: Bradysgaming
+  changes:
+    - type: Add
+      message: Added Supermutant Zoot Suit
+    - type: Add
+      message: Added Supermutant Ranger Gasmask
+    - type: Add
+      message: Added Supermutant Ranger Helmet
+    - type: Add
+      message: Added new Yao-Guai cloak sprites
+    - type: Add
+      message: Added new comabt jumpsuit sprites
+  id: 5854
+  time: '2026-05-10T08:53:51.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/465
+- author: Dpellowski
+  changes:
+    - type: Tweak
+      message: 200 player count
+  id: 5855
+  time: '2026-05-10T19:38:32.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/467
+- author: Misterzeppelin
+  changes:
+    - type: Add
+      message: 'That Gun can be fired now '
+  id: 5856
+  time: '2026-05-10T19:38:44.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/466
+- author: Bradysgaming
+  changes:
+    - type: Add
+      message: Added 10 hour time req for squire to be a paladin
+  id: 5857
+  time: '2026-05-11T17:35:43.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/470
+- author: Bradysgaming
+  changes:
+    - type: Tweak
+      message: Made it 10x harder to gib someone
+  id: 5858
+  time: '2026-05-11T17:36:06.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/468
+- author: Bill
+  changes:
+    - type: Fix
+      message: >-
+        Fixed PA issue. PA no longer absorbs literal dozens of rounds for
+        absolutely free after integrity breaks. You may lynch me AFTER my finals
+        are done.
+    - type: Tweak
+      message: bullets are more lethal now, a little.
+    - type: Tweak
+      message: >-
+        made gunpowder chemical reaction less efficient holy shit you do NOT
+        need this much gunpowder gng.
+  id: 5859
+  time: '2026-05-11T17:54:41.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/471
+- author: Misterzeppelin
+  changes:
+    - type: Add
+      message: Unfactioned Supermutant IDs and headset, working on Nightkin updates
+  id: 5860
+  time: '2026-05-11T17:55:11.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/469
+- author: Misterzeppelin
+  changes:
+    - type: Add
+      message: Adjusted job roles to reflect Nightkin species requirements
+  id: 5861
+  time: '2026-05-11T21:43:09.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/478
+- author: NajaTheNaja
+  changes:
+    - type: Fix
+      message: braslet -> bracelet
+  id: 5862
+  time: '2026-05-11T21:43:57.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/480
+- author: Chancerous
+  changes:
+    - type: Add
+      message: More wildlife spawns around the map
+    - type: Add
+      message: A few extra random lootspawn crates around the map
+    - type: Tweak
+      message: Locked up the town bar
+    - type: Tweak
+      message: Missile Launcher is now just a tease
+    - type: Tweak
+      message: Changed snow bunker back to deathclaws
+    - type: Fix
+      message: Fixed up FoTA base tiles
+    - type: Fix
+      message: Fixed bartender door south of bar (was previously doctor)
+    - type: Fix
+      message: Fixed warp stairs being destructible
+    - type: Fix
+      message: Fixed some OOB areas
+  id: 5863
+  time: '2026-05-11T21:47:45.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/479
+- author: Dpellowski
+  changes:
+    - type: Add
+      message: Enclave Job Icons (some pls implement)
+  id: 5864
+  time: '2026-05-11T22:48:37.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/484
+- author: Dpellowski
+  changes:
+    - type: Fix
+      message: Trait bug
+  id: 5865
+  time: '2026-05-12T01:30:09.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/486
+- author: Bradysgaming
+  changes:
+    - type: Add
+      message: Added Enclave job icons
+  id: 5866
+  time: '2026-05-12T03:06:56.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/487
+- author: Dpellowski
+  changes:
+    - type: Add
+      message: Rules are now a button!
+  id: 5867
+  time: '2026-05-12T03:34:07.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/488

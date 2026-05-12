@@ -585,6 +585,12 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
             .Distinct()
             .ToList();
 
+        var maxTraits = configManager.GetCVar(CCVars.GameTraitsMax);
+        var defaultPoints = configManager.GetCVar(CCVars.GameTraitsDefaultPoints);
+        var pointTotal = defaultPoints + traits.Sum(t => prototypeManager.Index<TraitPrototype>(t).Points);
+        if (traits.Count > maxTraits || pointTotal < 0)
+            traits.Clear();
+
         var loadouts = LoadoutPreferences
             .Where(l => prototypeManager.HasIndex<LoadoutPrototype>(l.LoadoutName))
             .Distinct()

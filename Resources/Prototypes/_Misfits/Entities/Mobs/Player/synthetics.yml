@@ -56,7 +56,7 @@
           path: /Audio/Machines/AI/borg_death.ogg
     - trigger:
         !type:DamageTrigger
-        damage: 300
+        damage: 1000
       behaviors:
       - !type:PlaySoundBehavior
         sound:
