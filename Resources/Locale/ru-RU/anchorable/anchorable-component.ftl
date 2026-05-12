@@ -1,3 +1,3 @@
 anchorable-anchored = Закреплено
-anchorable-unanchored = Незакрепленный
-anchorable-occupied = Плитка занята
+anchorable-unanchored = Не закреплено
+anchorable-occupied = Плитка уже занята

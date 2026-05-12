@@ -1,1 +1,1 @@
-spell-fail-no-hands = У тебя нет рук!
+spell-fail-no-hands = У вас нет рук!

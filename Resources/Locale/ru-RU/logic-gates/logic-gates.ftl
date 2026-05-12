@@ -1,15 +1,15 @@
-logic-gate-examine = В настоящее время это ворота {INDEFINITE($gate)} {$gate}.
+logic-gate-examine = Сейчас установлена логическая операция { $gate }.
 
-logic-gate-cycle = Переключено на шлюз {INDEFINITE($gate)} {$gate}.
+logic-gate-cycle = Переключено на операцию { $gate }
 
-power-sensor-examine = В настоящее время он проверяет {$output ->
+power-sensor-examine = It is currently checking the network's { $output ->
     [true] output
     *[false] input
 } battery.
-power-sensor-voltage-examine = Он проверяет электросеть {$voltage}.
+power-sensor-voltage-examine = It is checking the { $voltage } power network.
 
-power-sensor-switch = Переключился на проверку {$output ->
+power-sensor-switch = Switched to checking the network's { $output ->
     [true] output
     *[false] input
 } battery.
-power-sensor-voltage-switch = Переключил сеть на {$voltage}!
+power-sensor-voltage-switch = Switched network to { $voltage }!

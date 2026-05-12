@@ -1,3 +1,3 @@
-node-container-component-on-examine-details-hvpower = Имеет разъем для кабелей [color=orange]HV[/color].
-node-container-component-on-examine-details-mvpower = Имеет разъем для кабелей [color=yellow]MV[/color].
-node-container-component-on-examine-details-apc = Имеет разъем для кабелей [color=green]LV[/color].
+node-container-component-on-examine-details-hvpower = Оснащён разъёмом для [color=orange]ВВ кабеля[/color].
+node-container-component-on-examine-details-mvpower = Оснащён разъёмом для [color=yellow]СВ кабеля[/color].
+node-container-component-on-examine-details-apc = Оснащён разъёмом для [color=green]НВ кабеля[/color].

@@ -1,27 +1,22 @@
-machine-insert-item = {CAPITALIZE(THE($user))} вставил {THE($item)} в {THE($machine)}.
+machine-insert-item = { CAPITALIZE($user) } помещает { $item } в { $machine }.
 
-machine-upgrade-examinable-verb-text = Обновления
-machine-upgrade-examinable-verb-message = Изучите улучшения машины.
-machine-upgrade-increased-by-percentage = [color=yellow]{CAPITALIZE($upgraded)}[/color] увеличился на {$percent}%.
-machine-upgrade-decreased-by-percentage = [color=yellow]{CAPITALIZE($upgraded)}[/color] уменьшилось на {$percent}%.
-machine-upgrade-increased-by-amount = [color=yellow]{CAPITALIZE($upgraded)}[/color] увеличено на {$difference}.
-machine-upgrade-decreased-by-amount = [color=yellow]{CAPITALIZE($upgraded)}[/color] уменьшилось на {$difference}.
-machine-upgrade-not-upgraded = [color=yellow]{CAPITALIZE($upgrade)}[/color] не обновлен.
+machine-upgrade-examinable-verb-text = Улучшения
+machine-upgrade-examinable-verb-message = Узнайте, какие параметры устройства были улучшены.
+machine-upgrade-increased-by-percentage = Параметр [color=yellow]{ $upgraded }[/color] увеличен на { $percent }%.
+machine-upgrade-decreased-by-percentage = Параметр [color=yellow]{ $upgraded }[/color] уменьшен на { $percent }%.
+machine-upgrade-increased-by-amount = Параметр [color=yellow]{ $upgraded }[/color] увеличен на { $difference }.
+machine-upgrade-decreased-by-amount = Параметр [color=yellow]{ $upgraded }[/color] уменьшен на { $difference }.
+machine-upgrade-not-upgraded = Параметр [color=yellow]{ $upgraded }[/color] не улучшался.
 
 machine-part-name-capacitor = Конденсатор
 machine-part-name-manipulator = Манипулятор
-machine-part-name-matter-bin = Материя Бин
-machine-part-name-power-cell = Силовая ячейка
+machine-part-name-matter-bin = Ёмкость материи
+machine-part-name-power-cell = Батарея
 
-upgrade-power-draw = потребляемая мощность
-upgrade-max-charge = максимальный заряд
-upgrade-power-supply = источник питания
-upgrade-power-supply-ramping = скорость изменения мощности
+two-way-lever-left = сдвинуть рычаг влево
+two-way-lever-right = сдвинуть рычаг вправо
+two-way-lever-cant = Рычаг не может быть сдвинут в эту сторону!
 
-two-way-lever-left = толкнуть влево
-two-way-lever-right = толкнуть вправо
-two-way-lever-cant = нельзя так нажимать на рычаг!
+recycler-count-items = Переработано объектов: { $items }.
 
-recycler-count-items = Переработанные объекты {$items}.
-
-machine-already-in-use = {CAPITALIZE(THE($machine))} уже используется.
+machine-already-in-use = { CAPITALIZE($machine) } уже используется.

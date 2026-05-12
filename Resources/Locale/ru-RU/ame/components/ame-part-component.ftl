@@ -1,2 +1,2 @@
-ame-part-component-interact-using-no-hands = У тебя нет рук.
-ame-part-component-shielding-already-present = Экранирование уже есть!
+ame-part-component-interact-using-no-hands = У вас нет рук.
+ame-part-component-shielding-already-present = Экранирование уже имеется!

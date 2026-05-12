@@ -1,2 +1,2 @@
-take-item-verb-text = Возьмите {$subject}
-place-item-verb-text = Место {$subject}
+take-item-verb-text = Взять { $subject }
+place-item-verb-text = Положить { $subject }

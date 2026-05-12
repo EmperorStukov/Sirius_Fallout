@@ -1,19 +1,19 @@
-﻿## TabletopGameComponent
-tabletop-verb-play-game = Играть в игру
-tabletop-verb-dump-pieces = Дамп куски
+## TabletopGameComponent
+tabletop-verb-play-game = Играть
+tabletop-verb-dump-pieces = Скинуть фигурки
 tabletop-default-board-name = Настольная игра
-tabletop-error-remove-non-hologram = Вы не можете удалить встроенную деталь!
-tabletop-added-piece = Доска ярко переливается!
+tabletop-error-remove-non-hologram = Вы не можете убрать встроенную фигурку!
+tabletop-added-piece = Доска ярко сияет!
 
 ## Chess
-tabletop-chess-board-name = шахматы
-tabletop-chess-flip = Подбросить
+tabletop-chess-board-name = Шахматы
+tabletop-chess-flip = Перевернуть
 
 ## Parchís
 tabletop-parchis-board-name = Парчис
 
 ## Backgammon
-tabletop-backgammon-board-name = Нарды
+tabletop-backgammon-board-name = Короткие нарды
 
 ## Checkers
 tabletop-checkers-board-name = Шашки

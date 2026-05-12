@@ -1,3 +1,3 @@
-spike-solution-generic = Вы добавляете {THE($spiked-entity)} с помощью {THE($spike-entity)}.
-spike-solution-empty-generic = {THE($spike-entity)} не растворяется в {THE($spike-entity)}.
-spike-solution-egg = Вы взломали {THE($spike-entity)} на {THE($spiked-entity)}.
+spike-solution-generic = Вы толчёте { $spiked-entity } в { $spike-entity }.
+spike-solution-empty-generic = Вам не удаётся разбить { $spike-entity } в { $spiked-entity }.
+spike-solution-egg = Вы разбиваете { $spike-entity } в { $spiked-entity }.

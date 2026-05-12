@@ -1,1 +1,1 @@
-conveyor-component-failed-link = Порт шокирует вас, когда вы пытаетесь подключиться к нему!
+conveyor-component-failed-link = При попытке подключения, порт ударяет вас током!

@@ -1,51 +1,49 @@
 game-ticker-restart-round = Перезапуск раунда...
 game-ticker-start-round = Раунд начинается...
-game-ticker-start-round-cannot-start-game-mode-fallback = Не удалось запустить режим {$failedGameMode}! По умолчанию {$fallbackMode}...
-game-ticker-start-round-cannot-start-game-mode-restart = Не удалось запустить режим {$failedGameMode}! Перезапуск раунда...
-game-ticker-start-round-invalid-map = Выбранная карта {$map} не подходит для режима игры {$mode}. Игровой режим может работать не так, как задумано...
+game-ticker-start-round-cannot-start-game-mode-fallback = Не удалось запустить режим { $failedGameMode }! Запускаем { $fallbackMode }...
+game-ticker-start-round-cannot-start-game-mode-restart = Не удалось запустить режим { $failedGameMode }! Перезапуск раунда...
+game-ticker-start-round-invalid-map = Выбранная карта { $map } не подходит для игрового режима { $mode }. Игровой режим может не функционировать как задумано...
 game-ticker-unknown-role = Неизвестный
-game-ticker-delay-start = Начало раунда отложено на {$seconds} секунд.
-game-ticker-pause-start = Начало раунда приостановлено.
-game-ticker-pause-start-resumed = Обратный отсчет начала раунда возобновлен.
-game-ticker-player-join-game-message = Добро пожаловать в Misfits: Nuclear Wasteland! Если вы играете впервые, обязательно прочтите правила игры и не бойтесь обращаться за помощью в LOOC (местный OOC) или OOC (обычно доступен только между раундами).
-game-ticker-get-info-text = Привет и добро пожаловать в [color=white]Misfits: Nuclear Wasteland![/color]
-                            The current round is: [color = белый]#{$roundId}[/color]
-                            The current player count is: [color = белый]{$playerCount}[/color]
-                            The current map is: [color = белый]{$mapName}[/color] от [color=white]{$mapAuthor}[/color]
-                            The current game mode is: [color = белый]{$gmTitle}[/color]
-                            >[color = желтый]{$desc}[/color]
-game-ticker-get-info-preround-text = Привет и добро пожаловать в [color=white]Misfits: Nuclear Wasteland![/color]
-                            The current round is: [color = белый]#{$roundId}[/color]
-                            The current player count is: [color = белый]{$playerCount}[/color] ([color=white]{$readyCount}[/color] {$readyCount ->
-                                [one] is
-                                *[other] are
-                            } ready)
-                            The current map is: [color = белый]{$mapName}[/color] от [color=white]{$mapAuthor}[/color]
-                            The current game mode is: [color = белый]{$gmTitle}[/color]
-                            >[color = желтый]{$desc}[/color]
-game-ticker-no-map-selected = [color=yellow]Карта еще не выбрана![/color]
-game-ticker-unknown-map-author = Неизвестный
-game-ticker-player-no-jobs-available-when-joining = При попытке присоединиться к игре не было доступных заданий.
-game-ticker-welcome-to-the-station = Вы просыпаетесь где-то в Юте.
+game-ticker-delay-start = Начало раунда было отложено на { $seconds } секунд.
+game-ticker-pause-start = Начало раунда было приостановлено.
+game-ticker-pause-start-resumed = Отсчёт начала раунда возобновлён.
+game-ticker-player-join-game-message = Добро пожаловать на Космическую Станцию 14! Если вы играете впервые, обязательно нажмите ESC на клавиатуре и прочитайте правила игры, а также не бойтесь просить помощи в "Админ помощь".
+game-ticker-get-info-text = Привет и добро пожаловать в [color=white]Space Station 14![/color]
+                            Текущий раунд: [color=white]#{ $roundId }[/color]
+                            Текущее количество игроков: [color=white]{ $playerCount }[/color]
+                            Текущая карта: [color=white]{ $mapName }[/color]
+                            Текущий режим игры: [color=white]{ $gmTitle }[/color]
+                            >[color=yellow]{ $desc }[/color]
+game-ticker-get-info-preround-text = Привет и добро пожаловать в [color=white]Space Station 14![/color]
+    Текущий раунд: [color=white]#{ $roundId }[/color]
+    Текущее количество игроков: [color=white]{ $playerCount }[/color] ([color=white]{ $readyCount }[/color] { $readyCount ->
+    [one] готов
+    *[other] готовы
+})
+    Текущая карта: [color=white]{ $mapName }[/color]
+    Текущий режим игры: [color=white]{ $gmTitle }[/color]
+    >[color=yellow]{ $desc }[/color]
+game-ticker-no-map-selected = [color=red]Карта ещё не выбрана![/color]
+game-ticker-player-no-jobs-available-when-joining = При попытке присоединиться к игре ни одной роли не было доступно.
 
 # Displayed in chat to admins when a player joins
-player-join-message = Игрок {$name} присоединился.
-player-first-join-message = Игрок {$name} присоединился впервые.
+player-join-message = Игрок { $name } зашёл!
+player-first-join-message = Игрок { $name } зашёл на сервер впервые.
 
 # Displayed in chat to admins when a player leaves
-player-leave-message = Игрок {$name} ушел.
+player-leave-message = Игрок { $name } вышел!
 
-latejoin-arrival-announcement = {$character} ({$job}) прибыл на станцию!
-latejoin-arrival-sender = Станция
-# Misfits Change - wasteland theme: shuttle → train
-#latejoin-arrivals-direction = A shuttle transferring you to your station will arrive shortly.
-latejoin-arrivals-direction = Вскоре прибудет поезд, который доставит вас на станцию.
-#latejoin-arrivals-direction-time = A shuttle transferring you to your station will arrive in {$duration}.
-latejoin-arrivals-direction-time = Поезд, который доставит вас на вашу станцию, прибудет в {$duration}.
-#latejoin-arrivals-dumped-from-shuttle = A mysterious force prevents you from leaving with the arrivals shuttle.
-latejoin-arrivals-dumped-from-shuttle = Таинственная сила мешает вам уйти с прибывшим поездом.
-#latejoin-arrivals-teleport-to-spawn = A mysterious force teleports you off the arrivals shuttle. Have a safe shift!
-latejoin-arrivals-teleport-to-spawn = Таинственная сила телепортирует вас из прибывающего поезда. Удачной смены!
+latejoin-arrival-announcement = {$character} ({$job}) прибывает в пустош!
+latejoin-arrival-announcement-special = { $job } { $character } на палубе!
+latejoin-arrival-sender = Станции
+latejoin-arrivals-direction = Вскоре прибудет шаттл, который доставит вас на станцию.
+latejoin-arrivals-direction-time = Шаттл, который доставит вас на станцию, прибудет через { $time }.
+latejoin-arrivals-dumped-from-shuttle = Таинственная сила не позволяет вам улететь на шаттле прибытия.
+latejoin-arrivals-teleport-to-spawn = Таинственная сила телепортирует вас с шаттла прибытия. Удачной смены!
 
-preset-not-enough-ready-players = Не могу запустить {$presetName}. Требуются игроки {$minimumPlayers}, но у нас есть {$readyPlayersCount}.
-preset-no-one-ready = Не могу запустить {$presetName}. Ни один игрок не готов.
+preset-not-enough-ready-players = Не удалось запустить пресет { $presetName }. Требуется { $minimumPlayers } игроков, но готовы только { $readyPlayersCount }.
+preset-no-one-ready = Не удалось запустить режим { $presetName }. Нет готовых игроков.
+
+game-run-level-PreRoundLobby = Предраундовое лобби
+game-run-level-InRound = В раунде
+game-run-level-PostRound = После раунда

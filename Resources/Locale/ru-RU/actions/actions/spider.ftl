@@ -1,5 +1,5 @@
-spider-web-action-nogrid = Под тобой нет пола!
-spider-web-action-success = Вы раскладываете паутину вокруг себя.
-spider-web-action-fail = Здесь нельзя размещать паутину! Во всех основных направлениях уже есть паутина!
+spider-web-action-nogrid = Под вами нет пола!
+spider-web-action-success = Вы развешиваете паутину вокруг себя.
+spider-web-action-fail = Вы не можете разместить паутину здесь! На основных направлениях вокруг вас уже есть паутина!
 
-sericulture-failure-hunger = Твой желудок слишком пуст, чтобы плести паутину!
+sericulture-failure-hunger = Ваш желудок слишком пуст для плетения паутины!

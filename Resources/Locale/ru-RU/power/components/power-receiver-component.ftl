@@ -1,3 +1,3 @@
-power-receiver-component-on-examine-main = Кажется, это {$stateText}.
-power-receiver-component-on-examine-powered = [color=darkgreen]powered[/color]
-power-receiver-component-on-examine-unpowered = [color=darkred]без питания[/color]
+power-receiver-component-on-examine-main = Похоже, питание { $stateText }.
+power-receiver-component-on-examine-powered = [color=darkgreen]имеется[/color]
+power-receiver-component-on-examine-unpowered =  [color=darkred]отсутствует[/color]

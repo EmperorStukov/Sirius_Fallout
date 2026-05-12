@@ -1,86 +1,86 @@
-marking-DionaThornsHead-thorns_head = Диона Хэд (Торнс)
-marking-DionaThornsHead = Диона Хэд (Торнс)
+marking-DionaThornsHead-thorns_head = Диона, голова (Колючки)
+marking-DionaThornsHead = Диона, голова (Колючки)
 
-marking-DionaThornsBody-thorns_body = Сундук Дионы (Шипы)
-marking-DionaThornsBody = Сундук Дионы (Шипы)
+marking-DionaThornsBody-thorns_body = Диона, грудь (Колючки)
+marking-DionaThornsBody = Диона, грудь (Колючки)
 
-marking-DionaFlowersHead-flowers_head = Диона Хед (Цветы)
-marking-DionaFlowersHead = Диона Хед (Цветы)
+marking-DionaFlowersHead-flowers_head = Диона, голова (Цветы)
+marking-DionaFlowersHead = Диона, голова (Цветы)
 
-marking-DionaFlowersBody-flowers_body = Сундук Дионы (Цветы)
-marking-DionaFlowersBody = Сундук Дионы (Цветы)
+marking-DionaFlowersBody-flowers_body = Диона, грудь (Цветы)
+marking-DionaFlowersBody = Диона, грудь (Цветы)
 
-marking-DionaLeafCover-leaf_cover = Сундук Дионы (Лист)
-marking-DionaLeafCover = Сундук Дионы (Лист)
+marking-DionaLeafCover-leaf_cover = Диона, грудь (Лист)
+marking-DionaLeafCover = Диона, грудь (Лист)
 
-marking-DionaBloomHead-bloom = Диона Вечноцветущая (Цветок)
-marking-DionaBloomHead = Диона Вечноцветущая (Цветок)
+marking-DionaBloomHead-bloom = Диона, Вечноцвет (Цветы)
+marking-DionaBloomHead = Диона, Вечноцвет (Цветы)
 
-marking-DionaBracketHead-bracket = Диона Брекет (Грибы)
-marking-DionaBracketHead = Диона Брекет (Грибы)
+marking-DionaBracketHead-bracket = Диона, Трутовик (Грибы)
+marking-DionaBracketHead = Диона, Трутовик (Грибы)
 
-marking-DionaBrushHead-brush = Диона Браш (Лианс)
-marking-DionaBrushHead = Диона Браш (Лианс)
+marking-DionaBrushHead-brush = Диона, Кисти (Лианы)
+marking-DionaBrushHead = Диона, Кисти (Лианы)
 
-marking-DionaCornflowerHead-cornflower = Диона Васильки (Цветы)
-marking-DionaCornflowerHead = Диона Васильки (Цветы)
+marking-DionaCornflowerHead-cornflower = Диона, Василёк (Цветы)
+marking-DionaCornflowerHead = Диона, Василёк (Цветы)
 
-marking-DionaFicusHead-ficus = Диона Фикус (Листья)
-marking-DionaFicusHead = Диона Фикус (Листья)
+marking-DionaFicusHead-ficus = Диона, Фикус (Листья)
+marking-DionaFicusHead = Диона, Фикус (Листья)
 
-marking-DionaGarlandHead-garland = Диона Гарланд (Цветы)
-marking-DionaGarlandHead = Диона Гарланд (Цветы)
+marking-DionaGarlandHead-garland = Диона, Гирлянда (Цветы)
+marking-DionaGarlandHead = Диона, Гирлянда (Цветы)
 
-marking-DionaKingHead-king = Диона Флауэркинг (Цветок)
-marking-DionaKingHead = Диона Флауэркинг (Цветок)
+marking-DionaKingHead-king = Диона, Флауэркинг (Цветы)
+marking-DionaKingHead = Диона, Флауэркинг (Цветы)
 
-marking-DionaLaurelHead-laurel = Диона Лорел (Листья)
-marking-DionaLaurelHead = Диона Лорел (Листья)
+marking-DionaLaurelHead-laurel = Диона, Кальмия (Листья)
+marking-DionaLaurelHead = Диона, Кальмия (Листья)
 
-marking-DionaLeafyHeadTop-leafy = Диона Лифи (Листья)
-marking-DionaLeafyHeadTop = Диона Лифи (Листья)
+marking-DionaLeafyHeadTop-leafy = Диона, Листья (Листья)
+marking-DionaLeafyHeadTop = Диона, Листья (Листья)
 
-marking-DionaLotusHead-lotus = Диона Лотос (Цветок)
-marking-DionaLotusHead = Диона Лотос (Цветок)
+marking-DionaLotusHead-lotus = Диона, Лотус (Цветы)
+marking-DionaLotusHead = Диона, Лотус (Цветы)
 
-marking-DionaMeadowHeadTop-meadow = Диона Медоу
-marking-DionaMeadowHeadTop = Диона Медоу
+marking-DionaMeadowHeadTop-meadow = Диона, Луг
+marking-DionaMeadowHeadTop = Диона, Луг
 
-marking-DionaOakHead-oak = Дуб Диона (Коряга)
-marking-DionaOakHead = Дуб Диона (Коряга)
+marking-DionaOakHead-oak = Диона, Дуб (Дерево)
+marking-DionaOakHead = Диона, Дуб (Дерево)
 
-marking-DionaPalmHead-palm = Диона Палмхед (Листья)
-marking-DionaPalmHead = Диона Палмхед (Листья)
+marking-DionaPalmHead-palm = Диона, Пальма (Листья)
+marking-DionaPalmHead = Диона, Пальма (Листья)
 
-marking-DionaRootHead-root = Диона Рут (Корни)
-marking-DionaRootHead = Диона Рут (Корни)
+marking-DionaRootHead-root = Диона, Корень (Корни)
+marking-DionaRootHead = Диона, Корень (Корни)
 
-marking-DionaRoseHead-rose = Диона Роуз (Цветок)
-marking-DionaRoseHead = Диона Роуз (Цветок)
+marking-DionaRoseHead-rose = Диона, Роза (Цветы)
+marking-DionaRoseHead = Диона, Роза (Цветы)
 
-marking-DionaRoseyHead-rosey = Диона Роузи (Цветы)
-marking-DionaRoseyHead = Диона Роузи (Цветы)
+marking-DionaRoseyHead-rosey = Диона, Розы (Цветы)
+marking-DionaRoseyHead = Диона, Розы (Цветы)
 
-marking-DionaShrubHeadTop-shrub = Диона Куст (Шипы)
-marking-DionaShrubHeadTop = Диона Куст (Шипы)
+marking-DionaShrubHeadTop-shrub = Диона, Кустарник (Колючки)
+marking-DionaShrubHeadTop = Диона, Кустарник (Колючки)
 
-marking-DionaSpinnerHeadSide-spinner = Диона Спиннер
-marking-DionaSpinnerHeadSide = Диона Спиннер
+marking-DionaSpinnerHeadSide-spinner = Диона, Спиннер
+marking-DionaSpinnerHeadSide = Диона, Спиннер
 
-marking-DionaSproutHeadSide-sprout = Диона Спраут
-marking-DionaSproutHeadSide = Диона Спраут
+marking-DionaSproutHeadSide-sprout = Диона, Росток
+marking-DionaSproutHeadSide = Диона, Росток
 
-marking-DionaVineHeadTop-vine = Диона Вайнс (Вайнс)
-marking-DionaVineHeadTop = Диона Вайнс (Вайнс)
+marking-DionaVineHeadTop-vine = Диона, Лоза (Лоза)
+marking-DionaVineHeadTop = Диона, Лоза (Лоза)
 
-marking-DionaVinelHead-vinel = Диона Вайнс Лонг (Вайнс)
-marking-DionaVinelHead = Диона Вайнс Лонг (Вайнс)
+marking-DionaVinelHead-vinel = Диона, Лоза длинная (Лоза)
+marking-DionaVinelHead = Диона, Лоза длинная (Лоза)
 
-marking-DionaVinesHead-vines = Диона Вайнс Шорт (Вайнс)
-marking-DionaVinesHead = Диона Вайнс Шорт (Вайнс)
+marking-DionaVinesHead-vines = Диона, Лоза короткая (Лоза)
+marking-DionaVinesHead = Диона, Лоза короткая (Лоза)
 
-marking-DionaWildflowerHead-wildflower = Диона Дикие Цветы (Цветы)
-marking-DionaWildflowerHead = Диона Дикие Цветы (Цветы)
+marking-DionaWildflowerHead-wildflower = Диона, Полевые цветы (Цветы)
+marking-DionaWildflowerHead = Диона, Полевые цветы (Цветы)
 
-marking-DionaVineOverlay-overlay = Вайны для тела Дионы
-marking-DionaVineOverlay = Вайны для тела Дионы
+marking-DionaVineOverlay-overlay = Диона, Лоза тела
+marking-DionaVineOverlay = Диона, Лоза тела

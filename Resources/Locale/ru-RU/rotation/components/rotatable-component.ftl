@@ -2,7 +2,7 @@
 rotatable-component-try-rotate-stuck = Оно застряло.
 
 # RotateVerb
-rotate-verb-get-data-text = Поворот по часовой стрелке
+rotate-verb-get-data-text = Вращать по часовой
 
 # RotateCounterVerb
-rotate-counter-verb-get-data-text = Поворот против часовой стрелки
+rotate-counter-verb-get-data-text = Вращать против часовой

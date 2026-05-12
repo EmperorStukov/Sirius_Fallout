@@ -1,20 +1,20 @@
 reagent-name-oxygen = кислород
-reagent-desc-oxygen = Окисляющий бесцветный газ.
+reagent-desc-oxygen = Окисляющий, бесцветный газ.
 
 reagent-name-plasma = плазма
-reagent-desc-plasma = Забавная, волшебная космическая пыльца пикси. Тебе, наверное, не следует это есть, но мы оба знаем, что ты все равно будешь это есть.
+reagent-desc-plasma = Причудливая, космически-магическая пыльца фей. Вам, наверное, не стоит это есть, но мы оба знаем, что вы всё равно это сделаете.
 
 reagent-name-tritium = тритий
-reagent-desc-tritium = Радиоактивная космически-волшебная пыльца фей.
+reagent-desc-tritium = Радиоактивная космически-магическая пыльца фей.
 
-reagent-name-carbon-dioxide = углекислый газ
-reagent-desc-carbon-dioxide = Вы искренне понятия не имеете, что это такое.
+reagent-name-carbon-dioxide = диоксид углерода
+reagent-desc-carbon-dioxide = Он же углекислый газ. Вы совершенно не представляете, что это такое.
 
 reagent-name-nitrogen = азот
-reagent-desc-nitrogen = Бесцветный инертный газ без запаха. Высокая стабильность.
+reagent-desc-nitrogen = Он же нитроген. Бесцветный, не имеющий запаха нереактивный газ. Очень стабилен.
 
-reagent-name-nitrous-oxide = закись азота
-reagent-desc-nitrous-oxide = Знаешь, когда ты устал, все кажется смешнее? Хорошо...
+reagent-name-nitrous-oxide = оксид азота
+reagent-desc-nitrous-oxide = Знаешь, как всё кажется смешнее, когда ты устал? Так вот...
 
 reagent-name-frezon = фрезон
-reagent-desc-frezon = Высокоэффективная охлаждающая жидкость... и галлюциноген.
+reagent-desc-frezon = Высокоэффективный хладагент... и галлюциноген.

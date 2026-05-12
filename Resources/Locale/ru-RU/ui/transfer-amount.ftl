@@ -1,13 +1,13 @@
-﻿### Loc for the transfer amount eui window
+### Loc for the transfer amount eui window
 
 ## Title
 
-ui-transfer-amount-title = Изменить сумму перевода
+ui-transfer-amount-title = Изменить перемещаемое количество
 
 ## Text for the button to apply changes
 
-ui-transfer-amount-apply = Установить сумму
+ui-transfer-amount-apply = Установить значение
 
 ## Placeholder text for the amount line edit
 
-ui-transfer-amount-line-edit-placeholder = Количество
+ui-transfer-amount-line-edit-placeholder = Значение

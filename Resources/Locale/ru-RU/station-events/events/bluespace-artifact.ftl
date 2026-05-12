@@ -1,9 +1,9 @@
-bluespace-artifact-event-announcement = Наши показания обнаружили приближающийся объект инопланетного происхождения. Пожалуйста, сообщите исследовательской группе о { $sighting }.
+bluespace-artifact-event-announcement = На станции обнаружена нестабильная блюспейс аномалия. Пожалуйста, незамедлительно сообщайте научному отделу о { $sighting }.
 
-bluespace-artifact-sighting-1 = яркие вспышки света
-bluespace-artifact-sighting-2 = странные звуки, доносящиеся из туннелей технического обслуживания
-bluespace-artifact-sighting-3 = потусторонние структуры
-bluespace-artifact-sighting-4 = непонятные инопланетные предметы
-bluespace-artifact-sighting-5 = незнакомые предметы в странных местах
-bluespace-artifact-sighting-6 = неизвестные инопланетные артефакты
-bluespace-artifact-sighting-7 = взрывы света, сопровождаемые странными звуками
+bluespace-artifact-sighting-1 = ярких вспышках света
+bluespace-artifact-sighting-2 = странных звуках, доносящихся из технических туннелей
+bluespace-artifact-sighting-3 = неестественных конструкциях
+bluespace-artifact-sighting-4 = непостижимых инопланетных объектах
+bluespace-artifact-sighting-5 = незнакомых предметах в странных местах
+bluespace-artifact-sighting-6 = неизвестных инопланетных артефактах
+bluespace-artifact-sighting-7 = взрывах ламп, сопровождаемых странными звуками

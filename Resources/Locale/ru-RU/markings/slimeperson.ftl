@@ -1,23 +1,23 @@
-marking-SlimeGradientLeftArm-gradient_l_arm = Левая рука слизи (градиент)
-marking-SlimeGradientLeftArm = Левая рука слизи (градиент)
+marking-SlimeGradientLeftArm-gradient_l_arm = Слаймолюд, левая рука (Градиент)
+marking-SlimeGradientLeftArm = Слаймолюд, левая рука (Градиент)
 
-marking-SlimeGradientRightArm-gradient_r_arm = Правая рука слизи (градиент)
-marking-SlimeGradientRightArm = Правая рука слизи (градиент)
+marking-SlimeGradientRightArm-gradient_r_arm = Слаймолюд, правая рука (Градиент)
+marking-SlimeGradientRightArm = Слаймолюд, правая рука (Градиент)
 
-marking-SlimeGradientLeftFoot-gradient_l_foot = Слайм на левой ноге (градиент)
-marking-SlimeGradientLeftFoot = Слайм на левой ноге (градиент)
+marking-SlimeGradientLeftFoot-gradient_l_foot = Слаймолюд, левая стопа (Градиент)
+marking-SlimeGradientLeftFoot = Слаймолюд, левая стопа (Градиент)
 
-marking-SlimeGradientRightFoot-gradient_r_foot = Правая нога слизи (градиент)
-marking-SlimeGradientRightFoot = Правая нога слизи (градиент)
+marking-SlimeGradientRightFoot-gradient_r_foot = Слаймолюд, правая стопа (Градиент)
+marking-SlimeGradientRightFoot = Слаймолюд, правая стопа (Градиент)
 
-marking-SlimeGradientLeftLeg-gradient_l_leg = Левая нога слизи (градиент)
-marking-SlimeGradientLeftLeg = Левая нога слизи (градиент)
+marking-SlimeGradientLeftLeg-gradient_l_leg = Слаймолюд, левая нога (Градиент)
+marking-SlimeGradientLeftLeg = Слаймолюд, левая нога (Градиент)
 
-marking-SlimeGradientRightLeg-gradient_r_leg = Правая нога слизи (градиент)
-marking-SlimeGradientRightLeg = Правая нога слизи (градиент)
+marking-SlimeGradientRightLeg-gradient_r_leg = Слаймолюд, правая нога (Градиент)
+marking-SlimeGradientRightLeg = Слаймолюд, правая нога (Градиент)
 
-marking-SlimeGradientLeftHand-gradient_l_hand = Левая рука слизи (градиент)
-marking-SlimeGradientLeftHand = Левая рука слизи (градиент)
+marking-SlimeGradientLeftHand-gradient_l_hand = Слаймолюд, кисть левой руки (Градиент)
+marking-SlimeGradientLeftHand = Слаймолюд, кисть левой руки (Градиент)
 
-marking-SlimeGradientRightHand-gradient_r_hand = Правая рука слизи (градиент)
-marking-SlimeGradientRightHand = Правая рука слизи (градиент)
+marking-SlimeGradientRightHand-gradient_r_hand = Слаймолюд, кисть правой руки (Градиент)
+marking-SlimeGradientRightHand = Слаймолюд, кисть правой руки (Градиент)

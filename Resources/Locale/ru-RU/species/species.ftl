@@ -1,19 +1,16 @@
 ## Species Names
 
 species-name-human = Человек
-species-name-dwarf = Карлик
-species-name-reptilian = Унати
-species-name-slime = Слизень
+species-name-dwarf = Дворф
+species-name-reptilian = Рептилия
+species-name-slime = Слаймолюд
 species-name-diona = Диона
-species-name-arachnid = паукообразный
-species-name-arachne = Арахна
-species-name-moth = Человек Мотылька
+species-name-arachnid = Арахнид
+species-name-moth = Моль
 species-name-skeleton = Скелет
 species-name-vox = Вокс
-species-name-ipc = МПК
-species-name-shadowkin = Шэдоукин
-species-name-plasmaman = Плазмочеловек
+species-name-gingerbread = вкуснейшая выпечка
 
 ## Misc species things
 
-snail-hurt-by-salt-popup = Соленый раствор горит как кислота!
+snail-hurt-by-salt-popup = Солевой раствор жжёт как кислота!

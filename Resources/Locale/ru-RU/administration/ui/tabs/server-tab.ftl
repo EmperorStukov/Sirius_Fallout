@@ -1,3 +1,3 @@
-server-shutdown = Неисправность
-server-ooc-toggle = Переключить ООС
-server-looc-toggle = Переключить LOOC
+server-shutdown = Выключить сервер
+server-ooc-toggle = Вкл/Выкл OOC
+server-looc-toggle = Вкл/Выкл LOOC

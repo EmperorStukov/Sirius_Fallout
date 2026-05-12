@@ -1,44 +1,40 @@
-﻿generator-clogged = {THE($generator)} внезапно отключается!
+generator-clogged = { CAPITALIZE($generator) } резко отключается!
 
 portable-generator-verb-start = Запустить генератор
-portable-generator-verb-start-msg-unreliable = Запустите генератор. Это может занять несколько попыток.
-portable-generator-verb-start-msg-reliable = Запустите генератор.
-portable-generator-verb-start-msg-unanchored = Сначала необходимо закрепить генератор!
+portable-generator-verb-start-msg-unreliable = Запустить генератор. Это может потребовать нескольких попыток.
+portable-generator-verb-start-msg-reliable = Запустить генератор.
+portable-generator-verb-start-msg-unanchored = Генератор должен быть закреплён!
 portable-generator-verb-stop = Остановить генератор
-portable-generator-start-fail = Дергаешь за шнур, а он не завелся.
-portable-generator-start-success = Дергаешь за шнур, и он оживает.
+portable-generator-start-fail = Вы дёргаете за трос, но он не заводится.
+portable-generator-start-success = Вы дёргаете за трос, и он оживает.
 
 portable-generator-ui-title = Портативный генератор
-portable-generator-ui-status-stopped = Остановлено:
-portable-generator-ui-status-starting = Начало:
-portable-generator-ui-status-running = Бег:
-portable-generator-ui-start = Начинать
-portable-generator-ui-stop = Останавливаться
-portable-generator-ui-target-power-label = Целевая мощность (кВт):
+portable-generator-ui-status-stopped = Остановлен:
+portable-generator-ui-status-starting = Запускается:
+portable-generator-ui-status-running = Работает:
+portable-generator-ui-start = Старт
+portable-generator-ui-stop = Стоп
+portable-generator-ui-target-power-label = Цел. мощн. (кВт):
 portable-generator-ui-efficiency-label = Эффективность:
 portable-generator-ui-fuel-use-label = Расход топлива:
-portable-generator-ui-fuel-left-label = Осталось топлива:
-portable-generator-ui-clogged = В топливном баке обнаружены загрязнения!
+portable-generator-ui-fuel-left-label = Остаток топлива:
+portable-generator-ui-clogged = В топливном баке обнаружено загрязнение!
 portable-generator-ui-eject = Извлечь
 portable-generator-ui-eta = (~{ $minutes } мин)
-portable-generator-ui-unanchored = Незакрепленный
-portable-generator-ui-current-output = Текущий выход: {$voltage}
-# #Misfits Add: was missing — used as initial label for the status row in GeneratorWindow.xaml
-portable-generator-ui-power-switch = Власть:
-# #Misfits Add: was missing — used as initial label for the output-voltage switch row in GeneratorWindow.xaml
-portable-generator-ui-switch = Выход:
-portable-generator-ui-network-stats = Сеть:
-portable-generator-ui-network-stats-value = { POWER($supply) } / { POWER($load) }
-portable-generator-ui-network-stats-not-connected = Не подключено
+portable-generator-ui-unanchored = Не закреплено
+portable-generator-ui-current-output = Текущая мощность: { $voltage }
+portable-generator-ui-network-stats = Электросеть:
+portable-generator-ui-network-stats-value = { POWERWATTS($supply) } / { POWERWATTS($load) }
+portable-generator-ui-network-stats-not-connected = Не подключён
 
-power-switchable-generator-examine = Выходная мощность установлена ​​на {$voltage}.
-power-switchable-generator-switched = Переключен вывод на {$voltage}!
+power-switchable-generator-examine = Выработанная энергия направлена на { $voltage }.
+power-switchable-generator-switched = Выход переключён на { $voltage }!
 
-power-switchable-voltage = {$voltage ->
-    [HV] [color=orange]HV[/color]
-    [MV] [color=yellow]MV[/color]
-    *[LV] [color=green]LV[/color]
+power-switchable-voltage = { $voltage ->
+    [HV] [color=orange]ВВ[/color]
+    [MV] [color=yellow]СВ[/color]
+    *[LV] [color=green]НВ[/color]
 }
-power-switchable-switch-voltage = Переключиться на {$voltage}
+power-switchable-switch-voltage = Переключить на { $voltage }
 
 fuel-generator-verb-disable-on = Сначала выключите генератор!

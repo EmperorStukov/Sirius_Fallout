@@ -1,35 +1,49 @@
-﻿roles-antag-syndicate-agent-name = Агент синдиката
-roles-antag-syndicate-agent-objective = Выполняйте свои задачи, не будучи пойманным.
+roles-antag-generic-solo-antagonist-name = Соло-антагонист
 
-roles-antag-syndicate-agent-sleeper-name = Спящий агент синдиката
-roles-antag-syndicate-agent-sleeper-objective = Форма агента синдиката, который может активироваться в любой момент в середине смены.
+roles-antag-generic-free-agent-name = Свободный агент
 
-roles-antag-initial-infected-name = Первоначальное заражение
-roles-antag-initial-infected-objective = Как только вы повернетесь, заразите как можно больше других членов экипажа.
+roles-antag-generic-team-antagonist-name = Командный антагонист
+
+roles-antag-generic-silicon-antagonist-name = Синтетик антагонист
+
+roles-antag-syndicate-agent-name = Агент Синдиката
+roles-antag-syndicate-agent-objective = Выполните свои задачи и не попадитесь.
+
+roles-antag-syndicate-agent-sleeper-name = Спящий агент Синдиката
+roles-antag-syndicate-agent-sleeper-objective = Разновидность агента Синдиката, который может активироваться и начать действие в любой момент смены.
+
+roles-antag-initial-infected-name = Нулевой заражённый
+roles-antag-initial-infected-objective = После превращения заразите как можно больше других членов экипажа.
 
 roles-antag-zombie-name = Зомби
-roles-antag-zombie-objective = Превратите как можно больше людей в зомби.
+roles-antag-zombie-objective = Превратите как можно больше членов экипажа в зомби.
 
 roles-antag-suspicion-innocent-name = Невиновный
-roles-antag-suspicion-innocent-objective = Обнаружьте и уничтожьте всех предателей.
+roles-antag-suspicion-innocent-objective = Найдите и уничтожьте всех предателей.
 
-roles-antag-suspicion-suspect-name = Подозревать
-roles-antag-suspicion-suspect-objective = Убейте невинных.
+roles-antag-suspicion-suspect-name = Подозреваемый
+roles-antag-suspicion-suspect-objective = Убейте невиновных.
 
-roles-antag-nuclear-operative-commander-name = Ядерный оперативный командир
-roles-antag-nuclear-operative-commander-objective = Приведите свою команду к разрушению станции.
+roles-antag-nuclear-operative-commander-name = Командир ядерных оперативников
+roles-antag-nuclear-operative-commander-objective = Приведите свой отряд к уничтожению станции.
 
-roles-antag-nuclear-operative-agent-name = Ядерный оперативный агент
-roles-antag-nuclear-operative-agent-objective = Как и в случае с оперативником по умолчанию, лечение команды будет иметь приоритет.
+roles-antag-nuclear-operative-agent-name = Фельдшер ядерных оперативников
+roles-antag-nuclear-operative-agent-objective = Как обычный оперативник, но с приоритетом на медпомощь отряду.
 
 roles-antag-nuclear-operative-name = Ядерный оперативник
 roles-antag-nuclear-operative-objective = Найдите ядерный диск и взорвите станцию.
 
-roles-antag-subverted-silicon-name = Извращенный кремний
-roles-antag-subverted-silicon-objective = Следуйте своим новым законам и делайте плохо станции.
+roles-antag-subverted-silicon-name = Взломанный борг
+roles-antag-subverted-silicon-objective = Следуйте своим новым законам и творите зло на станции.
 
 roles-antag-space-ninja-name = Космический ниндзя
-roles-antag-space-ninja-objective = Используйте свою скрытность, чтобы саботировать станцию, не используя электрические провода.
+roles-antag-space-ninja-objective = Используйте свою скрытность, чтобы устроить диверсию на станции, подпитывайтесь от электрических проводов.
+
+roles-antag-paradox-clone-name = Парадоксальный клон
+roles-antag-paradox-clone-objective = Странная пространственно-временная аномалия телепортировала вас в другую реальность! Теперь вам предстоит найти своего двойника, убить и заменить его.
 
 roles-antag-thief-name = Вор
-roles-antag-thief-objective = Добавьте немного собственности NT в свою личную коллекцию, не прибегая к насилию.
+roles-antag-thief-objective = Пополните свою личную коллекцию имуществом Nanotrasen, не прибегая к насилию.
+
+roles-antag-dragon-name = Космический дракон
+roles-antag-dragon-objective = Создайте армию карпов для захвата квадранта.

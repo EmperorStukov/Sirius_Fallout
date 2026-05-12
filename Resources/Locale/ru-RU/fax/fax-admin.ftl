@@ -1,18 +1,16 @@
 # Command
-cmd-faxui-desc = Открыть окно администратора для отправки факсов
-cmd-faxui-help = Использование: факс
+cmd-faxui-desc = Открыть админ окно отправки факсов
+cmd-faxui-help = Использование: faxui
 
 # Window
-admin-fax-title = Администратор Факс-менеджер
+admin-fax-title = Менеджер админ факса
 admin-fax-fax = Факс:
 admin-fax-follow = Следовать
-admin-fax-inbox = ЛИДЕРСТВО
-admin-fax-inbox-empty = Никаких факсов от LEADERSHIP пока не получено.
-admin-fax-inbox-toggle-show = Показать входящие
-admin-fax-inbox-toggle-hide = Скрыть входящие
-admin-fax-title-placeholder = Бумажное название...
-admin-fax-from-placeholder = Отпечатано...
-admin-fax-message-placeholder = Ваше сообщение здесь...
-admin-fax-stamp = Значок штампа:
-admin-fax-stamp-color = Цвет штампа:
-admin-fax-send = Отправлять
+admin-fax-title-placeholder = Название документа...
+admin-fax-from-placeholder = Печать...
+admin-fax-message-placeholder = Текст документа...
+admin-fax-stamp = Печать:
+admin-fax-stamp-color = Цвет печати:
+admin-fax-send = Отправить
+admin-fax-lock-page = Защитить страницу
+admin-fax-lock-page-tooltip = Защитить бумагу от редактирования, чтобы её нельзя было изменить даже такими вещами, как ручка cybersun.

@@ -1,9 +1,13 @@
-# #Misfits Change - Renamed from "Guidebook" to "Wiki & Guides"
-guidebook-window-title = Вики и руководства
+guidebook-window-title = Руководство
 guidebook-placeholder-text = Выберите запись.
-guidebook-placeholder-text-2 = Если вы новичок, перейдите к разделу «Новое? Начни здесь!»
-guidebook-filter-placeholder-text = Фильтровать элементы
 
+# Modified for RMC14
+guidebook-placeholder-text-2 = Если вы новичок, то начните с записи "Новичок? Вам сюда!".
 
-guidebook-monkey-unspin = Открутить обезьяну
-guidebook-monkey-disco = Дискотека Обезьяна
+guidebook-filter-placeholder-text = Фильтр
+
+guidebook-parser-error = Parser Error
+guidebook-error-message = Error Message
+
+guidebook-monkey-unspin = Отперевернуть обезьяну
+guidebook-monkey-disco = Диско обезьяна

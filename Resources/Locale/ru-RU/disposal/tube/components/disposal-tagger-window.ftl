@@ -1,3 +1,3 @@
-disposal-tagger-window-title = Табличка для утилизации
-disposal-tagger-window-tag-input-label = Ярлык:
-disposal-tagger-window-tag-confirm-button = Подтверждать
+disposal-tagger-window-title = Разметка утилизации
+disposal-tagger-window-tag-input-label = Метка:
+disposal-tagger-window-tag-confirm-button = Подтвердить

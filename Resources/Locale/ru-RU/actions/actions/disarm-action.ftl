@@ -1,7 +1,5 @@
-disarm-action-disarmable = {THE($targetName)} невозможно обезвредить!
-disarm-action-popup-message-other-clients = {CAPITALIZE(THE($performerName))} обезвредил {THE($targetName)}!
-disarm-action-popup-message-cursor = {THE($targetName)} обезврежен!
-disarm-action-emote = обезвреживает {THE($targetName)}!
-disarm-action-shove-popup-message-other-clients = {CAPITALIZE(THE($performerName))} толкает {THE($targetName)}!
-disarm-action-shove-popup-message-cursor = Вы пихаете {THE($targetName)}!
-disarm-action-shove-emote = пихает {THE($targetName)}!
+disarm-action-disarmable = { CAPITALIZE($targetName) } нельзя обезоружить!
+disarm-action-popup-message-other-clients = { CAPITALIZE($performerName) } обезоружил { $targetName }!
+disarm-action-popup-message-cursor = { CAPITALIZE($targetName) } обезоружен!
+disarm-action-shove-popup-message-other-clients = { CAPITALIZE($performerName) } толкает { $targetName }!
+disarm-action-shove-popup-message-cursor = Вы толкаете { $targetName }!

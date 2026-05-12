@@ -1,1 +1,1 @@
-﻿handheld-teleporter-instability-fizzle = Портал терпит неудачу, когда вы пытаетесь его установить, разрушая оба конца!
+handheld-teleporter-instability-fizzle = Портал шипит при попытке установить его, уничтожая оба конца!

@@ -1,5 +1,5 @@
-iff-console-window-title = консоль МКФ
-iff-console-show-iff-label = Показать МКФ
-iff-console-show-vessel-label = Показать судно
-iff-console-on = На
-iff-console-off = Выключенный
+iff-console-window-title = Консоль системы опознавания
+iff-console-show-iff-label = Показ системы опознавания
+iff-console-show-vessel-label = Показ корабля
+iff-console-on = Вкл
+iff-console-off = Выкл

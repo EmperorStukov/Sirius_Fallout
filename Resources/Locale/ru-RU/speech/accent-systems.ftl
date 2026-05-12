@@ -1,1 +1,1 @@
-skeleton-suffix = АКТ АКТ!
+skeleton-suffix = КЛАЦ КЛАЦ!

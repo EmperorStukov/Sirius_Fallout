@@ -1,7 +1,7 @@
-observe-nevermind = Неважно
+observe-nevermind = Нет, спасибо
 observe-confirm = Наблюдать
 observe-warning-1 = Вы уверены, что хотите наблюдать?
-observe-warning-2 = В этом случае вы не сможете играть в раунде.
+observe-warning-2 = Вы не сможете больше участвовать в этом раунде.
 observe-warning-window-title = Предупреждение
-observe-as-admin = Администратор наблюдает
-observe-as-player = Наблюдать за игроком
+observe-as-admin = Наблюдать как админ
+observe-as-player = Наблюдать как игрок

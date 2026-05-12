@@ -1,5 +1,5 @@
-polymorph-self-action-name = Полиморф ({CAPITALIZE($target)})
-polymorph-self-action-description = Мгновенно превратите себя в {$target}.
+polymorph-self-action-name = Полиморфировать ({ CAPITALIZE($target) })
+polymorph-self-action-description = Мгновенно полиморфируйте себя в { $target }.
 
-polymorph-popup-generic = {CAPITALIZE($parent)} превратился в {$child}.
-polymorph-revert-popup-generic = {CAPITALIZE($parent)} вернулся обратно в {$child}.
+polymorph-popup-generic = { CAPITALIZE($parent) } превратился в { $child }.
+polymorph-revert-popup-generic = { CAPITALIZE($parent) } превратился обратно в { $child }.

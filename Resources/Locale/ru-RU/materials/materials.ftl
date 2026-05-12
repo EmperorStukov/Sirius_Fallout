@@ -1,8 +1,8 @@
 # Glass
 materials-glass = стекло
-materials-reinforced-glass = армированное стекло
+materials-reinforced-glass = бронестекло
 materials-plasma-glass = плазменное стекло
-materials-reinforced-plasma-glass = армированное плазменное стекло
+materials-reinforced-plasma-glass = плазменное бронестекло
 
 # Metals
 materials-steel = сталь
@@ -14,36 +14,28 @@ materials-plasteel = пласталь
 materials-biomass = биомасса
 materials-cardboard = картон
 materials-cloth = ткань
-materials-durathread = дуратред
+materials-durathread = дюраткань
 materials-plasma = плазма
 materials-plastic = пластик
-materials-wood = древесина
+materials-wood = дерево
 materials-paper = бумага
 materials-uranium = уран
-materials-bananium = банан
+materials-bananium = бананиум
 materials-meat = мясо
-materials-web = шелк
-materials-bones = кость
+materials-web = шёлк
+materials-bones = кости
 materials-coal = уголь
-materials-diamond = алмаз
-materials-gunpowder = порох
-materials-legendary-tribal-leather = легендарная племенная кожа
-materials-bluespace = голубое пространство
-materials-normality = нормальность
+materials-diamond = алмазы
+materials-gunpowder = чёрный порох
+materials-cotton = хлопок
 
 # Ores
-materials-raw-iron = сырое железо
-materials-raw-diamond = необработанный алмаз
-# #Misfits Change: Fallout relevance, renamed from "raw quartz"
-materials-raw-quartz = кварц
-materials-raw-gold = сырое золото
-materials-raw-silver = необработанное серебро
-materials-raw-plasma = сырая плазма
-materials-raw-uranium = сырой уран
-materials-raw-bananium = сырой банан
-materials-raw-salt = сырая соль
-materials-raw-bluespace = сырое синее пространство
-materials-raw-normality = грубая нормальность
-
-# Material Reclaimer
-material-reclaimer-upgrade-process-rate = скорость процесса
+materials-raw-iron = руда железа
+materials-raw-quartz = руда кварца
+materials-raw-gold = руда золота
+materials-raw-silver = руда серебра
+materials-raw-plasma = руда плазмы
+materials-raw-uranium = руда урана
+materials-raw-bananium = руда бананиума
+materials-raw-salt = каменная соль
+materials-raw-diamond = необработанные алмазы

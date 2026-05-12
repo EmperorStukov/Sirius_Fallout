@@ -1,3 +1,1 @@
-# Misfits Change - wasteland theme: shuttle → train
-#admin-shuttle-title = (Re)call shuttle
-admin-shuttle-title = (Повторно) вызвать поезд
+admin-shuttle-title = Вызвать/Отозвать шаттл

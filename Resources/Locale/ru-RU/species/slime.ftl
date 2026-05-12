@@ -1,1 +1,1 @@
-﻿slime-hurt-by-water-popup = Вода растопит часть вашей слизи!
+slime-hurt-by-water-popup = Вода растапливает часть вашей слизи!

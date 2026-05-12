@@ -1,4 +1,4 @@
-firelock-component-is-holding-pressure-message = Поток воздуха дует тебе в лицо... Возможно, тебе стоит передумать.
-firelock-component-is-holding-fire-message = В лицо ударил поток теплого воздуха... Возможно, тебе стоит передумать.
-firelock-component-examine-pressure-warning = Предупреждение о перепаде давления [color=red]экстремального давления[/color] активно.
-firelock-component-examine-temperature-warning = Предупреждение [color=red]экстремальная температура[/color] активно.
+firelock-component-is-holding-pressure-message = Порыв воздуха дует вам в лицо... Возможно, вам стоит передумать.
+firelock-component-is-holding-fire-message = Порыв тёплого воздуха дует вам в лицо... Возможно, вам стоит передумать.
+firelock-component-examine-pressure-warning = Горит предупреждение об [color=cyan]экстремальной разнице давления[/color].
+firelock-component-examine-temperature-warning = Горит предупреждение об [color=red]экстремальной температуре[/color].

@@ -1,32 +1,35 @@
-﻿zombie-title = Зомби
-zombie-description = На станции появилась нежить! Работайте вместе с командой, чтобы пережить вспышку и обезопасить станцию.
+zombie-title = Зомби
+zombie-description = На станции появились ожившие мертвецы! Работайте сообща с другими членами экипажа, чтобы пережить эпидемию и защитить станцию.
 
-zombie-not-enough-ready-players = Недостаточно игроков, готовых к игре! Было подготовлено {$readyPlayersCount} игроков из {$minimumPlayers} необходимых. Не могу запустить Зомби.
-zombie-no-one-ready = Ни один игрок не подготовился! Не могу запустить Зомби.
+zombieteors-title = Зомбитеоры
+zombieteors-description = На станции во время катаклизмического метеоритного дождя появились зомби! Работайте вместе с членами экипажа и сделайте всё возможное, чтобы выжить!
 
-zombie-patientzero-role-greeting = Вы являетесь первичным зараженным. Приобретите припасы и приготовьтесь к возможной трансформации. Ваша цель — захватить станцию, заразив при этом как можно больше людей.
-zombie-healing = Вы чувствуете волнение в своей плоти
-zombie-infection-warning = Вы чувствуете, как вирус зомби захватывает вас
-zombie-infection-underway = Ваша кровь начинает густеть
+zombie-not-enough-ready-players = Недостаточно игроков готовы к игре! { $readyPlayersCount } игроков из необходимых { $minimumPlayers } готовы. Нельзя запустить пресет Зомби.
+zombie-no-one-ready = Нет готовых игроков! Нельзя запустить пресет Зомби.
+
+zombie-patientzero-role-greeting = Вы — нулевой пациент. Снарядитесь и подготовьтесь к своему превращению. Ваша цель — захватить станцию, заразив при этом как можно больше членов экипажа.
+zombie-healing = Вы ощущаете шевеление в своей плоти
+zombie-infection-warning = Вы чувствуете, как зомби-вирус берёт верх
+zombie-infection-underway = Ваша кровь начинает сгущаться
 
 zombie-alone = Вы чувствуете себя совершенно одиноким.
 
-zombie-shuttle-call = Мы обнаружили, что станцию ​​захватила нежить. Отправляем аварийный шаттл для сбора оставшегося персонала.
+zombie-shuttle-call = Мы зафиксировали, что зомби захватили станцию. Аварийный шаттл был отправлен для эвакуации оставшегося персонала.
 
-zombie-round-end-initial-count = {$initialCount ->
-    [one] There was one initial infected:
-    *[other] There were {$initialCount} initial infected:
+zombie-round-end-initial-count = { $initialCount ->
+    [one] Единственным нулевым пациентом был:
+    *[other] Нулевых пациентов было { $initialCount }, ими были:
 }
-zombie-round-end-user-was-initial = - [color=plum]{$name}[/color] ([color=gray]{$username}[/color]) был одним из первых зараженных.
+zombie-round-end-user-was-initial = - [color=plum]{ $name }[/color] ([color=gray]{ $username }[/color]) был одним из нулевых пациентов.
 
-zombie-round-end-amount-none = [color=green]Все зомби уничтожены![/color]
+zombie-round-end-amount-none = [color=green]Все зомби были уничтожены![/color]
 zombie-round-end-amount-low = [color=green]Почти все зомби были уничтожены.[/color]
-zombie-round-end-amount-medium = [color=yellow]{$percent}% членов экипажа превратились в зомби.[/color]
-zombie-round-end-amount-high = [color=crimson]{$percent}% членов экипажа превратились в зомби.[/color]
-zombie-round-end-amount-all = [color=darkred]Вся команда превратилась в зомби![/color]
+zombie-round-end-amount-medium = [color=yellow]{ $percent }% экипажа были обращены в зомби.[/color]
+zombie-round-end-amount-high = [color=crimson]{ $percent }% экипажа были обращены в зомби.[/color]
+zombie-round-end-amount-all = [color=darkred]Весь экипаж обратился в зомби![/color]
 
-zombie-round-end-survivor-count = {$count ->
-    [one] There was only one survivor left:
-    *[other] There were only {$count} survivors left:
+zombie-round-end-survivor-count = { $count ->
+    [one] Единственным выжившим стал:
+    *[other] Осталось всего { $count } выживших, это:
 }
-zombie-round-end-user-was-survivor = - [color=White]{$name}[/color] ([color=gray]{$username}[/color]) пережил вспышку.
+zombie-round-end-user-was-survivor = - [color=White]{ $name }[/color] ([color=gray]{ $username }[/color]) пережил заражение.

@@ -1,9 +1,9 @@
-gateway-window-title = шлюз
+gateway-window-title = Врата
 gateway-window-open-portal = Открыть портал
-gateway-window-no-destinations = Пункты назначения не найдены.
-gateway-window-portal-cooldown = Остывать
-gateway-window-portal-unlock = Следующая разблокировка
-gateway-window-locked = Заблокировано
+gateway-window-no-destinations = Отсутствуют пункты назначения.
+gateway-window-portal-cooldown = Перезарядка
+gateway-window-portal-unlock = Следующее открытие
+gateway-window-locked = Закрыто
 
-gateway-access-denied = Доступ запрещен!
+gateway-access-denied = Доступ запрещён!
 gateway-close-portal = Закрыть портал

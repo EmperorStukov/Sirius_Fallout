@@ -1,2 +1,2 @@
-emag-success = Карта что-то уничтожает в {THE($target)}.
-emag-no-charges = Никаких обвинений не осталось!
+emag-success = Устройство замыкает что-то в { $target }.
+emag-no-charges = Не осталось зарядов!

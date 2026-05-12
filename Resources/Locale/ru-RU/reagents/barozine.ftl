@@ -1,2 +1,2 @@
-﻿barozine-effect-skin-burning = Вы чувствуете, что ваша кожа горит!
-barozine-effect-muscle-contract = Вы можете почувствовать, как сокращаются ваши мышцы.
+barozine-effect-skin-burning = Вы чувствуете, как ваша кожа горит!
+barozine-effect-muscle-contract = Вы чувствуете, как ваши мышцы напрягаются.

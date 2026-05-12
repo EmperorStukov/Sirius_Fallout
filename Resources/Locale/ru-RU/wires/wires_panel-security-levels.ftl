@@ -1,8 +1,8 @@
 # Examination for different levels of wiring protection
-wires-panel-component-on-examine-security-level1 = Доступ к внутренней проводке закрыт стальной пластиной. Используйте [color=cyan]Crowbar[/color], чтобы удалить его.
-wires-panel-component-on-examine-security-level2 = К внутренней стороне [color=lightgray]панели обслуживания[/color] приварена стальная пластина. Используйте [color=cyan]Welder[/color], чтобы освободить его.
-wires-panel-component-on-examine-security-level3 = Имеется пластальная пластина, препятствующая доступу к внутренней проводке. Используйте [color=cyan]Crowbar[/color], чтобы удалить его.
-wires-panel-component-on-examine-security-level4 = К внутренней стороне [color=lightgray]панели обслуживания[/color] приварена пластальная пластина. Используйте [color=cyan]Welder[/color], чтобы освободить его.
-wires-panel-component-on-examine-security-level5 = Внутренняя часть панели обслуживания [color=lightgray][/color] защищена защитной решеткой. Используйте [color=cyan]Wirecutters[/color], чтобы удалить его.
-wires-panel-component-on-examine-security-level6 = Пластилевая пластина находится внутри [color=lightgray]панели обслуживания[/color]. Используйте [color=cyan]Crowbar[/color], чтобы удалить его.
-wires-panel-component-on-examine-security-level7 = Сварная пластальная пластина защищает внутреннюю часть [color=lightgray]панели обслуживания[/color]. Используйте [color=cyan]Welder[/color], чтобы освободить его.
+wires-panel-component-on-examine-security-level1 = Стальная пластина препятствует доступу к проводам. Используйте [color=cyan]монтировку[/color], чтобы убрать её.
+wires-panel-component-on-examine-security-level2 = Стальная пластина была приварена изнутри к [color=lightgray]технической панели[/color]. Используйте [color=cyan]сварочный аппарат[/color], чтобы убрать её.
+wires-panel-component-on-examine-security-level3 = Пласталевая пластина препятствует доступу к проводам. Используйте [color=cyan]монтировку[/color], чтобы убрать её.
+wires-panel-component-on-examine-security-level4 = Пласталевая пластина была приварена изнутри к [color=lightgray]технической панели[/color]. Используйте [color=cyan]сварочный аппарат[/color], чтобы убрать её.
+wires-panel-component-on-examine-security-level5 = Внутренности [color=lightgray]технической панели [/color] защищены охранной решёткой. Используйте [color=cyan]кусачки[/color], чтобы убрать её.
+wires-panel-component-on-examine-security-level6 = Внутренности [color=lightgray]технической панели [/color] закрывает пласталевая пластина. Используйте [color=cyan]монтировку[/color], чтобы убрать её.
+wires-panel-component-on-examine-security-level7 = Внутренности [color=lightgray]технической панели [/color] защищены приваренной пласталевой пластиной. Используйте [color=cyan]сварочный аппарат[/color], чтобы убрать её.

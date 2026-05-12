@@ -1,8 +1,8 @@
-﻿advertisement-sectech-1 = Взламывайте черепа синдиката!
-advertisement-sectech-2 = Ударьте несколько голов!
-advertisement-sectech-3 = Не забывайте – вред – это хорошо!
-advertisement-sectech-4 = Ваше оружие здесь.
-advertisement-sectech-5 = Мы все любим жаждать власти!
-thankyou-sectech-1 = Дайте им ад там!
-thankyou-sectech-2 = Идите, соблюдайте закон!
-thankyou-sectech-3 = Идите арестовывайте невинных прохожих!
+advertisement-sectech-1 = Крушите черепа агентов Синдиката!
+advertisement-sectech-2 = Пробейте несколько голов!
+advertisement-sectech-3 = Не забывайте: вред — это хорошо!
+advertisement-sectech-4 = Ваше оружие прямо здесь.
+advertisement-sectech-5 = Все мы любим ощущать власть!
+thankyou-sectech-1 = Устройте им там ад!
+thankyou-sectech-2 = Обеспечьте соблюдение закона!
+thankyou-sectech-3 = Идите и арестуйте невиновных!

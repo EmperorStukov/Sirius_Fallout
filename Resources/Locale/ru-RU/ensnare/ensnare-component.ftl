@@ -1,5 +1,7 @@
-﻿ensnare-component-try-free = Вы изо всех сил пытаетесь удалить {$ensnare}, который вас заманивает в ловушку!
-ensnare-component-try-free-complete = Вы успешно освобождаетесь от {$ensnare}!
-ensnare-component-try-free-fail = Вам не удалось освободиться от {$ensnare}!
+ensnare-component-try-free = Вы пытаетесь освободить свои ноги от { $ensnare }!
+ensnare-component-try-free-complete = Вы успешно освобождаете свои ноги от { $ensnare }!
+ensnare-component-try-free-fail = Вам не удаётся освободить свои ноги от { $ensnare }!
 
-ensnare-component-try-free-other = Вы начинаете удалять {$ensnare}, пойманный на {$user}!
+ensnare-component-try-free-complete-other = Вы успешно освобождаете { $user } от { $ensnare }!
+ensnare-component-try-free-fail-other = Вам не удаётся освободить { $user } от { $ensnare }!
+ensnare-component-try-free-other = Вы пытаетесь освободить ноги { $user } от { $ensnare }!

@@ -1,4 +1,4 @@
 signal-timer-menu-title = Таймер
-signal-timer-menu-label = Этикетка:
-signal-timer-menu-delay = Задерживать:
-signal-timer-menu-start = Начинать
+signal-timer-menu-label = Метка:
+signal-timer-menu-delay = Задержка:
+signal-timer-menu-start = Старт

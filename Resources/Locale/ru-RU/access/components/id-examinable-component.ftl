@@ -1,3 +1,3 @@
-id-examinable-component-verb-text = Удостоверение личности
-id-examinable-component-verb-disabled = Прочтите удостоверение личности с близкого расстояния.
-id-examinable-component-verb-no-id = Никакого удостоверения личности не видно.
+id-examinable-component-verb-text = ID карта
+id-examinable-component-verb-disabled = Приблизьтесь, чтобы рассмотреть ID карту.
+id-examinable-component-verb-no-id = ID карты не видно.

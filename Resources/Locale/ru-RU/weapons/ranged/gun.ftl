@@ -1,50 +1,68 @@
 
-gun-selected-mode-examine = Текущий выбранный режим огня — [color=__PH0__]{$mode}[/color].
-gun-fire-rate-examine = Скорострельность составляет [color=__PH0__]{$fireRate}[/color] в секунду.
-gun-selector-verb = Изменить на {$mode}
-gun-selected-mode = Выбрано {$mode}
+gun-selected-mode-examine = Выбран режим огня [color={ $color }]{ $mode }[/color].
+gun-fire-rate-examine = Скорострельность [color={ $color }]{ $fireRate }[/color] в секунду.
+gun-selector-verb = Изменить на { $mode }
+gun-selected-mode = Выбран { $mode }
 gun-disabled = Вы не можете использовать оружие!
-gun-clumsy = Пистолет взрывается прямо тебе в лицо!
-gun-set-fire-mode = Установить на {$mode}
+gun-set-fire-mode = Выбран режим { $mode }
+gun-magazine-whitelist-fail = Это не помещается в оружие!
+gun-magazine-fired-empty = Нет патронов!
 
 # SelectiveFire
-gun-SemiAuto = полуавтомат
-gun-Burst = лопаться
-gun-FullAuto = полностью автоматический
+gun-SemiAuto = полуавто
+gun-Burst = очередь
+gun-FullAuto = авто
 
 # BallisticAmmoProvider
-gun-ballistic-cycle = Цикл
-gun-ballistic-cycled = На велосипеде
-gun-ballistic-cycled-empty = Циклический (пустой)
-gun-ballistic-transfer-invalid = {CAPITALIZE(THE($ammoEntity))} не помещается внутри {THE($targetEntity)}!
-gun-ballistic-transfer-empty = {CAPITALIZE(THE($entity))} пусто.
-gun-ballistic-transfer-target-full = {CAPITALIZE(THE($entity))} уже полностью загружен.
+gun-ballistic-cycle = Перезарядка
+gun-ballistic-cycled = Перезаряжено
+gun-ballistic-cycled-empty = Разряжено
+gun-ballistic-cycle-delayed = Вы начинаете разряжать { CAPITALIZE(THE($entity)) }. Оставайтесь неподвижны...
+gun-ballistic-cycle-delayed-cancelled = Вы прекратили разряжать { CAPITALIZE(THE($entity)) }.
+gun-ballistic-cycle-delayed-empty = { CAPITALIZE(THE($entity)) } уже разряжен.
+gun-ballistic-transfer-invalid = { CAPITALIZE($ammoEntity) } нельзя поместить в { $targetEntity }!
+gun-ballistic-transfer-empty = В { CAPITALIZE($entity) } пусто.
+gun-ballistic-transfer-target-full = { CAPITALIZE($entity) } уже полностью заряжен.
+gun-ballistic-transfer-cancelled = Ваша перезарядка была прервана!
+gun-ballistic-transfer-primed = Вы не можете загрузить готовый { $ammoEntity }!
 
 # CartridgeAmmo
-gun-cartridge-spent = Потрачено [color=red][/color].
-gun-cartridge-unspent = Это [color=lime]не потрачено[/color].
+gun-cartridge-spent = Он [color=red]израсходован[/color].
+gun-cartridge-unspent = Он [color=lime]не израсходован[/color].
 
 # BatteryAmmoProvider
-gun-battery-examine = Его заряда достаточно для [color=__PH0__]{$count}[/color] выстрелов.
+gun-battery-examine = Заряда хватит на [color={ $color }]{ $count }[/color] { $count ->
+    [one] выстрел
+    [few] выстрела
+    *[other] выстрелов
+}.
 
 # CartridgeAmmoProvider
-gun-chamber-bolt-ammo = Пистолет не прикручен
-gun-chamber-bolt = Болт [color=__PH0__]{$bolt}[/color].
-gun-chamber-bolt-closed = Закрытый болт
-gun-chamber-bolt-opened = Открытый болт
-gun-chamber-bolt-close = Закрыть болт
-gun-chamber-bolt-open = Открытый болт
-gun-chamber-bolt-closed-state = открыть
-gun-chamber-bolt-open-state = закрыто
-gun-chamber-rack = Стойка
+gun-chamber-bolt-ammo = Затвор не закрыт
+gun-chamber-bolt = Затвор [color={ $color }]{ $bolt }[/color].
+gun-chamber-bolt-closed = Затвор закрыт
+gun-chamber-bolt-opened = Затвор открыт
+gun-chamber-bolt-close = Закрыть затвор
+gun-chamber-bolt-open = Открыть затвор
+gun-chamber-bolt-closed-state = открыт
+gun-chamber-bolt-open-state = закрыт
+gun-chamber-rack = Передёрнуть затвор
 
 # MagazineAmmoProvider
-gun-magazine-examine = У него осталось [color=__PH0__]{$count}[/color] выстрелов.
+gun-magazine-examine = Тут [color={ $color }]{ $count }[/color] { $count ->
+    [one] штука
+    [few] штуки
+    *[other] штук
+}.
 
 # RevolverAmmoProvider
-gun-revolver-empty = Пустой револьвер
-gun-revolver-full = Револьвер полный
-gun-revolver-insert = Вставлено
-gun-revolver-spin = Спиновый револьвер
-gun-revolver-spun = Закрутился
-gun-speedloader-empty = Спидлоадер пустой
+gun-revolver-empty = Разрядить револьвер
+gun-revolver-full = Револьвер полностью заряжен
+gun-revolver-insert = Заряжен
+gun-revolver-spin = Вращать барабан
+gun-revolver-spun = Барабан вращается
+gun-speedloader-empty = Спидлоадер пуст
+
+# GunSpreadModifier
+examine-gun-spread-modifier-reduction = Разброс снижен на [color=yellow]{ $percentage }%[/color].
+examine-gun-spread-modifier-increase = Разброс повышен на [color=yellow]{ $percentage }%[/color].

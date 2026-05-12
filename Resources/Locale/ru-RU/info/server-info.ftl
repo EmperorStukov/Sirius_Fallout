@@ -1,9 +1,9 @@
 server-info-rules-button = Правила
-# #Misfits Change - Renamed from "Guidebook" to "Wiki & Guides"
-server-info-guidebook-button = Вики и руководства
-server-info-discord-button = Раздор
-server-info-website-button = Веб-сайт
-server-info-wiki-button = Вики
+server-info-guidebook-button = Руководство
+server-info-discord-button = Discord
+server-info-website-button = Сайт
+server-info-wiki-button = Wiki
 server-info-forum-button = Форум
-server-info-report-button = Сообщить об ошибках
-server-info-credits-button = Кредиты
+server-info-telegram-button = Telegram
+server-info-report-button = Сообщить об ошибке
+server-info-credits-button = Авторы

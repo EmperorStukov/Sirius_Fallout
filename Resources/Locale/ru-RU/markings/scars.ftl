@@ -1,14 +1,35 @@
-marking-ScarEyeRight-scar_eye_right = Шрам на правом глазу
-marking-ScarEyeRight = Шрам на глазу (справа)
+marking-ScarEyeRight-scar_eye_right = Шрам на глазу (Правый)
+marking-ScarEyeRight = Шрам на глазу (Правый)
 
-marking-ScarEyeLeft-scar_eye_left = Шрам на левом глазу
-marking-ScarEyeLeft = Шрам на глазу (слева)
+marking-ScarEyeLeft-scar_eye_left = Шрам на глазу (Левый)
+marking-ScarEyeLeft = Шрам на глазу (Левый)
 
-marking-ScarTopSurgeryShort-scar_top_surgery_short = Топ хирургический шрам
-marking-ScarTopSurgeryShort = Top Surgery Scar (короткометражный)
+marking-ScarTopSurgeryShort-scar_top_surgery_short = Хирургический шрам (Короткий)
+marking-ScarTopSurgeryShort = Хирургический шрам (Короткий)
 
-marking-ScarTopSurgeryLong-scar_top_surgery_long = Топ хирургический шрам
-marking-ScarTopSurgeryLong = Верхний хирургический шрам (длинный)
+marking-ScarTopSurgeryLong-scar_top_surgery_long = Хирургический шрам (Длинный)
+marking-ScarTopSurgeryLong = Хирургический шрам (Длинный)
 
 marking-ScarChest-scar_chest = Шрам на груди
 marking-ScarChest = Шрам на груди
+
+marking-ScarNeck-scar_neck = Шрам на шее
+marking-ScarNeck = Шрам на шее
+
+marking-ScarChestBullets-scar_chest_bullets = Шрам, пулевые отверстия
+marking-ScarChestBullets = Шрам на груди (Пули)
+
+marking-ScarStomachBullets-scar_stomach_bullets = Шрам, пулевые отверстия
+marking-ScarStomachBullets = Шрам на животе (Пули)
+
+marking-ScarFace1-scar_face_1 = Шрам на лице
+marking-ScarFace1 = Шрам на лице (Большой)
+
+marking-ScarFace2-scar_face_2 = Шрам на лице
+marking-ScarFace2 = Шрам на лице (Маленький)
+
+marking-ScarEyeRightSmall-scar_eye_right_small = Шрам на глазу (Правый, Маленький)
+marking-ScarEyeRightSmall = Шрам на глазу (Правый, Маленький)
+
+marking-ScarEyeLeftSmall-scar_eye_left_small = Шрам на глазу (Левый, Маленький)
+marking-ScarEyeLeftSmall = Шрам на глазу (Левый, Маленький)

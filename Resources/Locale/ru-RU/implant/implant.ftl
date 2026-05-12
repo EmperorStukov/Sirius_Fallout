@@ -1,27 +1,36 @@
 ## Implanter Attempt Messages
 
-implanter-component-implanting-target = {$user} пытается вам что-то имплантировать!
-implanter-component-implant-failed = {$implant} не может быть передан {$target}!
-implanter-draw-failed-permanent = {$implant} в {$target} слит с ними и не может быть удален!
-implanter-draw-failed = Вы пытались удалить имплантат, но ничего не нашли.
-implanter-component-implant-already = {$target} уже имеет {$implant}!
+implanter-component-implanting-target = { $user } пытается что-то в вас имплантировать!
+implanter-component-implant-failed = { $implant } нельзя имплантировать в { $target }!
+implanter-draw-failed-permanent = { $implant } вросся в { $target } и не может быть удалён!
+implanter-draw-failed = Вы пытаетесь удалить имплант, но ничего не находите.
+implanter-draw-failed-catastrophically = Имплантер ничего не находит и катастрофически выходит из строя, впивая генетический материал в руку { $user }!
+implanter-component-implant-already = { $target } уже имеет { $implant }!
 
 ## UI
-implanter-draw-text = Рисовать
-implanter-inject-text = Вводить
+implanter-set-draw-verb = Установить извлечение импланта
+implanter-set-draw-window = Установить извлечение импланта
+implanter-set-draw-info = Выберите тип импланта, который должен быть извлечён.
+implanter-set-draw-type = Тип импланта:
 
-implanter-empty-text = Пустой
+implanter-draw-text = Извлечение
+implanter-inject-text = Установка
 
-implanter-label = [color=green]{$implantName}[/color]
-    Mode: [color = белый]{$modeString}[/color]
+implanter-empty-text = Пусто
 
-implanter-contained-implant-text = [color=green]{$desc}[/color]
+implanter-label-inject = [color=green]{ $implantName }[/color]
+    Режим: [color=white]{ $modeString }[/color]
+
+implanter-label-draw = [color=red]{ $implantName }[/color]
+    Режим: [color=white]{ $modeString }[/color]
+
+implanter-contained-implant-text = [color=green]{ $desc }[/color]
 
 ## Implant Popups
 
-scramble-implant-activated-popup = Ваш внешний вид меняется и меняется!
+scramble-implant-activated-popup = Ваша внешность преображается и меняется!
 
 ## Implant Messages
 
-deathrattle-implant-dead-message = {$user} умер {$position}.
-deathrattle-implant-critical-message = {$user} жизненные признаки критические, требуется немедленная помощь {$position}.
+deathrattle-implant-dead-message = Зафиксирована смерть { $user } { $position }.
+deathrattle-implant-critical-message = Жизненные показатели { $user } критические, требуется немедленная помощь { $position }.

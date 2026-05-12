@@ -1,14 +1,28 @@
 
 ### UI
 
-paper-ui-blank-page-message = Эта страница намеренно оставлена ​​пустой
+paper-ui-blank-page-message = Данная страница оставлена пустой специально
 
 # Shown when paper with words examined details
-paper-component-examine-detail-has-words = На {CAPITALIZE(THE($paper))} что-то написано.
+paper-component-examine-detail-has-words = На листе что-то написано.
 # Shown when paper with stamps examined
-paper-component-examine-detail-stamped-by = {CAPITALIZE(THE($paper))} {CONJUGATE-HAVE($paper)} проштамповано: {$stamps}.
+paper-component-examine-detail-stamped-by = На { CAPITALIZE($paper) } имеются следующие печати: { $stamps }.
+paper-component-illiterate = Вы не можете писать.
+paper-component-illiterate-mime = Ваш обет запрещает вам писать.
 
-paper-component-action-stamp-paper-other = {CAPITALIZE(THE($user))} ставит на {THE($target)} метку {THE($stamp)}.
-paper-component-action-stamp-paper-self = Вы штампуете {THE($target)} с помощью {THE($stamp)}.
+paper-component-action-stamp-paper-other = { CAPITALIZE($user) } ставит печать на { $target } с помощью { $stamp }.
+paper-component-action-stamp-paper-self = Вы ставите печать на { $target } с помощью { $stamp }.
 
-paper-ui-save-button = Сохранить ({$keybind})
+# Indicator to show how full a paper is
+paper-ui-fill-level = { $currentLength }/{ $maxLength }
+
+paper-ui-save-button = Сохранить ({ $keybind })
+
+# Form and signature buttons
+paper-form-fill-button = Заполнить
+paper-signature-sign-button = Подписать
+paper-form-dialog-ok = OK
+paper-form-dialog-cancel = Отмена
+paper-signature-unknown = Неизвестно
+
+paper-tamper-proof-modified-message = Текст на странице был написан с использованием нефальсицицируемых чернил.

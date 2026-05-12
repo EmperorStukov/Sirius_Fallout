@@ -1,2 +1,2 @@
-﻿variantize-command-description = Рандомизирует все варианты плиток в заданной сетке.
-variantize-command-help-text = вариантировать <идентификатор сетки>
+variantize-command-description = Рандомизирует все варианты плиток пола в заданной области.
+variantize-command-help-text = variantize <grid id>

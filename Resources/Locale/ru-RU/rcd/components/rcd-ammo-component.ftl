@@ -1,3 +1,7 @@
-rcd-ammo-component-on-examine = Он содержит {$charges} зарядов.
-rcd-ammo-component-after-interact-full = УЗО заполнено!
-rcd-ammo-component-after-interact-refilled = Вы заправляете УЗО.
+rcd-ammo-component-on-examine = Содержит { $charges } { $charges ->
+    [one] заряд
+    [few] заряда
+    *[other] зарядов
+}.
+rcd-ammo-component-after-interact-full = РСУ заполнено!
+rcd-ammo-component-after-interact-refilled = Вы пополняете РСУ.

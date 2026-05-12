@@ -1,17 +1,17 @@
 ### Generic, general words, which fit into multiple contexts
 
-generic-not-available-shorthand =  Н/Д
-generic-article-a =  а
-generic-article-an =  а
+generic-not-available-shorthand = Н/Д
+generic-article-a = это
+generic-article-an = это
 
-generic-unknown =  неизвестный
-generic-unknown-title =  Неизвестный
-generic-error =  ошибка
-generic-invalid =  неверный
+generic-unknown = неизвестно
+generic-unknown-title = Неизвестно
+generic-error = ошибка
+generic-invalid = недействительно
 
-generic-hours =  часы
-generic-minutes =  минуты
+generic-hours = часов
+generic-minutes = минут
 
-generic-playtime-title =  Время игры
+generic-playtime-title = Игровое время
 
-generic-confirm =  Подтверждать
+generic-confirm = Подтвердить

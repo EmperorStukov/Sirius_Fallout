@@ -1,8 +1,9 @@
-﻿# Rules
+# Rules
 
-ui-rules-header = Официальные правила сервера
-ui-rules-accept = Я прочитал и согласен соблюдать правила
-ui-rules-wait = Кнопка принятия станет активной через {$time} секунд.
+ui-rules-header = Правила сервера
+ui-rules-header-rp = РП правила сервера
+ui-rules-accept = Я ознакомился и согласен следовать правилам
+ui-rules-wait = Кнопка принятия будет разблокирована через { $time } секунд.
 
-ui-rules-button-home = Дом
+ui-rules-button-home = В начало
 ui-rules-button-back = Назад

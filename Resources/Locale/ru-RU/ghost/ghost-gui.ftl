@@ -1,35 +1,40 @@
 ghost-gui-return-to-body-button = Вернуться в тело
-ghost-gui-ghost-warp-button = Призрачная деформация
-ghost-gui-ghost-roles-button = Роли-призраки ({$count})
-ghost-gui-toggle-ghost-visibility-popup = Переключена видимость призраков.
-ghost-gui-toggle-lighting-manager-popup = Переключил все освещение.
-ghost-gui-toggle-fov-popup = Переключено поле зрения.
+ghost-gui-ghost-warp-button = Телепорт призрака
+ghost-gui-ghost-roles-button = Роли призраков ({ $count })
+ghost-gui-toggle-ghost-visibility-popup-on = Видимость призраков включена.
+ghost-gui-toggle-ghost-visibility-popup-off = Видимость призраков выключена.
+ghost-gui-toggle-lighting-manager-popup-normal = Обычное освещение.
+ghost-gui-toggle-lighting-manager-popup-personal-light = Включено личное освещение.
+ghost-gui-toggle-lighting-manager-popup-fullbright = Полная яркость.
+ghost-gui-toggle-fov-popup = Поле зрения переключено.
 
-ghost-gui-toggle-hearing-popup-on = Теперь вы можете прослушивать все сообщения.
-ghost-gui-toggle-hearing-popup-off = Теперь вы можете слышать только радио и сообщения поблизости.
+ghost-gui-toggle-hearing-popup-on = Теперь вы слышите все фразы.
+ghost-gui-toggle-hearing-popup-off = Теперь вы слышите только радиосвязь и фразы поблизости.
 
-ghost-target-window-title = Призрачная деформация
-ghost-target-window-current-button = Варп: {$name}
-ghost-target-window-warp-to-most-followed = Переход к наиболее читаемым
+ghost-target-window-title = Телепорт призрака
+ghost-target-window-current-button = Телепорт в: { $name }
+ghost-target-window-warp-to-most-followed = Телепорт к самому следуемому
 
 ghost-roles-window-title = Роли призраков
-ghost-roles-window-join-raffle-button = Присоединяйтесь к розыгрышу
-ghost-roles-window-raffle-in-progress-button = 
-    Join raffle ({$time} left, { $players ->
-         [one] {$players} player
-        *[other] {$players} players
+ghost-roles-window-available-button = Доступно ({ $rolesCount })
+ghost-roles-window-join-raffle-button = Участвовать в лотерее
+ghost-roles-window-raffle-in-progress-button =
+    Участвовать в лотерее (Осталось { $time }, { $players ->
+        [one] { $players } игрок
+        [few] { $players } игрока
+        *[other] { $players } игроков
     })
-ghost-roles-window-leave-raffle-button = 
-    Leave raffle ({$time} left, { $players ->
-         [one] {$players} player
-        *[other] {$players} players
+ghost-roles-window-leave-raffle-button =
+    Покинуть (Осталось { $time }, { $players ->
+        [one] { $players } игрок
+        [few] { $players } игрока
+        *[other] { $players } игроков
     })
-ghost-roles-window-request-role-button = Запрос
-ghost-roles-window-request-role-button-timer = Запрос ({$time}s)
+ghost-roles-window-request-role-button = Запросить
+ghost-roles-window-request-role-button-timer = Запросить ({ $time }сек.)
 ghost-roles-window-follow-role-button = Следовать
-ghost-roles-window-no-roles-available-label = На данный момент доступных ролей-призраков нет.
-ghost-roles-window-rules-footer = Кнопка активируется через {$time} секунд (эта задержка нужна для того, чтобы вы прочитали правила).
+ghost-roles-window-no-roles-available-label = В настоящее время нет доступных ролей призраков.
+ghost-roles-window-rules-footer = Кнопка станет доступна через { $time } секунд (эта задержка нужна, чтобы убедиться, что вы прочитали правила).
 
 ghost-return-to-body-title = Вернуться в тело
-ghost-return-to-body-text = Вы возрождаетсяе! Вернуться в свое тело?
-ghost-gui-return-to-round-button = Вернуться в раунд
+ghost-return-to-body-text = Вас воскрешают! Вернуться в своё тело?

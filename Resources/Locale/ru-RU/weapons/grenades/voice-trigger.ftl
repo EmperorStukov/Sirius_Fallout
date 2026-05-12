@@ -1,12 +1,12 @@
-examine-trigger-voice = На дисплее появится надпись: «{$keyphrase}».
-trigger-voice-uninitialized = На дисплее написано: Неинициализировано...
+examine-trigger-voice = На дисплее виднеется: "{ $keyphrase }"
+trigger-voice-uninitialized = На дисплее виднеется: Не инициализированно...
 
-verb-trigger-voice-record = Записывать
-verb-trigger-voice-stop = Останавливаться
-verb-trigger-voice-clear = Очистить запись
+verb-trigger-voice-record = Запись
+verb-trigger-voice-stop = Стоп
+verb-trigger-voice-clear = Стереть запись
 
-popup-trigger-voice-start-recording = Начал запись
-popup-trigger-voice-stop-recording = Остановлена ​​запись
-popup-trigger-voice-record-failed-too-long = Сообщение слишком длинное, попробуйте еще раз
-popup-trigger-voice-record-failed-too-short = Сообщение слишком короткое, попробуйте еще раз
-popup-trigger-voice-recorded = Записано успешно
+popup-trigger-voice-start-recording = Начало записи
+popup-trigger-voice-stop-recording = Конец записи
+popup-trigger-voice-record-failed-too-long = Слишком длинное сообщение, попробуйте ещё раз
+popup-trigger-voice-record-failed-too-short = Слишком короткое сообщение, попробуйте ещё раз
+popup-trigger-voice-recorded = Успешно записано

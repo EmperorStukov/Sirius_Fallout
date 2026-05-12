@@ -1,25 +1,30 @@
-drink-component-on-use-is-empty = {CAPITALIZE(THE($owner))} пусто!
+drink-component-on-use-is-empty = { CAPITALIZE($owner) } пуст!
 drink-component-on-examine-is-empty = [color=gray]Пусто[/color]
 drink-component-on-examine-is-opened = [color=yellow]Открыто[/color]
-drink-component-on-examine-is-sealed = Печать целая.
-drink-component-on-examine-is-unsealed = Печать сломана.
-drink-component-on-examine-is-full = Полный
-drink-component-on-examine-is-mostly-full = В основном полный
-drink-component-on-examine-is-half-full = На полпути полный
-drink-component-on-examine-is-half-empty = На полпути пусто
-drink-component-on-examine-is-mostly-empty = В основном пусто
-drink-component-on-examine-exact-volume = Он содержит {$amount}u.
-drink-component-try-use-drink-not-open = Сначала откройте {$owner}!
-drink-component-try-use-drink-is-empty = {CAPITALIZE(THE($entity))} пусто!
-drink-component-try-use-drink-cannot-drink = Ничего нельзя пить!
-drink-component-try-use-drink-had-enough = Больше пить нельзя!
-drink-component-try-use-drink-cannot-drink-other = Им нельзя ничего пить!
-drink-component-try-use-drink-had-enough-other = Они не могут больше пить!
-drink-component-try-use-drink-success-slurp = хлебать
-drink-component-try-use-drink-success-slurp-taste = Хлебать. {$flavors}
-drink-component-force-feed = {CAPITALIZE(THE($user))} пытается заставить вас что-нибудь выпить!
-drink-component-force-feed-success = {CAPITALIZE(THE($user))} заставил вас что-нибудь выпить! {$flavors}
-drink-component-force-feed-success-user = Вы успешно кормите {THE($target)}
+drink-component-on-examine-is-sealed = Пломба не повреждена.
+drink-component-on-examine-is-unsealed = Пломба разорвана.
+drink-component-on-examine-is-full = Полон
+drink-component-on-examine-is-mostly-full = Почти полон
+drink-component-on-examine-is-half-full = Наполовину полон
+drink-component-on-examine-is-half-empty = Наполовину пуст
+drink-component-on-examine-is-mostly-empty = Почти пуст
+drink-component-on-examine-exact-volume = Полон на { $amount } ед.
+drink-component-try-use-drink-not-open = Сначала откройте { $owner }!
+drink-component-try-use-drink-is-empty = { CAPITALIZE($entity) } пуст!
+drink-component-try-use-drink-cannot-drink = Вы не можете ничего пить!
+drink-component-try-use-drink-had-enough = Вы не можете выпить больше!
+drink-component-try-use-drink-cannot-drink-other = Они не могут ничего пить!
+drink-component-try-use-drink-had-enough-other = Они не могут выпить больше!
+drink-component-try-use-drink-success-slurp = Сёрб
+drink-component-try-use-drink-success-slurp-taste = Сёрб. { $flavors }
+drink-component-force-feed = { CAPITALIZE($user) } пытается вас чем-то напоить!
+drink-component-force-feed-success = { CAPITALIZE($user) } { GENDER($user) ->
+    [male] напоил
+    [female] напоила
+    [epicene] напоили
+    *[neuter] напоило
+} вас чем-то! { $flavors }
+drink-component-force-feed-success-user = Вы успешно напоили { $target }
 
 
-drink-system-verb-drink = Напиток
+drink-system-verb-drink = Пить

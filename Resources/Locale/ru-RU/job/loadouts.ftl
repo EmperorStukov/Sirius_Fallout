@@ -1,2 +1,2 @@
-loadout-window = Выгрузка
-loadout-none = Никто
+loadout-window = Снаряжение
+loadout-none = Ничего

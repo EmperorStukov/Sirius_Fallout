@@ -1,3 +1,3 @@
 metabolism-component-is-comfortable = Вы чувствуете себя комфортно
-metabolism-component-is-sweating = Ты потеешь
-metabolism-component-is-shivering = Ты дрожишь
+metabolism-component-is-sweating = Вы потеете
+metabolism-component-is-shivering = Вы дрожите

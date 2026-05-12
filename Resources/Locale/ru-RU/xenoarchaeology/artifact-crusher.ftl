@@ -1,1 +1,1 @@
-artifact-crusher-verb-start-crushing = Начни дробить
+artifact-crusher-verb-start-crushing = Начать дробить

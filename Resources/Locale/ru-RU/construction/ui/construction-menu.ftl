@@ -1,7 +1,9 @@
 ## ConstructionMenu.xaml.cs
 
-construction-menu-title = Крафт
-construction-menu-place-ghost = Место строительного призрака
-construction-menu-clear-all = Очистить все
+construction-menu-title = Строительство
+construction-menu-place-ghost = Разместить призрак конструкции
+construction-menu-clear-all = Очистить всё
 construction-menu-eraser-mode = Режим ластика
-construction-menu-craft = Ремесло
+construction-menu-craft = Создание
+construction-menu-search = Поиск
+construction-menu-grid-view = Вид плиткой

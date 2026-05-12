@@ -1,8 +1,12 @@
-defusable-examine-defused = {CAPITALIZE(THE($name))} — это [color=lime]defused[/color].
-defusable-examine-live = {CAPITALIZE(THE($name))} равен [color=red]ticking[/color] и осталось [color=red]{$time}[/color] секунд.
-defusable-examine-live-display-off = {CAPITALIZE(THE($name))} — [color=red]ticking[/color], и таймер, похоже, выключен.
-defusable-examine-inactive = {CAPITALIZE(THE($name))} [color=lime]inactive[/color], но все еще может быть поставлен на охрану.
-defusable-examine-bolts = Болты {$down ->
-[true] [color=red]вниз[/color]
-*[false] [color=green]вверх[/color]
+defusable-examine-defused = { CAPITALIZE($name) } [color=lime]обезврежена[/color].
+defusable-examine-live = { CAPITALIZE($name) } тикает [color=red][/color] и осталось [color=red]{ $time } { $time ->
+    [one] секунда
+    [few] секунды
+    *[other] секунд
+}.
+defusable-examine-live-display-off = { CAPITALIZE($name) } [color=red]тикает[/color] и таймер, похоже, выключен.
+defusable-examine-inactive = { CAPITALIZE($name) } [color=lime]неактивна[/color], но всё ещё может взорваться.
+defusable-examine-bolts = Болты { $down ->
+    [true] [color=red]опущены[/color]
+    *[false] [color=green]подняты[/color]
 }.

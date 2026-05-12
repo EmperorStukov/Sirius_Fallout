@@ -1,1 +1,1 @@
-warp-point-component-on-examine-success = Идентификатор этого местоположения: {$location}.
+warp-point-component-on-examine-success = ID данной локации: { $location }

@@ -1,1 +1,1 @@
-﻿item-status-not-held = Нет удерживаемого элемента
+item-status-not-held = В руке пусто

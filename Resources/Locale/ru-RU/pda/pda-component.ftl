@@ -2,11 +2,11 @@
 ### UI
 
 # For the PDA screen
-comp-pda-ui = Идентификатор: [color=white]{$owner}[/color], [color=yellow]{$jobTitle}[/color]
+comp-pda-ui = ID: [color=white]{ $owner }[/color], [color=yellow]{ CAPITALIZE($jobTitle) }[/color]
 
-comp-pda-ui-blank = ИДЕНТИФИКАТОР:
+comp-pda-ui-blank = ID:
 
-comp-pda-ui-owner = Владелец: [color=white]{$actualOwnerName}[/color]
+comp-pda-ui-owner = Владелец: [color=white]{ $actualOwnerName }[/color]
 
 comp-pda-io-program-list-button = Программы
 
@@ -16,43 +16,41 @@ comp-pda-io-program-fallback-title = Программа
 
 comp-pda-io-no-programs-available = Нет доступных программ
 
-pda-bound-user-interface-show-uplink-title = Открыть восходящий канал
-pda-bound-user-interface-show-uplink-description = Доступ к вашей восходящей линии связи
+pda-bound-user-interface-show-uplink-title = Открыть аплинк
+pda-bound-user-interface-show-uplink-description = Получите доступ к своему аплинку
 
-pda-bound-user-interface-lock-uplink-title = Заблокировать восходящий канал
-pda-bound-user-interface-lock-uplink-description = Запретите кому-либо доступ к вашей восходящей линии связи без кода
+pda-bound-user-interface-lock-uplink-title = Закрыть аплинк
+pda-bound-user-interface-lock-uplink-description = Предотвратите доступ к вашему аплинку персон без кода
 
-# #Misfits Change - Pip-Boy themed PDA strings for Nuclear-14
-comp-pda-ui-menu-title = Пип-Бой
+comp-pda-ui-menu-title = КПК
 
-comp-pda-ui-footer = Пип-Бой 3000 Марк IV
+comp-pda-ui-footer = Карманный Персональный Компьютер
 
-comp-pda-ui-station = Местоположение: [color=white]{$station}[/color]
+comp-pda-ui-station = Станция: [color=white]{ $station }[/color]
 
-comp-pda-ui-station-alert-level = Погода: [color={ $color }]{ $level }[/color]
+comp-pda-ui-station-alert-level = Уровень угрозы: [color={ $color }]{ $level }[/color]
 
-comp-pda-ui-station-alert-level-instructions = Совет: [color=white]{ $instructions }[/color]
+comp-pda-ui-station-alert-level-instructions = Инструкции: [color=white]{ $instructions }[/color]
 
-comp-pda-ui-station-time = Заряд батареи: [color=white]{ $time }[/color]
+comp-pda-ui-station-time = Продолжительность смены: [color=white]{ $time }[/color]
 
-comp-pda-ui-eject-id-button = Извлечь идентификатор
+comp-pda-ui-eject-id-button = Извлечь ID
 
 comp-pda-ui-eject-pen-button = Извлечь ручку
 
 comp-pda-ui-ringtone-button = Рингтон
 
-comp-pda-ui-ringtone-button-description = Измените рингтон вашего Pip-Boy
+comp-pda-ui-ringtone-button-description = Измените рингтон вашего КПК
 
 comp-pda-ui-toggle-flashlight-button = Переключить фонарик
 
 pda-bound-user-interface-music-button = Музыкальный инструмент
 
-# #Misfits Change - Rebranded for Pip-Boy
-pda-bound-user-interface-music-button-description = Включите музыку на своем Pip-Boy
+pda-bound-user-interface-music-button-description = Слушайте музыку на своём КПК
 
-comp-pda-ui-unknown = Неизвестный
+comp-pda-ui-unknown = Неизвестно
 
-comp-pda-ui-unassigned = Неназначенный
+comp-pda-ui-unassigned = Не назначено
 
-pda-notification-message = [font size=12][bold]Пип-Бой[/bold] { $header }: [/font]
+pda-notification-message = [font size=12][bold]КПК[/bold] { $header }: [/font]
     "{ $message }"

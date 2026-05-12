@@ -1,1 +1,2 @@
-observer-role-name = наблюдатель
+observer-role-name = Наблюдатель
+

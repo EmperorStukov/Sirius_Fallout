@@ -1,117 +1,119 @@
-marking-LizardFrillsShort-frills_short = Lizard Frills (короткометражный)
-marking-LizardFrillsShort = Lizard Frills (короткометражный)
+marking-LizardFrillsShort-frills_short = Рептилия, воротник (Короткий)
+marking-LizardFrillsShort = Рептилия, воротник (Короткий)
 
-marking-LizardFrillsSimple-frills_simple = Оборки в виде ящерицы (простые)
-marking-LizardFrillsSimple = Оборки в виде ящерицы (простые)
+marking-LizardFrillsSimple-frills_simple = Рептилия, воротник (Простой)
+marking-LizardFrillsSimple = Рептилия, воротник (Простой)
 
-marking-LizardFrillsAquatic-frills_aquatic = Ящерица Оборки (Водная)
-marking-LizardFrillsAquatic = Ящерица Оборки (Водная)
+marking-LizardFrillsAquatic-frills_aquatic = Рептилия, воротник (Водный)
+marking-LizardFrillsAquatic = Рептилия, воротник (Водный)
 
-marking-LizardHornsAngler-horns_angler = Рога ящерицы (Рыболов)
-marking-LizardHornsAngler = Рога ящерицы (Рыболов)
+marking-LizardHornsAngler-horns_angler = Рептилия, рожки (Рыболов)
+marking-LizardHornsAngler = Рептилия, рожки (Рыболов)
 
-marking-LizardHornsCurled-horns_curled = Рога ящерицы (скрученные)
-marking-LizardHornsCurled = Рога ящерицы (скрученные)
+marking-LizardHornsCurled-horns_curled = Рептилия, рожки (Завитые)
+marking-LizardHornsCurled = Рептилия, рожки (Завитые)
 
-marking-LizardHornsRam-horns_ram = Рога ящерицы (Баран)
-marking-LizardHornsRam = Рога ящерицы (Баран)
+marking-LizardHornsRam-horns_ram = Рептилия, рожки (Бараньи)
+marking-LizardHornsRam = Рептилия, рожки (Бараньи)
 
-marking-LizardHornsShort-horns_short = Рога ящерицы (короткометражный)
-marking-LizardHornsShort = Рога ящерицы (короткометражный)
+marking-LizardHornsShort-horns_short = Рептилия, рожки (Короткие)
+marking-LizardHornsShort = Рептилия, рожки (Короткие)
 
-marking-LizardHornsSimple-horns_simple = Рога ящерицы
-marking-LizardHornsSimple = Рога ящерицы
+marking-LizardHornsSimple-horns_simple = Рептилия, рожки
+marking-LizardHornsSimple = Рептилия, рожки
 
-marking-LizardTailSmooth-tail_smooth_primary = Ящерица Хвост
-marking-LizardTailSmooth-tail_smooth_secondary = Под тон
-marking-LizardTailSmooth = Хвост ящерицы (гладкий)
-marking-LizardTailSmoothAnimated = Хвост Ящерицы (Гладкий) (Анимированный)
+marking-LizardTailSmooth-tail_smooth_primary = Рептилия, хвост
+marking-LizardTailSmooth-tail_smooth_secondary = Оттенок
+marking-LizardTailSmooth = Рептилия, хвост (Гладкий)
 
-marking-LizardTailLarge-tail_large = Хвост ящерицы (большой)
-marking-LizardTailLarge = Хвост ящерицы (большой)
+marking-LizardTailLarge-tail_large = Рептилия, хвост (Большой)
+marking-LizardTailLarge = Рептилия, хвост (Большой)
 
-marking-LizardTailSpikes-tail_spikes = Хвост Ящерицы (Острый)
-marking-LizardTailSpikes = Хвост Ящерицы (Острый)
-marking-LizardTailSpikesAnimated = Хвост Ящерицы (Колючий) (Анимированный)
+marking-LizardTailSpikes-tail_spikes = Рептилия, хвост (Шипастый)
+marking-LizardTailSpikes = Рептилия, хвост (Шипастый)
 
-marking-LizardTailLTiger-tail_ltiger = Хвост Ящерицы (Светлые Тигровые Полосы)
-marking-LizardTailLTiger = Хвост Ящерицы (Светлые Тигровые Полосы)
-marking-LizardTailLTigerAnimated = Хвост Ящерицы (Светлые Тигровые Полосы) (Анимированный)
+marking-LizardTailLTiger-tail_ltiger = Рептилия, хвост (Светлые тигриные полоски)
+marking-LizardTailLTiger = Рептилия, хвост (Светлые тигриные полоски)
 
-marking-LizardTailDTiger-tail_dtiger = Хвост Ящерицы (Тёмные Тигровые Полосы)
-marking-LizardTailDTiger = Хвост Ящерицы (Тёмные Тигровые Полосы)
-marking-LizardTailDTigerAnimated = Хвост Ящерицы (Тёмные Тигровые Полосы) (анимационный)
+marking-LizardTailDTiger-tail_dtiger = Рептилия, хвост (Тёмные тигриные полоски)
+marking-LizardTailDTiger = Рептилия, хвост (Тёмные тигриные полоски)
 
-marking-LizardSnoutRound-snout_round = Морда ящерицы (круглая)
-marking-LizardSnoutRound = Морда ящерицы (круглая)
+marking-LizardTailAquatic-tail_aquatic = Рептилия, хвост (Аква)
+marking-LizardTailAquatic = Рептилия, хвост (Аква)
 
-marking-LizardSnoutSharp-snout_sharp = Морда Ящерицы (Острая)
-marking-LizardSnoutSharp = Морда Ящерицы (Острая)
+marking-LizardSnoutRound-snout_round = Рептилия, морда (Круглая)
+marking-LizardSnoutRound = Рептилия, морда (Круглая)
 
-marking-LizardChestTiger-body_tiger = Сундук Ящерицы (Тигр)
-marking-LizardChestTiger = Сундук Ящерицы (Тигр)
+marking-LizardSnoutSharp-snout_sharp = Рептилия, морда (Заострёная)
+marking-LizardSnoutSharp = Рептилия, морда (Заострёная)
 
-marking-LizardHeadTiger-head_tiger = Голова Ящерицы (Тигр)
-marking-LizardHeadTiger = Голова Ящерицы (Тигр)
+marking-LizardChestTiger-body_tiger = Рептилия, грудь (Тигр)
+marking-LizardChestTiger = Рептилия, грудь (Тигр)
 
-marking-LizardLArmTiger-l_arm_tiger = Левая рука ящерицы (Тигр)
-marking-LizardLArmTiger = Левая рука ящерицы (Тигр)
+marking-LizardHeadTiger-head_tiger = Рептилия, голова (Тигр)
+marking-LizardHeadTiger = Рептилия, голова (Тигр)
 
-marking-LizardLLegTiger-l_leg_tiger = Левая нога ящерицы (тигра)
-marking-LizardLLegTiger = Левая нога ящерицы (тигра)
+marking-LizardLArmTiger-l_arm_tiger = Рептилия, левая рука (Тигр)
+marking-LizardLArmTiger = Рептилия, левая рука (Тигр)
 
-marking-LizardRArmTiger-r_arm_tiger = Правая рука ящерицы (Тигр)
-marking-LizardRArmTiger = Правая рука ящерицы (Тигр)
+marking-LizardLLegTiger-l_leg_tiger = Рептилия, левая нога (Тигр)
+marking-LizardLLegTiger = Рептилия, левая нога (Тигр)
 
-marking-LizardRLegTiger-r_leg_tiger = Правая нога ящерицы (тигра)
-marking-LizardRLegTiger = Правая нога ящерицы (тигра)
+marking-LizardRArmTiger-r_arm_tiger = Рептилия, правая рука (Тигр)
+marking-LizardRArmTiger = Рептилия, правая рука (Тигр)
 
-marking-LizardFrillsDivinity-frills_divinity = Ящерица Оборки (Божественность)
-marking-LizardFrillsDivinity = Ящерица Оборки (Божественность)
+marking-LizardRLegTiger-r_leg_tiger = Рептилия, правая нога (Тигр)
+marking-LizardRLegTiger = Рептилия, правая нога (Тигр)
 
-marking-LizardFrillsBig-frills_big = Ящерица Оборки (большие)
-marking-LizardFrillsBig = Ящерица Оборки (большие)
+marking-LizardFrillsDivinity-frills_divinity = Рептилия, воротник (Божественный)
+marking-LizardFrillsDivinity = Рептилия, воротник (Божественный)
 
-marking-LizardFrillsNeckfull-frills_neckfull = Ящерица с оборками (с полной шеей)
-marking-LizardFrillsNeckfull = Ящерица с оборками (с полной шеей)
+marking-LizardFrillsBig-frills_big = Рептилия, воротник (Большой)
+marking-LizardFrillsBig = Рептилия, воротник (Большой)
 
-marking-LizardHornsDouble-horns_double = Рога ящерицы (двойные)
-marking-LizardHornsDouble = Рога ящерицы (двойные)
+marking-LizardFrillsNeckfull-frills_neckfull = Рептилия, воротник (Полношейный)
+marking-LizardFrillsNeckfull = Рептилия, воротник (Полношейный)
 
-marking-LizardFrillsAxolotl-frills_axolotl = Ящерица Фрилс (Аксолотль)
-marking-LizardFrillsAxolotl = Ящерица Фрилс (Аксолотль)
+marking-LizardHornsDouble-horns_double = Рептилия, рожки (Двойные)
+marking-LizardHornsDouble = Рептилия, рожки (Двойные)
+
+marking-LizardFrillsAxolotl-frills_axolotl = Рептилия, воротник (Аксолотль)
+marking-LizardFrillsAxolotl = Рептилия, воротник (Аксолотль)
 
 marking-LizardFrillsHood-frills_hood_primary = Внешний капюшон
 marking-LizardFrillsHood-frills_hood_secondary = Внутренний капюшон
-marking-LizardFrillsHood = Оборки ящерицы (капюшон)
+marking-LizardFrillsHood = Рептилия, воротник (Капюшон)
 
-marking-LizardHornsArgali-horns_argali = Рога ящерицы (Архар)
-marking-LizardHornsArgali = Рога ящерицы (Архар)
+marking-LizardHornsArgali-horns_argali = Рептилия, рожки (Аргали)
+marking-LizardHornsArgali = Рептилия, рожки (Аргали)
 
-marking-LizardHornsAyrshire-horns_ayrshire = Рога ящерицы (Эйршир)
-marking-LizardHornsAyrshire = Рога ящерицы (Эйршир)
+marking-LizardHornsAyrshire-horns_ayrshire = Рептилия, рожки (Айршир)
+marking-LizardHornsAyrshire = Рептилия, рожки (Айршир)
 
-marking-LizardHornsMyrsore-horns_myrsore = Рога ящерицы (Мирсур)
-marking-LizardHornsMyrsore = Рога ящерицы (Мирсур)
+marking-LizardHornsMyrsore-horns_myrsore = Рептилия, рожки (Мирзора)
+marking-LizardHornsMyrsore = Рептилия, рожки (Мирзора)
 
-marking-LizardHornsBighorn-horns_bighorn = Рога ящерицы (снежный рог)
-marking-LizardHornsBighorn = Рога ящерицы (снежный рог)
+marking-LizardHornsBighorn-horns_bighorn = Рептилия, рожки (Толсторог)
+marking-LizardHornsBighorn = Рептилия, рожки (Толсторог)
 
-marking-LizardHornsDemonic-horns_demonic = Рога ящерицы (Демонические)
-marking-LizardHornsDemonic = Рога ящерицы (Демонические)
+marking-LizardHornsDemonic-horns_demonic = Рептилия, рожки (Демонические)
+marking-LizardHornsDemonic = Рептилия, рожки (Демонические)
 
-marking-LizardHornsKoboldEars-horns_kobold_ears = Уши Ящерицы (Кобольд)
-marking-LizardHornsKoboldEars = Уши Ящерицы (Кобольд)
+marking-LizardHornsKoboldEars-horns_kobold_ears = Рептилия, уши (Кобольд)
+marking-LizardHornsKoboldEars = Рептилия, уши (Кобольд)
 
-marking-LizardHornsFloppyKoboldEars-horns_floppy_kobold_ears = Уши ящерицы (Флоппи-кобольд)
-marking-LizardHornsFloppyKoboldEars = Уши ящерицы (Флоппи-кобольд)
+marking-LizardHornsFloppyKoboldEars-horns_floppy_kobold_ears = Рептилия, уши (Вислоухий кобольд)
+marking-LizardHornsFloppyKoboldEars = Рептилия, уши (Вислоухий кобольд)
 
-marking-LizardChestUnderbelly-body_underbelly = Сундук ящерицы (подбрюшье)
-marking-LizardChestUnderbelly = Сундук ящерицы (подбрюшье)
+marking-LizardChestUnderbelly-body_underbelly = Рептилия, грудь (Подбрюшье)
+marking-LizardChestUnderbelly = Рептилия, грудь (Подбрюшье)
 
-marking-LizardChestBackspikes-body_backspikes = Шипы на спине ящерицы (четыре)
-marking-LizardChestBackspikes = Шипы на спине ящерицы (четыре)
+marking-LizardChestBackspikes-body_backspikes = Рептилия, грудь, шипы на спине (Четыре)
+marking-LizardChestBackspikes = Рептилия, грудь, шипы на спине (Четыре)
 
-marking-LizardSnoutSplotch = Ящерица Морда (Пятно)
+marking-LizardChestFin-body_fin = Рептилия, плавник
+marking-LizardChestFin = Рептилия, плавник
+
+marking-LizardSnoutSplotch = Рептилия, морда лица (Пятно)
 marking-LizardSnoutSplotch-snout_splotch_primary = Морда
-marking-LizardSnoutSplotch-snout_splotch_secondary = сопли
+marking-LizardSnoutSplotch-snout_splotch_secondary = Нос

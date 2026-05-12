@@ -1,12 +1,13 @@
-cable-multitool-system-internal-error-no-power-node = На вашем мультитуле написано: «ВНУТРЕННЯЯ ОШИБКА: НЕ СЕТЕВОЙ КАБЕЛЬ».
-cable-multitool-system-internal-error-missing-component = На вашем мультитуле написано: «ВНУТРЕННЯЯ ОШИБКА: НЕПРАВИЛЬНЫЙ КАБЕЛЬ».
-cable-multitool-system-verb-name = Власть
-cable-multitool-system-verb-tooltip = Используйте мультиинструмент для изучения статистики мощности.
+cable-multitool-system-internal-error-no-power-node = Ваш мультитул выдаёт сообщение: "ВНУТРЕННЯЯ ОШИБКА: НЕ КАБЕЛЬ ПИТАНИЯ".
+cable-multitool-system-internal-error-missing-component = Ваш мультитул выдаёт сообщение: "ВНУТРЕННЯЯ ОШИБКА: КАБЕЛЬ АНОМАЛЕН".
+cable-multitool-system-verb-name = Питание
+cable-multitool-system-verb-tooltip = Используйте мультитул для просмотра статистики питания.
 
-cable-multitool-system-statistics = Ваш мультитул показывает список статистики:
-                                    Current Supply: { POWERWATTS($supplyc) }
-                                    From Batteries: { POWERWATTS($supplyb) }
-                                    Theoretical Supply: { POWERWATTS($supplym) }
-                                    Ideal Consumption: { POWERWATTS($consumption) }
-                                    Input Storage: { POWERJOULES($storagec) } / { POWERJOULES($storagem) } ({ TOSTRING($storager, "P1") })
-                                    Output Storage: { POWERJOULES($storageoc) } / { POWERJOULES($storageom) } ({ TOSTRING($storageor, "P1") })
+cable-multitool-system-statistics = Ваш мультитул показывает статистику:
+                                    Источник тока: { POWERWATTS($supplyc) }
+                                    От батарей: { POWERWATTS($supplyb) }
+                                    Теоретическое снабжение: { POWERWATTS($supplym) }
+                                    Идеальное потребление: { POWERWATTS($consumption) }
+                                    Входной запас: { POWERJOULES($storagec) } / { POWERJOULES($storagem) } ({ TOSTRING($storager, "P1") })
+                                    Выходной запас: { POWERJOULES($storageoc) } / { POWERJOULES($storageom) } ({ TOSTRING($storageor, "P1") })
+
