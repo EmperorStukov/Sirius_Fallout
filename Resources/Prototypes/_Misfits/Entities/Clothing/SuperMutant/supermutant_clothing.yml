@@ -309,6 +309,7 @@
   - type: Tag
     tags:
     - SuperMutantWearable
+  - type: Armor # #Misfits Add - 50% physical damage resistance (head protection)
     modifiers:
       coefficients:
         Blunt: 0.5
