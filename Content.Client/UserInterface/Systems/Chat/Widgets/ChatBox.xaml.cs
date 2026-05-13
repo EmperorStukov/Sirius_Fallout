@@ -63,11 +63,11 @@ public partial class ChatBox : UIWidget, ILinkClickHandler // #Misfits Change â€
     public bool Main { get; set; }
 
     public ChatSelectChannel SelectedChannel => ChatInput.ChannelSelector.SelectedChannel;
-   
+
     private int _chatStackAmount = 0;
     private bool _chatStackEnabled => _chatStackAmount > 0;
     private List<ChatStackData> _chatStackList;
-   
+
 
     public ChatBox()
     {
@@ -96,10 +96,10 @@ public partial class ChatBox : UIWidget, ILinkClickHandler // #Misfits Change â€
         //    _chatStackAmount = 0;
         _chatStackList = new(_chatStackAmount);
         _cfg.OnValueChanged(CCVars.ChatStackLastLines, UpdateChatStack, true);
-       
+
     }
 
-   
+
     private void UpdateChatStack(int value)
     {
         _chatStackAmount = value >= 0 ? value : 0;
@@ -224,7 +224,7 @@ public partial class ChatBox : UIWidget, ILinkClickHandler // #Misfits Change â€
         if(_chatStackList.Count == _chatStackList.Capacity)
             _chatStackList.RemoveAt(_chatStackList.Capacity - 1);
 
-        _chatStackList.Insert(0, new ChatStackData(wrappedMessage, colorOverride, ignoresChatstack)); 
+        _chatStackList.Insert(0, new ChatStackData(wrappedMessage, colorOverride, ignoresChatstack));
     }
 
     private void OnChannelSelect(ChatSelectChannel channel)
@@ -259,7 +259,7 @@ public partial class ChatBox : UIWidget, ILinkClickHandler // #Misfits Change â€
 
     public void AddLine(string message, Color color, int repeat = 0)
     {
-        var formatted = new FormattedMessage(4); 
+        var formatted = new FormattedMessage(4);
         formatted.PushColor(color);
         formatted.AddMarkup(message);
         formatted.Pop();

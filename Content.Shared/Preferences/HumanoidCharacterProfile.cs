@@ -27,7 +27,7 @@ namespace Content.Shared.Preferences;
 [Serializable, NetSerializable]
 public sealed partial class HumanoidCharacterProfile : ICharacterProfile
 {
-    private static readonly Regex RestrictedNameRegex = new(@"[^a-zA-Z-'0-9 '\-]");
+    private static readonly Regex RestrictedNameRegex = new(@"[^a-zA-Zа-яА-ЯёЁ-'0-9 '\-]");
     private static readonly Regex ICNameCaseRegex = new(@"^(?<word>\w)|\b(?<word>\w)(?=\w*$)");
 
     public const int MaxNameLength = 37; // #Misfits Tweak - reduced from 64 to cap character name length
@@ -90,7 +90,7 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
 
     [DataField] // #Misfits Add - vocal style preference
     public string SpeechVerbPreference { get; set; } = "Default";
-    
+
     [DataField] // Corvax-TTS
     public string Voice { get; set; } = SharedHumanoidAppearanceSystem.DefaultVoice; // Corvax-TTS
 
@@ -276,7 +276,7 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
             sex = random.Pick(speciesPrototype.Sexes);
             age = random.Next(speciesPrototype.MinAge, speciesPrototype.OldAge); // people don't look and keep making 119 year old characters with zero rp, cap it at middle aged
         }
-        
+
         // Corvax-TTS-Start
         var voiceId = random.Pick(prototypeManager
             .EnumeratePrototypes<TTSVoicePrototype>()
@@ -627,7 +627,7 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
         _loadoutPreferences.Clear();
         _loadoutPreferences.UnionWith(loadouts);
     }
-    
+
     // Corvax-TTS-Start
     // SHOULD BE NOT PUBLIC, BUT....
     public static bool CanHaveVoice(TTSVoicePrototype voice, Sex sex)

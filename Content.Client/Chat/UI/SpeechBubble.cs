@@ -188,7 +188,19 @@ namespace Content.Client.Chat.UI
             var msg = new FormattedMessage();
             if (fontColor != null)
                 msg.PushColor(fontColor.Value);
-            msg.AddMarkup(message);
+            // #Misfits Fix: Safely parse markup, fall back to plain text if parsing fails
+            if (!msg.TryAddMarkup(message, out _))
+            {
+                try
+                {
+                    msg.AddMarkupPermissive(message);
+                }
+                catch (Exception)
+                {
+                    var cleaned = message.Replace("[", "").Replace("]", "").Trim();
+                    msg.AddText(cleaned);
+                }
+            }
             return msg;
         }
 

@@ -236,6 +236,14 @@ public sealed partial class ChatSystem : SharedChatSystem
             message = message[1..];
         }
 
+        // Misfits Fix: Handle whisper prefix (,) - switch to Whisper chat type
+        if (desiredType == InGameICChatType.Speak && message.StartsWith(WhisperPrefix))
+        {
+            desiredType = InGameICChatType.Whisper;
+            checkRadioPrefix = false;
+            message = message[1..];
+        }
+
         var language = languageOverride ?? _language.GetLanguage(source);
 
         if (player != null && _sanitizer.TryGetBlockedChatResult(message, ChatSanitizationChannel.InCharacter, out var icModeration))
