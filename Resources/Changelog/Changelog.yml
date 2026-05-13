@@ -5022,3 +5022,10 @@ Entries:
   id: 5878
   time: '2026-05-13T03:06:49.0000000+00:00'
   url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/502
+- author: Dpellowski
+  changes:
+    - type: Fix
+      message: War fixed see proper sides, no ckeys, can join and ceasefire
+  id: 5879
+  time: '2026-05-13T15:05:25.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/504
