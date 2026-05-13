@@ -72,6 +72,7 @@ reagent-physical-desc-robust = robust
 reagent-physical-desc-rocky = rocky
 reagent-physical-desc-salty = salty
 reagent-physical-desc-saucey = saucey
+reagent-physical-desc-scary = scary
 reagent-physical-desc-shiny = shiny
 reagent-physical-desc-sickly = sickly
 reagent-physical-desc-skunky = skunky

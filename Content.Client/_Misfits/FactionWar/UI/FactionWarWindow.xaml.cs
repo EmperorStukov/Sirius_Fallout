@@ -1,6 +1,5 @@
-// #Misfits Add - Code-behind for the Faction War GUI panel.
-// Handles population of faction dropdowns, the active-wars list,
-// result feedback, confirm-to-declare flow, and fires events back to FactionWarClientSystem.
+// #Misfits Refactor - Player-war panel window.
+// Collects client input for declare/ceasefire actions and renders server-supplied player-war state.
 
 using System.Linq;
 using Content.Client.Message;
@@ -11,6 +10,7 @@ using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Utility;
+using Robust.Shared.Network;
 
 namespace Content.Client._Misfits.FactionWar.UI;
 
@@ -23,29 +23,20 @@ namespace Content.Client._Misfits.FactionWar.UI;
 [GenerateTypedNameReferences]
 public sealed partial class FactionWarWindow : FancyWindow
 {
-    // ── Events fired back to FactionWarClientSystem ────────────────────────
-
-    /// <summary>Fired when the player confirms Declare War. Args: (targetFactionId, casusBelli).</summary>
-    public event Action<string, string>? OnDeclareWar;
-
-    /// <summary>Fired when the player clicks Propose Ceasefire. Args: targetFactionId.</summary>
-    public event Action<string>? OnCeasefire;
-
-    /// <summary>Fired when the player accepts an incoming ceasefire proposal. Args: (aggressorFactionId, targetFactionId).</summary>
-    public event Action<string, string>? OnAcceptCeasefireProposal;
-
-    /// <summary>Fired when the player rejects an incoming ceasefire proposal. Args: (aggressorFactionId, targetFactionId).</summary>
-    public event Action<string, string>? OnRejectCeasefireProposal;
+    public event Action<NetUserId, string, string>? OnDeclareWar;
+    public event Action<NetUserId>? OnCeasefire;
+    public event Action<NetUserId>? OnAcceptCeasefireProposal;
+    public event Action<NetUserId>? OnRejectCeasefireProposal;
 
     // ── Internal state ─────────────────────────────────────────────────────
 
-    private readonly List<(string Display, string Id)> _targetFactionItems = new();
-    private readonly List<(string Display, string Id)> _ceasefireItems     = new();
+    private readonly List<OnlinePlayerInfo> _targetPlayerItems = new();
+    private readonly List<PlayerWarEntry> _myWars = new();
 
-    /// <summary>Whether the declare war button is in the "confirm" state (second press fires).</summary>
     private bool _confirmPending;
-
-    private FactionWarCeasefireProposalInfo? _pendingCeasefireProposal;
+    private NetUserId? _pendingCeasefireFrom;
+    private NetUserId? _localUserId;
+    private string _localCharacterName = string.Empty;
 
     // ── Constructor ────────────────────────────────────────────────────────
 
@@ -53,16 +44,12 @@ public sealed partial class FactionWarWindow : FancyWindow
     {
         RobustXamlLoader.Load(this);
 
-        // Populate rules text — hardcoded markup because FTL can't have lines starting with '['.
+        // Keep compact static guidance in the header block.
         RulesLabel.SetMarkup(
-            "[bold]6.3 - Faction Warfare Rules[/bold]\n" +
-            "[bullet]Factions begin [bold]neutral[/bold].[/bullet]\n" +
-            "[bullet]Highest Rank may declare war.[/bullet]\n" +
-            "[bullet]War begins [bold]five minutes[/bold] after declaration.[/bullet]\n" +
-            "[bullet]Killing diplomats or surrendered individuals is [bold]forbidden[/bold].[/bullet]\n" +
-            "[bullet]You must prioritize taking [bold]slaves / prisoners[/bold].[/bullet]\n" +
-            "[bullet]No intentionally round-ending someone (de-heading, gibbing, etc.).[/bullet]\n" +
-            "[bullet]Highest-ranking member may be round-removed [bold]only[/bold] via RP-friendly means (e.g., public execution).[/bullet]");
+            "[bold]Player War Rules[/bold]\n" +
+            "[bullet]Pick a target player and provide a clear reason (5+ words).[/bullet]\n" +
+            "[bullet]War starts after prep and players can join a side while pending.[/bullet]\n" +
+            "[bullet]Use ceasefire to end hostilities cleanly.[/bullet]");
 
         DeclareWarButton.OnPressed += _ => OnDeclareWarPressed();
         CeasefireButton.OnPressed  += _ => SubmitCeasefire();
@@ -77,25 +64,19 @@ public sealed partial class FactionWarWindow : FancyWindow
 
     // ── Public API called by FactionWarClientSystem ────────────────────────
 
-    /// <summary>
-    /// Refresh all window state. Call whenever the local war list changes or the window is first opened.
-    /// </summary>
     public void UpdateState(
-        string? myFactionId,
-        string myFactionDisplay,
-        IReadOnlyList<FactionWarEntry> activeWars,
-        IReadOnlyList<(string Display, string Id)> eligibleTargets,
-        IReadOnlyList<(string Display, string Id)> ceasefireTargets,
-        IReadOnlyList<FactionWarCeasefireProposalInfo> incomingCeasefireProposals)
+        PlayerWarPanelDataEvent data,
+        NetUserId? localUserId,
+        CeasefireProposalEvent? pendingCeasefire)
     {
-        // ── "Your Faction" label ──────────────────────────────────────────
-        MyFactionLabel.Text = myFactionId == null
-            ? Loc.GetString("faction-war-no-faction")
-            : myFactionDisplay;
+        _localUserId = localUserId;
+        _localCharacterName = data.MyCharacterName ?? string.Empty;
+        MyFactionLabel.Text = string.IsNullOrWhiteSpace(_localCharacterName)
+            ? "Unknown"
+            : _localCharacterName;
 
-        // ── Active-wars list ──────────────────────────────────────────────
         ActiveWarsContainer.RemoveAllChildren();
-        if (activeWars.Count == 0)
+        if (data.ActiveWars.Count == 0)
         {
             var noWars = new Label
             {
@@ -107,14 +88,12 @@ public sealed partial class FactionWarWindow : FancyWindow
         }
         else
         {
-            foreach (var war in activeWars)
+            foreach (var war in data.ActiveWars)
             {
                 var phaseTag = war.Phase == WarPhase.Pending ? "[PENDING] " : "";
                 var entry = new Label
                 {
-                    Text   = $"{phaseTag}{FactionWarConfig.FactionDisplayName(war.AggressorFaction)}" +
-                             $" vs {FactionWarConfig.FactionDisplayName(war.TargetFaction)}" +
-                             $" - \"{war.CasusBelli}\"",
+                    Text   = $"{phaseTag}{war.SideName1} vs {war.SideName2} - \"{war.Reason}\"",
                     Margin            = new Thickness(4, 2),
                     ClipText          = true,
                     HorizontalExpand  = true,
@@ -123,42 +102,40 @@ public sealed partial class FactionWarWindow : FancyWindow
             }
         }
 
-        // ── Target faction selector (Declare War) ─────────────────────────
-        _targetFactionItems.Clear();
+        _targetPlayerItems.Clear();
         TargetFactionSelector.Clear();
 
-        foreach (var (display, id) in eligibleTargets)
+        foreach (var player in data.OnlinePlayers)
         {
-            _targetFactionItems.Add((display, id));
-            TargetFactionSelector.AddItem(display);
+            _targetPlayerItems.Add(player);
+            TargetFactionSelector.AddItem($"{player.CharacterName} ({player.UserName})");
         }
 
-        DeclareWarButton.Disabled = eligibleTargets.Count == 0 || myFactionId == null;
+        DeclareWarButton.Disabled = _targetPlayerItems.Count == 0;
         ResetConfirm();
 
-        // ── Ceasefire selector ────────────────────────────────────────────
-        _ceasefireItems.Clear();
+        _myWars.Clear();
+        _myWars.AddRange(data.MyWars);
         CeasefireTargetSelector.Clear();
 
-        foreach (var (display, id) in ceasefireTargets)
+        foreach (var war in _myWars)
         {
-            _ceasefireItems.Add((display, id));
-            CeasefireTargetSelector.AddItem(display);
+            var label = war.DeclaredByCharacterName;
+            if (_localUserId != null && war.DeclaredByPlayer == _localUserId)
+                label = war.DeclaredAgainstCharacterName;
+            CeasefireTargetSelector.AddItem(label);
         }
 
-        CeasefireButton.Disabled = ceasefireTargets.Count == 0 || myFactionId == null;
+        CeasefireButton.Disabled = _myWars.Count == 0;
 
-        // ── Incoming Ceasefire Proposal ───────────────────────────────────
-        _pendingCeasefireProposal = incomingCeasefireProposals.Count > 0 ? incomingCeasefireProposals[0] : null;
-        IncomingCeasefireProposalSection.Visible = _pendingCeasefireProposal != null;
-        if (_pendingCeasefireProposal != null)
+        _pendingCeasefireFrom = pendingCeasefire?.ProposingPlayer;
+        IncomingCeasefireProposalSection.Visible = pendingCeasefire != null;
+        if (pendingCeasefire != null)
         {
-            var reqDisplay = FactionWarConfig.FactionDisplayName(_pendingCeasefireProposal.RequestingFaction);
-            IncomingCeasefireProposalLabel.Text = $"{reqDisplay} proposes a ceasefire.";
-            IncomingCeasefireProposerLabel.Text = $"Proposed by: {_pendingCeasefireProposal.RequesterCharacterName}, {_pendingCeasefireProposal.RequesterJobName}";
+            IncomingCeasefireProposalLabel.Text = $"{pendingCeasefire.ProposingPlayerName} proposes a ceasefire.";
+            IncomingCeasefireProposerLabel.Text = "Accept or reject in this panel.";
         }
 
-        // Clear any previous result message when state refreshes.
         ClearResult();
     }
 
@@ -180,12 +157,12 @@ public sealed partial class FactionWarWindow : FancyWindow
             return;
 
         var idx = TargetFactionSelector.SelectedId;
-        if (idx < 0 || idx >= _targetFactionItems.Count)
+        if (idx < 0 || idx >= _targetPlayerItems.Count)
             return;
 
-        var casusBelli = CasusBelliEdit.Text.Trim();
+        var reason = CasusBelliEdit.Text.Trim();
 
-        if (casusBelli.Split(' ', StringSplitOptions.RemoveEmptyEntries).Length < 5)
+        if (reason.Split(' ', StringSplitOptions.RemoveEmptyEntries).Length < 5)
         {
             ShowResult(false, Loc.GetString("faction-war-casus-belli-too-short"));
             return;
@@ -201,9 +178,11 @@ public sealed partial class FactionWarWindow : FancyWindow
             return;
         }
 
-        // Second press — confirmed, fire the event.
-        var targetId = _targetFactionItems[idx].Id;
-        OnDeclareWar?.Invoke(targetId, casusBelli);
+        var target = _targetPlayerItems[idx];
+        var sideName = string.IsNullOrWhiteSpace(_localCharacterName)
+            ? "Side 1"
+            : $"{_localCharacterName}'s Side";
+        OnDeclareWar?.Invoke(target.UserId, reason, sideName);
         ResetConfirm();
     }
 
@@ -220,11 +199,12 @@ public sealed partial class FactionWarWindow : FancyWindow
             return;
 
         var idx = CeasefireTargetSelector.SelectedId;
-        if (idx < 0 || idx >= _ceasefireItems.Count)
+        if (idx < 0 || idx >= _myWars.Count || _localUserId == null)
             return;
 
-        var targetId = _ceasefireItems[idx].Id;
-        OnCeasefire?.Invoke(targetId);
+        var war = _myWars[idx];
+        var other = war.DeclaredByPlayer == _localUserId ? war.DeclaredAgainstPlayer : war.DeclaredByPlayer;
+        OnCeasefire?.Invoke(other);
     }
 
     private void ClearResult()
@@ -234,15 +214,15 @@ public sealed partial class FactionWarWindow : FancyWindow
 
     private void SubmitAcceptCeasefireProposal()
     {
-        if (_pendingCeasefireProposal == null)
+        if (_pendingCeasefireFrom == null)
             return;
-        OnAcceptCeasefireProposal?.Invoke(_pendingCeasefireProposal.AggressorFaction, _pendingCeasefireProposal.TargetFaction);
+        OnAcceptCeasefireProposal?.Invoke(_pendingCeasefireFrom.Value);
     }
 
     private void SubmitRejectCeasefireProposal()
     {
-        if (_pendingCeasefireProposal == null)
+        if (_pendingCeasefireFrom == null)
             return;
-        OnRejectCeasefireProposal?.Invoke(_pendingCeasefireProposal.AggressorFaction, _pendingCeasefireProposal.TargetFaction);
+        OnRejectCeasefireProposal?.Invoke(_pendingCeasefireFrom.Value);
     }
 }

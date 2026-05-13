@@ -1,9 +1,5 @@
-// #Misfits Add - Client-side faction war system.
-// Receives war state syncs from the server and manages the AllyTagOverlay lifecycle.
-// Registers the /war and /warjoin client console commands that open their respective GUIs.
-// All faction detection is done server-side (NpcFactionMemberComponent.Factions is not
-// synced to clients); the server sends pre-computed panel data via network events.
-// Individual war participants (via /warjoin) are tracked and exposed for the overlay.
+// #Misfits Refactor - Client-side player war system.
+// Receives player-war state syncs and routes panel requests/results.
 
 using System.Linq;
 using Content.Client._Misfits.FactionWar.UI;
@@ -13,7 +9,6 @@ using Robust.Client.Console;
 using Robust.Client.Graphics;
 using Robust.Client.Player;
 using Robust.Client.ResourceManagement;
-using Robust.Client.UserInterface;
 using Robust.Shared.Console;
 using Robust.Shared.Timing;
 
@@ -32,50 +27,34 @@ public sealed class FactionWarClientSystem : EntitySystem
     [Dependency] private readonly IResourceCache      _resourceCache  = default!;
     [Dependency] private readonly EntityLookupSystem  _entityLookup   = default!;
     [Dependency] private readonly ExamineSystemShared _examine        = default!;
-    [Dependency] private readonly SharedTransformSystem _transform   = default!;
+    [Dependency] private readonly SharedTransformSystem _transform    = default!;
     [Dependency] private readonly IClientConsoleHost  _conHost        = default!;
     [Dependency] private readonly IGameTiming         _timing         = default!;
 
-    /// <summary>Current active wars. Read by <see cref="AllyTagOverlay"/> each frame.</summary>
-    public IReadOnlyList<FactionWarEntry> ActiveWars => _activeWars;
+    public IReadOnlyList<PlayerWarEntry> ActiveWars => _activeWars;
+    public byte? LocalWarJoinSide { get; private set; }
+    public IReadOnlyDictionary<NetEntity, byte> WarParticipants => _warParticipants;
 
-    /// <summary>
-    /// Local player's war-capable faction ID as determined by the server.
-    /// Used by the overlay to avoid client-side IsMember which doesn't work
-    /// (NpcFactionMemberComponent.Factions is not synced to clients).
-    /// </summary>
-    public string? LocalFactionId { get; private set; }
-
-    /// <summary>
-    /// If the local player enlisted via /warjoin, this is the faction side they joined.
-    /// Used by the overlay when LocalFactionId is null (non-faction player).
-    /// </summary>
-    public string? LocalWarJoinSide { get; private set; }
-
-    /// <summary>
-    /// Individual war participants: NetEntity → faction side they are fighting for.
-    /// Broadcast by the server. Used by the overlay to tag warjoin'd players.
-    /// </summary>
-    public IReadOnlyDictionary<NetEntity, string> WarParticipants => _warParticipants;
-
-    private List<FactionWarEntry> _activeWars = new();
-    private Dictionary<NetEntity, string> _warParticipants = new();
+    private List<PlayerWarEntry> _activeWars = new();
+    private Dictionary<NetEntity, byte> _warParticipants = new();
     private AllyTagOverlay?    _overlay;
     private FactionWarWindow?  _window;
     private WarJoinWindow?     _warJoinWindow;
     private ForceWarWindow?    _forceWarWindow;
+    private CeasefireProposalEvent? _pendingCeasefireProposal;
 
     public override void Initialize()
     {
         base.Initialize();
 
         SubscribeNetworkEvent<FactionWarStateUpdatedEvent>(OnWarStateUpdated);
-        SubscribeNetworkEvent<FactionWarPanelDataEvent>(OnPanelData);
+        SubscribeNetworkEvent<PlayerWarPanelDataEvent>(OnPanelData);
         SubscribeNetworkEvent<FactionWarCommandResultEvent>(OnCommandResult);
-        SubscribeNetworkEvent<FactionWarJoinPanelDataEvent>(OnJoinPanelData);
+        SubscribeNetworkEvent<PlayerWarJoinPanelDataEvent>(OnJoinPanelData);
         SubscribeNetworkEvent<FactionWarJoinResultEvent>(OnJoinResult);
         SubscribeNetworkEvent<FactionWarParticipantsUpdatedEvent>(OnParticipantsUpdated);
         SubscribeNetworkEvent<FactionWarForceResultEvent>(OnForceWarResult);
+        SubscribeNetworkEvent<CeasefireProposalEvent>(OnCeasefireProposal);
 
         _conHost.RegisterCommand(
             "war",
@@ -127,32 +106,19 @@ public sealed class FactionWarClientSystem : EntitySystem
         _forceWarWindow?.UpdateActiveWars(_activeWars);
     }
 
-    private void OnPanelData(FactionWarPanelDataEvent msg)
+    private void OnPanelData(PlayerWarPanelDataEvent msg)
     {
-        // Cache faction ID for overlay use.
-        LocalFactionId = msg.MyFactionId;
-        _activeWars    = msg.ActiveWars;
+        _activeWars = msg.ActiveWars;
 
         UpdateOverlayVisibility();
+
+        _forceWarWindow?.UpdateOnlinePlayers(msg.OnlinePlayers);
+        _forceWarWindow?.UpdateActiveWars(_activeWars);
 
         if (_window == null)
             return;
 
-        var eligibleTargets = msg.EligibleTargets
-            .Select(t => (t.DisplayName, t.Id))
-            .ToList();
-
-        var ceasefireTargets = msg.CeasefireTargets
-            .Select(t => (t.DisplayName, t.Id))
-            .ToList();
-
-        _window.UpdateState(
-            msg.MyFactionId,
-            msg.MyFactionDisplay,
-            msg.ActiveWars,
-            eligibleTargets,
-            ceasefireTargets,
-            msg.IncomingCeasefireProposals);
+        _window.UpdateState(msg, _playerManager.LocalSession?.UserId, _pendingCeasefireProposal);
 
         if (msg.StatusMessage != null)
             _window.ShowResult(false, msg.StatusMessage);
@@ -163,25 +129,26 @@ public sealed class FactionWarClientSystem : EntitySystem
         _window?.ShowResult(msg.Success, msg.Message);
     }
 
-    private void OnJoinPanelData(FactionWarJoinPanelDataEvent msg)
+    private void OnJoinPanelData(PlayerWarJoinPanelDataEvent msg)
     {
         if (_warJoinWindow == null)
             return;
 
-        _warJoinWindow.UpdateState(
-            msg.PendingWars,
-            msg.AlreadyInFaction,
-            msg.AlreadyJoinedSide,
-            msg.StatusMessage,
-            msg.IsTopRanking,
-            msg.MyWarFactionId);
+        _warJoinWindow.UpdateState(msg);
 
-        // If the player just successfully joined, cache their side for the overlay.
-        if (msg.AlreadyJoinedSide != null)
+        if (_playerManager.LocalSession?.UserId is { } userId)
         {
-            LocalWarJoinSide = msg.AlreadyJoinedSide;
-            UpdateOverlayVisibility();
+            LocalWarJoinSide = null;
+            foreach (var war in _activeWars)
+            {
+                if (!war.Participants.TryGetValue(userId, out var side))
+                    continue;
+                LocalWarJoinSide = side;
+                break;
+            }
         }
+
+        UpdateOverlayVisibility();
     }
 
     private void OnJoinResult(FactionWarJoinResultEvent msg)
@@ -197,6 +164,13 @@ public sealed class FactionWarClientSystem : EntitySystem
     {
         _warParticipants = msg.Participants;
         UpdateOverlayVisibility();
+    }
+
+    private void OnCeasefireProposal(CeasefireProposalEvent msg)
+    {
+        _pendingCeasefireProposal = msg;
+        if (_window != null)
+            RaiseNetworkEvent(new FactionWarOpenPanelRequestEvent());
     }
 
     private void OnForceWarResult(FactionWarForceResultEvent msg)
@@ -247,38 +221,37 @@ public sealed class FactionWarClientSystem : EntitySystem
         _window = new FactionWarWindow();
         _window.OnClose += () => _window = null;
 
-        _window.OnDeclareWar += (targetId, casusBelli) =>
+        _window.OnDeclareWar += (targetPlayer, reason, sideName1) =>
         {
-            RaiseNetworkEvent(new FactionWarDeclareRequestEvent
+            RaiseNetworkEvent(new PlayerWarDeclareRequestEvent
             {
-                TargetFaction = targetId,
-                CasusBelli    = casusBelli,
+                TargetPlayer = targetPlayer,
+                Reason = reason,
+                SideName1 = sideName1,
             });
         };
 
-        _window.OnCeasefire += targetId =>
+        _window.OnCeasefire += otherPlayer =>
         {
-            RaiseNetworkEvent(new FactionWarCeasefireRequestEvent
+            RaiseNetworkEvent(new PlayerWarCeasefireRequestEvent
             {
-                TargetFaction = targetId,
+                OtherPlayer = otherPlayer,
             });
         };
 
-        _window.OnAcceptCeasefireProposal += (aggressor, target) =>
+        _window.OnAcceptCeasefireProposal += otherPlayer =>
         {
-            RaiseNetworkEvent(new FactionWarAcceptCeasefireEvent
+            RaiseNetworkEvent(new CeasefireAcceptedEvent
             {
-                AggressorFaction = aggressor,
-                TargetFaction = target,
+                OtherPlayer = otherPlayer,
             });
         };
 
-        _window.OnRejectCeasefireProposal += (aggressor, target) =>
+        _window.OnRejectCeasefireProposal += otherPlayer =>
         {
-            RaiseNetworkEvent(new FactionWarRejectCeasefireEvent
+            RaiseNetworkEvent(new CeasefireRejectedEvent
             {
-                AggressorFaction = aggressor,
-                TargetFaction = target,
+                OtherPlayer = otherPlayer,
             });
         };
     }
@@ -291,14 +264,13 @@ public sealed class FactionWarClientSystem : EntitySystem
         _warJoinWindow = new WarJoinWindow();
         _warJoinWindow.OnClose += () => _warJoinWindow = null;
 
-        _warJoinWindow.OnJoinWar += (aggressor, target, chosenSide, factionWide) =>
+        _warJoinWindow.OnJoinWar += (player1, player2, chosenSide) =>
         {
-            RaiseNetworkEvent(new FactionWarJoinRequestEvent
+            RaiseNetworkEvent(new PlayerWarJoinRequestEvent
             {
-                AggressorFaction = aggressor,
-                TargetFaction    = target,
-                ChosenSide       = chosenSide,
-                FactionWide      = factionWide,
+                Player1 = player1,
+                Player2 = player2,
+                ChosenSide = chosenSide,
             });
         };
     }
@@ -311,22 +283,24 @@ public sealed class FactionWarClientSystem : EntitySystem
         _forceWarWindow = new ForceWarWindow();
         _forceWarWindow.OnClose += () => _forceWarWindow = null;
 
-        _forceWarWindow.OnForceWar += (aggressor, target, casus) =>
+        _forceWarWindow.OnForceWar += (player1, side1, player2, side2, reason) =>
         {
-            RaiseNetworkEvent(new FactionWarForceRequestEvent
+            RaiseNetworkEvent(new PlayerWarForceRequestEvent
             {
-                AggressorFaction = aggressor,
-                TargetFaction    = target,
-                CasusBelli       = casus,
+                Player1 = player1,
+                SideName1 = side1,
+                Player2 = player2,
+                SideName2 = side2,
+                Reason = reason,
             });
         };
 
-        _forceWarWindow.OnForceCeasefire += (aggressor, target) =>
+        _forceWarWindow.OnForceCeasefire += (player1, player2) =>
         {
-            RaiseNetworkEvent(new FactionWarForceCeasefireRequestEvent
+            RaiseNetworkEvent(new PlayerWarForceCeasefireRequestEvent
             {
-                AggressorFaction = aggressor,
-                TargetFaction    = target,
+                Player1 = player1,
+                Player2 = player2,
             });
         };
 
@@ -338,14 +312,7 @@ public sealed class FactionWarClientSystem : EntitySystem
 
     private void UpdateOverlayVisibility()
     {
-        // #Misfits Tweak - Either an active war OR an approved raid (server pushed any
-        // participants) is enough to keep the overlay live. Raid system is resolved
-        // lazily so /raid clients without a war system load order issue still work.
-        var raidActive = false;
-        if (EntityManager.TrySystem<Content.Client._Misfits.RaidRequest.RaidRequestClientSystem>(out var raid))
-            raidActive = raid.RaidParticipants.Count > 0;
-
-        if (_activeWars.Count == 0 && !raidActive)
+        if (_activeWars.Count == 0 || _warParticipants.Count == 0)
         {
             RemoveOverlay();
             return;
@@ -354,13 +321,6 @@ public sealed class FactionWarClientSystem : EntitySystem
         EnsureOverlay();
     }
 
-    /// <summary>
-    /// #Misfits Add - Public hook so <c>RaidRequestClientSystem</c> can drive overlay
-    /// add/remove without owning the overlay itself. Call after the raid participants
-    /// dict is replaced.
-    /// </summary>
-    public void RefreshOverlay() => UpdateOverlayVisibility();
-
     private void EnsureOverlay()
     {
         if (_overlay != null)
@@ -368,7 +328,6 @@ public sealed class FactionWarClientSystem : EntitySystem
 
         _overlay = new AllyTagOverlay(
             this,
-            EntityManager.System<Content.Client._Misfits.RaidRequest.RaidRequestClientSystem>(), // #Misfits Add
             EntityManager,
             _playerManager,
             _eyeManager,
@@ -388,5 +347,14 @@ public sealed class FactionWarClientSystem : EntitySystem
 
         _overlayManager.RemoveOverlay<AllyTagOverlay>();
         _overlay = null;
+    }
+
+    /// <summary>
+    /// Trigger a refresh of the overlay lifecycle. Public so other client systems
+    /// can prompt the war system to re-evaluate whether the overlay should be present.
+    /// </summary>
+    public void RefreshOverlay()
+    {
+        UpdateOverlayVisibility();
     }
 }

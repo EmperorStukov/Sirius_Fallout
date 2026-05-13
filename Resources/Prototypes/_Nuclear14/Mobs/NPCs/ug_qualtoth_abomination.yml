@@ -17,30 +17,30 @@
     drawdepth: Mobs
     noRot: true
     # N14 TODO: Replace with dedicated abomination sprite.
-    sprite: _Nuclear14/Mobs/Animals/firegecko.rsi
+    sprite: _Misfits/Mobs/NPCs/ugqualtoth.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
-      state: gecko
+      state: ugqualtoth
   - type: DamageStateVisuals
     states:
       Alive:
-        Base: gecko
+        Base: ugqualtoth
       Critical:
-        Base: gecko
+        Base: ugqualtoth
       Dead:
-        Base: dead
+        Base: ugqualtoth
 
   # ── Health & damage ────────────────────────────────────────────────────────
   - type: MobThresholds
     thresholds:
       0: Alive
-      50: Critical
-      200: Dead
+      1500: Critical
+      2000: Dead
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: UgQualtothAbomination
   - type: Bloodstream
-    bloodMaxVolume: 200
+    bloodMaxVolume: 2000
     bloodReagent: WastelandBlood
 
   # ── Combat ─────────────────────────────────────────────────────────────────
@@ -55,13 +55,13 @@
     wideAnimation: WeaponArcBite
     damage:
       types:
-        Slash: 30
+        Slash: 80
         Blunt: 15
 
   # ── Movement ───────────────────────────────────────────────────────────────
   - type: MovementSpeedModifier
-    baseWalkSpeed: 6
-    baseSprintSpeed: 9
+    baseWalkSpeed: 9
+    baseSprintSpeed: 12
 
   # ── Physics ────────────────────────────────────────────────────────────────
   - type: Fixtures

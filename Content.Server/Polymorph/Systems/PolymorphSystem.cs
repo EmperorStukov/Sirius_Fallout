@@ -291,11 +291,12 @@ public sealed partial class PolymorphSystem : EntitySystem
         // Corvax-Change-Start
         if (_mindSystem.TryGetMind(uid, out var mindId, out var mind))
         {
-            if (!HasComp<HumanoidAppearanceComponent>(child))
-                _mindSystem.TransferTo(mindId, null, createGhost: true, mind: mind);
-
-            else
-                _mindSystem.TransferTo(mindId, child, mind: mind);
+            // Transfer the player's mind to the new polymorphed entity so the player
+            // retains control of their body after transformation. Previously this
+            // created a ghost when the child lacked a HumanoidAppearanceComponent.
+            // For polymorph targets intended to become player-controlled (like
+            // NPC abominations), transfer directly to the child.
+            _mindSystem.TransferTo(mindId, child, mind: mind);
         }
         // Corvax-Change-End
 

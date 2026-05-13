@@ -24,6 +24,11 @@
       params:
         volume: -3
         maxDistance: 10
+  - type: AmbientSound
+    range: 5
+    volume: -5
+    sound:
+      path: /Audio/Ambience/anomaly_scary.ogg
   - type: Transform
     noRot: true
     anchored: true

@@ -12,9 +12,9 @@
 using System.Linq;
 using Content.Server.Administration.Managers;
 using Content.Server.Chat.Managers;
+using Content.Server._Misfits.FactionWar;
 using Content.Server.Mind;
 using Content.Server.Roles.Jobs;
-using Content.Shared._Misfits.FactionWar;
 using Content.Shared._Misfits.RaidRequest;
 using Content.Shared.GameTicking;
 using Content.Shared.NPC.Components;
@@ -37,6 +37,7 @@ public sealed class RaidRequestSystem : EntitySystem
     [Dependency] private readonly NpcFactionSystem _npcFaction    = default!;
     [Dependency] private readonly IPlayerManager   _playerManager = default!;
     [Dependency] private readonly IGameTiming      _gameTiming    = default!;
+    [Dependency] private readonly FactionWarSystem _factionWar    = default!;
 
     /// <summary>All requests this round, keyed by sequential id.</summary>
     private readonly Dictionary<int, RaidRequestEntry> _requests = new();
@@ -64,6 +65,15 @@ public sealed class RaidRequestSystem : EntitySystem
 
     // #Misfits Add - Reused scratch buffer for prep → active transition sweep.
     private readonly List<RaidRequestEntry> _activatedRaidsScratch = new();
+
+    // #Misfits Add - Reused scratch buffer for war-end cascade checks.
+    private readonly List<RaidRequestEntry> _warCascadeScratch = new();
+
+    // #Misfits Add - Keep raid overlay exemptions aligned with expected spy behavior.
+    private static readonly HashSet<string> OverlayExemptJobs = new()
+    {
+        "CaesarLegionFrumentarii",
+    };
 
     /// <summary>How long an Approved raid stays active before auto-conclude wipes the overlay.</summary>
     private static readonly TimeSpan RaidAutoEndDuration = TimeSpan.FromMinutes(15);
@@ -155,6 +165,24 @@ public sealed class RaidRequestSystem : EntitySystem
             foreach (var entry in expired)
                 ConcludeRaid(entry, "Auto-Expiry");
         }
+
+        // End any linked raid whose associated war no longer exists.
+        var cascaded = _warCascadeScratch;
+        cascaded.Clear();
+        foreach (var entry in _requests.Values)
+        {
+            if (entry.Status != RaidRequestStatus.Approved && entry.Status != RaidRequestStatus.Active)
+                continue;
+            if (string.IsNullOrWhiteSpace(entry.AssociatedWarId))
+                continue;
+            if (_factionWar.HasWar(entry.AssociatedWarId))
+                continue;
+
+            cascaded.Add(entry);
+        }
+
+        foreach (var entry in cascaded)
+            ConcludeRaid(entry, "War Cascade");
 
         if (!HasAnyApprovedFactionTierRaid())
         {
@@ -298,6 +326,14 @@ public sealed class RaidRequestSystem : EntitySystem
             return;
         }
 
+        // Raids are war-linked: only one of the original two active war players may submit.
+        if (!_factionWar.TryGetActiveWarForOriginalParticipant(session.UserId, out var linkedWar))
+        {
+            SendSubmitResult(session, false,
+                "You must be one of the two original participants in an active war to request a raid.");
+            return;
+        }
+
         var targetFaction = msg.TargetFaction.Trim();
         var location      = (msg.LocationNotes ?? string.Empty).Trim();
         var reason        = (msg.Reason ?? string.Empty).Trim();
@@ -387,6 +423,7 @@ public sealed class RaidRequestSystem : EntitySystem
             Reason                 = reason,
             CreatedAtUtc           = DateTime.UtcNow,
             Status                 = RaidRequestStatus.Pending,
+            AssociatedWarId        = linkedWar.WarKey,
         };
 
         _requests[entry.Id] = entry;
@@ -801,9 +838,7 @@ public sealed class RaidRequestSystem : EntitySystem
     // ── Faction enumeration / rank helpers (mirror FactionWarSystem) ───────
 
     /// <summary>
-    /// Resolves the player's eligible faction id (canonical), if any. Considers all NPC faction
-    /// IDs in <see cref="RaidRequestConfig.AllEligibleFactionIds"/> and resolves aliases via
-    /// <see cref="FactionWarConfig.ResolveWarFaction"/>.
+    /// Resolves the player's eligible faction id, if any.
     /// </summary>
     private bool TryGetEligibleFaction(EntityUid entity, out string canonicalFaction)
     {
@@ -814,8 +849,7 @@ public sealed class RaidRequestSystem : EntitySystem
                 continue;
             if (_npcFaction.IsMember(entity, f))
             {
-                canonicalFaction = FactionWarConfig.ResolveWarFaction(f);
-                // Resolved alias may not be eligible — make sure.
+                canonicalFaction = f;
                 if (RaidRequestConfig.IsEligible(canonicalFaction))
                     return true;
             }
@@ -835,52 +869,25 @@ public sealed class RaidRequestSystem : EntitySystem
     // #Misfits Add - True if the entity is currently a member of canonicalFaction or any alias that resolves to it.
     private bool IsEntityInFaction(EntityUid entity, string canonicalFaction)
     {
-        if (_npcFaction.IsMember(entity, canonicalFaction))
-            return true;
-        foreach (var (raw, canonical) in FactionWarConfig.FactionAliases)
-        {
-            if (canonical == canonicalFaction && _npcFaction.IsMember(entity, raw))
-                return true;
-        }
-        return false;
+        return _npcFaction.IsMember(entity, canonicalFaction);
     }
 
     /// <summary>Yields all online sessions whose attached entity belongs to <paramref name="canonicalFaction"/> (or its aliases).</summary>
     private IEnumerable<ICommonSession> EnumerateFactionMembers(string canonicalFaction)
     {
-        // Include any NPC faction id that resolves to this canonical id.
-        var ids = new List<string> { canonicalFaction };
-        foreach (var (raw, canonical) in FactionWarConfig.FactionAliases)
-        {
-            if (canonical == canonicalFaction)
-                ids.Add(raw);
-        }
-
         var query = EntityQueryEnumerator<NpcFactionMemberComponent, ActorComponent>();
         while (query.MoveNext(out var entity, out _, out var actor))
         {
             if (actor.PlayerSession.Status != SessionStatus.InGame)
                 continue;
-            foreach (var fid in ids)
-            {
-                if (_npcFaction.IsMember(entity, fid))
-                {
-                    yield return actor.PlayerSession;
-                    break;
-                }
-            }
+
+            if (_npcFaction.IsMember(entity, canonicalFaction))
+                yield return actor.PlayerSession;
         }
     }
 
     private int GetFactionTopWeight(string canonicalFaction)
     {
-        var ids = new List<string> { canonicalFaction };
-        foreach (var (raw, canonical) in FactionWarConfig.FactionAliases)
-        {
-            if (canonical == canonicalFaction)
-                ids.Add(raw);
-        }
-
         var top = 0;
         var query = EntityQueryEnumerator<NpcFactionMemberComponent, ActorComponent>();
         while (query.MoveNext(out var entity, out _, out var actor))
@@ -888,12 +895,8 @@ public sealed class RaidRequestSystem : EntitySystem
             if (actor.PlayerSession.Status != SessionStatus.InGame)
                 continue;
 
-            var match = false;
-            foreach (var fid in ids)
-            {
-                if (_npcFaction.IsMember(entity, fid)) { match = true; break; }
-            }
-            if (!match) continue;
+            if (!_npcFaction.IsMember(entity, canonicalFaction))
+                continue;
 
             if (!_minds.TryGetMind(entity, out var mindId, out _))
                 continue;
@@ -905,13 +908,6 @@ public sealed class RaidRequestSystem : EntitySystem
 
     private string GetFactionTopJobHolder(string canonicalFaction)
     {
-        var ids = new List<string> { canonicalFaction };
-        foreach (var (raw, canonical) in FactionWarConfig.FactionAliases)
-        {
-            if (canonical == canonicalFaction)
-                ids.Add(raw);
-        }
-
         var topWeight = 0;
         var topName   = "Unknown";
         var query = EntityQueryEnumerator<NpcFactionMemberComponent, ActorComponent>();
@@ -920,12 +916,8 @@ public sealed class RaidRequestSystem : EntitySystem
             if (actor.PlayerSession.Status != SessionStatus.InGame)
                 continue;
 
-            var match = false;
-            foreach (var fid in ids)
-            {
-                if (_npcFaction.IsMember(entity, fid)) { match = true; break; }
-            }
-            if (!match) continue;
+            if (!_npcFaction.IsMember(entity, canonicalFaction))
+                continue;
 
             if (!_minds.TryGetMind(entity, out var mindId, out _))
                 continue;
@@ -987,11 +979,6 @@ public sealed class RaidRequestSystem : EntitySystem
                 continue;
             raidFactions.Add(entry.RequesterFaction);
             raidFactions.Add(entry.TargetFaction);
-            foreach (var (raw, canonical) in FactionWarConfig.FactionAliases)
-            {
-                if (canonical == entry.RequesterFaction || canonical == entry.TargetFaction)
-                    raidFactions.Add(raw);
-            }
         }
 
         if (raidFactions.Count == 0)
@@ -1004,7 +991,7 @@ public sealed class RaidRequestSystem : EntitySystem
             // Skip overlay-exempt jobs (e.g. Frumentarii spies) for parity with the war overlay.
             if (_minds.TryGetMind(uid, out var mindId, out _)
                 && _jobs.MindTryGetJob(mindId, out _, out var proto)
-                && FactionWarConfig.OverlayExemptJobs.Contains(proto.ID))
+                && OverlayExemptJobs.Contains(proto.ID))
                 continue;
 
             foreach (var fId in raidFactions)
@@ -1012,7 +999,7 @@ public sealed class RaidRequestSystem : EntitySystem
                 if (!_npcFaction.IsMember(uid, fId))
                     continue;
 
-                dict[GetNetEntity(uid)] = FactionWarConfig.ResolveWarFaction(fId);
+                dict[GetNetEntity(uid)] = fId;
                 break; // first match wins
             }
         }

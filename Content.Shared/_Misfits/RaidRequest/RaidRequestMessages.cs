@@ -11,8 +11,7 @@ namespace Content.Shared._Misfits.RaidRequest;
 // ── Static configuration ──────────────────────────────────────────────────
 
 /// <summary>
-/// Eligibility configuration for the raid-request system. Faction display names + alias
-/// resolution are reused from <see cref="FactionWarConfig"/> so the two systems stay in sync.
+/// Eligibility configuration for the raid-request system. Lists factions that can submit raids.
 /// </summary>
 public static class RaidRequestConfig
 {
@@ -40,9 +39,7 @@ public static class RaidRequestConfig
     };
 
     /// <summary>
-    /// All NPC faction IDs that can submit a raid request (faction-tier ∪ individual-tier
-    /// ∪ any aliases pulled from <see cref="FactionWarConfig.FactionAliases"/> that resolve
-    /// into one of the above). Used when scanning a player's faction membership.
+    /// All NPC faction IDs that can submit a raid request (faction-tier ∪ individual-tier).
     /// </summary>
     public static readonly HashSet<string> AllEligibleFactionIds = BuildAllEligible();
 
@@ -50,12 +47,6 @@ public static class RaidRequestConfig
     {
         var set = new HashSet<string>(FactionTierFactions);
         set.UnionWith(IndividualTierFactions);
-        // Pull in any alias whose canonical resolves into our eligible set (e.g. "Rangers" → "NCR").
-        foreach (var (raw, canonical) in FactionWarConfig.FactionAliases)
-        {
-            if (FactionTierFactions.Contains(canonical) || IndividualTierFactions.Contains(canonical))
-                set.Add(raw);
-        }
         return set;
     }
 
@@ -68,14 +59,14 @@ public static class RaidRequestConfig
     public static bool IsIndividualTier(string canonicalFaction) =>
         IndividualTierFactions.Contains(canonicalFaction);
 
-    /// <summary>Display name with Misfits-added overrides for factions FactionWarConfig doesn't know.</summary>
+    /// <summary>Display name for factions in the raid system.</summary>
     public static string FactionDisplayName(string canonicalFaction) => canonicalFaction switch
     {
         "Tribal"      => "Tribals",
         "Vault"       => "Vault Dwellers",
         "Followers"   => "Followers of the Apocalypse",
         "Wastelander" => "Wastelander",
-        _             => FactionWarConfig.FactionDisplayName(canonicalFaction),
+        _             => canonicalFaction,
     };
 
     /// <summary>Minimum word count for the reason field (matches /war casus belli).</summary>
@@ -144,6 +135,9 @@ public sealed class RaidRequestEntry
     public DateTime? ConcludedAtUtc;
     /// <summary>Admin who ended the raid, or "Auto-Expiry" when the 15-minute timer ran out.</summary>
     public string? ConcludedByAdmin;
+
+    /// <summary>Associated war key (Player1_Uid_Player2_Uid) if raid was initiated during a war; null if raid exists outside of war context.</summary>
+    public string? AssociatedWarId;
 }
 
 // ── Network messages: requester ↔ server ──────────────────────────────────

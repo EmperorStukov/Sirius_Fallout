@@ -36,6 +36,8 @@ using Robust.Server.Audio;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
+using Content.Server.Polymorph.Systems;
+using Content.Shared.Polymorph;
 
 namespace Content.Server._Misfits.UgQualtoth;
 
@@ -50,6 +52,7 @@ public sealed class UgQualtothSystem : EntitySystem
     [Dependency] private readonly DoAfterSystem _doAfter = default!;
     [Dependency] private readonly EntityLookupSystem _lookup = default!;
     [Dependency] private readonly HumanoidAppearanceSystem _humanoid = default!;
+    [Dependency] private readonly PolymorphSystem _polymorph = default!;
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly IPrototypeManager _proto = default!;
     [Dependency] private readonly MovementSpeedModifierSystem _speedMod = default!;
@@ -511,25 +514,46 @@ public sealed class UgQualtothSystem : EntitySystem
         _humanoid.RemoveMarking(uid, MarkingStage3);
         _humanoid.SetLayersVisibility(uid, Stage3HiddenLayers, visible: true, permanent: true);
 
-        // Change the character's species entirely — base body sprites swap to the full-abomination look.
-        _humanoid.SetSpecies(uid, comp.AbominationSpecies);
+        // Attempt to polymorph the entity into the dedicated NPC abomination body.
+        var child = _polymorph.PolymorphEntity(uid, new ProtoId<PolymorphPrototype>("UgQualtothAbomination"));
 
-        // Deep crimson skin to complete the transformation.
-        _humanoid.SetSkinColor(uid, new Color(0.18f, 0.05f, 0.05f), verify: false);
-
-        // Final melee buff.
-        if (TryComp<MeleeWeaponComponent>(uid, out var melee))
+        if (child != null)
         {
-            melee.Damage.DamageDict.TryAdd("Slash", 0);
-            melee.Damage.DamageDict["Slash"] += 15;
-            melee.Damage.DamageDict.TryAdd("Blunt", 0);
-            melee.Damage.DamageDict["Blunt"] += 10;
-            Dirty(uid, melee);
-        }
+            // Apply final melee buff to the new body.
+            if (TryComp<MeleeWeaponComponent>(child.Value, out var meleeChild))
+            {
+                meleeChild.Damage.DamageDict.TryAdd("Slash", 0);
+                meleeChild.Damage.DamageDict["Slash"] += 15;
+                meleeChild.Damage.DamageDict.TryAdd("Blunt", 0);
+                meleeChild.Damage.DamageDict["Blunt"] += 10;
+                Dirty(child.Value, meleeChild);
+            }
 
-        // Apply abomination damage resistance.
-        if (_proto.HasIndex<DamageModifierSetPrototype>(AbominationDamageModifier))
-            _damageable.SetDamageModifierSetId(uid, AbominationDamageModifier);
+            // Apply abomination damage resistance to the new body.
+            if (_proto.HasIndex<DamageModifierSetPrototype>(AbominationDamageModifier))
+                _damageable.SetDamageModifierSetId(child.Value, AbominationDamageModifier);
+        }
+        else
+        {
+            // Fallback: if polymorph failed for any reason, use the species-based approach.
+            _humanoid.SetSpecies(uid, comp.AbominationSpecies);
+
+            // Deep crimson skin to complete the transformation.
+            _humanoid.SetSkinColor(uid, new Color(0.18f, 0.05f, 0.05f), verify: false);
+
+            // Final melee buff applied to existing body as a fallback.
+            if (TryComp<MeleeWeaponComponent>(uid, out var melee))
+            {
+                melee.Damage.DamageDict.TryAdd("Slash", 0);
+                melee.Damage.DamageDict["Slash"] += 15;
+                melee.Damage.DamageDict.TryAdd("Blunt", 0);
+                melee.Damage.DamageDict["Blunt"] += 10;
+                Dirty(uid, melee);
+            }
+
+            if (_proto.HasIndex<DamageModifierSetPrototype>(AbominationDamageModifier))
+                _damageable.SetDamageModifierSetId(uid, AbominationDamageModifier);
+        }
     }
 
     // ──────────────────────────────────────────────────────────────────────────

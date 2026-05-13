@@ -1,7 +1,5 @@
-// #Misfits Add - Code-behind for the War Join panel.
-// Allows players (including faction members) to join a pending war on either side.
-// Highest-ranking faction members can enlist their entire faction at once.
-// Includes KOS warning and double-press confirmation.
+// #Misfits Refactor - Player-war join panel.
+// Allows players to join a pending player-vs-player war on side 1 or 2.
 
 using System.Linq;
 using Content.Client.Message;
@@ -12,22 +10,18 @@ using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Utility;
+using Robust.Shared.Network;
 
 namespace Content.Client._Misfits.FactionWar.UI;
 
 [GenerateTypedNameReferences]
 public sealed partial class WarJoinWindow : FancyWindow
 {
-    /// <summary>Fired when the player confirms joining. Args: (aggressorFaction, targetFaction, chosenSide, factionWide).</summary>
-    public event Action<string, string, string, bool>? OnJoinWar;
+    public event Action<NetUserId, NetUserId, byte>? OnJoinWar;
 
-    private readonly List<FactionWarEntry> _pendingWars = new();
-    private readonly List<(string Display, string Id)> _sideItems = new();
+    private readonly List<PlayerWarEntry> _pendingWars = new();
+    private readonly List<(string Display, byte Side)> _sideItems = new();
     private bool _confirmPending;
-
-    // #Misfits Add - Faction-wide enlistment state from server.
-    private bool _isTopRanking;
-    private string? _myWarFactionId;
 
     public WarJoinWindow()
     {
@@ -44,70 +38,56 @@ public sealed partial class WarJoinWindow : FancyWindow
         WarSelector.OnItemSelected += OnWarSelected;
         SideSelector.OnItemSelected += args => { SideSelector.SelectId(args.Id); ResetConfirm(); };
 
-        // #Misfits Add - When faction-wide is toggled, lock the side selector to own faction.
-        FactionWideCheck.OnToggled += OnFactionWideToggled;
+        FactionWideCheck.Visible = false;
+        FactionWideHint.Visible = false;
     }
 
     /// <summary>
     /// Update the panel with current pending-war data from the server.
     /// </summary>
     public void UpdateState(
-        List<FactionWarEntry> pendingWars,
-        bool alreadyInFaction,
-        string? alreadyJoinedSide,
-        string? statusMessage,
-        bool isTopRanking,
-        string? myWarFactionId)
+        PlayerWarJoinPanelDataEvent data)
     {
         _pendingWars.Clear();
-        _pendingWars.AddRange(pendingWars);
-        _isTopRanking = isTopRanking;
-        _myWarFactionId = myWarFactionId;
+        _pendingWars.AddRange(data.AvailableWars);
 
         WarSelector.Clear();
         SideSelector.Clear();
         _sideItems.Clear();
         ResetConfirm();
-        FactionWideCheck.Pressed = false;
+        FactionWideCheck.Visible = false;
+        FactionWideHint.Visible = false;
+        BlockReasonLabel.Visible = false;
 
-        if (alreadyJoinedSide != null)
+        if (data.AlreadyInWar)
         {
-            ShowResult(true, Loc.GetString("faction-war-join-already-joined",
-                ("side", FactionWarConfig.FactionDisplayName(alreadyJoinedSide))));
+            ShowResult(false, "You have already joined a war.");
             JoinButton.Disabled = true;
-            HideFactionWide();
             return;
         }
 
-        if (pendingWars.Count == 0)
+        if (_pendingWars.Count == 0)
         {
-            ShowResult(false, statusMessage ?? Loc.GetString("faction-war-join-no-pending"));
+            ShowResult(false, data.StatusMessage ?? Loc.GetString("faction-war-join-no-pending"));
             JoinButton.Disabled = true;
-            HideFactionWide();
             return;
         }
 
         JoinButton.Disabled = false;
 
-        for (var i = 0; i < pendingWars.Count; i++)
+        for (var i = 0; i < _pendingWars.Count; i++)
         {
-            var w = pendingWars[i];
-            var label = $"{FactionWarConfig.FactionDisplayName(w.AggressorFaction)}" +
-                        $" vs {FactionWarConfig.FactionDisplayName(w.TargetFaction)}";
+            var w = _pendingWars[i];
+            var label = $"{w.SideName1} vs {w.SideName2}";
             WarSelector.AddItem(label);
         }
 
         // Auto-select first war and populate sides.
-        if (pendingWars.Count > 0)
+        if (_pendingWars.Count > 0)
         {
             WarSelector.SelectId(0);
             PopulateSides(0);
         }
-
-        // Show or hide faction-wide enlist option based on server-provided rank info.
-        UpdateFactionWideVisibility();
-        // #Misfits Add - Apply major-faction restriction (disables join button if needed).
-        ApplyMajorFactionRestriction();
 
         ClearResult();
     }
@@ -125,13 +105,6 @@ public sealed partial class WarJoinWindow : FancyWindow
         WarSelector.SelectId(args.Id);
         PopulateSides(args.Id);
         ResetConfirm();
-        UpdateFactionWideVisibility();
-        // #Misfits Add - Disable join button for major-faction members in major-vs-major wars.
-        ApplyMajorFactionRestriction();
-
-        // Reset faction-wide state on war switch.
-        FactionWideCheck.Pressed = false;
-        SideSelector.Disabled = false;
     }
 
     private void PopulateSides(int warIndex)
@@ -144,8 +117,8 @@ public sealed partial class WarJoinWindow : FancyWindow
 
         var war = _pendingWars[warIndex];
 
-        _sideItems.Add((FactionWarConfig.FactionDisplayName(war.AggressorFaction), war.AggressorFaction));
-        _sideItems.Add((FactionWarConfig.FactionDisplayName(war.TargetFaction), war.TargetFaction));
+        _sideItems.Add(($"{war.SideName1}", 1));
+        _sideItems.Add(($"{war.SideName2}", 2));
 
         SideSelector.AddItem(_sideItems[0].Display);
         SideSelector.AddItem(_sideItems[1].Display);
@@ -175,82 +148,9 @@ public sealed partial class WarJoinWindow : FancyWindow
         }
 
         var war = _pendingWars[warIdx];
-        var chosenSide = _sideItems[sideIdx].Id;
-        var factionWide = FactionWideCheck.Pressed && _isTopRanking && _myWarFactionId != null;
-        OnJoinWar?.Invoke(war.AggressorFaction, war.TargetFaction, chosenSide, factionWide);
+        var chosenSide = _sideItems[sideIdx].Side;
+        OnJoinWar?.Invoke(war.DeclaredByPlayer, war.DeclaredAgainstPlayer, chosenSide);
         ResetConfirm();
-    }
-
-    // #Misfits Add - Faction-wide checkbox toggled: lock side selector to own faction.
-    private void OnFactionWideToggled(BaseButton.ButtonToggledEventArgs args)
-    {
-        ResetConfirm();
-        if (args.Pressed && _myWarFactionId != null)
-        {
-            // Auto-select the player's own faction side and lock the dropdown.
-            for (var i = 0; i < _sideItems.Count; i++)
-            {
-                if (_sideItems[i].Id == _myWarFactionId)
-                {
-                    SideSelector.SelectId(i);
-                    break;
-                }
-            }
-            SideSelector.Disabled = true;
-        }
-        else
-        {
-            SideSelector.Disabled = false;
-        }
-    }
-
-    /// <summary>
-    /// Shows or hides the faction-wide enlist checkbox based on whether the player
-    /// is the top-ranking member of a war-capable faction involved in the selected war.
-    /// </summary>
-    private void UpdateFactionWideVisibility()
-    {
-        if (!_isTopRanking || _myWarFactionId == null)
-        {
-            HideFactionWide();
-            return;
-        }
-
-        // Only show if the selected war involves the player's faction.
-        var warIdx = WarSelector.SelectedId;
-        if (warIdx < 0 || warIdx >= _pendingWars.Count)
-        {
-            HideFactionWide();
-            return;
-        }
-
-        var war = _pendingWars[warIdx];
-        if (war.AggressorFaction != _myWarFactionId && war.TargetFaction != _myWarFactionId)
-        {
-            HideFactionWide();
-            return;
-        }
-
-        // #Misfits Add - Hide faction-wide option if major-faction restriction applies.
-        if (IsMajorFactionWarConflict(war))
-        {
-            HideFactionWide();
-            return;
-        }
-
-        FactionWideCheck.Visible = true;
-        FactionWideHint.Visible = true;
-        FactionWideHint.SetMarkup(
-            $"[color=#FFA500]{FormattedMessage.EscapeText(Loc.GetString("faction-war-join-faction-wide-hint",
-                ("faction", FactionWarConfig.FactionDisplayName(_myWarFactionId))))}[/color]");
-    }
-
-    private void HideFactionWide()
-    {
-        FactionWideCheck.Visible = false;
-        FactionWideCheck.Pressed = false;
-        FactionWideHint.Visible = false;
-        SideSelector.Disabled = false;
     }
 
     private void ResetConfirm()
@@ -263,49 +163,5 @@ public sealed partial class WarJoinWindow : FancyWindow
     private void ClearResult()
     {
         JoinResultLabel.SetMarkup(string.Empty);
-    }
-
-    // #Misfits Add - Returns true when this player belongs to a major faction AND the given
-    // war involves a different major faction. In that case neither individual nor faction-wide
-    // enlistment is permitted.
-    private bool IsMajorFactionWarConflict(FactionWarEntry war)
-    {
-        if (_myWarFactionId == null || !FactionWarConfig.IsMajorFaction(_myWarFactionId))
-            return false;
-
-        var aggressorIsMajor = FactionWarConfig.IsMajorFaction(war.AggressorFaction);
-        var targetIsMajor    = FactionWarConfig.IsMajorFaction(war.TargetFaction);
-
-        // Blocked if any participant is a different major faction.
-        return (aggressorIsMajor && war.AggressorFaction != _myWarFactionId) ||
-               (targetIsMajor    && war.TargetFaction    != _myWarFactionId);
-    }
-
-    // #Misfits Add - Applies or removes the major-faction join restriction for the currently
-    // selected war. Disables the join button, swaps its text to a self-explanatory label,
-    // and shows a persistent block-reason message in a dedicated label (separate from
-    // JoinResultLabel so action results don't overwrite the restriction notice).
-    private void ApplyMajorFactionRestriction()
-    {
-        var warIdx = WarSelector.SelectedId;
-        if (warIdx < 0 || warIdx >= _pendingWars.Count)
-            return;
-
-        if (IsMajorFactionWarConflict(_pendingWars[warIdx]))
-        {
-            JoinButton.Disabled = true;
-            JoinButton.Text = "Restricted - Major Faction Conflict";
-            BlockReasonLabel.Visible = true;
-            BlockReasonLabel.SetMarkup(
-                "[color=#FF6347]Your faction cannot enlist in a war between other major factions. " +
-                "Major factions (NCR, Brotherhood, Legion) settle their own conflicts.[/color]");
-        }
-        else
-        {
-            JoinButton.Disabled = false;
-            JoinButton.Text = Loc.GetString("faction-war-join-button");
-            BlockReasonLabel.Visible = false;
-            BlockReasonLabel.SetMarkup(string.Empty);
-        }
     }
 }

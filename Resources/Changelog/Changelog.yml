@@ -4906,3 +4906,119 @@ Entries:
   id: 5867
   time: '2026-05-12T03:34:07.0000000+00:00'
   url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/488
+- author: Vixting
+  changes:
+    - type: Add
+      message: >-
+        add x2 white shoes, chemist labcoat, chemist jumpsuit to vault chemist
+        locker
+    - type: Tweak
+      message: Replace vault chemist sterile gloves with chemist nitrile gloves
+  id: 5868
+  time: '2026-05-12T15:07:29.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/490
+- author: Dpellowski
+  changes:
+    - type: Add
+      message: >-
+        Added Tribe, War and Raid systems (new FactionWar and RaidRequest
+        features), including server logic and client UI to start and manage
+        raids.
+    - type: Remove
+      message: >-
+        Removed legacy raid/faction hooks and deprecated compatibility code to
+        simplify the war flow.
+    - type: Tweak
+      message: >-
+        Adjusted raid request flow, faction war balancing, and localization for
+        Ug-Qualtoth content.
+    - type: Fix
+      message: >-
+        Fixed several sync/desync issues and server-side validation around raid
+        requests and faction war state.
+  id: 5869
+  time: '2026-05-12T23:54:36.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/492
+- author: NajaTheNaja
+  changes:
+    - type: Fix
+      message: >-
+        promethine now requires 5u at once to cure, identical to AmbuzolPlus
+        from basegame.
+    - type: Fix
+      message: >-
+        HP and SP now require 10 hours of squire, just like regular paladin.
+        this wont impact anyone who meets the new paladin requirements. 
+  id: 5870
+  time: '2026-05-12T23:54:47.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/491
+- author: Dpellowski
+  changes:
+    - type: Fix
+      message: Ranger time Fixes + MPs
+  id: 5871
+  time: '2026-05-13T00:57:55.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/494
+- author: Loldaddy5676
+  changes:
+    - type: Tweak
+      message: 'amount of job slots available for vault faction, nothing else. '
+  id: 5872
+  time: '2026-05-13T01:09:38.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/493
+- author: Dpellowski
+  changes:
+    - type: Add
+      message: Whispers
+  id: 5873
+  time: '2026-05-13T02:32:11.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/498
+- author: Bradysgaming
+  changes:
+    - type: Add
+      message: Added Centurion Cinder Cohort Armor
+    - type: Add
+      message: Added Centurion Salt Column Armor
+    - type: Add
+      message: Added Unbroken Centurion Armor
+    - type: Add
+      message: Added Warforged Centurion Armor
+    - type: Add
+      message: Added Warlord Centurion Armor
+    - type: Tweak
+      message: brought all cent armor to 45% dmg resist across the board
+    - type: Tweak
+      message: Made zoot suit cheaper for supermutants in the loadout
+  id: 5874
+  time: '2026-05-13T02:32:55.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/497
+- author: Wazura
+  changes:
+    - type: Tweak
+      message: Recon Ranger Armor Speed set to 10%(5% increase)
+    - type: Tweak
+      message: Ranger Coat Armor Vault set to 30% for Both Pierce and Heat(5% increase)
+  id: 5875
+  time: '2026-05-13T02:34:26.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/496
+- author: pierow
+  changes:
+    - type: Fix
+      message: Adds armor values to SM NCR Trooper Helmet
+  id: 5876
+  time: '2026-05-13T02:39:20.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/500
+- author: NajaTheNaja
+  changes:
+    - type: Tweak
+      message: changed gutsy bullet type
+  id: 5877
+  time: '2026-05-13T03:01:21.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/501
+- author: pierow
+  changes:
+    - type: Fix
+      message: Dogtag access to SM NCR Trooper
+  id: 5878
+  time: '2026-05-13T03:06:49.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/502

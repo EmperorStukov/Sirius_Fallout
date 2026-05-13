@@ -1,43 +1,33 @@
-// #Misfits Add - Screen-space overlay that draws [ALLY] and [ENEMY] tags above in-world entities
-// when the local player's faction is engaged in an active war.
-// Uses a server-provided participant dictionary (NetEntity → faction side) because
-// NpcFactionMemberComponent.Factions is NOT synced to clients.
-// Pattern mirrors AdminNameOverlay (Content.Client/Administration/AdminNameOverlay.cs).
+// #Misfits Refactor - Screen-space overlay that draws [ALLY] and [ENEMY] tags above
+// entities participating in active player wars.
 
 using System.Numerics;
-using Content.Client._Misfits.RaidRequest; // #Misfits Add - merge raid participants into overlay
 using Content.Shared.Examine;
 using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
 using Robust.Client.Player;
 using Robust.Client.ResourceManagement;
-using Robust.Shared.Enums;
 using Robust.Shared.Map;
 using Robust.Shared.Maths;
 using Robust.Shared.Timing;
+using Robust.Shared.Enums;
+using Robust.Shared.GameObjects;
+using Robust.Shared.Network;
 
 namespace Content.Client._Misfits.FactionWar;
 
-/// <summary>
-/// Draws green <c>[ALLY]</c> or red <c>[ENEMY]</c> tags above entities whose faction is relevant
-/// to the current war state. Active only while the local player is involved in at least one war.
-/// All ally/enemy classification comes from the server-broadcast participant dict.
-/// </summary>
 internal sealed class AllyTagOverlay : Overlay
 {
     private readonly FactionWarClientSystem _warSystem;
-    private readonly RaidRequestClientSystem _raidSystem; // #Misfits Add - secondary participant source
-    private readonly IEntityManager         _entityManager;
-    private readonly IPlayerManager         _playerManager;
-    private readonly IEyeManager            _eyeManager;
-    private readonly IGameTiming            _timing;
-    private readonly EntityLookupSystem     _entityLookup;
-    private readonly ExamineSystemShared    _examine;
-    private readonly SharedTransformSystem  _transform;
-    private readonly Font                   _font;
+    private readonly IEntityManager _entityManager;
+    private readonly IPlayerManager _playerManager;
+    private readonly IEyeManager _eyeManager;
+    private readonly IGameTiming _timing;
+    private readonly EntityLookupSystem _entityLookup;
+    private readonly ExamineSystemShared _examine;
+    private readonly SharedTransformSystem _transform;
+    private readonly Font _font;
 
-    // Cache LOS results briefly so the overlay still feels realtime without rechecking
-    // every participant on every draw call during large wars.
     private readonly Dictionary<NetEntity, VisibilityCacheEntry> _visibilityCache = new();
     private TimeSpan _nextCleanup;
 
@@ -52,29 +42,26 @@ internal sealed class AllyTagOverlay : Overlay
 
     public AllyTagOverlay(
         FactionWarClientSystem warSystem,
-        RaidRequestClientSystem raidSystem, // #Misfits Add
-        IEntityManager         entityManager,
-        IPlayerManager         playerManager,
-        IEyeManager            eyeManager,
-        IGameTiming            timing,
-        IResourceCache         resourceCache,
-        EntityLookupSystem     entityLookup,
-        ExamineSystemShared    examine,
-        SharedTransformSystem  transform)
+        IEntityManager entityManager,
+        IPlayerManager playerManager,
+        IEyeManager eyeManager,
+        IGameTiming timing,
+        IResourceCache resourceCache,
+        EntityLookupSystem entityLookup,
+        ExamineSystemShared examine,
+        SharedTransformSystem transform)
     {
-        _warSystem     = warSystem;
-        _raidSystem    = raidSystem; // #Misfits Add
+        _warSystem = warSystem;
         _entityManager = entityManager;
         _playerManager = playerManager;
-        _eyeManager    = eyeManager;
-        _timing        = timing;
-        _entityLookup  = entityLookup;
-        _examine       = examine;
-        _transform     = transform;
+        _eyeManager = eyeManager;
+        _timing = timing;
+        _entityLookup = entityLookup;
+        _examine = examine;
+        _transform = transform;
 
-        ZIndex = 195; // just below AdminNameOverlay (200) so admin tags render on top
-        _font = new VectorFont(
-            resourceCache.GetResource<FontResource>("/Fonts/NotoSans/NotoSans-Regular.ttf"), 10);
+        ZIndex = 195;
+        _font = new VectorFont(resourceCache.GetResource<FontResource>("/Fonts/NotoSans/NotoSans-Regular.ttf"), 10);
     }
 
     private sealed class VisibilityCacheEntry
@@ -85,7 +72,7 @@ internal sealed class AllyTagOverlay : Overlay
         public TimeSpan NextRefresh;
     }
 
-    private bool NeedsVisibilityRefresh(VisibilityCacheEntry entry, MapCoordinates coords, TimeSpan now)
+    private static bool NeedsVisibilityRefresh(VisibilityCacheEntry entry, MapCoordinates coords, TimeSpan now)
     {
         if (now >= entry.NextRefresh)
             return true;
@@ -96,7 +83,7 @@ internal sealed class AllyTagOverlay : Overlay
         return (coords.Position - entry.Position).LengthSquared() >= PositionRefreshThresholdSquared;
     }
 
-    private void CleanupCache(IReadOnlyDictionary<NetEntity, string> participants, TimeSpan now)
+    private void CleanupCache(IReadOnlyDictionary<NetEntity, byte> participants, TimeSpan now)
     {
         if (now < _nextCleanup)
             return;
@@ -104,7 +91,6 @@ internal sealed class AllyTagOverlay : Overlay
         _nextCleanup = now + CacheCleanupInterval;
 
         var cachedEntities = new List<NetEntity>(_visibilityCache.Keys);
-
         foreach (var netEntity in cachedEntities)
         {
             if (!participants.ContainsKey(netEntity))
@@ -118,51 +104,20 @@ internal sealed class AllyTagOverlay : Overlay
         if (localEntity == null)
             return;
 
-        // #Misfits Tweak - Merge war + raid participants. War wins on key collision so an entity
-        // is never tagged twice when both systems flag the same player. Either source alone
-        // is enough to activate the overlay.
-        var warParticipants  = _warSystem.WarParticipants;
-        var raidParticipants = _raidSystem.RaidParticipants;
-        var activeWars       = _warSystem.ActiveWars;
-
-        if (activeWars.Count == 0 && raidParticipants.Count == 0)
-            return;
-        if (warParticipants.Count == 0 && raidParticipants.Count == 0)
+        var participants = _warSystem.WarParticipants;
+        if (_warSystem.ActiveWars.Count == 0 || participants.Count == 0)
             return;
 
-        // Build a merged view: start from the (smaller, often empty) raid dict, then overlay
-        // the war dict so its assignments take precedence on collisions. Avoids allocating
-        // when only one source is active.
-        IReadOnlyDictionary<NetEntity, string> participants;
-        if (raidParticipants.Count == 0)
-        {
-            participants = warParticipants;
-        }
-        else if (warParticipants.Count == 0)
-        {
-            participants = raidParticipants;
-        }
-        else
-        {
-            var merged = new Dictionary<NetEntity, string>(raidParticipants);
-            foreach (var (k, v) in warParticipants)
-                merged[k] = v; // war wins on collision
-            participants = merged;
-        }
-
-        // Determine the local player's side from the merged participant dict.
-        // This stays accurate across respawns/faction-swaps since the server rebuilds it every 2s.
         var localNet = _entityManager.GetNetEntity(localEntity.Value);
-        if (!participants.TryGetValue(localNet, out var effectiveFaction))
-        {
-            // Fallback: /warjoin side if the local entity isn't in the dict yet.
-            effectiveFaction = _warSystem.LocalWarJoinSide;
-        }
+        byte? effectiveSide;
+        if (!participants.TryGetValue(localNet, out var tmpSide))
+            effectiveSide = _warSystem.LocalWarJoinSide;
+        else
+            effectiveSide = tmpSide;
 
-        if (effectiveFaction == null)
+        if (effectiveSide == null)
             return;
 
-        // Get local player's position for line-of-sight checks.
         var localPos = _transform.GetMapCoordinates(localEntity.Value);
         var now = _timing.CurTime;
         var losRefreshBudget = MaxLosRefreshPerFrame;
@@ -171,12 +126,9 @@ internal sealed class AllyTagOverlay : Overlay
 
         var viewport = args.WorldAABB;
 
-        // Iterate the server-provided dict of war-relevant entities and their side.
         foreach (var (netEntity, side) in participants)
         {
             var uid = _entityManager.GetEntity(netEntity);
-
-            // Skip self, non-existent, and entities without sprites.
             if (uid == localEntity.Value || !_entityManager.EntityExists(uid))
                 continue;
 
@@ -187,8 +139,6 @@ internal sealed class AllyTagOverlay : Overlay
             if (otherPos.MapId != localPos.MapId)
                 continue;
 
-            // Cheap range rejection first. This preserves the existing 50-tile behavior
-            // while avoiding an occlusion trace for obviously distant targets.
             if ((otherPos.Position - localPos.Position).LengthSquared() > MaxTagDistanceSquared)
                 continue;
 
@@ -228,27 +178,15 @@ internal sealed class AllyTagOverlay : Overlay
             if (!cacheEntry.Visible)
                 continue;
 
-            // Determine ally or enemy relative to the local player's side.
-            string tag;
-            Color tagColor;
+            var isAlly = side == effectiveSide.Value;
+            var tag = isAlly ? "[ALLY]" : "[ENEMY]";
+            var color = isAlly ? Color.LimeGreen : new Color(1f, 0.3f, 0.3f);
 
-            if (side == effectiveFaction)
-            {
-                tag      = "[ALLY]";
-                tagColor = Color.LimeGreen;
-            }
-            else
-            {
-                tag      = "[ENEMY]";
-                tagColor = new Color(1f, 0.3f, 0.3f);
-            }
-
-            // Position the tag at the top-right of the entity's AABB, same as AdminNameOverlay.
             var screenCoords = _eyeManager.WorldToScreen(
                 aabb.Center + new Angle(-_eyeManager.CurrentEye.Rotation)
                     .RotateVec(aabb.TopRight - aabb.Center)) + new Vector2(1f, 7f);
 
-            args.ScreenHandle.DrawString(_font, screenCoords, tag, tagColor);
+            args.ScreenHandle.DrawString(_font, screenCoords, tag, color);
         }
     }
 }

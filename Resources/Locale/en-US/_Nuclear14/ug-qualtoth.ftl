@@ -69,15 +69,15 @@ ug-qualtoth-stage1-private =
 ug-qualtoth-stage1-emote =
     clutches their right hand, bones audibly cracking as the fingers twist into something inhuman.
 
-# ── Stage 2: full right arm ────────────────────────────────────────────────
+# ── Stage 2: full left arm ────────────────────────────────────────────────
 
 ug-qualtoth-stage2-private =
-    The corruption crawls upward from your hand. Your entire right arm reshapes —
+    The corruption crawls upward from your hand. Your entire left arm reshapes —
     tendons snap and re-knot, muscle thickens into something alien.
     You flex it. It responds. It is no longer entirely yours.
 
 ug-qualtoth-stage2-emote =
-    seizes as their right arm convulses from wrist to shoulder, the limb twisting into a grotesque new form.
+    seizes as their left arm convulses from wrist to shoulder, the limb twisting into a grotesque new form.
 
 # ── Stage 3: chest and legs, head untouched ───────────────────────────────
 
