@@ -5103,3 +5103,10 @@ Entries:
   id: 5888
   time: '2026-05-15T00:41:20.0000000+00:00'
   url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/516
+- author: HungryCuban
+  changes:
+    - type: Fix
+      message: Fixed RCW equipped sprite showing it wielding it-->
+  id: 5889
+  time: '2026-05-15T00:41:36.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/518
