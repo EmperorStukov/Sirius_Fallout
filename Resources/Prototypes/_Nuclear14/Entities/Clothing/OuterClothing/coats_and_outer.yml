@@ -537,7 +537,7 @@
         Piercing: 0.8
         Heat: 0.85
     priceMultiplier: 0.5
-    
+
 - type: entity
   parent: N14ClothingOuterBase
   id: N14ClothingOuterNCRDressJacket
