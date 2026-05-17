@@ -1,28 +1,4 @@
 ﻿
-# blueprints
-
-- type: entity
-  id: MisfitsCrateMilitaryBlueprintsTribal
-  suffix: Filled, Blueprints, Tribal
-  parent: N14CrateMilitary
-  components:
-  - type: StorageFill
-    contents:
-    - id: N14BlueprintTribeAmmoT4
-    - id: N14BlueprintTribeAmmoT3
-    - id: N14BlueprintTribeAmmoT2
-    - id: N14BlueprintTribeAmmoT1
-    - id: N14BlueprintTribeWeaponsT4
-    - id: N14BlueprintTribeWeaponsT3
-    - id: N14BlueprintTribeWeaponsT2
-    - id: N14BlueprintTribeWeaponsT1
-    - id: N14BlueprintTribeArmorT4
-    - id: N14BlueprintTribeArmorT3
-    - id: N14BlueprintTribeArmorT2
-    - id: N14BlueprintTribeArmorT1
-    - id: TribalLegendaryArmorChestBlueprint
-    - id: TribalLegendaryArmorHeadBlueprint
-
 # medical
 
 - type: entity
@@ -49,7 +25,7 @@
     - id: N14JunkAbraxoCleaner
 
 - type: entity
-  id: MisfitsShelfWoodMedicalTribe
+  id: MisfitsShelfWoodMedicalTribeChangeThis
   suffix: Filled, Medical, Tribe
   parent: N14ShelfWood1
   components:

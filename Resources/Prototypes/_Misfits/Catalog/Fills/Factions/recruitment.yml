@@ -77,15 +77,14 @@
       - id: Pen
 
   - type: entity
-    id: MisfitsClosetSafeSpinnerFaction
-    suffix: Filled, Faction
+    id: MisfitsClosetSafeSpinnerTown
+    suffix: Filled, Town
     parent: N14ClosetSafeSpinner
     components:
     - type: StorageFill
       contents:
-      - id: BoxIDVault
-      - id: BoxHeadsetVault
-      - id: BoxEncryptionKeyVault
+      - id: BoxIDTown
+      - id: BoxHeadsetWasteland
       - id: N14AccessConfigurator
       - id: SheetSteel10
       - id: MaterialCloth10
@@ -109,15 +108,14 @@
       - id: Pen
 
   - type: entity
-    id: MisfitsClosetSafeSpinnerFaction
-    suffix: Filled, Faction
+    id: MisfitsClosetSafeSpinnerEnclave
+    suffix: Filled, Enclave
     parent: N14ClosetSafeSpinner
     components:
     - type: StorageFill
       contents:
-      - id: BoxIDVault
-      - id: BoxHeadsetVault
-      - id: BoxEncryptionKeyVault
+      - id: BoxHeadsetEnclave
+      - id: BoxEncryptionKeyEnclave
       - id: N14AccessConfigurator
       - id: SheetSteel10
       - id: MaterialCloth10

@@ -18,7 +18,7 @@
 # edit here later
 
 - type: entity
-  id: MisfitsClosetSafeSpinner
+  id: MisfitsClosetSafeSpinnerChangeThis
   suffix: Filled, Mechanical
   parent: N14ClosetSafeSpinner
   components:

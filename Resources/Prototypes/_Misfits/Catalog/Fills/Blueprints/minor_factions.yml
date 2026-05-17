@@ -2,8 +2,8 @@
 # blueprints
 
 - type: entity
-  id: MisfitsCrateMilitaryBlueprintsTribal
-  suffix: Filled, Blueprints, Tribal
+  id: MisfitsCrateMilitaryBlueprintsTribe
+  suffix: Filled, Blueprints, Tribe
   parent: N14CrateMilitary
   components:
   - type: StorageFill

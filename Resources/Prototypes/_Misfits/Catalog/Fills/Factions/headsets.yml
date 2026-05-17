@@ -24,7 +24,6 @@
     - id: N14ClothingHeadsetBrotherhoodOfSteel
       amount: 4
     - id: ClothingHeadBrotherhoodScribeHeadset
-
   - type: Sprite
     layers:
     - state: box

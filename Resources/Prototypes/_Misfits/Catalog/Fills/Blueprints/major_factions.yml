@@ -62,8 +62,6 @@
       - id: N14BlueprintBoSArmorT1
       - id: N14BlueprintC27ArmorBoS
 
-# blueprints
-
 - type: entity
   id: MisfitsCrateMilitaryBlueprintsVault
   suffix: Filled, Blueprints, Vault

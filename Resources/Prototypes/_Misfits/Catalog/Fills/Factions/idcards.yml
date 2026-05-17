@@ -99,10 +99,12 @@
   id: BoxIDFollowers
   description: A box of spare ID cards.
   components:
-  - id: N14IDFollowerVolunteer
-    amount: 4
-  - id: N14IDFollowerDoctor
-    amount: 4
+  - type: StorageFill
+    contents:
+    - id: N14IDFollowerVolunteer
+      amount: 4
+    - id: N14IDFollowerDoctor
+      amount: 4
   - type: Sprite
     layers:
     - state: box
@@ -166,12 +168,14 @@
   id: BoxIDTribe
   description: A box of spare pendants.
   components:
-  - id: N14IDTribeBulletsPendant
-    amount: 4
-  - id: N14IDTribeSawbonePendant
-    amount: 2
-  - id: N14IDTribeEnforcerPendant
-    amount: 2
+  - type: StorageFill
+    contents:
+    - id: N14IDTribeBulletsPendant
+      amount: 4
+    - id: N14IDTribeSawbonePendant
+      amount: 2
+    - id: N14IDTribeEnforcerPendant
+      amount: 2
   - type: Sprite
     layers:
     - state: box
