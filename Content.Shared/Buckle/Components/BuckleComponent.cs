@@ -1,5 +1,6 @@
 using System.Diagnostics.CodeAnalysis;
 using Content.Shared.Interaction;
+using Content.Shared.DoAfter;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
@@ -146,6 +147,9 @@ public readonly record struct UnstrappedEvent(Entity<StrapComponent> Strap, Enti
 /// </summary>
 [ByRefEvent]
 public readonly record struct UnbuckledEvent(Entity<StrapComponent> Strap, Entity<BuckleComponent> Buckle);
+
+[Serializable, NetSerializable]
+public sealed partial class UnbuckleDoAfterEvent : SimpleDoAfterEvent;
 
 [Serializable, NetSerializable]
 public enum BuckleVisuals
