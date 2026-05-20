@@ -767,8 +767,7 @@ namespace Content.Client.Lobby.UI
 
             _species.AddRange(_prototypeManager.EnumeratePrototypes<SpeciesPrototype>()
                 .Where(o => o.RoundStart)
-                .Where(o => !o.WhitelistRequired // #Misfits Change
-                    || (o.JobWhitelistUnlock != null && _requirements.IsJobWhitelisted(o.JobWhitelistUnlock.Value.Id))) // #Misfits Change
+                .Where(IsSpeciesAvailableForSelection) // #Misfits Change
                 .OrderBy(o => o.Order)); // #Misfits Change: sort by Order field
             var speciesIds = _species.Select(o => o.ID).ToList();
             var selectedSpeciesId = GetSpeciesSelectionSpeciesId(Profile?.Species);
@@ -791,6 +790,48 @@ namespace Content.Client.Lobby.UI
                 SetSpecies(SharedHumanoidAppearanceSystem.DefaultSpecies);
 
             SpeciesButton.Disabled = IsSpeciesLockedForProfile();
+        }
+
+        private bool IsSpeciesAvailableForSelection(SpeciesPrototype species)
+        {
+            if (IsSpeciesDirectlyAvailable(species))
+                return true;
+
+            // Model-family base species, such as C27, should remain visible if any
+            // hidden model variant is unlocked by its own job whitelist.
+            return RobotModelFamilies.TryGetValue(species.ID, out var options)
+                && options.Any(option => IsSpeciesDirectlyAvailable(option.SpeciesId));
+        }
+
+        private bool IsSpeciesDirectlyAvailable(string speciesId)
+        {
+            return _prototypeManager.TryIndex<SpeciesPrototype>(speciesId, out var species)
+                && IsSpeciesDirectlyAvailable(species);
+        }
+
+        private bool IsSpeciesDirectlyAvailable(SpeciesPrototype species)
+        {
+            return !species.WhitelistRequired
+                || (species.JobWhitelistUnlock != null && _requirements.IsJobWhitelisted(species.JobWhitelistUnlock.Value.Id));
+        }
+
+        private bool TryGetFirstAvailableModelSpecies(string baseSpeciesId, out string speciesId)
+        {
+            speciesId = baseSpeciesId;
+
+            if (!RobotModelFamilies.TryGetValue(baseSpeciesId, out var options))
+                return false;
+
+            foreach (var option in options)
+            {
+                if (!IsSpeciesDirectlyAvailable(option.SpeciesId))
+                    continue;
+
+                speciesId = option.SpeciesId;
+                return true;
+            }
+
+            return false;
         }
 
         private bool IsSpeciesLockedForProfile()
@@ -1606,12 +1647,22 @@ namespace Content.Client.Lobby.UI
             if (IsSpeciesLockedForProfile() && Profile?.Species != newSpecies)
                 return;
 
+            if (!_prototypeManager.TryIndex<SpeciesPrototype>(newSpecies, out var speciesProto))
+                return;
+
+            if (!IsSpeciesDirectlyAvailable(speciesProto))
+            {
+                if (!TryGetFirstAvailableModelSpecies(newSpecies, out newSpecies))
+                    return;
+
+                speciesProto = _prototypeManager.Index<SpeciesPrototype>(newSpecies);
+            }
+
             Profile = Profile?.WithSpecies(newSpecies);
 
             // #Misfits Add: if the species restricts to specific jobs, auto-set those jobs to High
             // so the character doesn't fall through to overflow spawn (Wastelander) when the server
             // strips all non-restricted job priorities via EnsureValid.
-            var speciesProto = _prototypeManager.Index<SpeciesPrototype>(newSpecies);
             if (speciesProto.RestrictedJobs is { Count: > 0 } && Profile != null)
             {
                 foreach (var restrictedJobId in speciesProto.RestrictedJobs)
@@ -1675,7 +1726,7 @@ namespace Content.Client.Lobby.UI
 
             // Check if the species itself is a base key in the dictionary.
             if (RobotModelFamilies.TryGetValue(Profile.Species, out var options))
-                return options;
+                return FilterAvailableModelOptions(options);
 
             // Otherwise check if it's a hidden variant in any family.
             foreach (var (_, familyOpts) in RobotModelFamilies)
@@ -1683,11 +1734,20 @@ namespace Content.Client.Lobby.UI
                 foreach (var (optId, _) in familyOpts)
                 {
                     if (optId == Profile.Species)
-                        return familyOpts;
+                        return FilterAvailableModelOptions(familyOpts);
                 }
             }
 
             return null;
+        }
+
+        private (string SpeciesId, string NameLocKey)[]? FilterAvailableModelOptions((string SpeciesId, string NameLocKey)[] options)
+        {
+            var available = options
+                .Where(option => IsSpeciesDirectlyAvailable(option.SpeciesId))
+                .ToArray();
+
+            return available.Length == 0 ? null : available;
         }
 
         // #Misfits Add: synthetic robots should not expose unsupported humanoid appearance fields.
