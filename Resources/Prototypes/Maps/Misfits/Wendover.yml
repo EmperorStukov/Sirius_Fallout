@@ -68,14 +68,14 @@
           NCRFirstSergeant: [ 1, 1 ]
           #NCRStaffSergeant: [ 1, 1 ] # #Misfits Removed - replaced by NCRHeavyTrooper as T5 specialist slot
           NCRHeavyTrooper: [ 2, 2 ]
-          NCRNCO: [ 4, 4 ]
+          NCRNCO: [ 3, 3 ]
           NCRWS: [ 2, 2 ]
-          NCREngineer: [ 3, 3 ]
+          NCREngineer: [ 2, 2 ]
           NCRDoctor: [ 1, 1 ]
-          NCRMedic: [ 4, 4 ]
+          NCRMedic: [ 3, 3 ]
           NCRPrivateFirstClass: [ 4, 4 ]
           NCRSoldier: [ 4, 4 ]
-          NCRCadet: [ 9, 9 ]
+          NCRCadet: [ 7, 7 ]
           NCRPisoner : [ 2, 2 ]
           NCRMilitaryPoliceSergeant: [ 1, 1 ]
           NCRMilitaryPoliceRecruit: [ 2, 2 ]
@@ -111,16 +111,16 @@
           CaesarLegionCenturion: [ 1, 1 ] # Forge-Legion
           CaesarLegionVeteranDecanus: [ 1, 1 ] # Forge-Legion
           CaesarLegionDean: [ 1, 1 ] # Forge-Legion
-          CaesarLegionLegionnaireVeteran: [ 6, 6 ] # Forge-Legion
-          CaesarLegionLegionnaireWarrior: [ 6, 6 ] # Forge-Legion
-          CaesarLegionLegionnaireRecruit: [ 6, 6 ] # Forge-Legion
+          CaesarLegionLegionnaireVeteran: [ 4, 4 ] # Forge-Legion
+          CaesarLegionLegionnaireWarrior: [ 4, 4 ] # Forge-Legion
+          CaesarLegionLegionnaireRecruit: [ 4, 4 ] # Forge-Legion
           CaesarLegionVexillarius: [ 1, 1 ] # Forge-Legion
           CaesarLegionFrumentarii: [ 2, 2 ] # Forge-Legion # #Misfits Tweak - raised total and initial slots from 1 to 2
           CaesarLegionPrimeDecanus: [ 1, 1 ] # Misfits-Legion
           CaesarLegionExplorer: [ 1, 2 ] # Misfits-Legion
           CaesarLegionOrator: [ 1, 1 ] # Misfits-Legion
           CaesarLegionPriestessOfMars: [ 1, 1 ] # Misfits-Legion — Priestess of Mars late-join slot
-          CaesarLegionHoundmaster: [ 2, 2 ] # Forge-Legion
+          CaesarLegionHoundmaster: [ 1, 1 ] # Forge-Legion
           # #Misfits Change: CaesarLegionRecruit slot removed — CaesarLegionLegionnaireRecruit (line 103) already covers entry-level.
           CaesarLegionAuxilia: [ 4, 4 ] # #Misfits Change - activated
           CaesarLegionSlave: [ 4, 4 ] # Forge-Legion
