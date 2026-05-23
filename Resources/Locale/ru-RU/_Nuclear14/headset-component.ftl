@@ -2,12 +2,12 @@
 announcer-Fallout-name = Пустошь
 
 chat-radio-wasteland-common = Пустошь Обычная
-chat-radio-vault-command = Команда Хранилища
+chat-radio-vault-command = Команда Вотл-тек
 chat-radio-vault-engineering = Проектирование Убежищ
 chat-radio-vault-medical = Убежище Медикал
-chat-radio-vault-science = Наука Хранилища
-chat-radio-vault-security = Безопасность хранилища
-chat-radio-vault-common = Сейф
+chat-radio-vault-science = Наука убежища
+chat-radio-vault-security = Безопасность убежища
+chat-radio-vault-common = Убежище
 chat-radio-caravan = СС
 # #Misfits Change - Old BoS radio names commented out, consolidated channel added
 #chat-radio-bosmidwest = BoS

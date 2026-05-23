@@ -3,9 +3,9 @@
 # Program names (shown in the cartridge list)
 pipboy-hub-program-name = Центр Пип-Боев
 pipboy-contacts-program-name = Контакты Пип-Боя
-pipboy-groups-program-name = Группы пип-боев
+pipboy-groups-program-name = Группы Пип-боев
 pipboy-directory-program-name = Справочник Пип-Боев
-pipboy-settings-program-name = Pip-Boy Settings
+pipboy-settings-program-name = Настройки Пип-боя
 
 
 # Header
@@ -24,7 +24,7 @@ pipboy-hub-password-placeholder = Введите пароль...
 pipboy-hub-unlock = Разблокировать
 
 # ── SOS Beacon ──
-pipboy-hub-sos-beacon = ⚠ МАЯК SOS ⚠
+pipboy-hub-sos-beacon = ⚠ SOS ⚠
 pipboy-hub-sos-alerts-header = Экстренные оповещения:
 pipboy-hub-sos-alert-entry = SOS от {$name} в ({$x}, {$y})
 

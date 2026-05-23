@@ -196,8 +196,8 @@ misfits-whitelisting-tab-job-slots-btn = Job Slots Menu
 misfits-whitelisting-tab-job-slots-desc = Ищите игроков и управляйте конфигурацией слотов для заданий на станции.
 misfits-whitelisting-tab-view-whitelist-btn = Посмотреть белый список
 misfits-whitelisting-tab-view-whitelist-desc = Просмотрите все CKEY, которые в настоящее время находятся в белом списке сервера.
-misfits-whitelist-search-station = Станция: {$station}
-misfits-whitelist-search-station-none = Станция: нет
+misfits-whitelist-search-station = Убежище: {$station}
+misfits-whitelist-search-station-none = Убежище: нет
 misfits-whitelist-search-role-time = Время: {$time}
 misfits-whitelist-search-add-time = Добавлять
 misfits-whitelist-search-add-time-placeholder = 1 час
@@ -212,8 +212,8 @@ misfits-whitelist-search-slot-unlimited = Слоты: Неограниченно
 misfits-whitelist-search-slot-no-station = Слоты: нет станции
 
 # Job Slots EUI (standalone panel, no player search)
-misfits-job-slots-station = Станция: {$station}
-misfits-job-slots-station-none = Станция: нет
+misfits-job-slots-station = Убежище: {$station}
+misfits-job-slots-station-none = Убежище: нет
 misfits-job-slots-slot-count = Слоты: {$count}
 misfits-job-slots-slot-unlimited = Слоты: Неограниченно
 misfits-job-slots-slot-no-station = Слоты: нет станции

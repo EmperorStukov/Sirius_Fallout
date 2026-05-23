@@ -4,7 +4,7 @@ warp-point-debris = Космический мусор
 warp-point-ruin = Космические руины
 
 warp-point-bridge = Мост
-warp-point-vault = Сейф
+warp-point-vault = Убежище
 
 warp-point-sec = Безопасность
 warp-point-perma = Перма

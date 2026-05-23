@@ -10,7 +10,7 @@ guide-entry-minorfactions = Второстепенные фракции
 guide-entry-ncr = НКР
 guide-entry-townsfolk = Город
 guide-entry-tribes = Племена
-guide-entry-vaultdwellers = Сейф
+guide-entry-vaultdwellers = Убежище
 guide-entry-wastelanders = Жители пустошей
 guide-entry-zetan = Зетанцы
 
