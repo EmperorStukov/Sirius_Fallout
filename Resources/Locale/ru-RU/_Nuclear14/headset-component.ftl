@@ -2,7 +2,7 @@
 announcer-Fallout-name = Пустошь
 
 chat-radio-wasteland-common = Пустошь Обычная
-chat-radio-vault-command = Команда Вотл-тек
+chat-radio-vault-command = Команда убежища
 chat-radio-vault-engineering = Проектирование Убежищ
 chat-radio-vault-medical = Убежище Медикал
 chat-radio-vault-science = Наука убежища

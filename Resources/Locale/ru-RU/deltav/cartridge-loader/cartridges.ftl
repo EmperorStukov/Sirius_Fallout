@@ -163,7 +163,7 @@ stock-trading-price-history = История цен
 ## NanoChat (Misfits Rename → Private Messenger)
 
 # General
-nano-chat-program-name = Пип-Бой Посыльный
+nano-chat-program-name = Пип-Бой мессенджер
 nano-chat-title = Мгновенный мессенджер
 nano-chat-new-chat = Новый чат
 nano-chat-contacts = КОНТАКТЫ

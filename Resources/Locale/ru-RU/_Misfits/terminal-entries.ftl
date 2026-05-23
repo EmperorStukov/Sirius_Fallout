@@ -6,302 +6,302 @@
 # PRE-WAR ENTRIES (2077, before and during the Great War)
 
 terminal-entry-weather-title = ВЕНДОВЕР ПОГОДНАЯ СЛУЖБА - КОНСУЛЬТАЦИИ
-terminal-entry-weather-content = 
-    NATIONAL WEATHER SERVICE - WENDOVER STATION
-    DATE: OCTOBER 21, 2077
-    
-    ADVISORY: Unusual atmospheric readings detected over the Great Salt Lake basin. High altitude particulate density exceeds normal parameters by 340%.
-    
-    Ground level temperature inversion expected through the weekend. Residents with respiratory conditions should remain indoors.
-    
-    NOTE FROM STATION CHIEF: I have been doing this job for nineteen years. I have never seen readings like this. The instruments are not malfunctioning. I checked twice. Something is wrong with the sky.
-    
-    Next scheduled update: 0600 MONDAY
-    
-    { "" }... if there is a Monday.
+terminal-entry-weather-content =
+    НАЦИОНАЛЬНАЯ МЕТЕОРОЛОГИЧЕСКАЯ СЛУЖБА - СТАНЦИЯ ВЕНДОВЕР
+    ДАТА: 21 ОКТЯБРЯ 2077 ГОДА
+
+    ПРЕДУПРЕЖДЕНИЕ: Обнаружены необычные атмосферные показатели над бассейном Большого Солёного озера. Плотность твёрдых частиц на большой высоте превышает нормальные параметры на 340%.
+
+    Ожидается приземная температурная инверсия до конца недели. Жителям с респираторными заболеваниями рекомендуется оставаться в помещении.
+
+    ПРИМЕЧАНИЕ НАЧАЛЬНИКА СТАНЦИИ: Я работаю на этой работе девятнадцать лет. Я никогда не видел таких показателей. Приборы не неисправны. Я проверил дважды. С небом что-то не так.
+
+    Следующее плановое обновление: 0600 ПОНЕДЕЛЬНИК
+
+    { "" }... если будет понедельник.
 
 terminal-entry-supply-title = База ВЕНДОВЕР – ЗАЯВКА НА ПОСТАВКУ
-terminal-entry-supply-content = 
-    USAF WENDOVER AIR FORCE BASE
-    SUPPLY AND LOGISTICS DIVISION
-    DATE: OCTOBER 18, 2077
-    
-    REQ #4471: Emergency stockpile expansion authorized under Executive Order 7209.
-    
-    Items received this week:
-    - 2,400 MRE cases (10-year shelf life variant)
-    - 800 water purification tablets (industrial grade)
-    - 340 radiation suits (Type III)
-    - 12 crates ammunition (mixed caliber, manifest sealed)
-    - 4 crates [REDACTED] (Hangar 4 storage, Col. Webb's authorization only)
-    
-    Storage capacity at 94%. Request additional underground magazine space approved but construction will not complete before deadline.
-    
-    Sgt. Kowalski notes: We are getting more stuff than we have room for. Nobody will tell me what is in the sealed crates. I do not like this.
+terminal-entry-supply-content =
+    АВИАБАЗА ВВС США ВЕНДОВЕР
+    ОТДЕЛ СНАБЖЕНИЯ И ЛОГИСТИКИ
+    ДАТА: 18 ОКТЯБРЯ 2077 ГОДА
+
+    ЗАЯВКА №4471: Расширение аварийных запасов разрешено в соответствии с Исполнительным указом 7209.
+
+    Предметы, полученные на этой неделе:
+    - 2 400 ящиков сухпайков (вариант со сроком хранения 10 лет)
+    - 800 таблеток для очистки воды (промышленного класса)
+    - 340 радиационных костюмов (Тип III)
+    - 12 ящиков боеприпасов (смешанный калибр, манифест опечатан)
+    - 4 ящика [ЗАСЕКРЕЧЕНО] (хранилище Ангара 4, только с разрешения полковника Уэбба)
+
+    Вместимость склада: 94%. Запрос на дополнительное подземное хранилище одобрен, но строительство не будет завершено до крайнего срока.
+
+    Сержант Ковальски отмечает: Нам привозят больше добра, чем у нас есть места. Никто не скажет мне, что в запечатанных ящиках. Мне это не нравится.
 
 terminal-entry-evacuation-title = АВАРИЙНАЯ ТРЕВОГА - ЭВАКУАЦИЯ
-terminal-entry-evacuation-content = 
-    { "" }*** EMERGENCY ALERT SYSTEM ***
-    { "" }*** THIS IS NOT A DRILL ***
-    DATE: OCTOBER 23, 2077
-    
-    NUCLEAR DETONATIONS CONFIRMED: Eastern seaboard. Multiple impacts reported.
-    
-    All citizens of Wendover and surrounding areas: proceed to designated shelter locations IMMEDIATELY.
-    
-    Shelter locations:
-    - Wendover Community Center (capacity 200)
-    - Wendover AFB underground complex (military personnel and dependents ONLY)
-    - Mine shafts along Route 93 South (unofficial, unverified safety)
-    
-    Do NOT attempt to drive east. Interstate 80 is gridlocked beyond the salt flats.
-    
-    If you cannot reach a shelter: seek any underground structure. Close all doors and windows. Seal gaps with wet cloth. Remain inside for a minimum of 48 hours.
-    
-    God help us all.
-    
-    { "" }*** END OF BROADCAST ***
+terminal-entry-evacuation-content =
+    { "" }*** СИСТЕМА АВАРИЙНОГО ОПОВЕЩЕНИЯ ***
+    { "" }*** ЭТО НЕ УЧЕНИЯ ***
+    ДАТА: 23 ОКТЯБРЯ 2077 ГОДА
+
+    ПОДТВЕРЖДЕНЫ ЯДЕРНЫЕ ВЗРЫВЫ: Восточное побережье. Сообщается о множественных попаданиях.
+
+    Все граждане Вендовера и окрестностей: НЕМЕДЛЕННО проследуйте в назначенные укрытия.
+
+    Местоположение укрытий:
+    - Общественный центр Вендовера (вместимость 200)
+    - Подземный комплекс авиабазы Вендовер (ТОЛЬКО для военнослужащих и их иждивенцев)
+    - Шахты вдоль шоссе 93 на юг (неофициально, безопасность не подтверждена)
+
+    НЕ пытайтесь ехать на восток. Межштатная магистраль 80 заблокирована за солончаками.
+
+    Если вы не можете добраться до укрытия: ищите любое подземное сооружение. Закройте все двери и окна. Заткните щели влажной тканью. Оставайтесь внутри минимум 48 часов.
+
+    Да поможет нам Бог.
+
+    { "" }*** КОНЕЦ ПЕРЕДАЧИ ***
 
 terminal-entry-airfield-title = База ВЕНДОВЕР - ЖУРНАЛ ОПЕРАЦИЙ
-terminal-entry-airfield-content = 
-    WENDOVER AIR FORCE BASE
-    OPERATIONS LOG - OCTOBER 2077
-    
-    Oct 3: Two C-130 transports arrived unscheduled. Cargo offloaded under guard to Hangar 4. Flight crew ordered to quarters. No debriefing permitted.
-    
-    Oct 7: Perimeter security doubled. New fencing around the southern runway. Guard dogs deployed.
-    
-    Oct 12: Base personnel reduced to essential only. Families relocated to temporary housing in town. Morale is poor.
-    
-    Oct 15: Strange lights over the salt flats at 0300. Multiple witnesses. Command says atmospheric testing at Dugway. Nobody believes that.
-    
-    Oct 19: DEFCON 2 declared. All leave cancelled.
-    
-    Oct 22: Seismic sensors picked up subsurface detonations to the east. Distance estimated at 400 miles. No confirmation from command. Radio traffic is all encrypted now.
-    
-    Oct 23: [ENTRY CORRUPTED]
+terminal-entry-airfield-content =
+    АВИАБАЗА ВЕНДОВЕР
+    ЖУРНАЛ ОПЕРАЦИЙ - ОКТЯБРЬ 2077 ГОДА
+
+    3 окт: Два транспортных C-130 прибыли вне графика. Груз выгружен под охраной в Ангар 4. Экипажу приказано оставаться в казармах. Дебрифинг не разрешён.
+
+    7 окт: Охрана периметра удвоена. Новое ограждение вокруг южной взлётной полосы. Развёрнуты сторожевые собаки.
+
+    12 окт: Персонал базы сокращён до минимума. Семьи переселены во временное жильё в городе. Моральный дух низок.
+
+    15 окт: Странные огни над солончаками в 03:00. Множество свидетелей. Командование говорит — атмосферные испытания в Дагвее. Никто в это не верит.
+
+    19 окт: Объявлен DEFCON 2. Все отпуска отменены.
+
+    22 окт: Сейсмические датчики зафиксировали подземные взрывы к востоку. Расстояние оценивается в 400 миль. Подтверждения от командования нет. Радиопереговоры теперь полностью зашифрованы.
+
+    23 окт: [ЗАПИСЬ ПОВРЕЖДЕНА]
 
 terminal-entry-maintenance-title = ЖУРНАЛ ОБСЛУЖИВАНИЯ ТЕРМИНАЛА
-terminal-entry-maintenance-content = 
-    ROBCO INDUSTRIES TERMINAL - MAINTENANCE LOG
-    MODEL: TERMLINK 3000
-    
-    Last service: September 14, 2077
-    Technician: D. Furukawa, RobCo Field Service
-    
-    NOTES:
-    - Replaced cathode ray tube (original was flickering)
-    - Updated TERMLINK firmware to version 1.7.4
-    - Cleared 340MB of cached personnel files per admin request
-    - Keyboard switch membrane showing wear on keys E, T, A, and ENTER
-    - Recommended full keyboard replacement within 6 months
-    
-    Customer declined extended warranty. Again.
-    
-    PERSONAL NOTE: This is my third call to Wendover this month. Whatever they are doing at that airbase, they are burning through terminals faster than we can fix them. Requisitioned eight new units last week. For a base this size that is unusual.
-    
-    Next scheduled maintenance: March 2078
-    
-    { "" }[Note: subsequent maintenance was never performed.]
+terminal-entry-maintenance-content =
+    ROBCO INDUSTRIES ТЕРМИНАЛ - ЖУРНАЛ ТЕХОБСЛУЖИВАНИЯ
+    МОДЕЛЬ: TERMLINK 3000
+
+    Последнее обслуживание: 14 сентября 2077 года
+    Техник: Д. Фурукава, RobCo Полевое обслуживание
+
+    ЗАМЕТКИ:
+    - Заменена электронно-лучевая трубка (оригинал мерцал)
+    - Обновлена прошивка TERMLINK до версии 1.7.4
+    - Очищено 340 МБ кэшированных личных файлов по запросу администрации
+    - Мембрана клавиш клавиатуры изношена на клавишах E, T, A и ENTER
+    - Рекомендована полная замена клавиатуры в течение 6 месяцев
+
+    Клиент отказался от расширенной гарантии. Снова.
+
+    ЛИЧНАЯ ЗАМЕТКА: Это мой третий вызов в Вендовер в этом месяце. Чем бы они ни занимались на той авиабазе, они сжигают терминалы быстрее, чем мы успеваем их чинить. На прошлой неделе запросили восемь новых устройств. Для базы такого размера это необычно.
+
+    Следующее плановое обслуживание: Март 2078 года
+
+    { "" }[Примечание: последующее обслуживание так и не было проведено.]
 
 terminal-entry-broadcast-title = РАДИО ВЕНДОВЕР - ПОСЛЕДНЯЯ ТРАНСЛЯЦИЯ
-terminal-entry-broadcast-content = 
-    RADIO WENDOVER 1340 AM
-    BROADCAST TRANSCRIPT - OCTOBER 23, 2077
-    
-    "... this is Gary Patterson coming to you live from Radio Wendover. Folks, I am going to level with you. I do not know what is happening. We have been getting reports, unconfirmed, that there have been, well, explosions. Big ones. Out east.
-    
-    The phone lines are down. The TV stations went to static about twenty minutes ago. I tried calling Salt Lake but nobody is picking up.
-    
-    I can see... there is something on the horizon. To the east. It looks like clouds but they are the wrong color. Orange. Like a sunset but it is eleven thirty in the morning.
-    
-    I am going to stay on the air as long as I can. If you can hear this, stay inside. Stay underground if you can manage it.
-    
-    To my wife Barbara, if you are listening: I love you. Get the kids to the basement. Fill the bathtub with water. I will be home as soon as...
-    
-    { "" }[SIGNAL LOST]"
+terminal-entry-broadcast-content =
+    РАДИО ВЕНДОВЕР 1340 AM
+    СТЕНОГРАММА ПЕРЕДАЧИ - 23 ОКТЯБРЯ 2077 ГОДА
+
+    "... это Гэри Паттерсон, веду прямой эфир с Радио Вендовер. Народ, я буду с вами откровенен. Я не знаю, что происходит. Мы получаем сообщения, неподтверждённые, что там были, ну, взрывы. Большие. На востоке.
+
+    Телефонные линии не работают. Телеканалы превратились в помехи около двадцати минут назад. Я пытался дозвониться в Солт-Лейк, но никто не берёт трубку.
+
+    Я вижу... там что-то на горизонте. К востоку. Похоже на облака, но они неправильного цвета. Оранжевые. Как закат, но сейчас половина двенадцатого утра.
+
+    Я буду оставаться в эфире так долго, как смогу. Если вы слышите это, оставайтесь внутри. Оставайтесь под землёй, если можете.
+
+    Моей жене Барбаре, если ты слушаешь: я люблю тебя. Уведи детей в подвал. Наполни ванну водой. Я буду дома, как только...
+
+    { "" }[СИГНАЛ ПОТЕРЯН]"
 
 terminal-entry-medical-title = КЛИНИКА ВЕНДОВЕР - ЖУРНАЛ ПАЦИЕНТА
-terminal-entry-medical-content = 
-    WENDOVER COMMUNITY HEALTH CLINIC
-    PATIENT INTAKE LOG - OCTOBER 2077
-    
-    Oct 5: Jenkins, Robert. Age 44. Persistent cough, minor radiation exposure. Prescribed RadAway (oral, 3-day course). Source of exposure unknown. Works at the airfield.
-    
-    Oct 11: Martinez, Elena. Age 31. Anxiety, insomnia. Third visit this month. Prescribed sedatives. Patient states she "knows something bad is coming." Recommended counseling.
-    
-    Oct 16: Weber, Thomas. Age 8. Nosebleeds. Third child this week with similar symptoms. Checked water supply. Within acceptable parameters. Forwarded report to county health.
-    
-    Oct 20: Airfield sent over six personnel with radiation burns. Moderate severity. They would not tell me what they were exposed to. Treated and released against my recommendation.
-    
-    Oct 22: Clinic is out of RadAway. Shipment from Salt Lake delayed indefinitely. Out of iodine tablets as of this morning. Requested emergency supply from the base. Denied.
-    
-    I have a very bad feeling about tomorrow.
-    
-    - Dr. Sandra Okafor
+terminal-entry-medical-content =
+    ОБЩЕСТВЕННАЯ МЕДИЦИНСКАЯ КЛИНИКА ВЕНДОВЕРА
+    ЖУРНАЛ ПРИЁМА ПАЦИЕНТОВ - ОКТЯБРЬ 2077 ГОДА
+
+    5 окт: Дженкинс, Роберт. 44 года. Постоянный кашель, незначительное радиационное облучение. Прописан РадАуэй (перорально, 3-дневный курс). Источник облучения неизвестен. Работает на аэродроме.
+
+    11 окт: Мартинес, Елена. 31 год. Тревожность, бессонница. Третий визит в этом месяце. Прописаны седативные. Пациентка утверждает, что «знает, что приближается что-то плохое». Рекомендована консультация.
+
+    16 окт: Уэбер, Томас. 8 лет. Носовые кровотечения. Третий ребёнок на этой неделе с аналогичными симптомами. Проверил водоснабжение. В пределах допустимых параметров. Отправил отчёт в окружной отдел здравоохранения.
+
+    20 окт: С аэродрома доставили шесть человек с радиационными ожогами. Средняя степень тяжести. Они не сказали мне, чему подверглись. Лечил и выписал вопреки моей рекомендации.
+
+    22 окт: В клинике закончился РадАуэй. Поставка из Солт-Лейк-Сити отложена на неопределённый срок. Таблетки йода закончились сегодня утром. Запросил аварийный запас с базы. Отказано.
+
+    У меня очень плохое предчувствие насчёт завтрашнего дня.
+
+    - Доктор Сандра Окафор
 
 terminal-entry-security-title = ПОЛИЦИЯ ВЕНДОВЕРА – ОТЧЕТ О ПРОИСШЕСТВИИ
-terminal-entry-security-content = 
-    WENDOVER POLICE DEPARTMENT
-    INCIDENT LOG - OCTOBER 2077
-    
-    Oct 8: 2215 hours. Disturbance at Sal's Bar. Two airfield personnel in a fistfight. Separated and released. Both refused to state cause. Off the record, one of them kept saying "they are going to kill us all."
-    
-    Oct 14: 0830 hours. Highway 93 roadblock established per federal order. All southbound civilian traffic diverted. No explanation provided by military liaison.
-    
-    Oct 17: 1400 hours. Break-in at Henderson's Sporting Goods. Firearms and ammunition stolen. No leads. Third firearms theft this month. People are scared.
-    
-    Oct 21: 0600 hours. Military convoy passed through town heading east. Thirty plus vehicles. Nobody would make eye contact.
-    
-    Oct 22: ALL DAY. Phone lines jammed with calls about the sky. Yes, I can see it too. No, I do not know what it is. Everyone stay calm.
-    
-    Oct 23: [FINAL ENTRY] Told dispatch I am going home to my family. If anyone reads this later: I am sorry. I did not know what else to do.
-    
-    - Chief Ray Delgado
+terminal-entry-security-content =
+    ПОЛИЦЕЙСКИЙ ДЕПАРТАМЕНТ ВЕНДОВЕРА
+    ЖУРНАЛ ПРОИСШЕСТВИЙ - ОКТЯБРЬ 2077 ГОДА
 
-terminal-entry-personal-title = ЛИЧНЫЙ ЖУРНАЛ - БЕЗПИСАННЫЙ
-terminal-entry-personal-content = 
-    I found this terminal still working in the back office of the old motel on Route 93. Battery backup, if you can believe it. Two hundred years and the little green light is still blinking.
-    
-    Using it to leave a record. Somebody should know what happened here.
-    
-    The town had maybe fifty people in it when the bombs fell. Most of the airfield personnel did not make it. The ones who did were sick within a week. Skin peeling. Teeth falling out. The lucky ones went fast.
-    
-    The rest of us hunkered down in basements and closets. Ate canned food and prayed. The sky was orange for three months straight.
-    
-    When we finally came out, the salt flats had turned glass in places. Smooth and black like obsidian. Beautiful in a terrible way.
-    
-    We rebuilt because there was nothing else to do. Stacked cars for walls. Patched roofs with sheet metal. Planted crops in dirt we were not sure was safe.
-    
-    Wendover survived. Barely. But it survived.
+    8 окт: 22:15. Беспорядки в баре Сэла. Драка между двумя сотрудниками аэродрома. Разняты и отпущены. Оба отказались назвать причину. Неофициально, один из них твердил «они всех нас убьют».
+
+    14 окт: 08:30. Блокпост на шоссе 93 установлен по федеральному приказу. Все гражданские транспортные средства, следующие на юг, перенаправлены. Военный представитель не предоставил объяснений.
+
+    17 окт: 14:00. Ограбление магазина спортивных товаров Хендерсона. Похищено огнестрельное оружие и боеприпасы. Зацепок нет. Третья кража оружия в этом месяце. Люди напуганы.
+
+    21 окт: 06:00. Военный конвой проследовал через город на восток. Более тридцати машин. Никто не захотел встречаться взглядом.
+
+    22 окт: ВЕСЬ ДЕНЬ. Телефонные линии перегружены звонками о небе. Да, я тоже это вижу. Нет, я не знаю, что это. Всем сохранять спокойствие.
+
+    23 окт: [ПОСЛЕДНЯЯ ЗАПИСЬ] Сказал диспетчеру, что иду домой к своей семье. Если кто-то прочитает это позже: мне жаль. Я не знал, что ещё делать.
+
+    - Начальник Рэй Дельгадо
+
+terminal-entry-personal-title = ЛИЧНЫЙ ЖУРНАЛ - БЕЗЫМЯННЫЙ
+terminal-entry-personal-content =
+    Я нашёл этот терминал всё ещё работающим в подсобке старого мотеля на шоссе 93. Резервное питание от батареи, если можете в это поверить. Двести лет, и маленький зелёный огонёк всё ещё мигает.
+
+    Использую его, чтобы оставить запись. Кто-то должен знать, что здесь произошло.
+
+    В городе, когда упали бомбы, было, может, пятьдесят человек. Большинство персонала аэродрома не выжило. Те, кто выжил, заболели в течение недели. Кожа слезала. Зубы выпадали. Счастливчики ушли быстро.
+
+    Остальные из нас отсиживались в подвалах и чуланах. Ели консервы и молились. Небо было оранжевым три месяца подряд.
+
+    Когда мы наконец вышли, солончаки местами превратились в стекло. Гладкое и чёрное, как обсидиан. Красивое в ужасном смысле.
+
+    Мы отстроились заново, потому что больше нечего было делать. Составили машины для стен. Залатали крыши листовым металлом. Посадили урожай в землю, в безопасности которой не были уверены.
+
+    Вендовер выжил. Еле-еле. Но выжил.
 
 terminal-entry-final-title = СООБЩЕНИЕ АВТОМАТИЗИРОВАННОЙ СИСТЕМЫ
-terminal-entry-final-content = 
+terminal-entry-final-content =
     ROBCO INDUSTRIES TERMLINK
-    AUTOMATED SYSTEM MESSAGE
-    
-    WARNING: System clock discrepancy detected.
-    Last known date: October 23, 2077
-    Estimated current date: CALCULATION ERROR
-    
-    Unread messages: 1,247
-    Undelivered messages: 3,891
-    Network connections: 0 of 14,221 nodes responding
-    
-    Scheduled maintenance: OVERDUE (est. 73,000+ days)
-    Firmware update server: CONNECTION REFUSED
-    Backup power: 2.3% remaining
-    
-    This terminal has been operating on emergency power for an extended period. Data integrity cannot be guaranteed. Some files may be corrupted or incomplete.
-    
-    To reach a RobCo service technician, please call 1-800-ROBCO-HELP.
-    
+    АВТОМАТИЗИРОВАННОЕ СИСТЕМНОЕ СООБЩЕНИЕ
+
+    ПРЕДУПРЕЖДЕНИЕ: Обнаружено расхождение системных часов.
+    Последняя известная дата: 23 октября 2077 года
+    Предполагаемая текущая дата: ОШИБКА ВЫЧИСЛЕНИЯ
+
+    Непрочитанные сообщения: 1 247
+    Недоставленные сообщения: 3 891
+    Сетевые подключения: 0 из 14 221 узла отвечают
+
+    Плановое обслуживание: ПРОСРОЧЕНО (прибл. 73 000+ дней)
+    Сервер обновления прошивки: СОЕДИНЕНИЕ ОТКЛОНЕНО
+    Резервное питание: осталось 2,3%
+
+    Этот терминал работает от аварийного питания в течение длительного периода. Целостность данных не может быть гарантирована. Некоторые файлы могут быть повреждены или неполны.
+
+    Чтобы связаться с сервисным техником RobCo, пожалуйста, позвоните 1-800-ROBCO-HELP.
+
     { "" }...
-    
-    We are sorry. All circuits are busy. Please try again later.
+
+    Нам жаль. Все линии заняты. Пожалуйста, повторите попытку позже.
 
 # POST-WAR ENTRIES (decades/centuries after the bombs)
 
 terminal-entry-postwar-trader-title = ТОРГОВЫЙ ПОЧТОВЫЙ ТЕРМИНАЛ - ПРАЙС-ЛИСТ
-terminal-entry-postwar-trader-content = 
-    WENDOVER TRADE POST
-    CURRENT PRICES - SUBJECT TO CHANGE
-    
-    Look, I figured out how to use this old terminal so I am using it to keep track of inventory. If you are reading this, yes it is for sale. Everything is for sale. That is how trade works.
-    
-    WATER (purified): 5 caps / bottle
-    WATER (questionable): 2 caps / bottle
-    NUKA-COLA (flat): 8 caps (collector value)
-    CANNED MEAT: 3 caps (do not ask what kind)
-    STIMPAK: 25 caps (when I have them)
-    { "" }.38 ROUNDS: 1 cap each, 20 for 15
-    10MM ROUNDS: 2 caps each
-    BRAHMIN STEAK: 4 caps (fresh daily, sort of)
-    
-    SERVICES:
-    Terminal repair: 15 caps + parts
-    Gun cleaning: 5 caps
-    Information: depends on what you want to know
-    
-    NO CREDIT. NO BARTER UNLESS I LIKE WHAT YOU HAVE.
-    RAIDERS AND LEGION DO NOT GET SERVICE. NCR PAYS DOUBLE.
+terminal-entry-postwar-trader-content =
+    ТОРГОВЫЙ ПОСТ ВЕНДОВЕРА
+    ТЕКУЩИЕ ЦЕНЫ - МОГУТ ИЗМЕНЯТЬСЯ
 
-terminal-entry-postwar-scavenger-title = ЗАМЕЧАНИЯ МУСАЛДЕРА
-terminal-entry-postwar-scavenger-content = 
-    Got this terminal working. Took three power cells and half a day of cursing. Writing down what I know so the next poor fool who comes through here does not have to learn it the hard way.
-    
-    PLACES WORTH HITTING
-    - Old motel on 93: picked clean on the surface but the basement has a locked room I could not get into. Need better lockpicks or explosives.
-    - Rail yard switching station: mechanical parts, copper wire. Watch for radscorpions in the east building.
-    - Casino district: mostly stripped but the vault under the main floor has not been cracked. Need a code or a plasma cutter.
-    
-    PLACES TO AVOID
-    - Airfield Hangar 4: radiation is lethal. Saw a guy in a rad suit try it. He lasted ten minutes.
-    - Southern tunnel on the rail line: something lives in there. Something big. Heard it breathing.
-    - The glass flats after dark: the surface cracks and you fall through. Saw it happen. Did not stay to watch.
-    
-    GENERAL ADVICE
-    - Travel in pairs minimum
-    - Carry more water than you think you need
-    - If you hear a clicking sound, you are already too close to the rads
+    Слушай, я разобрался, как пользоваться этим старым терминалом, так что использую его для учёта запасов. Если ты это читаешь, да, это продаётся. Всё продаётся. Так работает торговля.
+
+    ВОДА (очищенная): 5 крышек / бутылка
+    ВОДА (сомнительная): 2 крышки / бутылка
+    НУКА-КОЛА (выдохшаяся): 8 крышек (коллекционная ценность)
+    КОНСЕРВИРОВАННОЕ МЯСО: 3 крышки (не спрашивайте какое)
+    СТИМПАК: 25 крышек (когда есть в наличии)
+    { "" }.38 ПАТРОНЫ: 1 крышка каждый, 20 за 15
+    10ММ ПАТРОНЫ: 2 крышки каждый
+    СТЕЙК ИЗ БРАМИНА: 4 крышки (свежий ежедневно, в некотором роде)
+
+    УСЛУГИ:
+    Ремонт терминала: 15 крышек + запчасти
+    Чистка оружия: 5 крышек
+    Информация: зависит от того, что вы хотите узнать
+
+    НИКАКОГО КРЕДИТА. НИКАКОГО ОБМЕНА, ЕСЛИ МНЕ НЕ НРАВИТСЯ ТО, ЧТО У ВАС ЕСТЬ.
+    РЕЙДЕРЫ И ЛЕГИОН НЕ ОБСЛУЖИВАЮТСЯ. НКР ПЛАТИТ ВДВОЙНЕ.
+
+terminal-entry-postwar-scavenger-title = ЗАМЕЧАНИЯ МУСОРЩИКА
+terminal-entry-postwar-scavenger-content =
+    Запустил этот терминал. Понадобилось три батареи и полдня ругани. Записываю то, что знаю, чтобы следующий бедолага, проходящий через это место, не учился на своих ошибках.
+
+    МЕСТА, СТОЯЩИЕ ВНИМАНИЯ
+    - Старый мотель на 93: поверхность обчищена, но в подвале запертая комната, в которую я не смог попасть. Нужны отмычки получше или взрывчатка.
+    - Распределительная станция в депо: механические детали, медная проволока. Остерегайтесь радскорпионов в восточном здании.
+    - Казино: в основном разграблено, но хранилище под главным залом ещё не вскрыто. Нужен код или плазменный резак.
+
+    МЕСТА, КОТОРЫХ СЛЕДУЕТ ИЗБЕГАТЬ
+    - Ангар 4 на аэродроме: радиация смертельна. Видел парня в радиационном костюме, который попытался. Он продержался десять минут.
+    - Южный туннель на железнодорожной линии: там кто-то живёт. Кто-то большой. Слышал его дыхание.
+    - Стеклянные равнины после наступления темноты: поверхность трескается, и вы проваливаетесь. Видел, как это случилось. Не стал останавливаться, чтобы посмотреть.
+
+    ОБЩИЕ СОВЕТЫ
+    - Путешествуйте минимум вдвоём
+    - Берите больше воды, чем думаете, что вам нужно
+    - Если вы слышите щелчки, вы уже слишком близко к радиации
 
 terminal-entry-postwar-settler-title = СОВЕТ СООБЩЕСТВА - ОБЪЯВЛЕНИЯ
-terminal-entry-postwar-settler-content = 
-    WENDOVER SETTLEMENT - COMMUNITY NOTICES
-    
-    WALL REPAIR: North section needs patching again. Volunteers meet at the gate at sunrise. Bring your own tools. Payment is one meal.
-    
-    WATER SCHEDULE: Pump station runs twice daily. Morning draw at 0700, evening at 1800. One container per person. Families with children get priority. No exceptions.
-    
-    CLINIC HOURS: Doc Whelan is available mornings only. Afternoon house calls for emergencies. Payment in caps, food, or medical supplies.
-    
-    MISSING: One brahmin, brown with white patch on face. Answers to "Daisy" (sometimes). Last seen near the south gate. Please return. She is our best milker.
-    
-    WARNING: Increased raider activity on the eastern highway. Do not travel alone. Armed escort available through Jennings at the truck stop. Cost is negotiable.
-    
-    TOWN MEETING: Thursday evening at the community hall. Agenda includes water rationing adjustments and whether to accept the NCR patrol's offer of "protection." All residents encouraged to attend.
-    
-    Remember: we look out for each other. That is how we survive.
+terminal-entry-postwar-settler-content =
+    ПОСЕЛЕНИЕ ВЕНДОВЕР - ОБЪЯВЛЕНИЯ СООБЩЕСТВА
+
+    РЕМОНТ СТЕНЫ: Северный участок снова требует починки. Добровольцы встречаются у ворот на рассвете. Приносите свои инструменты. Оплата — одно питание.
+
+    РАСПИСАНИЕ ВОДЫ: Насосная станция работает дважды в день. Утренний забор в 07:00, вечерний в 18:00. Одна ёмкость на человека. Семьи с детьми имеют приоритет. Никаких исключений.
+
+    ЧАСЫ РАБОТЫ КЛИНИКИ: Док Уилан принимает только по утрам. Выезды на дом во второй половине дня в экстренных случаях. Оплата крышками, едой или медикаментами.
+
+    ПРОПАЖА: Один брамин, коричневый с белым пятном на морде. Откликается на «Дейзи» (иногда). В последний раз видели у южных ворот. Пожалуйста, верните. Она наша лучшая дойная корова.
+
+    ПРЕДУПРЕЖДЕНИЕ: Усиление активности рейдеров на восточном шоссе. Не путешествуйте в одиночку. Вооружённое сопровождение доступно через Дженнингса на заправке. Цена договорная.
+
+    ОБЩЕЕ СОБРАНИЕ: Четверг вечером в общинном зале. Повестка включает корректировку нормирования воды и вопрос о принятии «защиты» от патруля НКР. Все жители приглашаются.
+
+    Помните: мы заботимся друг о друге. Именно так мы выживаем.
 
 terminal-entry-postwar-warning-title = ОПАСНО – НЕ ПРОДОЛЖАЙТЕ
-terminal-entry-postwar-warning-content = 
-    IF YOU CAN READ THIS THEN THE TERMINAL STILL WORKS
-    
-    DO NOT GO FURTHER INTO THIS BUILDING
-    
-    My partner Reeves went down to the sublevel two days ago. I heard him screaming for about a minute. Then nothing.
-    
-    I do not know what is down there. I do not want to know. I am leaving this message and getting out.
-    
-    Whatever it is, it took Reeves who was the toughest person I ever met. He had power armor parts and a shotgun and it did not matter.
-    
-    I barricaded the stairwell door with everything I could find. Filing cabinets. Desks. A vending machine. I do not think it will hold forever.
-    
-    If you are a scavenger: there is nothing down there worth dying for.
-    If you are military: bring a squad. A big one.
-    If you are alone: run.
-    
-    - Cass, of the Red Rock Caravan
+terminal-entry-postwar-warning-content =
+    ЕСЛИ ТЫ ЭТО ЧИТАЕШЬ, ЗНАЧИТ ТЕРМИНАЛ ВСЁ ЕЩЁ РАБОТАЕТ
+
+    НЕ ХОДИ ДАЛЬШЕ В ЭТО ЗДАНИЕ
+
+    Мой напарник Ривз спустился на нижний уровень два дня назад. Я слышал, как он кричал около минуты. Потом тишина.
+
+    Я не знаю, что там внизу. Я не хочу знать. Я оставляю это сообщение и ухожу.
+
+    Что бы это ни было, оно забрало Ривза, а он был самым крутым человеком, которого я когда-либо встречал. У него были детали силовой брони и дробовик, и это не помогло.
+
+    Я забаррикадировал дверь на лестницу всем, что смог найти. Картотечные шкафы. Столы. Торговый автомат. Не думаю, что это продержится вечно.
+
+    Если ты мусорщик: там внизу нет ничего, ради чего стоит умирать.
+    Если ты военный: приводи отряд. Большой.
+    Если ты один: беги.
+
+    - Касс, из Каравана Красной Скалы
 
 terminal-entry-postwar-radio-title = ЖУРНАЛ РЕМОНТА РАДИО
-terminal-entry-postwar-radio-content = 
-    WENDOVER COMMUNITY RADIO - MAINTENANCE LOG
-    
-    Got the old broadcast tower working again. Sort of. Signal reaches maybe ten miles on a clear day. Better than nothing.
-    
-    Been using it to broadcast weather reports and safe travel routes. Also warnings when raider groups are spotted moving through the area.
-    
-    Some nights I pick up signals from far away. Once heard a woman reading poetry in a language I did not recognize. Another time, what sounded like music from before the war. Big band stuff. Trumpets and saxophones echoing across the wasteland.
-    
-    Could not tell where it was coming from. Probably bouncing off the atmosphere. Or maybe someone else out there is doing the same thing I am. Sitting alone at a microphone, talking into the dark, hoping somebody is listening.
-    
-    Frequency list for locals:
-    - 87.5 FM: Community broadcasts (that is me)
-    - 91.3 FM: Dead air but sometimes carries NCR military chatter
-    - 103.7 FM: Static. Used to be something. Now just noise.
-    - 1340 AM: The old Radio Wendover frequency. Plays a looping emergency message from 2077. Two hundred years of "please stand by."
-    
-    I leave it running at night. It is company.
+terminal-entry-postwar-radio-content =
+    ОБЩЕСТВЕННОЕ РАДИО ВЕНДОВЕРА - ЖУРНАЛ ТЕХОБСЛУЖИВАНИЯ
+
+    Снова запустил старую радиовышку. В некотором роде. Сигнал достигает, может быть, десяти миль в ясный день. Лучше, чем ничего.
+
+    Я использую её для передачи прогнозов погоды и безопасных маршрутов. А также предупреждений, когда банды рейдеров замечают движущимися через эту местность.
+
+    Иногда по ночам я ловлю сигналы издалека. Однажды слышал женщину, читающую стихи на незнакомом мне языке. В другой раз — то, что звучало как музыка довоенных времён. Биг-бэнды. Трубы и саксофоны, эхом разносящиеся по пустоши.
+
+    Я не мог определить, откуда это идёт. Вероятно, отражается от атмосферы. Или, может быть, кто-то ещё там делает то же самое, что и я. Сидит один у микрофона, говорит в темноту, надеясь, что кто-то слушает.
+
+    Список частот для местных:
+    - 87.5 FM: Общественные передачи (это я)
+    - 91.3 FM: Мёртвый эфир, но иногда перехватывает военные переговоры НКР
+    - 103.7 FM: Помехи. Раньше там что-то было. Теперь просто шум.
+    - 1340 AM: Старая частота Радио Вендовер. Кружит аварийное сообщение с 2077 года. Двести лет «пожалуйста, оставайтесь на линии».
+
+    Я оставляю его включённым на ночь. С ним не так одиноко.
 
 ## Misfits Add - Additional terminal entries for Wendover computer terminals.
 ## Append to terminal-entries.ftl. Voice and formatting match the original.
@@ -312,2327 +312,2327 @@ terminal-entry-postwar-radio-content =
 # =============================================================================
 
 terminal-entry-stateline-title = КАЗИНО STATELINE - ЖУРНАЛ МЕНЕДЖЕРА
-terminal-entry-stateline-content = 
-    STATELINE CASINO AND HOTEL
-    MANAGER ON DUTY: H. CALABRESE
-    DATE: OCTOBER 19, 2077
-    
-    Cancelled the Saturday night revue. Half the dancers did not show. The other half want hazard pay. I told them this is a casino, not a war zone, and they laughed at me. Actually laughed.
-    
-    Floor revenue is down sixty percent week over week. The high rollers from Salt Lake stopped coming. The truckers stopped coming. Even the locals stopped coming. Who plays blackjack when the news is what it is.
-    
-    The Mr. Handy dealers are running tables alone. They do not know the difference. They just keep dealing to empty seats and saying "good luck" to the chairs.
-    
-    Pulled fifty thousand caps... fifty thousand DOLLARS from the vault and put it in my car. If something happens I am driving west until the gas runs out.
-    
-    Locked the cage. Tipped the night janitor. Going home.
+terminal-entry-stateline-content =
+    КАЗИНО И ОТЕЛЬ STATELINE
+    ДЕЖУРНЫЙ МЕНЕДЖЕР: Х. КАЛАБРЕЗЕ
+    ДАТА: 19 ОКТЯБРЯ 2077 ГОДА
+
+    Отменил субботнее вечернее шоу. Половина танцовщиц не пришла. Другая половина требует надбавку за риск. Я сказал им, что это казино, а не зона боевых действий, и они засмеялись мне в лицо. Буквально засмеялись.
+
+    Доход с игрового зала упал на шестьдесят процентов по сравнению с прошлой неделей. Крупные игроки из Солт-Лейка перестали приезжать. Дальнобойщики перестали приезжать. Даже местные перестали приезжать. Кто будет играть в блэкджек, когда по новостям такое?
+
+    Дилеры Mr. Handy работают за столами в одиночку. Они не видят разницы. Они просто продолжают сдавать пустым стульям и говорят «удачи» креслам.
+
+    Я вытащил пятьдесят тысяч крышек... пятьдесят тысяч ДОЛЛАРОВ из хранилища и положил в свою машину. Если что-то случится, я поеду на запад, пока не кончится бензин.
+
+    Закрыл сейф. Дал чаевые ночному уборщику. Иду домой.
 
 terminal-entry-wendover-will-title = WENDOVER WILL – ЖУРНАЛ ОБСЛУЖИВАНИЯ
-terminal-entry-wendover-will-content = 
-    WENDOVER WILL ANIMATRONIC SIGN
-    SERVICE LOG
-    
-    The big cowboy is acting up again. Left arm wave is sticking at the apex. Sounds like the servo is grinding. Climbed the scaffolding to take a look and the bolts are corroded all to hell from the salt air.
-    
-    Replaced the arm motor. Lubricated the wave assembly. Will should be tipping his hat and waving at travelers for another decade easy.
-    
-    Greeting tape is original from 1952. Still works. "HOWDY PARTNER, WELCOME TO WENDOVER" plays every six minutes during daylight hours.
-    
-    Note for next tech: do NOT replace the greeting tape. Mr. Calabrese says the original is part of the charm. The kids who grew up here remember it. He says when the tape goes, the town goes.
-    
-    - T. Reyes, Sign Service
+terminal-entry-wendover-will-content =
+    АНИМАТРОНИК WENDOVER WILL
+    ЖУРНАЛ ОБСЛУЖИВАНИЯ
+
+    Большой ковбой снова барахлит. Взмах левой руки застревает в верхней точке. Похоже, сервопривод скрежещет. Забрался на леса, чтобы взглянуть, — болты совсем проржавели от солёного воздуха.
+
+    Заменил мотор руки. Смазал механизм взмаха. Уилл будет приподнимать шляпу и махать путешественникам ещё лет десять, без проблем.
+
+    Приветственная запись оригинальная, с 1952 года. Всё ещё работает. «ПРИВЕТ, ПАРТНЁР, ДОБРО ПОЖАЛОВАТЬ В ВЕНДОВЕР» играет каждые шесть минут в светлое время суток.
+
+    Примечание для следующего техника: НЕ заменяйте приветственную запись. Мистер Калабрезе говорит, что оригинал — это часть очарования. Дети, выросшие здесь, помнят её. Он говорит, когда запись закончится, закончится и город.
+
+    - Т. Рейес, Обслуживание вывесок
 
 terminal-entry-speedway-title = BONNEVILLE SPEEDWAY - БЮЛЛЕТЕНЬ СОБЫТИЙ
-terminal-entry-speedway-content = 
-    BONNEVILLE SALT FLATS RACING ASSOCIATION
-    OFFICIAL BULLETIN - OCTOBER 15, 2077
-    
-    The Annual Land Speed Record Trials, scheduled for October 28 through November 3, are CANCELLED.
-    
-    Reasons cited by federal officials:
-    - Restricted airspace declaration over the western flats
-    - Salt surface compromised by recent atmospheric conditions
-    - "National security considerations"
-    
-    Refunds for purchased viewing passes will be processed through the Wendover Tourism Office within thirty business days.
-    
-    Mr. Whitford's turbine streamliner, fueled and ready in Garage 3, will be returned to Sacramento by truck. He flew out this morning without speaking to anyone. He did not look well.
-    
-    The salt is still here. The records will wait.
-    
-    See you next year.
+terminal-entry-speedway-content =
+    АССОЦИАЦИЯ ГОНОК НА СОЛЯНЫХ РАВНИНАХ БОННВИЛЛЯ
+    ОФИЦИАЛЬНЫЙ БЮЛЛЕТЕНЬ - 15 ОКТЯБРЯ 2077 ГОДА
 
-terminal-entry-greyhound-title = ДЕПО БОРЗЫХ - ЖУРНАЛ ОТПРАВКИ
-terminal-entry-greyhound-content = 
+    Ежегодные соревнования по установлению рекордов скорости, запланированные на 28 октября по 3 ноября, ОТМЕНЕНЫ.
+
+    Причины, указанные федеральными властями:
+    - Объявление зоны ограничения полётов над западными равнинами
+    - Поверхность соли повреждена недавними атмосферными условиями
+    - «Соображения национальной безопасности»
+
+    Возврат средств за приобретённые пропуски для просмотра будет обработан через Туристический офис Вендовера в течение тридцати рабочих дней.
+
+    Турбинный болид мистера Уитфорда, заправленный и готовый в Гараже 3, будет отправлен обратно в Сакраменто грузовиком. Он улетел сегодня утром, ни с кем не попрощавшись. Он выглядел неважно.
+
+    Соль всё ещё здесь. Рекорды подождут.
+
+    Увидимся в следующем году.
+
+terminal-entry-greyhound-title = ДЕПО GREYHOUND - ЖУРНАЛ ОТПРАВКИ
+terminal-entry-greyhound-content =
     GREYHOUND BUS LINES
-    WENDOVER STATION DISPATCH
-    OCTOBER 22, 2077
-    
-    0600 westbound to Reno: DEPARTED. Standing room only. Sold every ticket and turned twenty people away.
-    
-    0830 eastbound to Salt Lake: CANCELLED. Highway closed at federal checkpoint.
-    
-    1100 westbound to Reno: DEPARTED. Sixty passengers. Driver Hernandez requested armed escort. Denied.
-    
-    1400 westbound to Reno: SCHEDULED. No driver. Hernandez has not returned. No contact from Reno terminal in six hours.
-    
-    1700 westbound to Reno: SCHEDULED. No bus.
-    
-    Closing the ticket window. Locking the depot. The crowd outside will not like it but I have no buses and no drivers.
-    
-    God speed to anyone still on the road.
-    
-    - M. Patel, Station Agent
+    ДИСПЕТЧЕРСКАЯ СТАНЦИИ ВЕНДОВЕР
+    22 ОКТЯБРЯ 2077 ГОДА
+
+    06:00 на запад до Рино: ОТПРАВЛЕН. Яблоку негде упасть. Продали каждый билет и отказали двадцати человекам.
+
+    08:30 на восток до Солт-Лейка: ОТМЕНЕН. Шоссе закрыто на федеральном КПП.
+
+    11:00 на запад до Рино: ОТПРАВЛЕН. Шестьдесят пассажиров. Водитель Эрнандес запросил вооружённое сопровождение. Отказано.
+
+    14:00 на запад до Рино: ПО РАСПИСАНИЮ. Нет водителя. Эрнандес не вернулся. Нет связи с терминалом Рино в течение шести часов.
+
+    17:00 на запад до Рино: ПО РАСПИСАНИЮ. Нет автобуса.
+
+    Закрываю билетную кассу. Запираю вокзал. Толпе снаружи это не понравится, но у меня нет ни автобусов, ни водителей.
+
+    Счастливого пути всем, кто ещё на дороге.
+
+    - М. Патель, Начальник станции
 
 terminal-entry-diner-title = SAL'S DINER - РЕГИСТРАЦИЯ ЛЕНТЫ
-terminal-entry-diner-content = 
-    SAL'S 24 HOUR DINER
-    REGISTER NOTES - OCTOBER 21, 2077
-    
-    Stopped accepting paper money at noon. Caps only or trade. Harriet says I am crazy but I have seen what is coming and paper is going to be worth nothing.
-    
-    Free coffee for anyone in uniform today. Soldiers, cops, firefighters. They look so tired. Gave the National Guard boys the last of the apple pie.
-    
-    Two airfield mechanics came in at 0300 covered in some kind of black oil. Would not talk. Drank seven cups of coffee between them and left a hundred dollar bill on the table. Did not even ask for change.
-    
-    The jukebox is stuck on the same song. "Anything Goes" by Cole Porter. Plays over and over. Nobody minds.
-    
-    Last special of the day: meatloaf, mashed potatoes, green beans. $1.95.
-    
-    If you are reading this in the future: tell people Sal's was a good place. Tell them Harriet made the best pie in the county. Tell them we tried to be kind at the end.
+terminal-entry-diner-content =
+    SAL'S КРУГЛОСУТОЧНАЯ ЗАКУСОЧНАЯ
+    ЗАМЕТКИ НА КАССЕ - 21 ОКТЯБРЯ 2077 ГОДА
 
-terminal-entry-gas-station-title = СТАНЦИЯ ТЕХАКО - ЖУРНАЛ ТОПЛИВА
-terminal-entry-gas-station-content = 
-    TEXACO - INTERSTATE 80 EXIT 2
-    FUEL DISPENSING LOG
-    OCTOBER 22, 2077
-    
-    REGULAR: OUT
-    PREMIUM: OUT
-    DIESEL: 47 gallons remaining
-    FUSION CELLS: 3 remaining (Mr. Henderson's reserved)
-    
-    Federal fuel rationing is in effect. Maximum 5 gallons per vehicle. ID required. National Guard checking documentation.
-    
-    Had to chase three people off who tried to siphon from the storage tank overnight. Fired warning shots. Did not feel good about it but I have a family to feed.
-    
-    Tanker from Reno was supposed to arrive yesterday. Did not. Called dispatch. The number rings but nobody picks up.
-    
-    Closing the pumps. Putting up the sign. Going home to my wife and kids.
-    
-    To whoever finds this: there is a key to the back office under the third paving stone left of the door. There are canned goods and a first aid kit inside. Help yourself. Locking up was a habit. I do not need it where I am going.
-    
-    - Bill Henderson
+    Перестал принимать бумажные деньги в полдень. Только крышки или обмен. Харриет говорит, что я сошёл с ума, но я вижу, что грядёт, и бумага будет ничего не стоить.
+
+    Бесплатный кофе сегодня для всех в форме. Солдаты, полицейские, пожарные. Они выглядят такими уставшими. Отдал ребятам из Нацгвардии последний яблочный пирог.
+
+    Два механика с аэродрома пришли в 03:00, покрытые какой-то чёрной смазкой. Не разговаривали. Выпили семь чашек кофе на двоих и оставили на столе сто долларов. Даже сдачу не попросили.
+
+    Музыкальный автомат застрял на одной песне. «Anything Goes» Коула Портера. Играет снова и снова. Никто не возражает.
+
+    Спецпредложение дня: мясной рулет, картофельное пюре, зелёная фасоль. $1.95.
+
+    Если ты читаешь это в будущем: передай, что Sal's был хорошим местом. Передай, что Харриет пекла лучший пирог в округе. Передай, что мы старались быть добрыми в конце.
+
+terminal-entry-gas-station-title = СТАНЦИЯ TEXACO - ЖУРНАЛ ТОПЛИВА
+terminal-entry-gas-station-content =
+    TEXACO - СЪЕЗД 2 С МЕЖШТАТНОЙ 80
+    ЖУРНАЛ ВЫДАЧИ ТОПЛИВА
+    22 ОКТЯБРЯ 2077 ГОДА
+
+    ОБЫЧНЫЙ: НЕТ
+    ПРЕМИУМ: НЕТ
+    ДИЗЕЛЬ: 47 галлонов осталось
+    ЯДЕРНЫЕ БАТАРЕИ: 3 осталось (зарезервировано мистером Хендерсоном)
+
+    Действует федеральное нормирование топлива. Максимум 5 галлонов на транспортное средство. Требуется удостоверение личности. Нацгвардия проверяет документы.
+
+    Пришлось прогнать троих, пытавшихся слить топливо из резервуара ночью. Сделал предупредительные выстрелы. Чувствовал себя отвратительно, но у меня семья, которую нужно кормить.
+
+    Бензовоз из Рино должен был прибыть вчера. Не прибыл. Звонил диспетчеру. Номер набирается, но никто не берёт трубку.
+
+    Закрываю колонки. Вешаю табличку. Иду домой к жене и детям.
+
+    Тому, кто это найдёт: ключ от подсобки под третьим камнем мощения слева от двери. Внутри консервы и аптечка. Угощайся. Запирать было привычкой. Мне это не понадобится там, куда я иду.
+
+    - Билл Хендерсон
 
 terminal-entry-motel-title = МОТЕЛЬ DESERT STAR - РЕГИСТРАЦИЯ
-terminal-entry-motel-content = 
-    DESERT STAR MOTEL
-    GUEST REGISTRY - WEEK OF OCTOBER 17, 2077
-    
-    Room 1: J. and M. Kowalski (vacation, San Francisco bound)
-    Room 2: T. Brennan (sales rep, Atomic Insurance)
-    Room 3: VACANT
-    Room 4: R. Otsuka and family (4 persons, eastbound, returned westbound 10/19)
-    Room 5: M. Diaz (trucker, awaiting parts)
-    Room 6: VACANT
-    Room 7: D. Webb (military, no comment)
-    Room 8: G. and L. Phillips (honeymoon)
-    Room 9: VACANT
-    Room 10: S. Walker (writer, "researching the salt flats")
-    
-    { "" }[bold]NOTE FROM PROPRIETOR[/bold]: Have not seen the Phillips couple in two days. Their car is still here. Knocked. No answer. Used the master key. The room is empty but the bed is made and their suitcases are still there. Found a note on the dresser that just says SORRY.
-    
-    Have not seen the writer in three days. His typewriter is still on the desk. Last page in the carriage reads: "the sky over Wendover is the wrong color and nobody will say so."
-    
-    I am giving up the front desk and joining my sister in the basement. Take any room you need. Be kind. Lock the doors.
+terminal-entry-motel-content =
+    МОТЕЛЬ DESERT STAR
+    ЖУРНАЛ ГОСТЕЙ - НЕДЕЛЯ С 17 ОКТЯБРЯ 2077 ГОДА
 
-terminal-entry-school-title = ВЕНДОВЕР ЭЛЕМЕНТАРНЫЙ - ЖУРНАЛ ДИРЕКТОРА
-terminal-entry-school-content = 
-    WENDOVER ELEMENTARY SCHOOL
-    PRINCIPAL'S OFFICE - OCTOBER 2077
-    
-    Oct 4: Civil defense drill. Children practiced "duck and cover" under their desks. Tracy in the second grade asked if that would really help. I lied to her and said yes. She is too smart to believe me but too kind to argue.
-    
-    Oct 12: Attendance is dropping. Half the class is out today. Parents keeping kids home. Mrs. Henderson came in to collect her boys without explanation.
-    
-    Oct 18: Fire drill turned into a practice evacuation to the basement. Old Mr. Kowalski, the janitor, helped me unlock the storm doors. We have bottled water and crackers stored down there. Not enough for everyone.
-    
-    Oct 20: Twelve children today. Read them stories. Did not bother with arithmetic.
-    
-    Oct 22: Three children. I gave them lunch and told them to stay home tomorrow. Walked Tracy to her front door because her mother is sick. Tracy hugged me and said "thank you for being a good principal." I cried in my car for ten minutes.
-    
-    Oct 23: [NO ENTRY]
-    
-    - Eleanor Yi, Principal
+    Комната 1: Дж. и М. Ковальски (отпуск, направляются в Сан-Франциско)
+    Комната 2: Т. Бреннан (торговый представитель, Atomic Insurance)
+    Комната 3: СВОБОДНО
+    Комната 4: Р. Оцука с семьёй (4 человека, на восток, вернулись на запад 19.10)
+    Комната 5: М. Диас (дальнобойщик, ждёт запчасти)
+    Комната 6: СВОБОДНО
+    Комната 7: Д. Уэбб (военный, без комментариев)
+    Комната 8: Дж. и Л. Филлипс (медовый месяц)
+    Комната 9: СВОБОДНО
+    Комната 10: С. Уокер (писатель, «исследует солончаки»)
+
+    { "" }[bold]ПРИМЕЧАНИЕ ВЛАДЕЛЬЦА[/bold]: Не видел пару Филлипс два дня. Их машина всё ещё здесь. Стучал. Никто не ответил. Использовал мастер-ключ. Комната пуста, но кровать заправлена, а их чемоданы всё ещё там. Нашёл записку на комоде, в которой просто написано ИЗВИНИТЕ.
+
+    Не видел писателя три дня. Его пишущая машинка всё ещё на столе. Последняя страница в каретке гласит: «небо над Вендовером неправильного цвета, и никто не хочет этого признавать».
+
+    Я оставляю стойку регистрации и присоединяюсь к своей сестре в подвале. Занимай любую комнату, которая нужна. Будь добр. Запирай двери.
+
+terminal-entry-school-title = ВЕНДОВЕР НАЧАЛЬНАЯ ШКОЛА - ЖУРНАЛ ДИРЕКТОРА
+terminal-entry-school-content =
+    НАЧАЛЬНАЯ ШКОЛА ВЕНДОВЕРА
+    КАБИНЕТ ДИРЕКТОРА - ОКТЯБРЬ 2077 ГОДА
+
+    4 окт: Учения гражданской обороны. Дети тренировались «ложись и накройсь» под партами. Трейси из второго класса спросила, действительно ли это поможет. Я солгала ей, сказав «да». Она слишком умна, чтобы мне поверить, но слишком добра, чтобы спорить.
+
+    12 окт: Посещаемость падает. Половины класса сегодня нет. Родители держат детей дома. Миссис Хендерсон пришла забрать своих мальчиков без объяснений.
+
+    18 окт: Пожарная тревога превратилась в учебную эвакуацию в подвал. Старый мистер Ковальски, уборщик, помог мне открыть подвальные двери. У нас там хранятся бутилированная вода и крекеры. Не на всех.
+
+    20 окт: Двенадцать детей сегодня. Читала им сказки. Арифметикой не занимались.
+
+    22 окт: Трое детей. Я дала им обед и сказала оставаться завтра дома. Проводила Трейси до входной двери, потому что её мать больна. Трейси обняла меня и сказала: «спасибо, что вы хороший директор». Я плакала в своей машине десять минут.
+
+    23 окт: [ЗАПИСЬ ОТСУТСТВУЕТ]
+
+    - Элеанор Йи, Директор
 
 terminal-entry-library-title = ВЕНДОВЕРСКАЯ БИБЛИОТЕКА - ЖУРНАЛ ОБРАЩЕНИЯ
-terminal-entry-library-content = 
-    WENDOVER PUBLIC LIBRARY
-    CIRCULATION SYSTEM - OCTOBER 2077
-    
-    OVERDUE NOTICES (suppressed):
-    
-    "How to Survive a Nuclear Attack" - 47 copies on hold, 0 available
-    "Wilderness Medicine" - 23 copies on hold, 0 available
-    "Edible Plants of the Great Basin" - 31 copies on hold, 1 available
-    "The Bible (Standard Edition)" - 14 copies on hold, 0 available
-    "Where the Red Fern Grows" - 1 copy on hold (Tracy H., grade 2)
-    
-    NEW ACQUISITIONS (this week): None. Distributor not responding.
-    
-    NOTE FROM HEAD LIBRARIAN: Stopped charging late fees yesterday. People need these books. Let them have them. Started letting children take whatever they wanted home from the picture book section. If we are gone tomorrow, at least some kid out there will have a story to read by candlelight.
-    
-    The reading room is empty for the first time in twenty years.
-    
-    The lights are still on. Someone should be reading.
-    
-    - D. Lefebvre
+terminal-entry-library-content =
+    ВЕНДОВЕРСКАЯ ПУБЛИЧНАЯ БИБЛИОТЕКА
+    СИСТЕМА КНИГОВЫДАЧИ - ОКТЯБРЬ 2077 ГОДА
+
+    УВЕДОМЛЕНИЯ О ПРОСРОЧКЕ (подавлены):
+
+    «Как выжить при ядерной атаке» - 47 экземпляров в очереди, 0 доступно
+    «Медицина в дикой природе» - 23 экземпляра в очереди, 0 доступно
+    «Съедобные растения Большого Бассейна» - 31 экземпляр в очереди, 1 доступен
+    «Библия (стандартное издание)» - 14 экземпляров в очереди, 0 доступно
+    «Там, где цветёт красный папоротник» - 1 экземпляр в очереди (Трейси Х., 2 класс)
+
+    НОВЫЕ ПОСТУПЛЕНИЯ (на этой неделе): Нет. Дистрибьютор не отвечает.
+
+    ПРИМЕЧАНИЕ ГЛАВНОГО БИБЛИОТЕКАРЯ: Вчера перестал взимать штрафы за просрочку. Людям нужны эти книги. Пусть забирают. Начал позволять детям брать домой любые книги из отдела с картинками. Если завтра нас не станет, по крайней мере, у какого-нибудь ребёнка будет книга, которую он сможет читать при свечах.
+
+    Читальный зал пуст впервые за двадцать лет.
+
+    Свет всё ещё горит. Кто-то должен читать.
+
+    - Д. Лефевр
 
 terminal-entry-pharmacy-title = ВЕНДОВЕРСКАЯ АПТЕКА – ИНВЕНТАРЬ
-terminal-entry-pharmacy-content = 
-    WENDOVER PHARMACY AND SUNDRIES
-    INVENTORY ALERT - OCTOBER 22, 2077
-    
-    OUT OF STOCK:
-    - Rad-X (last bottle sold 10/14)
-    - RadAway (military requisition cleared us out 10/8)
-    - Potassium iodide (out 10/16, no resupply)
-    - Insulin (3 patients on waiting list, please pray)
-    - Mentats (out, will not restock)
-    - Med-X (out, will not restock)
-    - Stimpaks (12 remaining, reserved for emergencies)
-    
-    LOW STOCK:
-    - Heart medication (Mr. Voss, Mrs. Albright, others)
-    - Children's antibiotics
-    - Blood pressure pills
-    
-    STILL AVAILABLE:
-    - Aspirin
-    - Bandages
-    - Cough syrup
-    - Vitamins
-    - Reading glasses
-    - Hair tonic (12 bottles, somehow)
-    
-    FROM THE PHARMACIST: If you need a prescription filled and I am not here, take what you need. Leave a note with your name. I will sort it out later. If there is a later.
-    
-    - R. Voss, R.Ph.
+terminal-entry-pharmacy-content =
+    ВЕНДОВЕРСКАЯ АПТЕКА И РАЗНЫЕ ТОВАРЫ
+    ПРЕДУПРЕЖДЕНИЕ О ЗАПАСАХ - 22 ОКТЯБРЯ 2077 ГОДА
+
+    НЕТ В НАЛИЧИИ:
+    - Рад-Икс (последняя бутылка продана 14.10)
+    - РадАуэй (военная реквизиция опустошила запасы 08.10)
+    - Йодид калия (закончился 16.10, пополнения не будет)
+    - Инсулин (3 пациента в листе ожидания, пожалуйста, молитесь)
+    - Ментаты (закончились, пополняться не будут)
+    - Мед-Икс (закончился, пополняться не будет)
+    - Стимпаки (12 осталось, зарезервированы для экстренных случаев)
+
+    МАЛО В НАЛИЧИИ:
+    - Лекарства для сердца (мистер Фосс, миссис Олбрайт и другие)
+    - Детские антибиотики
+    - Таблетки от давления
+
+    ВСЁ ЕЩЁ В НАЛИЧИИ:
+    - Аспирин
+    - Бинты
+    - Сироп от кашля
+    - Витамины
+    - Очки для чтения
+    - Тонизирующее средство для волос (12 бутылок, каким-то образом)
+
+    ОТ ФАРМАЦЕВТА: Если вам нужно лекарство по рецепту, а меня нет, берите что нужно. Оставьте записку с именем. Я разберусь позже. Если будет это позже.
+
+    - Р. Фосс, фармацевт
 
 terminal-entry-hardware-title = HENDERSON'S HARDWARE - ЖУРНАЛ ПРОДАЖ
-terminal-entry-hardware-content = 
-    HENDERSON'S HARDWARE AND SPORTING GOODS
-    SALES LOG - OCTOBER 2077
-    
-    SOLD OUT:
-    - All firearms (handguns, rifles, shotguns)
-    - All ammunition (any caliber)
-    - Lockboxes and gun safes
-    - Geiger counters (we had two, sold both)
-    - Plywood (4x8 sheets)
-    - Plastic sheeting (rolls)
-    - Duct tape
-    - Generators (gas and fusion)
-    - Camping stoves
-    - Iodine
-    - Gas masks (11 sold this week, never had more than 3 in stock before)
-    
-    BACKORDERED INDEFINITELY:
-    - Everything above
-    - Most other things
-    
-    STILL HAVE PLENTY OF:
-    - Garden hoses
-    - Lawn ornaments
-    - Christmas lights (early shipment)
-    - House paint (avocado green, harvest gold)
-    - Wallpaper
-    
-    Funny what people buy when they are scared. Funny what they do not.
+terminal-entry-hardware-content =
+    HENDERSON'S СКОВОЗНЯК И СПОРТИВНЫЕ ТОВАРЫ
+    ЖУРНАЛ ПРОДАЖ - ОКТЯБРЬ 2077 ГОДА
 
-terminal-entry-post-office-title = ПОЧТОВОЕ ОФИС США – ЖУРНАЛ НЕДОХОДЯЩИХ ПИСЬМО
-terminal-entry-post-office-content = 
-    UNITED STATES POSTAL SERVICE
-    WENDOVER BRANCH - DEAD LETTER LOG
-    DATE: OCTOBER 22, 2077
-    
-    Eastbound mail service: SUSPENDED (federal order)
-    Westbound mail service: DELAYED (no carriers available)
-    Local delivery: SUSPENDED
-    
-    UNDELIVERABLE LETTERS, holding for pickup: 891
-    
-    Most are from local residents to family out of state. Mothers to sons. Wives to husbands at the airfield. Children to grandparents. None of them will arrive.
-    
-    There is one letter on top of the pile that I cannot stop looking at. It is addressed in crayon to "GOD, HEAVEN" with a return address from the elementary school. The teacher must have helped them put a stamp on it.
-    
-    I am going to put it in the safe with the registered mail. So it does not get rained on. So when somebody opens this office in a hundred years they will find it and know that a child here was praying.
-    
-    Closing the window. Going home.
-    
-    - F. Calloway, Postmaster
+    РАСПРОДАНО:
+    - Всё огнестрельное оружие (пистолеты, винтовки, дробовики)
+    - Все боеприпасы (любой калибр)
+    - Сейфы и шкатулки для оружия
+    - Счётчики Гейгера (у нас было два, проданы оба)
+    - Фанера (листы 4x8)
+    - Полиэтиленовая плёнка (рулоны)
+    - Клейкая лента
+    - Генераторы (газовые и ядерные)
+    - Походные плиты
+    - Йод
+    - Противогазы (11 продано за эту неделю, раньше никогда не было больше 3 в наличии)
+
+    В ПРЕДЗАКАЗЕ НА НЕОПРЕДЕЛЁННЫЙ СРОК:
+    - Всё вышеперечисленное
+    - Большинство других вещей
+
+    ВСЁ ЕЩЁ МНОГО В НАЛИЧИИ:
+    - Садовые шланги
+    - Садовые украшения
+    - Рождественские гирлянды (ранняя поставка)
+    - Краска для дома (авокадо-зелёный, золотой урожай)
+    - Обои
+
+    Забавно, что люди покупают, когда напуганы. Забавно, что не покупают.
+
+terminal-entry-post-office-title = ПОЧТОВОЕ ОФИС США – ЖУРНАЛ НЕДОХОДЯЩИХ ПИСЕМ
+terminal-entry-post-office-content =
+    ПОЧТОВАЯ СЛУЖБА СОЕДИНЁННЫХ ШТАТОВ
+    ОТДЕЛЕНИЕ ВЕНДОВЕРА - ЖУРНАЛ НЕДОСТАВЛЕННЫХ ПИСЕМ
+    ДАТА: 22 ОКТЯБРЯ 2077 ГОДА
+
+    Доставка почты на восток: ПРИОСТАНОВЛЕНА (федеральный приказ)
+    Доставка почты на запад: ЗАДЕРЖАНА (нет доступных перевозчиков)
+    Местная доставка: ПРИОСТАНОВЛЕНА
+
+    НЕДОСТАВЛЕННЫЕ ПИСЬМА, ожидают получения: 891
+
+    Большинство из них от местных жителей членам семьи в других штатах. От матерей сыновьям. От жён мужьям на аэродроме. От детей бабушкам и дедушкам. Ни одно из них не дойдёт.
+
+    Там есть одно письмо наверху стопки, на которое я не могу перестать смотреть. Оно адресовано мелком «БОГУ, НЕБЕСА» с обратным адресом из начальной школы. Учитель, должно быть, помогла им наклеить марку.
+
+    Я собираюсь положить его в сейф с заказными письмами. Чтобы на него не попал дождь. Чтобы, когда кто-то откроет этот офис через сотню лет, он нашёл это письмо и узнал, что здесь молился ребёнок.
+
+    Закрываю окошко. Иду домой.
+
+    - Ф. Каллоуэй, Почтальон
 
 terminal-entry-bank-title = ПЕРВЫЙ ВЕНДОВЕРСКИЙ БАНК — ЖУРНАЛ ХРАНИЛИЩА
-terminal-entry-bank-content = 
-    FIRST WENDOVER BANK AND TRUST
-    VAULT ACCESS LOG - OCTOBER 2077
-    
-    Oct 14: Daily withdrawal limit reduced to $200 per customer. Line out the door.
-    Oct 16: Daily withdrawal limit reduced to $100. Two customers arrested for disorderly conduct.
-    Oct 18: Daily withdrawal limit reduced to $50. Suspended new account openings.
-    Oct 19: Federal Reserve announces freeze on all interstate transfers.
-    Oct 20: Closed for "scheduled maintenance." Vault sealed.
-    Oct 21: Three robbery attempts. National Guard stationed at front entrance.
-    Oct 22: Mr. Albright came in and demanded his safety deposit box. I let him in. He took out his wedding ring, his wife's pearls, and a handful of old photographs. Left the bonds and the cash. Said "what good is paper money now."
-    
-    He was right.
-    
-    The vault has $1.4 million in cash and securities. The cleaning lady's son needs braces. The widow on Maple Street cannot pay her rent. None of it matters anymore.
-    
-    I am leaving the vault unlocked. If someone needs something in there, take it. Or do not. It is all just paper and metal now.
-    
-    - E. Marchetti, Branch Manager
+terminal-entry-bank-content =
+    ПЕРВЫЙ ВЕНДОВЕРСКИЙ БАНК И ТРАСТ
+    ЖУРНАЛ ДОСТУПА К ХРАНИЛИЩУ - ОКТЯБРЬ 2077 ГОДА
+
+    14 окт: Ежедневный лимит снятия снижен до $200 на клиента. Очередь до двери.
+    16 окт: Ежедневный лимит снятия снижен до $100. Два клиента арестованы за нарушение порядка.
+    18 окт: Ежедневный лимит снятия снижен до $50. Открытие новых счетов приостановлено.
+    19 окт: Федеральная резервная система объявляет о заморозке всех межштатных переводов.
+    20 окт: Закрыто на «плановое обслуживание». Хранилище опечатано.
+    21 окт: Три попытки ограбления. Нацгвардия размещена у главного входа.
+    22 окт: Мистер Олбрайт пришёл и потребовал свою сейфовую ячейку. Я впустил его. Он забрал обручальное кольцо, жемчужное ожерелье жены и горсть старых фотографий. Оставил облигации и наличные. Сказал: «какая теперь польза от бумажных денег».
+
+    Он был прав.
+
+    В хранилище $1,4 миллиона наличными и ценными бумагами. Сыну уборщицы нужны брекеты. Вдова на Мейпл-стрит не может заплатить за аренду. Ничто из этого больше не имеет значения.
+
+    Я оставляю хранилище незапертым. Если кому-то нужно что-то там, берите. Или нет. Теперь это просто бумага и металл.
+
+    - Э. Маркетти, Управляющий отделением
 
 terminal-entry-church-title = СВЯТОЙ МИХАИЛ - ЗАПИСКИ КАПЛАНА
-terminal-entry-church-content = 
-    ST. MICHAEL'S CATHOLIC CHURCH
-    FATHER ABERNATHY'S NOTES - OCTOBER 2077
-    
-    The pews are full for the first time since Easter. Maybe the first time ever.
-    
-    Heard confessions for nine hours straight today. People who have not been to Mass in thirty years. People who never came at all. A casino dealer wept and asked me if it counted as theft when the house always wins.
-    
-    Mrs. Marchetti from the bank came in and asked if it was a sin to give away money that did not belong to her. I said no. She said good. She said the Lord works in mysterious ways and sometimes the mysterious way is leaving the vault door open.
-    
-    I baptized seven children today. Three were not Catholic. Their parents asked anyway. I did not refuse anyone.
-    
-    I will say the Mass for the Dead at six AM tomorrow. After that I will keep the doors open. The candles lit. The altar prepared. Let anyone come in who needs to.
-    
-    I am not afraid. I am sad. There is a difference.
-    
-    "Yea, though I walk through the valley of the shadow of death, I will fear no evil."
-    
-    - Fr. Patrick Abernathy
+terminal-entry-church-content =
+    КАТОЛИЧЕСКАЯ ЦЕРКОВЬ СВЯТОГО МИХАИЛА
+    ЗАПИСКИ ОТЦА АБЕРНАТИ - ОКТЯБРЬ 2077 ГОДА
+
+    Скамьи заполнены впервые после Пасхи. Возможно, впервые вообще.
+
+    Сегодня принимал исповеди девять часов подряд. Люди, которые не были в мессе тридцать лет. Люди, которые никогда не приходили вообще. Дилер из казино плакал и спрашивал, считается ли кражей то, что заведение всегда выигрывает.
+
+    Приходила миссис Маркетти из банка и спрашивала, грех ли раздавать деньги, которые тебе не принадлежат. Я сказал, нет. Она сказала, хорошо. Она сказала, что Господь действует неисповедимыми путями, и иногда неисповедимый путь — это оставить дверь хранилища открытой.
+
+    Сегодня я крестил семерых детей. Трое не были католиками. Их родители всё равно попросили. Я никому не отказал.
+
+    Я буду служить Мессу по усопшим в шесть утра завтра. После этого я оставлю двери открытыми. Свечи зажжёнными. Алтарь подготовленным. Пусть войдёт любой, кому нужно.
+
+    Я не боюсь. Мне грустно. Есть разница.
+
+    «Если я пойду и долиною смертной тени, не убоюсь зла».
+
+    - Отец Патрик Абернати
 
 terminal-entry-bowling-title = LUCKY STRIKES LANES – ПРИМЕЧАНИЯ ЛИГИ
-terminal-entry-bowling-content = 
-    LUCKY STRIKES BOWLING ALLEY
-    TUESDAY NIGHT LEAGUE - SEASON LOG
-    
-    Week 1: Standings normal. Maintenance Mafia in first.
-    Week 2: Two teams short tonight. Forfeit wins for the Salt Shakers and the Pinheads.
-    Week 3: Cancelled the league. Not enough players. Sorry folks.
-    
-    Doors are still open if you want to roll a few games. No charge. The pin setters are running. The shoes are clean. The popcorn is fresh.
-    
-    Tony brought his accordion in tonight. Played "Roll Out the Barrel" while the salt flats out the front window glowed orange under a sky that should not look that way. Old Sal danced with his wife in the gutter strip of lane 6. They have been married forty seven years.
-    
-    I think this might be the last good night this place ever sees. So I am closing up early to be with my family. Doors unlocked. Lights on. If you come by tonight, bowl a game on the house. Leave the score on the projector.
-    
-    Strike for me, would you?
-    
-    - F. Tomasi, Owner
+terminal-entry-bowling-content =
+    БОУЛИНГ-КЛУБ LUCKY STRIKES
+    ВТОРНИЧНАЯ ЛИГА - ЖУРНАЛ СЕЗОНА
+
+    Неделя 1: Турнирная таблица в норме. «Мафия обслуживания» на первом месте.
+    Неделя 2: Сегодня две команды не пришли. Технические победы присуждены «Солёным шейкерам» и «Шаровым головам».
+    Неделя 3: Лига отменена. Недостаточно игроков. Извините, народ.
+
+    Двери всё ещё открыты, если хотите сыграть пару игр. Бесплатно. Автоматы работают. Обувь чистая. Попкорн свежий.
+
+    Сегодня вечером Тони принёс свой аккордеон. Играл «Roll Out the Barrel», пока солончаки за передним окном светились оранжевым под небом, которое не должно так выглядеть. Старый Сэл танцевал со своей женой на дорожке 6. Они женаты сорок семь лет.
+
+    Думаю, это, возможно, последний хороший вечер, который увидит это место. Так что я закрываюсь пораньше, чтобы быть с семьёй. Двери не заперты. Свет горит. Если зайдёшь сегодня вечером, сыграй партию за счёт заведения. Оставь счёт на проекторе.
+
+    Сделай страйк за меня, хорошо?
+
+    - Ф. Томази, Владелец
 
 terminal-entry-newspaper-title = WENDOVER GAZETTE – ЗАКЛЮЧИТЕЛЬНОЕ ИЗДАНИЕ
-terminal-entry-newspaper-content = 
+terminal-entry-newspaper-content =
     WENDOVER GAZETTE
-    FINAL EDITION - OCTOBER 23, 2077
-    EDITOR'S NOTE TO TYPESETTER
-    
-    Lou,
-    
-    I do not have a story for the front page. I have been staring at the typewriter for three hours and nothing comes. What do you write when there is nothing left to report?
-    
-    The wires are dead. The phones are dead. Salt Lake is dead. New York is dead. I think Washington is dead but I cannot confirm it because there is nobody left to confirm it.
-    
-    Set the front page like this:
-    
-    Headline: THANK YOU
-    Subhead: Wendover, We Loved You
-    Byline: The Staff of the Gazette
-    
-    Body: It has been our honor to bring you the news of this town for forty three years. Every wedding announcement, every obituary, every Little League score, every casino opening and closing. We were not always good at it but we always tried to be honest with you. We are sorry we could not bring you the most important story of your lives. There is no version of it we know how to tell.
-    
-    Sign it from all of us. Print as many copies as you can on whatever paper is left. Distribute them by hand if you have to. Give them away.
-    
-    I am going home now. So should you.
-    
-    - Editor in Chief
+    ФИНАЛЬНЫЙ ВЫПУСК - 23 ОКТЯБРЯ 2077 ГОДА
+    ЗАМЕТКА РЕДАКТОРА НАБОРЩИКУ
+
+    Лу,
+
+    У меня нет истории для первой полосы. Я пялюсь на пишущую машинку три часа, и ничего не приходит. Что писать, когда нечего сообщать?
+
+    Провода мертвы. Телефоны мертвы. Солт-Лейк мёртв. Нью-Йорк мёртв. Думаю, Вашингтон мёртв, но я не могу это подтвердить, потому что некого спросить.
+
+    Набери первую полосу так:
+
+    Заголовок: СПАСИБО
+    Подзаголовок: Вендовер, мы тебя любили
+    Автор: Сотрудники Gazette
+
+    Основной текст: Для нас было честью семьёй. Каждое объявление о свадьбе, каждый некролог, каждый счёт в Малой лиге, каждое открытие и закрытие казино. У нас не всегда хорошо получалось, но мы всегда старались быть с вами честными. Нам жаль, что мы не смогли рассказать вам самую важную историю вашей жизни. Мы просто не знаем, как её рассказать.
+
+    Подпишите от всех нас. Напечатайте столько копий, сколько сможете, на любой оставшейся бумаге. Распространите их вручную, если придётся. Раздайте бесплатно.
+
+    Я сейчас иду домой. Вам тоже пора.
+
+    - Главный редактор
 
 terminal-entry-veterinarian-title = ВЕТЕРИНАРНАЯ КЛИНИКА ВЕНДОВЕРА - ЖУРНАЛ БОЛЕЗНИ
-terminal-entry-veterinarian-content = 
-    WENDOVER VETERINARY CLINIC
-    DR. NAKAGAWA - CASE LOG
-    OCTOBER 22, 2077
-    
-    Patients today: Twenty three. The most I have ever seen in a single day.
-    
-    Most of them not sick. Most of them brought in by owners who could not bear to think about leaving them in a basement, or chained in a yard, or wandering alone if something happened. Some of them brought in by owners who simply asked me to "make sure they do not suffer."
-    
-    I cannot. I will not. I told them I will not.
-    
-    What I did instead: opened the back kennel door and the front door of the clinic and let every animal here go free. Forty seven dogs. Twelve cats. Three rabbits. A parrot named Mr. Beaks. He flew up and landed on the roof of the bank and started yelling LOOK BOTH WAYS at the empty street.
-    
-    They will probably not survive long. But they will not die in cages while they wait for it. They will run, and hunt, and curl up under porches. They will be animals. That is the kindest thing I know how to do for them.
-    
-    The clinic is empty. So am I.
-    
-    - Dr. Y. Nakagawa, DVM
+terminal-entry-veterinarian-content =
+    ВЕТЕРИНАРНАЯ КЛИНИКА ВЕНДОВЕРА
+    ДОКТОР НАКАГАВА - ЖУРНАЛ СЛУЧАЕВ
+    22 ОКТЯБРЯ 2077 ГОДА
+
+    Пациентов сегодня: Двадцать три. Самое большое количество за один день.
+
+    Большинство из них не больны. Большинство принесены хозяевами, которые не могли вынести мысли оставить их в подвале, или привязанными во дворе, или бродящими в одиночестве, если что-то случится. Некоторых принесли хозяева, которые просто попросили меня «убедиться, что они не будут страдать».
+
+    Я не могу. Я не буду. Я сказал им, что не буду.
+
+    Вместо этого я сделал вот что: открыл заднюю дверь вольера и входную дверь клиники и выпустил всех животных на свободу. Сорок семь собак. Двенадцать кошек. Три кролика. Попугай по имени Мистер Бикс. Он взлетел и приземлился на крышу банка и начал кричать «СМОТРИ ПО СТОРОНАМ» на пустую улицу.
+
+    Они, вероятно, не проживут долго. Но они не умрут в клетках, ожидая этого. Они будут бегать, охотиться, сворачиваться калачиком под крыльцами. Они будут животными. Это самое доброе, что я могу для них сделать.
+
+    Клиника пуста. Я тоже.
+
+    - Доктор Й. Накагава, DVM
 
 terminal-entry-auto-shop-title = WENDOVER AUTO - ЖУРНАЛ РАБОТ
-terminal-entry-auto-shop-content = 
-    WENDOVER AUTO REPAIR
-    WORK ORDER BACKLOG - OCTOBER 22, 2077
-    
-    PRIORITY 1 (rush jobs):
-    #4471: Chryslus Highwayman, Mr. Patel. Complete tune up, oil change, new tires. Reason given: "need to drive to Mexico."
-    #4472: Corvega station wagon, Mrs. Olsen. Repair fuel line, replace battery. Reason: "taking the kids west."
-    #4473: Atomic V8, customer refused to give name. Cash on the counter. Reason: "do not ask."
-    
-    PRIORITY 2 (when I get to it):
-    Eleven vehicles needing major repairs. Eight needing minor.
-    
-    PARTS ON ORDER (will not arrive):
-    - Spark plugs (any size)
-    - Fan belts
-    - Brake pads
-    - Headlight assemblies
-    
-    NOTE: Whoever reads this, the back lot has six abandoned vehicles and a fusion-cell pickup with the keys still in it. Battery is at 80 percent. Tank is full. Radio works. I am leaving it for whoever needs to get out of here.
-    
-    Locking up the office but the bay doors are open. Tools are still on the bench. Take what you need. Fix what you can.
-    
-    - A. Webb, Mechanic
+terminal-entry-auto-shop-content =
+    WENDOVER AUTO РЕМОНТ
+    НЕЗАВЕРШЁННЫЕ ЗАКАЗЫ - 22 ОКТЯБРЯ 2077 ГОДА
 
-terminal-entry-pawn-shop-title = ВЕНДОВЕРСКАЯ ПЕШКА — ЛЕДГЕР
-terminal-entry-pawn-shop-content = 
-    WENDOVER PAWN AND LOAN
-    LEDGER ENTRIES - OCTOBER 2077
-    
-    GOLD BUYING SUSPENDED. CASH IS WORTHLESS. DO NOT ASK.
-    
-    NOW ACCEPTING IN TRADE:
-    - Canned food
-    - Bottled water
-    - Ammunition
-    - Functional firearms
-    - Medicine (any kind)
-    - Working flashlights and batteries
-    
-    NOT ACCEPTING:
-    - Wedding rings (keep them)
-    - Family heirlooms (keep them)
-    - Television sets (worthless soon)
-    - Jewelry (worthless soon)
-    - Anything that cannot keep you alive next week
-    
-    ITEMS LEFT UNCLAIMED IN THE STORE: Take what you need. Leave what you do not. Be fair to whoever comes after you.
-    
-    To the man who pawned his wife's pearls last week to buy his daughter a doll: I put them in the cash drawer with your ticket on top. They are still here. Come back if you can. If you cannot, I hope she got the doll.
-    
-    - L. Brennan
+    ПРИОРИТЕТ 1 (срочные):
+    №4471: Chryslus Highwayman, мистер Патель. Полное ТО, замена масла, новые шины. Причина: «нужно уехать в Мексику».
+    №4472: Corvega универсал, миссис Олсен. Ремонт топливной магистрали, замена аккумулятора. Причина: «увожу детей на запад».
+    №4473: Atomic V8, клиент отказался назвать имя. Наличные на стойке. Причина: «не спрашивайте».
+
+    ПРИОРИТЕТ 2 (когда дойду):
+    Одиннадцать автомобилей, требующих серьёзного ремонта. Восемь — мелкого.
+
+    ЗАПЧАСТИ ПОД ЗАКАЗ (не прибудут):
+    - Свечи зажигания (любого размера)
+    - Ремни вентилятора
+    - Тормозные колодки
+    - Блоки фар
+
+    ЗАМЕТКА: Кто бы это ни читал, на задней стоянке шесть брошенных автомобилей и пикап на ядерных батареях с ключами в замке зажигания. Батарея заряжена на 80 процентов. Бак полон. Радио работает. Я оставляю его тому, кому нужно убраться отсюда.
+
+    Запираю офис, но гаражные ворота открыты. Инструменты всё ещё на верстаке. Бери что нужно. Чини что можешь.
+
+    - А. Уэбб, Механик
+
+terminal-entry-pawn-shop-title = ВЕНДОВЕРСКАЯ ПЕШКА — ЛЕДЖЕР
+terminal-entry-pawn-shop-content =
+    ВЕНДОВЕРСКИЙ ЛОМБАРД
+    ЗАПИСИ В ГЛАВНОЙ КНИГЕ - ОКТЯБРЬ 2077 ГОДА
+
+    ПОКУПКА ЗОЛОТА ПРИОСТАНОВЛЕНА. НАЛИЧНЫЕ БЕСПОЛЕЗНЫ. НЕ СПРАШИВАЙТЕ.
+
+    ТЕПЕРЬ ПРИНИМАЮ В ОБМЕН:
+    - Консервы
+    - Бутилированную воду
+    - Боеприпасы
+    - Рабочее огнестрельное оружие
+    - Лекарства (любые)
+    - Рабочие фонарики и батарейки
+
+    НЕ ПРИНИМАЮ:
+    - Обручальные кольца (оставьте себе)
+    - Семейные реликвии (оставьте себе)
+    - Телевизоры (скоро будут бесполезны)
+    - Ювелирные украшения (скоро будут бесполезны)
+    - Всё, что не поможет вам выжить на следующей неделе
+
+    ВЕЩИ, ОСТАВЛЕННЫЕ В МАГАЗИНЕ: Бери что нужно. Оставь то, что не нужно. Будь справедлив к тем, кто придёт после тебя.
+
+    Мужчине, который на прошлой неделе заложил жемчужное ожерелье жены, чтобы купить дочери куклу: я положил их в кассовый ящик с вашим талоном сверху. Они всё ещё здесь. Возвращайся, если сможешь. Если нет — надеюсь, она получила куклу.
+
+    - Л. Бреннан
 
 terminal-entry-barber-title = SAL'S BARBERSHOP - КНИГА ЗАПИСЕЙ
-terminal-entry-barber-content = 
-    SAL'S BARBERSHOP
-    APPOINTMENT BOOK - WEEK OF OCTOBER 17, 2077
-    
-    MONDAY:
-    9:00 - Mr. Calabrese (regular trim, did not show)
-    10:30 - Bobby Yi (first haircut, age 4, mother cried)
-    1:00 - Three airfield mechanics, walk in, would not look at the mirror
-    
-    TUESDAY:
-    9:00 - Father Abernathy (he asked for a clean shave, said he wanted to look his best)
-    11:00 - Mr. Henderson (closed his shop early to come, gave me his pistol as a tip)
-    2:00 - Eleven year old boy, alone, paid in dimes from his piggy bank, said his dad told him to look sharp
-    
-    WEDNESDAY:
-    Closed all day. I gave the chair to my wife. We sat in the back room and held hands.
-    
-    THURSDAY:
-    Open again. Free haircuts. No appointments. Walk in.
-    
-    Twenty seven people. I have never cut so much hair in one day. I gave them all my best work. The same work I would give a movie star, a president, a judge. They deserved it.
-    
-    The shop smells like talcum powder and bay rum and fear.
-    
-    I am going to lock up tonight. The CLOSED sign is going up for the first time in thirty one years. I do not think I will be opening again.
-    
-    - S. Tomasi, Barber
+terminal-entry-barber-content =
+    SAL'S БАРБЕРШОП
+    ЖУРНАЛ ЗАПИСИ - НЕДЕЛЯ С 17 ОКТЯБРЯ 2077 ГОДА
+
+    ПОНЕДЕЛЬНИК:
+    9:00 - Мистер Калабрезе (обычная стрижка, не пришёл)
+    10:30 - Бобби Йи (первая стрижка, 4 года, мать плакала)
+    13:00 - Трое механиков с аэродрома, зашли без записи, не смотрелись в зеркало
+
+    ВТОРНИК:
+    9:00 - Отец Абернати (попросил чистое бритьё, сказал, что хочет выглядеть наилучшим образом)
+    11:00 - Мистер Хендерсон (закрыл свой магазин пораньше, дал мне свой пистолет в качестве чаевых)
+    14:00 - Одиннадцатилетний мальчик, один, заплатил даймами из своей копилки, сказал, что отец велел ему выглядеть опрятно
+
+    СРЕДА:
+    Закрыто на весь день. Я уступил кресло своей жене. Мы сидели в задней комнате и держались за руки.
+
+    ЧЕТВЕРГ:
+    Снова открыто. Бесплатные стрижки. Без записи. Заходите.
+
+    Двадцать семь человек. Я никогда не стриг столько волос за один день. Я сделал им всем свою лучшую работу. Ту же работу, что сделал бы кинозвезде, президенту, судье. Они заслужили это.
+
+    Магазин пахнет тальком, лавровишневой водой и страхом.
+
+    Сегодня вечером я запрусь. Табличка ЗАКРЫТО повешена впервые за тридцать один год. Не думаю, что я откроюсь снова.
+
+    - С. Томази, Парикмахер
 
 # =============================================================================
 # PRE-WAR ENTRIES (Wendover AFB - military)
 # =============================================================================
 
 terminal-entry-hangar4-title = База ВЕНДОВЕР — ЖУРНАЛ ДОСТУПА К АНГАРУ 4
-terminal-entry-hangar4-content = 
-    WENDOVER AIR FORCE BASE
-    RESTRICTED ACCESS - HANGAR 4
-    CLEARANCE: BLACK / ULTRA
-    
-    ACCESS LOG - OCTOBER 2077:
-    
-    Oct 1: Col. Webb (3 entries, 14 hours total)
-    Oct 4: Col. Webb + 2 unidentified civilians (lab coats, no insignia)
-    Oct 7: Col. Webb + Dr. [REDACTED] + escort detail (7 hours)
-    Oct 9: Maintenance crew (4 personnel, decontamination on exit)
-    Oct 12: Col. Webb (overnight)
-    Oct 15: Col. Webb + 6 unidentified personnel (helicopter, departed 0400)
-    Oct 18: SECURITY ALERT - unauthorized access attempt by Sgt. Kowalski. Detained. Reassigned. No further entries logged for this individual.
-    Oct 21: Col. Webb (entire day, did not exit)
-    Oct 22: Col. Webb (no exit logged)
-    Oct 23: [SYSTEM ERROR - LOG TERMINATED]
-    
-    NOTE FROM TERMINAL ADMIN: This terminal will purge all access records on a 30 day cycle per security protocol. The above is a snapshot only. Full records, if they exist, are stored offsite at a location I am not cleared to know about.
-    
-    Whatever is in Hangar 4, it is the only thing the Colonel cared about at the end.
+terminal-entry-hangar4-content =
+    АВИАБАЗА ВЕНДОВЕР
+    ОГРАНИЧЕННЫЙ ДОСТУП - АНГАР 4
+    ДОПУСК: BLACK / ULTRA
 
-terminal-entry-col-webb-title = ПОЛКОВНИК ВЕББ - ПЕРСОНАЛЬНЫЙ ТЕРМИНАЛ
-terminal-entry-col-webb-content = 
-    PERSONAL TERMINAL - COL. D. WEBB
-    PRIVATE - DO NOT DISTRIBUTE
-    
-    October 19, 2077.
-    
-    Three more sleepless nights. The pills are not working. I keep seeing the test footage. The way the lights came on inside the unit. The way it tracked me across the room without anyone giving it an order.
-    
-    Dr. Halloran says it is functioning within expected parameters. I asked him whose expectations and he did not answer.
-    
-    October 21, 2077.
-    
-    Sealed Hangar 4. Issued the order myself. Anyone who tries to enter without my personal authorization is to be detained. Anyone who succeeds is to be shot. I do not enjoy giving orders like that. I do not enjoy any of this.
-    
-    October 22, 2077.
-    
-    My wife asked me on the phone tonight if she should take the kids to her mother's in Boise. I said yes. I told her to leave tonight. She asked me when I would be home. I lied. I have lied to her every day for six months and now there will not be time to explain.
-    
-    October 23, 2077. 0247 hours.
-    
-    The order came in. I am to remain on station and ensure the asset does not fall into hostile hands. I have my sidearm. I have my orders. I have my honor, what is left of it.
-    
-    God forgive me for what we made down here.
-    
-    - D.W.
+    ЖУРНАЛ ДОСТУПА - ОКТЯБРЬ 2077 ГОДА:
+
+    1 окт: Полк. Уэбб (3 входа, 14 часов всего)
+    4 окт: Полк. Уэбб + 2 неопознанных гражданских (лабораторные халаты, без знаков различия)
+    7 окт: Полк. Уэбб + д-р [ЗАСЕКРЕЧЕНО] + отряд сопровождения (7 часов)
+    9 окт: Ремонтная бригада (4 человека, дезактивация при выходе)
+    12 окт: Полк. Уэбб (ночёвка)
+    15 окт: Полк. Уэбб + 6 неопознанных лиц (вертолёт, убыли в 04:00)
+    18 окт: ТРЕВОГА БЕЗОПАСНОСТИ - попытка несанкционированного доступа сержантом Ковальски. Задержан. Переведён. Дальнейшие входы для этого лица не зарегистрированы.
+    21 окт: Полк. Уэбб (весь день, не выходил)
+    22 окт: Полк. Уэбб (выход не зарегистрирован)
+    23 окт: [СИСТЕМНАЯ ОШИБКА - ЖУРНАЛ ЗАВЕРШЁН]
+
+    ПРИМЕЧАНИЕ АДМИНИСТРАТОРА ТЕРМИНАЛА: Этот терминал будет удалять все записи доступа каждые 30 дней в соответствии с протоколом безопасности. Вышеуказанное — только снимок. Полные записи, если они существуют, хранятся за пределами объекта в месте, о котором мне не положено знать.
+
+    Что бы ни было в Ангаре 4, это единственное, о чём полковник заботился в конце.
+
+terminal-entry-col-webb-title = ПОЛКОВНИК УЭББ - ПЕРСОНАЛЬНЫЙ ТЕРМИНАЛ
+terminal-entry-col-webb-content =
+    ЛИЧНЫЙ ТЕРМИНАЛ - ПОЛК. Д. УЭББ
+    ЛИЧНОЕ - НЕ РАСПРОСТРАНЯТЬ
+
+    19 октября 2077 года.
+
+    Ещё три бессонных ночи. Таблетки не помогают. Я продолжаю видеть кадры испытаний. То, как загорелись огни внутри установки. То, как она следила за мной по комнате, никто не отдавал ей приказ.
+
+    Доктор Хэллоран говорит, что она функционирует в пределах ожидаемых параметров. Я спросил, чьих ожиданий, и он не ответил.
+
+    21 октября 2077 года.
+
+    Опечатал Ангар 4. Отдал приказ лично. Любой, кто попытается войти без моего личного разрешения, подлежит задержанию. Любой, кто преуспеет, подлежит расстрелу. Мне не нравится отдавать такие приказы. Мне не нравится всё это.
+
+    22 октября 2077 года.
+
+    Моя жена спросила меня по телефону сегодня вечером, не стоит ли ей отвезти детей к её матери в Бойсе. Я сказал да. Я сказал ей уезжать сегодня вечером. Она спросила, когда я буду дома. Я солгал. Я лгал ей каждый день в течение шести месяцев, и теперь не будет времени объяснять.
+
+    23 октября 2077 года. 02:47.
+
+    Пришёл приказ. Я должен оставаться на станции и обеспечить, чтобы актив не попал в руки врага. У меня есть табельное оружие. У меня есть приказы. У меня есть честь, то, что от неё осталось.
+
+    Боже, прости меня за то, что мы создали здесь, внизу.
+
+    - Д.У.
 
 terminal-entry-atc-title = База ВЕНДОВЕР - УПРАВЛЕНИЕ ВОЗДУШНЫМ ДВИЖЕНИЕМ
-terminal-entry-atc-content = 
-    WENDOVER AFB CONTROL TOWER
-    TRANSCRIPT EXCERPT - OCTOBER 23, 2077
-    
-    1108: Tower, this is Salt Lake Approach. We have lost contact with Hill Air Force Base. Repeat, lost contact with Hill. Can you confirm?
-    1108: Salt Lake, Wendover Tower, we have not heard from Hill in approximately ninety minutes. Negative confirmation.
-    
-    1112: Wendover, this is United 447 westbound from Denver. We are seeing... we are seeing flashes on the eastern horizon. Multiple flashes. Please advise.
-    1112: United 447, Wendover Tower. Maintain current heading. Climb to flight level three nine zero. Do not turn back. I repeat, do not turn back.
-    
-    1119: WARNING. Multiple inbound contacts. Bearing 090. Speed indicates ballistic. Repeat. BALLISTIC INBOUND. ALL AIRCRAFT DIVERT IMMEDIATELY.
-    
-    1121: This is the tower. To any aircraft receiving. Land at the nearest available airfield. Do not attempt to reach your destination. Do not attempt to reach Wendover. Do not.
-    
-    1124: [STATIC]
-    
-    1124: To my daughter Lily. If somehow you ever read this. Daddy loves you. Daddy loves you. Daddy loves...
-    
-    1125: [TRANSMISSION ENDS]
+terminal-entry-atc-content =
+    ДИСПЕТЧЕРСКАЯ ВЫШКА АВИАБАЗЫ ВЕНДОВЕР
+    ВЫДЕРЖКА ИЗ СТЕНОГРАММЫ - 23 ОКТЯБРЯ 2077 ГОДА
 
-terminal-entry-munitions-title = База ВЕНДОВЕР – ИНВЕНТАРИЗ БОЕПРИПАСОВ
-terminal-entry-munitions-content = 
-    WENDOVER AFB MUNITIONS DEPOT
-    INVENTORY AS OF OCTOBER 22, 2077
-    
-    CONVENTIONAL ORDNANCE:
-    - 5.56mm: 4.2 million rounds
-    - 7.62mm: 1.8 million rounds
-    - .50 BMG: 340,000 rounds
-    - 40mm grenades: 12,000
-    - Fragmentation grenades: 8,400
-    - Anti-personnel mines: 1,200
-    
-    ENERGY WEAPON CELLS:
-    - Microfusion cells: 12,400
-    - Energy cells: 28,000
-    - Plasma cartridges: 3,200
-    
-    SPECIAL ORDNANCE (Hangar 4 storage, Col. Webb only):
-    - [REDACTED]: 4 units
-    - [REDACTED]: 2 units
-    - [REDACTED]: 1 unit (designated SCEPTER)
-    
-    NOTE FROM ARMORER: Whatever SCEPTER is, it arrived three days ago in a container the size of a small truck under guard from Mariposa. The clearance to even know it exists was issued at the Pentagon level. I signed for it without ever seeing what was inside.
-    
-    I have been an armorer for twenty two years. I have handled nuclear devices. Whatever is in that container is worse than nuclear devices. I can feel it from the next room.
-    
-    - MSgt. R. Bishop
+    11:08: Вышка, это Подход Солт-Лейка. Мы потеряли связь с авиабазой Хилл. Повторяю, потеряли связь с Хилл. Можете подтвердить?
+    11:08: Солт-Лейк, вышка Вендовера, мы не слышали Хилл примерно девяносто минут. Подтверждение отрицательное.
+
+    11:12: Вендовер, это Юнайтед 447, следующий на запад из Денвера. Мы видим... мы видим вспышки на восточном горизонте. Множественные вспышки. Просим указаний.
+    11:12: Юнайтед 447, вышка Вендовера. Держите текущий курс. Наберите высоту до эшелона три девять ноль. Не разворачивайтесь. Повторяю, не разворачивайтесь.
+
+    11:19: ПРЕДУПРЕЖДЕНИЕ. Множественные входящие контакты. Азимут 090. Скорость указывает на баллистическую. Повторяю. БАЛЛИСТИЧЕСКИЕ НА КУРСЕ. ВСЕМ ВОЗДУШНЫМ СУДАМ НЕМЕДЛЕННО ОТКЛОНИТЬСЯ.
+
+    11:21: Говорит вышка. Всем принимающим воздушным судам. Приземляйтесь на ближайшем доступном аэродроме. Не пытайтесь достичь пункта назначения. Не пытайтесь достичь Вендовера. Не надо.
+
+    11:24: [ПОМЕХИ]
+
+    11:24: Моей дочери Лили. Если ты каким-то образом когда-нибудь прочитаешь это. Папа любит тебя. Папа любит тебя. Папа любит...
+
+    11:25: [ПЕРЕДАЧА ЗАВЕРШЕНА]
+
+terminal-entry-munitions-title = База ВЕНДОВЕР – ИНВЕНТАРИЗАЦИЯ БОЕПРИПАСОВ
+terminal-entry-munitions-content =
+    СКЛАД БОЕПРИПАСОВ АВИАБАЗЫ ВЕНДОВЕР
+    ИНВЕНТАРИЗАЦИЯ ПО СОСТОЯНИЮ НА 22 ОКТЯБРЯ 2077 ГОДА
+
+    ОБЫЧНЫЕ БОЕПРИПАСЫ:
+    - 5,56 мм: 4,2 миллиона патронов
+    - 7,62 мм: 1,8 миллиона патронов
+    - .50 BMG: 340 000 патронов
+    - 40-мм гранаты: 12 000
+    - Осколочные гранаты: 8 400
+    - Противопехотные мины: 1 200
+
+    ЯЧЕЙКИ ЭНЕРГЕТИЧЕСКОГО ОРУЖИЯ:
+    - Микроядерные батареи: 12 400
+    - Энергетические ячейки: 28 000
+    - Плазменные кассеты: 3 200
+
+    ОСОБЫЕ БОЕПРИПАСЫ (Ангар 4, только полк. Уэбб):
+    - [ЗАСЕКРЕЧЕНО]: 4 единицы
+    - [ЗАСЕКРЕЧЕНО]: 2 единицы
+    - [ЗАСЕКРЕЧЕНО]: 1 единица (обозначена СКИПЕТР)
+
+    ПРИМЕЧАНИЕ ОРУЖЕЙНИКА: Что бы ни было СКИПЕТРОМ, он прибыл три дня назад в контейнере размером с небольшой грузовик под охраной из Марипосы. Допуск даже на знание о его существовании был выдан на уровне Пентагона. Я расписался за него, так и не увидев, что внутри.
+
+    Я оружейник уже двадцать два года. Я имел дело с ядерными устройствами. Что бы ни было в этом контейнере, это хуже ядерных устройств. Я чувствую это из соседней комнаты.
+
+    - Главный старшина Р. Бишоп
 
 terminal-entry-base-clinic-title = ВЕНДОВЕР АФБ - МЕДИЦИНСКАЯ КЛИНИКА
-terminal-entry-base-clinic-content = 
-    WENDOVER AFB BASE HOSPITAL
-    MEDICAL OFFICER LOG - OCTOBER 2077
-    
-    Oct 8: Three personnel from Hangar 4 maintenance presenting with radiation sickness. Reported exposure source as "classified equipment maintenance." Treated with RadAway and bed rest. All three returned to duty within 48 hours, against my recommendation.
-    
-    Oct 11: One of the same personnel returned. Hair loss, internal hemorrhaging. Died at 0317. Cause of death listed as "occupational hazard." Family was not informed of the actual circumstances. I was instructed not to ask further questions.
-    
-    Oct 14: Six more cases. Same hangar. Same symptoms. Different intensities.
-    
-    Oct 17: Col. Webb visited the ward. Spoke to each patient personally. Apologized. Apologized. The Colonel does not apologize.
-    
-    Oct 19: Out of RadAway. Out of Rad-X. Out of pain medication beyond morphine. Three patients in critical condition. Two stable but deteriorating.
-    
-    Oct 22: I sent a letter to my wife by base messenger this morning. I do not expect to come home. Whatever they were doing in that hangar, the rest of us are going to pay for it. But I am a doctor. I will stay until the last patient is stable or until the last patient is gone.
-    
-    - Maj. C. Sato, MD
+terminal-entry-base-clinic-content =
+    БАЗОВЫЙ ГОСПИТАЛЬ АВИАБАЗЫ ВЕНДОВЕР
+    ЖУРНАЛ МЕДИЦИНСКОГО ОФИЦЕРА - ОКТЯБРЬ 2077 ГОДА
+
+    8 окт: Трое сотрудников из обслуживания Ангара 4 с признаками лучевой болезни. Указан источник облучения: «обслуживание секретного оборудования». Лечение РадАуэем и постельный режим. Все трое возвращены к службе в течение 48 часов, вопреки моей рекомендации.
+
+    11 окт: Один из тех же сотрудников вернулся. Выпадение волос, внутреннее кровоизлияние. Скончался в 03:17. Причина смерти указана как «производственная травма». Семья не была проинформирована о реальных обстоятельствах. Мне было приказано не задавать дальнейших вопросов.
+
+    14 окт: Ещё шесть случаев. Тот же ангар. Те же симптомы. Разной степени тяжести.
+
+    17 окт: Полковник Уэбб посетил палату. Поговорил с каждым пациентом лично. Извинился. Извинился. Полковник не извиняется.
+
+    19 окт: Закончился РадАуэй. Закончился Рад-Икс. Закончились обезболивающие, кроме морфия. Трое пациентов в критическом состоянии. Двое стабильны, но ухудшаются.
+
+    22 окт: Я отправил письмо жене с базовым курьером сегодня утром. Я не рассчитываю вернуться домой. Чем бы они ни занимались в том ангаре, остальным из нас придётся за это платить. Но я врач. Я останусь, пока последний пациент не станет стабильным или пока последний пациент не уйдёт.
+
+    - Майор К. Сато, доктор медицины
 
 terminal-entry-mp-blotter-title = База ВЕНДОВЕР - MP BLOTTER
-terminal-entry-mp-blotter-content = 
-    WENDOVER AFB MILITARY POLICE
-    DUTY BLOTTER - OCTOBER 2077
-    
-    Oct 6: Drunk and disorderly. Three airmen. Released to NCO custody.
-    Oct 9: Attempted desertion. Cpl. Nguyen. Apprehended at the west gate with a duffel bag and his daughter's photograph. Court martial pending. (Note: charges dropped Oct 12 by order of base commander. Cpl. Nguyen reassigned to Hangar 4 detail.)
-    Oct 13: Attempted suicide. Sgt. Reyes. Survived. Transferred to base hospital. (Note: Sgt. Reyes succeeded on his second attempt Oct 16.)
-    Oct 17: Disturbance in officers' quarters. Maj. Halloway destroying personal property. Calmed and escorted to bed.
-    Oct 19: AWOL. Eleven personnel did not report for morning formation. Search teams dispatched. Six recovered. Five remain unaccounted for.
-    Oct 21: Riot at the enlisted mess hall over food rationing. Two injuries. Order restored.
-    Oct 22: Mass desertion attempt. Forty seven personnel attempted to depart through the south gate. Live fire was used to enforce the order to halt. Twelve casualties. Order restored.
-    
-    I joined the Air Force to keep people safe. Today I shot at men in my own uniform. I will be writing letters to twelve families if there is a tomorrow. There will not be a tomorrow. There will not be twelve families.
-    
-    God help us all.
-    
-    - Capt. M. Riggs, Provost
+terminal-entry-mp-blotter-content =
+    ВОЕННАЯ ПОЛИЦИЯ АВИАБАЗЫ ВЕНДОВЕР
+    ДЕЖУРНЫЙ ЖУРНАЛ - ОКТЯБРЬ 2077 ГОДА
+
+    6 окт: Пьянство и хулиганство. Трое рядовых. Переданы под надзор сержантского состава.
+    9 окт: Попытка дезертирства. Капрал Нгуен. Задержан у западных ворот с вещмешком и фотографией дочери. Ожидает военного трибунала. (Примечание: обвинения сняты 12 окт по приказу командира базы. Капрал Нгуен переведён в отряд Ангара 4.)
+    13 окт: Попытка самоубийства. Сержант Рейес. Выжил. Переведён в базовый госпиталь. (Примечание: Сержант Рейес преуспел со второй попытки 16 окт.)
+    17 окт: Беспорядки в офицерских квартирах. Майор Хэллоуэй уничтожает личное имущество. Успокоен и препровождён в постель.
+    19 окт: Самоволка. Одиннадцать человек не явились на утреннее построение. Отправлены поисковые группы. Шестеро найдены. Пятеро числятся пропавшими без вести.
+    21 окт: Бунт в столовой для рядового состава из-за нормирования еды. Двое раненых. Порядок восстановлен.
+    22 окт: Массовая попытка дезертирства. Сорок семь человек пытались покинуть базу через южные ворота. Для принуждения к остановке был применён боевой огонь. Двенадцать потерь. Порядок восстановлен.
+
+    Я вступил в ВВС, чтобы защищать людей. Сегодня я стрелял в людей в моей собственной форме. Я буду писать письма двенадцати семьям, если будет завтра. Завтра не будет. Не будет двенадцати семей.
+
+    Да поможет нам Бог.
+
+    - Капитан М. Риггс, Прокурор
 
 terminal-entry-chaplain-title = База ВЕНДОВЕР – ЗАМЕЧАНИЯ КАПЛАНА
-terminal-entry-chaplain-content = 
-    WENDOVER AFB CHAPEL
-    CHAPLAIN'S NOTES - WEEK ENDING OCTOBER 22, 2077
-    
-    Counseling sessions this week: Forty one. Normal weekly load: Six.
-    
-    Common themes: Fear of dying alone. Fear of dying badly. Fear that what they have been doing on this base is wrong, and that punishment is coming, and that they deserve it.
-    
-    I have heard confessions from men who do not believe in confession. I have prayed with atheists who said the words anyway because they could not think what else to do.
-    
-    A young airman, no more than nineteen, came to me yesterday and asked if God forgives the people who build terrible things. I said yes. He said how do you know. I said because if He does not, then heaven is empty and Earth is on fire and there is no point in any of this. He said that does not feel like an answer. I said it is the only one I have.
-    
-    He asked me to pray with him for his mother in Spokane. I did. I am still praying for her tonight.
-    
-    I will hold a service tomorrow morning in the base chapel. All faiths welcome. I do not know how many will come. I do not know if I will be there myself.
-    
-    Lord, into your hands.
-    
-    - Lt. Col. T. Marquez, Chaplain Corps
+terminal-entry-chaplain-content =
+    ЧАСОВНЯ АВИАБАЗЫ ВЕНДОВЕР
+    ЗАМЕТКИ КАПЕЛЛАНА - НЕДЕЛЯ, ЗАКАНЧИВАЮЩАЯСЯ 22 ОКТЯБРЯ 2077 ГОДА
+
+    Консультаций на этой неделе: Сорок одна. Обычная еженедельная нагрузка: Шесть.
+
+    Общие темы: Страх умереть в одиночестве. Страх умереть мучительно. Страх, что то, чем они занимаются на этой базе, неправильно, и что наказание приближается, и что они его заслуживают.
+
+    Я принимал исповеди от людей, которые не верят в исповедь. Я молился с атеистами, которые всё равно произносили слова, потому что не могли придумать, что ещё делать.
+
+    Вчера ко мне пришёл молодой рядовой, не старше девятнадцати, и спросил, прощает ли Бог людей, которые строят ужасные вещи. Я сказал, да. Он спросил, откуда я знаю. Я сказал, потому что если Он не прощает, то небеса пусты, Земля в огне, и нет смысла ни в чём из этого. Он сказал, это не похоже на ответ. Я сказал, это единственный, который у меня есть.
+
+    Он попросил меня помолиться с ним за его мать в Спокане. Я помолился. Я всё ещё молюсь за неё сегодня вечером.
+
+    Завтра утром я проведу службу в базовой часовне. Все вероисповедания приветствуются. Я не знаю, сколько придёт. Я не знаю, буду ли я там сам.
+
+    Господи, в руки Твои.
+
+    - Подполковник Т. Маркес, Корпус капелланов
 
 terminal-entry-officers-club-title = ВВС ВЕНДОВЕР - ЖУРНАЛ ОФИЦЕРСКОГО КЛУБА
-terminal-entry-officers-club-content = 
-    WENDOVER AFB OFFICERS' CLUB
-    BAR LOG - OCTOBER 22, 2077
-    
-    1800: Open as scheduled. Light crowd.
-    1830: Maj. Halloway requests every bottle of bourbon in the cellar be brought up. Granted.
-    1900: Capt. Riggs arrives in dress uniform, sits alone, orders one whiskey neat, does not drink it.
-    1945: Col. Webb makes brief appearance. Speaks to no one. Pours himself a single glass of scotch. Raises it to no one in particular. Drinks. Leaves.
-    2030: Singing breaks out. "The Air Force Song." Voices crack on the second verse.
-    2115: Lt. Daniels proposes a toast to "the boys we left behind." Nobody asks who he means.
-    2200: Bar runs out of ice. Nobody complains.
-    2300: Bar runs out of mixers. Nobody complains.
-    0030: Bar runs out of glasses. Drinks served in coffee mugs.
-    0145: Closing time announced. Nobody leaves.
-    0200: Closing time enforced. Nobody leaves. Bartender goes home and leaves the door open.
-    0300: Last entry by an unknown hand. "We were the best of them. We failed. Forgive us."
+terminal-entry-officers-club-content =
+    ОФИЦЕРСКИЙ КЛУБ АВИАБАЗЫ ВЕНДОВЕР
+    БАРНЫЙ ЖУРНАЛ - 22 ОКТЯБРЯ 2077 ГОДА
+
+    18:00: Открытие по расписанию. Немного людей.
+    18:30: Майор Хэллоуэй требует принести все бутылки бурбона из подвала. Разрешено.
+    19:00: Капитан Риггс прибывает в парадной форме, сидит один, заказывает один виски, не пьёт его.
+    19:45: Полковник Уэбб появляется ненадолго. Ни с кем не говорит. Наливает себе один стакан скотча. Поднимает его ни к кому конкретно. Пьёт. Уходит.
+    20:30: Начинается пение. «Песня ВВС». Голоса срываются на втором куплете.
+    21:15: Лейтенант Дэниелс произносит тост за «парней, которых мы оставили». Никто не спрашивает, кого он имеет в виду.
+    22:00: В баре закончился лёд. Никто не жалуется.
+    23:00: В баре закончились миксы. Никто не жалуется.
+    00:30: В баре закончились стаканы. Напитки подают в кофейных кружках.
+    01:45: Объявлено время закрытия. Никто не уходит.
+    02:00: Закрытие принудительное. Никто не уходит. Бармен идёт домой и оставляет дверь открытой.
+    03:00: Последняя запись неизвестной рукой. «Мы были лучшими из них. Мы потерпели неудачу. Простите нас.»
 
 terminal-entry-comms-encrypted-title = AFB COMMS — ЗАШИФРОВАННЫЙ ЖУРНАЛ ТРАФИКА
-terminal-entry-comms-encrypted-content = 
-    WENDOVER AFB COMMUNICATIONS CENTER
-    ENCRYPTED TRAFFIC LOG - DECRYPTED HEADERS ONLY
-    DATE: OCTOBER 22-23, 2077
-    
-    2247Z: FROM: PENTAGON BLACK / TO: WENDOVER COMMAND / SUBJECT: [DECRYPTION FAILED]
-    2301Z: FROM: WENDOVER COMMAND / TO: PENTAGON BLACK / SUBJECT: ASSET STATUS GREEN
-    2315Z: FROM: MARIPOSA / TO: WENDOVER COMMAND / SUBJECT: [DECRYPTION FAILED]
-    2347Z: FROM: WENDOVER COMMAND / TO: ALL STATIONS / SUBJECT: DEFCON 1 CONFIRMED
-    0014Z: FROM: ENCLAVE OVERSIGHT / TO: WENDOVER COMMAND / SUBJECT: VAULT SEAL AUTHORIZATION
-    0030Z: FROM: WENDOVER COMMAND / TO: VAULT 14 / SUBJECT: SEAL AUTHORIZED, CODE OMEGA
-    0042Z: FROM: VAULT 14 OVERSEER / TO: WENDOVER COMMAND / SUBJECT: ACKNOWLEDGED, GOD HELP YOU
-    0058Z: FROM: NORAD / TO: ALL STATIONS / SUBJECT: INBOUND CONFIRMED
-    0103Z: FROM: WENDOVER COMMAND / TO: ALL PERSONNEL / SUBJECT: SHELTER IN PLACE
-    0117Z: [TRANSMISSION INTERRUPTED]
-    0117Z: [TRANSMISSION INTERRUPTED]
-    0117Z: [TRANSMISSION INTERRUPTED]
-    0117Z: [NO FURTHER TRANSMISSIONS]
+terminal-entry-comms-encrypted-content =
+    ЦЕНТР СВЯЗИ АВИАБАЗЫ ВЕНДОВЕР
+    ЖУРНАЛ ЗАШИФРОВАННОГО ТРАФИКА - ТОЛЬКО РАСШИФРОВАННЫЕ ЗАГОЛОВКИ
+    ДАТА: 22-23 ОКТЯБРЯ 2077 ГОДА
+
+    22:47Z: ОТ: ПЕНТАГОН ЧЁРНЫЙ / КОМУ: КОМАНДОВАНИЕ ВЕНДОВЕРА / ТЕМА: [РАСШИФРОВКА НЕ УДАЛАСЬ]
+    23:01Z: ОТ: КОМАНДОВАНИЕ ВЕНДОВЕРА / КОМУ: ПЕНТАГОН ЧЁРНЫЙ / ТЕМА: СТАТУС АКТИВА ЗЕЛЁНЫЙ
+    23:15Z: ОТ: МАРИПОСА / КОМУ: КОМАНДОВАНИЕ ВЕНДОВЕРА / ТЕМА: [РАСШИФРОВКА НЕ УДАЛАСЬ]
+    23:47Z: ОТ: КОМАНДОВАНИЕ ВЕНДОВЕРА / КОМУ: ВСЕМ СТАНЦИЯМ / ТЕМА: DEFCON 1 ПОДТВЕРЖДЁН
+    00:14Z: ОТ: НАДЗОР АНКЛАВА / КОМУ: КОМАНДОВАНИЕ ВЕНДОВЕРА / ТЕМА: АВТОРИЗАЦИЯ ОПЕЧАТЫВАНИЯ УБЕЖИЩА
+    00:30Z: ОТ: КОМАНДОВАНИЕ ВЕНДОВЕРА / КОМУ: УБЕЖИЩЕ 14 / ТЕМА: ОПЕЧАТЫВАНИЕ АВТОРИЗОВАНО, КОД ОМЕГА
+    00:42Z: ОТ: СМОТРИТЕЛЬ УБЕЖИЩА 14 / КОМУ: КОМАНДОВАНИЕ ВЕНДОВЕРА / ТЕМА: ПРИНЯТО, ДА ПОМОЖЕТ ВАМ БОГ
+    00:58Z: ОТ: NORAD / КОМУ: ВСЕМ СТАНЦИЯМ / ТЕМА: ПРИБЛИЖЕНИЕ ПОДТВЕРЖДЕНО
+    01:03Z: ОТ: КОМАНДОВАНИЕ ВЕНДОВЕРА / КОМУ: ВСЕМУ ЛИЧНОМУ СОСТАВУ / ТЕМА: УКРЫТЬСЯ НА МЕСТЕ
+    01:17Z: [ПЕРЕДАЧА ПРЕРВАНА]
+    01:17Z: [ПЕРЕДАЧА ПРЕРВАНА]
+    01:17Z: [ПЕРЕДАЧА ПРЕРВАНА]
+    01:17Z: [ДАЛЬНЕЙШИХ ПЕРЕДАЧ НЕТ]
 
 terminal-entry-civil-defense-title = ВЕНДОВЕР ГРАЖДАНСКАЯ ОБОРОНА - ЖУРНАЛ ДИРЕКТОРА
-terminal-entry-civil-defense-content = 
-    WENDOVER CIVIL DEFENSE OFFICE
-    DIRECTOR'S LOG - OCTOBER 2077
-    
-    My name is Eleanor Schultz. I have been the Civil Defense Director of Wendover for fourteen years. In those fourteen years I have organized one drill per quarter. Stocked one fallout shelter beneath the community center. Filed one budget request annually for supplies that the county usually denied.
-    
-    I was not prepared for this. Nobody is prepared for this.
-    
-    Inventory of community shelter:
-    - Capacity: 200 (we have 600 people in town)
-    - Water: 90 gallons (recommended: 1200)
-    - Food: 14 days at half rations for 200 (we will have 600)
-    - Medical supplies: minimal
-    - Air filtration: original 1962 unit, untested in 30 years
-    
-    I tried to get more supplies. The county said no. The state said no. The federal government said all assets are committed elsewhere. I bought what I could with my own money. It is not enough. It will not be enough.
-    
-    When the sirens sound I will open the doors and let in as many as I can. After that I will close them. I will have to look at the people I am leaving outside. They will be people I know. People I went to high school with.
-    
-    I will close the doors anyway. Because the alternative is everyone dying.
-    
-    Forgive me, Wendover. Forgive me.
+terminal-entry-civil-defense-content =
+    ОФИС ГРАЖДАНСКОЙ ОБОРОНЫ ВЕНДОВЕРА
+    ЖУРНАЛ ДИРЕКТОРА - ОКТЯБРЬ 2077 ГОДА
+
+    Меня зовут Элеанор Шульц. Я была директором гражданской обороны Вендовера четырнадцать лет. За эти четырнадцать лет я организовывала одни учения в квартал. Заполнила одно бомбоубежище под общественным центром. Ежегодно подавала одну бюджетную заявку на припасы, которую округ обычно отклонял.
+
+    Я не была готова к этому. Никто не готов к этому.
+
+    Инвентаризация общественного убежища:
+    - Вместимость: 200 (у нас 600 человек в городе)
+    - Вода: 90 галлонов (рекомендуется: 1200)
+    - Еда: 14 дней при половинном пайке на 200 (у нас будет 600)
+    - Медикаменты: минимально
+    - Фильтрация воздуха: оригинальный блок 1962 года, не тестировался 30 лет
+
+    Я пыталась получить больше припасов. Округ сказал, нет. Штат сказал, нет. Федеральное правительство сказало, что все ресурсы задействованы в других местах. Я купила что могла на свои деньги. Этого недостаточно. Этого не будет достаточно.
+
+    Когда завоют сирены, я открою двери и впущу столько, сколько смогу. После этого я закрою их. Мне придётся смотреть на людей, которых я оставляю снаружи. Это будут люди, которых я знаю. Люди, с которыми я ходила в одну школу.
+
+    Я всё равно закрою двери. Потому что альтернатива — гибель всех.
+
+    Прости меня, Вендовер. Прости меня.
 
 # =============================================================================
 # PRE-WAR ENTRIES (industrial, scientific, infrastructure)
 # =============================================================================
 
-terminal-entry-salt-plant-title = СОЛЯНОЙ ЗАВОД МОРТОН - ЖУРНАЛ СМЕН
-terminal-entry-salt-plant-content = 
-    MORTON SALT - WENDOVER EXTRACTION FACILITY
-    SHIFT SUPERVISOR LOG
-    OCTOBER 21, 2077
-    
-    First shift: Down to twelve workers. Skeleton crew.
-    Second shift: Six workers.
-    Third shift: Cancelled.
-    
-    Production today: 14 tons (normal: 240 tons).
-    
-    The pumps are still running on the evaporation ponds. The brine is still flowing. The salt is still crystallizing. The earth does not know anything is wrong. It just keeps doing what it has always done.
-    
-    I have worked at this plant for twenty nine years. My father worked here for thirty eight before me. We have pulled millions of tons of salt out of these flats. Salt that went to roads and tables and pickle factories all across the country.
-    
-    Tomorrow I am locking the gate. I am taking my crew home to be with their families. The pumps will run until the power fails. After that the brine will sit and the sun will do what the sun has always done.
-    
-    There will still be salt here a thousand years from now. There will still be salt here when there is nobody left to care.
-    
-    - F. Ostrowski, Shift Super
+terminal-entry-salt-plant-title = СОЛЯНОЙ ЗАВОД MORTON - ЖУРНАЛ СМЕН
+terminal-entry-salt-plant-content =
+    MORTON SALT - ПРЕДПРИЯТИЕ ПО ДОБЫЧЕ В ВЕНДОВЕРЕ
+    ЖУРНАЛ НАЧАЛЬНИКА СМЕНЫ
+    21 ОКТЯБРЯ 2077 ГОДА
 
-terminal-entry-salt-research-title = ИССЛЕДОВАТЕЛЬСКАЯ СТАНЦИЯ БОНВИЛЬ – НАБЛЮДЕНИЯ
-terminal-entry-salt-research-content = 
-    BONNEVILLE SALT FLATS RESEARCH STATION
-    DR. MEREDITH KAUR - FIELD OBSERVATIONS
-    OCTOBER 19, 2077
-    
-    Anomalous crystalline formations detected in samples taken from grid sections E-12 through E-18. Formations exhibit symmetry not consistent with natural halite crystallization.
-    
-    Initial hypothesis: contamination from atmospheric particulate, possibly industrial. Sent samples to the lab in Salt Lake.
-    
-    Update Oct 20: No response from Salt Lake lab. Sent runner. Runner did not return.
-    
-    Update Oct 21: Took new samples. The formations are growing. They are growing faster. They appear to be feeding on the salt itself, restructuring it into geometric lattices that should not exist outside a textbook on theoretical chemistry.
-    
-    I do not have an explanation for this. I have a doctorate from Caltech. I have spent fifteen years studying these salt flats. I have never seen anything like this and I do not know what to do.
-    
-    Update Oct 22: The formations now cover an estimated three square kilometers of the western flats. They are visible from the highway. They look like cathedrals carved out of bone.
-    
-    Update Oct 23: The sky is wrong. I am driving back to the station to collect my notes. If I do not return, my findings are stored in the green binder marked KAUR/2077 in the file room. Whoever finds them: please understand that I tried to tell people, and nobody listened.
+    Первая смена: Осталось двенадцать рабочих. Минимальный состав.
+    Вторая смена: Шесть рабочих.
+    Третья смена: Отменена.
 
-terminal-entry-atmospheric-title = СТАНЦИЯ АТМОСФЕРНЫХ ИССЛЕДОВАНИЙ - ЕЖЕДНЕВНОЕ ЧТЕНИЕ
-terminal-entry-atmospheric-content = 
-    NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION
-    WENDOVER MONITORING STATION
-    DAILY READING - OCTOBER 22, 2077
-    
-    Barometric pressure: 29.87 inHg, falling
-    Temperature: 58F (high), 41F (low)
-    Wind: variable, 5-12 mph
-    Humidity: 31%
-    Visibility: 4 miles (reduced)
-    
-    PARTICULATE READINGS:
-    - PM2.5: 247 ug/m3 (severe)
-    - PM10: 412 ug/m3 (severe)
-    - Strontium-90: TRACE (FIRST DETECTION)
-    - Cesium-137: TRACE (FIRST DETECTION)
-    - Iodine-131: TRACE (FIRST DETECTION)
-    
-    ANALYST NOTES: The radioisotope detections are not from local sources. Wind patterns suggest origin to the east. The detections are at trace levels but they should not be present at any level. They were not present yesterday. They were not present this morning at 0600. They are present now at 1400.
-    
-    Filed urgent report with regional office. No acknowledgment.
-    
-    Calling my husband. Telling him to take the children to the basement. Telling him I love him. Telling him I will try to get home but I do not know if I will make it.
-    
-    - Dr. P. Sato, Atmospheric Scientist
+    Производство сегодня: 14 тонн (норма: 240 тонн).
+
+    Насосы на испарительных прудах всё ещё работают. Рассол всё ещё течёт. Соль всё ещё кристаллизуется. Земля не знает, что что-то не так. Она просто продолжает делать то, что делала всегда.
+
+    Я проработал на этом заводе двадцать девять лет. Мой отец работал здесь тридцать восемь лет до меня. Мы вытащили миллионы тонн соли из этих равнин. Соль, которая пошла на дороги, столы и фабрики по производству солений по всей стране.
+
+    Завтра я запираю ворота. Я забираю свою команду домой, к семьям. Насосы будут работать, пока не отключат электричество. После этого рассол останется, и солнце будет делать то, что всегда делало.
+
+    Здесь всё ещё будет соль через тысячу лет. Здесь всё ещё будет соль, когда не останется никого, кому это важно.
+
+    - Ф. Островски, Начальник смены
+
+terminal-entry-salt-research-title = ИССЛЕДОВАТЕЛЬСКАЯ СТАНЦИЯ БОННВИЛЛЬ – НАБЛЮДЕНИЯ
+terminal-entry-salt-research-content =
+    ИССЛЕДОВАТЕЛЬСКАЯ СТАНЦИЯ СОЛЯНЫХ РАВНИН БОННВИЛЛЯ
+    Д-Р МЕРЕДИТ КАУР - ПОЛЕВЫЕ НАБЛЮДЕНИЯ
+    19 ОКТЯБРЯ 2077 ГОДА
+
+    Обнаружены аномальные кристаллические образования в образцах, взятых из секций сетки E-12 - E-18. Образования проявляют симметрию, не свойственную естественной кристаллизации галита.
+
+    Первоначальная гипотеза: загрязнение атмосферными частицами, возможно, промышленного происхождения. Отправила образцы в лабораторию в Солт-Лейк.
+
+    Обновление 20 окт: Нет ответа из лаборатории Солт-Лейка. Отправила курьера. Курьер не вернулся.
+
+    Обновление 21 окт: Взяла новые образцы. Образования растут. Они растут быстрее. Кажется, они питаются самой солью, перестраивая её в геометрические решётки, которые не должны существовать за пределами учебника теоретической химии.
+
+    У меня нет объяснения этому. У меня есть докторская степень Калтеха. Я провела пятнадцать лет, изучая эти солончаки. Я никогда не видела ничего подобного и не знаю, что делать.
+
+    Обновление 22 окт: Теперь образования покрывают примерно три квадратных километра западных равнин. Они видны с шоссе. Они выглядят как соборы, вырезанные из кости.
+
+    Обновление 23 окт: Небо неправильное. Я еду обратно на станцию, чтобы забрать свои записи. Если я не вернусь, мои находки хранятся в зелёной папке с пометкой КАУР/2077 в архиве. Тот, кто их найдёт: пожалуйста, поймите, я пыталась рассказать людям, и никто не слушал.
+
+terminal-entry-atmospheric-title = СТАНЦИЯ АТМОСФЕРНЫХ ИССЛЕДОВАНИЙ - ЕЖЕДНЕВНЫЕ ПОКАЗАНИЯ
+terminal-entry-atmospheric-content =
+    НАЦИОНАЛЬНОЕ УПРАВЛЕНИЕ ОКЕАНИЧЕСКИХ И АТМОСФЕРНЫХ ИССЛЕДОВАНИЙ
+    МОНИТОРИНГОВАЯ СТАНЦИЯ ВЕНДОВЕРА
+    ЕЖЕДНЕВНЫЕ ПОКАЗАНИЯ - 22 ОКТЯБРЯ 2077 ГОДА
+
+    Атмосферное давление: 29,87 дюйма рт. ст., падает
+    Температура: 58°F (макс.), 41°F (мин.)
+    Ветер: переменный, 5-12 миль/ч
+    Влажность: 31%
+    Видимость: 4 мили (снижена)
+
+    ПОКАЗАНИЯ ТВЁРДЫХ ЧАСТИЦ:
+    - PM2,5: 247 мкг/м3 (критический)
+    - PM10: 412 мкг/м3 (критический)
+    - Стронций-90: СЛЕДЫ (ПЕРВОЕ ОБНАРУЖЕНИЕ)
+    - Цезий-137: СЛЕДЫ (ПЕРВОЕ ОБНАРУЖЕНИЕ)
+    - Йод-131: СЛЕДЫ (ПЕРВОЕ ОБНАРУЖЕНИЕ)
+
+    ПРИМЕЧАНИЯ АНАЛИТИКА: Обнаружения радиоизотопов не являются результатом местных источников. Направление ветра указывает на происхождение с востока. Обнаружения следовые, но их не должно быть ни на каком уровне. Вчера их не было. Сегодня утром в 06:00 их не было. Сейчас, в 14:00, они есть.
+
+    Отправила срочный отчёт в региональный офис. Подтверждения нет.
+
+    Звоню мужу. Говорю ему увести детей в подвал. Говорю ему, что люблю его. Говорю ему, что попытаюсь добраться домой, но не знаю, успею ли.
+
+    - Д-р П. Сато, Атмосферный учёный
 
 terminal-entry-mining-title = WENDOVER MINING CO – ОТЧЕТ ПО СМЕНЕ
-terminal-entry-mining-content = 
-    WENDOVER MINING COMPANY
-    NORTHWEST POTASH OPERATION
-    SHIFT REPORT - OCTOBER 22, 2077
-    
-    Day shift production: 0 tons.
-    Reason: No miners reported for work.
-    
-    The cage operator is here. The hoist engineer is here. I am here. The drift is open and the lights are on three hundred meters down. There is just nobody to dig.
-    
-    I sent the cage down empty at 0700 and brought it back up empty at 1500. I will do it again tomorrow if there is a tomorrow.
-    
-    NOTE: The Foreman left a note pinned to the bulletin board this morning. It reads:
-    
-    "If something happens, the deep galleries are the safest place in this whole valley. We have water down there. We have ventilation that runs on its own pressure differential. We have stockpiles of food I had brought in last month against orders. The big door at the 400 meter level can be sealed from inside.
-    
-    Anyone who reads this and needs shelter: the cage code is 4-7-1-9. Take it down to 400. Push the red button on the wall by the rail siding. The door will close and it will not open from outside. Do not be afraid. The mountain is older than us. It will keep you safe."
-    
-    - Foreman J. Pratchett
+terminal-entry-mining-content =
+    ГОРНОДОБЫВАЮЩАЯ КОМПАНИЯ ВЕНДОВЕРА
+    ПРЕДПРИЯТИЕ ПО ДОБЫЧЕ ПОТАША НА СЕВЕРО-ЗАПАДЕ
+    ОТЧЁТ О СМЕНЕ - 22 ОКТЯБРЯ 2077 ГОДА
+
+    Дневная смена: добыча 0 тонн.
+    Причина: Ни один шахтёр не явился на работу.
+
+    Оператор клети здесь. Инженер подъёмника здесь. Я здесь. Штольня открыта, свет горит на глубине триста метров. Просто некому копать.
+
+    Я отправил клеть вниз пустой в 07:00 и поднял её пустой в 15:00. Я сделаю это снова завтра, если будет завтра.
+
+    ПРИМЕЧАНИЕ: Прораб оставил записку, приколотую к доске объявлений сегодня утром. Она гласит:
+
+    «Если что-то случится, глубокие галереи — самое безопасное место во всей долине. Там внизу есть вода. Там есть вентиляция, работающая от собственного перепада давления. Там есть запасы еды, которые я привёз в прошлом месяце вопреки приказам. Большая дверь на уровне 400 метров может быть запечатана изнутри.
+
+    Любой, кто читает это и нуждается в укрытии: код клети 4-7-1-9. Спускайтесь на 400. Нажмите красную кнопку на стене у рельсового пути. Дверь закроется, и её нельзя будет открыть снаружи. Не бойтесь. Гора старше нас. Она сохранит вас в безопасности.»
+
+    - Прораб Дж. Прэтчетт
 
 terminal-entry-vault-tec-rep-title = ПРОДАЖИ VAULT-TEC — МАРШРУТ РЕГИОНАЛЬНОГО ПРЕДСТАВИТЕЛЯ
-terminal-entry-vault-tec-rep-content = 
+terminal-entry-vault-tec-rep-content =
     VAULT-TEC INDUSTRIES
-    REGIONAL REPRESENTATIVE - GREAT BASIN TERRITORY
-    ITINERARY - OCTOBER 2077
-    
-    REPRESENTATIVE: Howard Beasley, Senior Sales Associate
-    
-    Oct 14: Wendover, UT. Door to door canvassing. Vault 14 enrollment quota: 1000 spaces. Current sales: 47.
-    Oct 15: Wendover. 23 sales. Buyers shown the brochures, the simulation reels, the testimonials.
-    Oct 16: Wendover. 89 sales. People are starting to listen.
-    Oct 17: Wendover. 147 sales.
-    Oct 18: Wendover. 312 sales. Had to start a waiting list.
-    Oct 19: Wendover. 488 sales. Quota met. Closing the books.
-    Oct 20: Wendover. People are pounding on my office door begging to be added. I am not authorized to exceed quota. Corporate confirmed.
-    Oct 21: A woman offered me her wedding ring and her car for one space. For her son. Just her son. Said she did not need to go herself. I told her there were no more spaces. She begged me. I told her there were no more spaces. She asked me how I sleep at night.
-    
-    Oct 22: I do not sleep at night.
-    
-    Oct 23: I am driving to Vault 14 myself. I have a Vault-Tec ID badge and the master access codes. I will not be bringing the woman's son. I will not be bringing the woman. I will be bringing myself.
-    
-    I am not a brave man. I am a salesman. I am sorry.
-    
-    - H. Beasley
+    РЕГИОНАЛЬНЫЙ ПРЕДСТАВИТЕЛЬ - ТЕРРИТОРИЯ БОЛЬШОГО БАССЕЙНА
+    МАРШРУТ - ОКТЯБРЬ 2077 ГОДА
 
-terminal-entry-vault14-construction-title = ХРАНИЛИЩЕ 14 – ЖУРНАЛ СТРОИТЕЛЬНОГО МАРИАНТА
-terminal-entry-vault14-construction-content = 
+    ПРЕДСТАВИТЕЛЬ: Говард Бизли, Старший торговый представитель
+
+    14 окт: Вендовер, Юта. Поквартирный обход. Квота зачисления в Убежище 14: 1000 мест. Текущие продажи: 47.
+    15 окт: Вендовер. 23 продажи. Покупателям показаны брошюры, имитационные ролики, отзывы.
+    16 окт: Вендовер. 89 продаж. Люди начинают слушать.
+    17 окт: Вендовер. 147 продаж.
+    18 окт: Вендовер. 312 продаж. Пришлось завести лист ожидания.
+    19 окт: Вендовер. 488 продаж. Квота выполнена. Закрываю книги.
+    20 окт: Вендовер. Люди стучат в дверь моего офиса, умоляя добавить их. Я не уполномочен превышать квоту. Корпорация подтвердила.
+    21 окт: Женщина предложила мне своё обручальное кольцо и машину за одно место. Для своего сына. Только для сына. Сказала, что ей самой не нужно идти. Я сказал ей, что мест больше нет. Она умоляла меня. Я сказал ей, что мест больше нет. Она спросила, как я сплю по ночам.
+
+    22 окт: Я не сплю по ночам.
+
+    23 окт: Я еду в Убежище 14 сам. У меня есть значок Vault-Tec и мастер-коды доступа. Я не привезу сына той женщины. Я не привезу ту женщину. Я привезу себя.
+
+    Я не храбрый человек. Я продавец. Мне жаль.
+
+    - Х. Бизли
+
+terminal-entry-vault14-construction-title = УБЕЖИЩЕ 14 – ЖУРНАЛ СТРОИТЕЛЬНОГО ПРОРАБА
+terminal-entry-vault14-construction-content =
     VAULT-TEC INDUSTRIES
-    VAULT 14 CONSTRUCTION SITE
-    FOREMAN'S LOG - LATE 2076
-    
-    Phase 1 (Excavation): COMPLETE
-    Phase 2 (Structural): COMPLETE
-    Phase 3 (Mechanical Systems): 94% (HVAC tertiary loop pending)
-    Phase 4 (Living Quarters): 88%
-    Phase 5 (Experimental Equipment Bay): COMPLETE - sealed and locked, contractor not authorized to inspect
-    
-    NOTES: The "experimental equipment bay" was specced by Vault-Tec engineers and built by a separate crew that arrived in unmarked trucks, did their work in three days, and left without speaking to any of my men. They installed equipment I did not recognize. The blueprints I was given have a square labeled SECTION 14-E that just says "DO NOT ENTER, DO NOT QUESTION."
-    
-    I have been building Vaults for twelve years. They all have a Section like 14-E. None of the customers know about it. Vault-Tec calls them "social experiment parameters." That is the company line. We are paid not to ask.
-    
-    Final inspection scheduled for January 2078. The vault will not be officially opened to residents until then.
-    
-    The Overseer has already been selected. I have not met him. He arrived with the experimental crew and has been living on site ever since. He does not come up.
-    
-    - L. Vasquez, Construction Foreman
+    СТРОИТЕЛЬНАЯ ПЛОЩАДКА УБЕЖИЩА 14
+    ЖУРНАЛ ПРОРАБА - КОНЕЦ 2076 ГОДА
 
-terminal-entry-railroad-title = UNION PACIFIC - ЗАВЕРШЕННАЯ ОТПРАВКА
-terminal-entry-railroad-content = 
+    Этап 1 (Земляные работы): ЗАВЕРШЁН
+    Этап 2 (Конструкции): ЗАВЕРШЁН
+    Этап 3 (Инженерные системы): 94% (ожидает третичный контур ОВиК)
+    Этап 4 (Жилые помещения): 88%
+    Этап 5 (Отсек экспериментального оборудования): ЗАВЕРШЁН - опечатан и заперт, подрядчик не уполномочен инспектировать
+
+    ЗАМЕТКИ: «Отсек экспериментального оборудования» был спроектирован инженерами Vault-Tec и построен отдельной бригадой, которая прибыла на немаркированных грузовиках, выполнила работу за три дня и уехала, не поговорив ни с одним из моих людей. Они установили оборудование, которое я не узнал. На чертежах, которые мне дали, есть квадрат с пометкой СЕКЦИЯ 14-E, где просто написано «НЕ ВХОДИТЬ, НЕ СПРАШИВАТЬ».
+
+    Я строю Убежища двенадцать лет. У всех есть Секция вроде 14-E. Никто из клиентов о ней не знает. Vault-Tec называет это «параметрами социального эксперимента». Это их версия. Нам платят, чтобы мы не задавали вопросов.
+
+    Финальная инспекция назначена на январь 2078 года. Убежище не будет официально открыто для жителей до этого времени.
+
+    Смотритель уже выбран. Я с ним не встречался. Он прибыл с экспериментальной бригадой и с тех пор живёт на объекте. Он не поднимается наверх.
+
+    - Л. Васкес, Строительный прораб
+
+terminal-entry-railroad-title = UNION PACIFIC - ЗАВЕРШАЮЩАЯ ОТПРАВКА
+terminal-entry-railroad-content =
     UNION PACIFIC RAILROAD
-    WENDOVER DISPATCH OFFICE
-    OCTOBER 22, 2077
-    
-    EASTBOUND TRAFFIC: SUSPENDED
-    WESTBOUND TRAFFIC: SUSPENDED
-    LOCAL SWITCHING: SUSPENDED
-    
-    Last train through Wendover: westbound freight, departed 0612 this morning. Twenty four cars. Cargo: military supplies, manifest sealed. Crew: three. Engineer requested armed escort. Denied.
-    
-    The train passed the Bonneville signal at 0631. It did not arrive at the Elko crossing as scheduled. Nobody knows what happened to it. Probably nothing good.
-    
-    The yard is empty for the first time in seventy years. The switches are set to the through line. The signals are green. The rails are still warm from this morning. If a ghost train ever came through Wendover it would have a clear road to wherever it wanted to go.
-    
-    I am locking the dispatch office. The keys are in the bottom drawer. The radio is still on the railroad frequency. If anybody anywhere is still listening, I am leaving it open. Hello? Hello? Anybody out there?
-    
-    Nothing. Just static.
-    
-    Going home.
-    
-    - T. Wasserman, Dispatcher
+    ДИСПЕТЧЕРСКАЯ ВЕНДОВЕРА
+    22 ОКТЯБРЯ 2077 ГОДА
+
+    ДВИЖЕНИЕ НА ВОСТОК: ПРИОСТАНОВЛЕНО
+    ДВИЖЕНИЕ НА ЗАПАД: ПРИОСТАНОВЛЕНО
+    МЕСТНАЯ МАНЁВРОВАЯ РАБОТА: ПРИОСТАНОВЛЕНА
+
+    Последний поезд через Вендовер: грузовой на запад, отправлен в 06:12 этим утром. Двадцать четыре вагона. Груз: военные припасы, манифест опечатан. Экипаж: трое. Машинист запросил вооружённое сопровождение. Отказано.
+
+    Поезд прошёл сигнал Боннвилля в 06:31. На перегон Элко по расписанию не прибыл. Никто не знает, что с ним случилось. Вероятно, ничего хорошего.
+
+    Депо пусто впервые за семьдесят лет. Стрелки установлены на главный путь. Сигналы зелёные. Рельсы всё ещё тёплые после сегодняшнего утра. Если бы поезд-призрак когда-нибудь прошёл через Вендовер, у него был бы свободный путь куда угодно.
+
+    Я запираю диспетчерскую. Ключи в нижнем ящике. Радио всё ещё на железнодорожной частоте. Если кто-то где-то ещё слушает, я оставляю его включённым. Алло? Алло? Есть кто-нибудь?
+
+    Тишина. Только помехи.
+
+    Иду домой.
+
+    - Т. Вассерман, Диспетчер
 
 terminal-entry-power-station-title = ЭЛЕКТРОСТАНЦИЯ ВЕНДОВЕР – СЕТЕВОЙ ЖУРНАЛ
-terminal-entry-power-station-content = 
-    WENDOVER MUNICIPAL POWER STATION
-    GRID OPERATIONS LOG
-    OCTOBER 22-23, 2077
-    
-    Oct 22, 1800: Tied into the regional grid. Drawing 18 MW.
-    Oct 22, 2100: Salt Lake substation reports cascade failures. Switching to local generation.
-    Oct 22, 2300: Local fusion reactor at 94% output. Sufficient for town and base.
-    Oct 23, 0117: SURGE. SURGE. SURGE. Eastern interconnect line shows enormous transient voltage spike. Breakers tripped. Lines down across the valley.
-    Oct 23, 0118: Reactor SCRAM. Automatic safety shutdown triggered.
-    Oct 23, 0118: Backup diesel generators online. Critical loads only.
-    Oct 23, 0119: AFB requesting all available power for [REDACTED]. Granted.
-    Oct 23, 0120: Civilian grid down. Hospitals, fire, police on backup only.
-    Oct 23, 0121: ATMOSPHERIC FLASH detected, eastern horizon. EMP shielding holding. Reactor remains in safe state.
-    Oct 23, 0122: SECOND FLASH, southern horizon. Distance estimated 60 miles.
-    Oct 23, 0123: Multiple flashes. I am losing track. The board is full of red lights.
-    Oct 23, 0125: Operator going to shelter. Auto-shutdown sequence engaged. The reactor will hold itself in safe mode for an estimated four hundred years on residual fuel.
-    
-    To whoever finds this: the reactor is at coordinates [REDACTED]. It is dangerous. It is also what kept the Vault running. Treat it with respect. Do not break it.
-    
-    - E. Cho, Operator
+terminal-entry-power-station-content =
+    МУНИЦИПАЛЬНАЯ ЭЛЕКТРОСТАНЦИЯ ВЕНДОВЕРА
+    ЖУРНАЛ ОПЕРАЦИЙ СЕТИ
+    22-23 ОКТЯБРЯ 2077 ГОДА
+
+    22 окт, 18:00: Подключение к региональной сети. Потребление 18 МВт.
+    22 окт, 21:00: Подстанция Солт-Лейка сообщает о каскадных отказах. Переключение на местную генерацию.
+    22 окт, 23:00: Местный ядерный реактор на 94% мощности. Достаточно для города и базы.
+    23 окт, 01:17: СКАЧОК. СКАЧОК. СКАЧОК. Восточная межсистемная линия показывает огромный скачок переходного напряжения. Выключатели отключены. Линии отключены по всей долине.
+    23 окт, 01:18: АВАРИЙНАЯ ОСТАНОВКА РЕАКТОРА. Автоматическое отключение безопасности.
+    23 окт, 01:18: Дизельные генераторы запущены. Только критическая нагрузка.
+    23 окт, 01:19: АБ запрашивает всю доступную мощность для [ЗАСЕКРЕЧЕНО]. Предоставлено.
+    23 окт, 01:20: Гражданская сеть отключена. Больницы, пожарные, полиция только на резерве.
+    23 окт, 01:21: АТМОСФЕРНАЯ ВСПЫШКА, восточный горизонт. Экранирование от ЭМИ держится. Реактор в безопасном состоянии.
+    23 окт, 01:22: ВТОРАЯ ВСПЫШКА, южный горизонт. Расстояние около 60 миль.
+    23 окт, 01:23: Множественные вспышки. Я сбился со счёта. Табло всё в красных огнях.
+    23 окт, 01:25: Оператор уходит в укрытие. Автоматическая последовательность отключения запущена. Реактор будет удерживать себя в безопасном режиме примерно четыреста лет на остаточном топливе.
+
+    Тому, кто это найдёт: реактор находится по координатам [ЗАСЕКРЕЧЕНО]. Он опасен. Но он также поддерживал работу Убежища. Относитесь к нему с уважением. Не сломайте его.
+
+    - Э. Чо, Оператор
 
 terminal-entry-water-treatment-title = ВЕНДОВЕРСКАЯ ВОДООЧИСТКА - ЖУРНАЛ ЗАВОДА
-terminal-entry-water-treatment-content = 
-    WENDOVER MUNICIPAL WATER TREATMENT
-    PLANT OPERATIONS LOG - OCTOBER 2077
-    
-    Oct 18: Inflow turbidity within normal parameters. Chlorination normal. Output potability: confirmed.
-    Oct 19: Inflow turbidity rising. Source: unknown. Increased filtration. Output potability: confirmed.
-    Oct 20: Trace radioisotopes detected in inflow. Below action threshold. Notified county. No response.
-    Oct 21: Radioisotope levels at action threshold. Activated emergency reverse osmosis stage. Notified state. No response.
-    Oct 22: Radioisotope levels above action threshold. Output is no longer safe for human consumption. Posted warnings. Most people did not see them.
-    Oct 23: 0132 hours. Power lost. Backup generators failed to start. Plant offline.
-    
-    Note from final operator: I have shut down the main valves. The pipes from the reservoir to the town are sealed. There is approximately 200,000 gallons of treated water in the elevated storage tank. It will be the last clean water this town drinks for a very long time.
-    
-    To whoever takes over this plant in the future: the filters are in the southeast building. The chemical stockpile is in the west building. The chlorine is dangerous, do not mix it with anything. The reverse osmosis membranes are stored in saline solution and will last decades if you do not let them dry out.
-    
-    The town will need clean water. I am sorry I cannot keep providing it. I tried.
-    
-    - M. Hollister, Chief Operator
+terminal-entry-water-treatment-content =
+    МУНИЦИПАЛЬНАЯ ВОДООЧИСТНАЯ СТАНЦИЯ ВЕНДОВЕРА
+    ЖУРНАЛ ЭКСПЛУАТАЦИИ ЗАВОДА - ОКТЯБРЬ 2077 ГОДА
 
-terminal-entry-robco-truck-title = РОБКО СЕРВИС ГРУЗОВИК - Бортовой журнал
-terminal-entry-robco-truck-content = 
-    ROBCO INDUSTRIES FIELD SERVICE
-    TRUCK 14, REGION 7
-    TECHNICIAN LOGBOOK - OCTOBER 2077
-    
-    Oct 17: Wendover Air Force Base. Service call: 8 terminals. Time on site: 11 hours. Notes: All terminals showing accelerated cathode wear. Replaced screens. Customer (Sgt. Martinez) reported terminals are running 24/7 on what he called "calculation loads." Did not specify.
-    
-    Oct 18: Wendover Air Force Base. Service call: 12 terminals. Time on site: 9 hours. Notes: Same accelerated wear pattern. Same Sgt. Martinez. Same vague answers. Heard a sound coming from Hangar 4 that I have never heard a machine make before. Sgt. Martinez told me to ignore it.
-    
-    Oct 19: Stateline Casino. Service call: Mr. Handy unit dispute (refused to deal cards to a customer who had no money). Resolution: Reset behavior matrix, advised owner to update accounting parameters. Time on site: 2 hours.
-    
-    Oct 20: Wendover Air Force Base. Service call. They turned me away at the gate. Said no further outside contractors permitted. Sgt. Martinez was not at the gate. New man I did not recognize. Told me to leave and not come back.
-    
-    Oct 21: Driving home. Salt Lake to Wendover and back is normally a two day trip. The roads are all closed. Sleeping in the truck tonight.
-    
-    Oct 22: Made it as far as Tooele. Listening to the radio. The world is ending. I am not going to make it home to my wife. I am going to leave this terminal here in the truck cab so somebody might find it.
-    
-    My name is David Furukawa. I have a wife named Lin and two daughters named Ruby and June. We live at 4471 Maple Avenue in Salt Lake. If you ever find them, tell them I love them. Tell them I tried to come home.
+    18 окт: Мутность притока в пределах нормы. Хлорирование в норме. Пригодность воды на выходе: подтверждена.
+    19 окт: Мутность притока растёт. Источник: неизвестен. Усилена фильтрация. Пригодность воды на выходе: подтверждена.
+    20 окт: Следы радиоизотопов обнаружены в притоке. Ниже порога реагирования. Уведомлён округ. Без ответа.
+    21 окт: Уровень радиоизотопов достиг порога. Активирована аварийная стадия обратного осмоса. Уведомлён штат. Без ответа.
+    22 окт: Уровень радиоизотопов выше порога. Вода на выходе больше небезопасна для потребления человеком. Разместил предупреждения. Большинство людей их не видели.
+    23 окт, 01:32: Питание потеряно. Резервные генераторы не запустились. Завод отключён.
+
+    Примечание последнего оператора: Я перекрыл главные клапаны. Трубы от водохранилища до города запечатаны. В водонапорной башне находится примерно 200 000 галлонов очищенной воды. Это будет последняя чистая вода, которую этот город будет пить очень долго.
+
+    Тому, кто будет управлять этим заводом в будущем: фильтры в южном здании. Склад химикатов в западном здании. Хлор опасен, не смешивайте его ни с чем. Мембраны обратного осмоса хранятся в солевом растворе и прослужат десятилетия, если не дадите им высохнуть.
+
+    Городу понадобится чистая вода. Мне жаль, что я не могу продолжать её поставлять. Я пытался.
+
+    - М. Холлистер, Главный оператор
+
+terminal-entry-robco-truck-title = РОБКО СЕРВИСНЫЙ ГРУЗОВИК - Бортовая журнал
+terminal-entry-robco-truck-content =
+    ROBCO INDUSTRIES ПОЛЕВОЕ ОБСЛУЖИВАНИЕ
+    ГРУЗОВИК 14, РЕГИОН 7
+    ЖУРНАЛ ТЕХНИКА - ОКТЯБРЬ 2077 ГОДА
+
+    17 окт: Авиабаза Вендовер. Вызов: 8 терминалов. Время на объекте: 11 часов. Заметки: На всех терминалах ускоренный износ катодов. Заменил экраны. Клиент (Сержант Мартинес) сообщил, что терминалы работают круглосуточно под «вычислительными нагрузками». Не уточнил.
+
+    18 окт: Авиабаза Вендовер. Вызов: 12 терминалов. Время на объекте: 9 часов. Заметки: Та же модель ускоренного износа. Тот же сержант Мартинес. Те же расплывчатые ответы. Слышал звук из Ангара 4, которого никогда раньше не слышал от машины. Сержант Мартинес сказал мне игнорировать его.
+
+    19 окт: Казино Stateline. Сервисный вызов: спор с Mr. Handy (отказался сдавать карты клиенту без денег). Решение: сброс матрицы поведения, рекомендовано владельцу обновить параметры учётной записи. Время на объекте: 2 часа.
+
+    20 окт: Авиабаза Вендовер. Вызов. Меня не пропустили через ворота. Сказали, что внешним подрядчикам вход запрещён. Сержанта Мартинеса у ворот не было. Новый человек, которого я не узнал. Сказал мне уйти и не возвращаться.
+
+    21 окт: Еду домой. Солт-Лейк - Вендовер и обратно обычно занимает два дня. Все дороги перекрыты. Сегодня ночую в грузовике.
+
+    22 окт: Добрался только до Туэле. Слушаю радио. Мир кончается. Я не успею домой к жене. Я оставлю этот терминал здесь, в кабине грузовика, чтобы кто-нибудь мог его найти.
+
+    Меня зовут Дэвид Фурукава. У меня есть жена Лин и две дочери, Руби и Джун. Мы живём на 4471 Мейпл Авеню в Солт-Лейк-Сити. Если вы когда-нибудь их найдёте, скажите им, что я их люблю. Скажите им, что я пытался вернуться домой.
 
 # =============================================================================
 # PRE-WAR ENTRIES (personal, civilian)
 # =============================================================================
 
-terminal-entry-teen-diary-title = ЛИЧНЫЙ ДНЕВНИК - ДОМ ХАЛЛОУЭЯ
-terminal-entry-teen-diary-content = 
-    DIARY OF EMMA HALLOWAY, AGE 15
-    
-    October 15. Mom is making Dad come home from the air base every night now even though he is supposed to sleep there. She says she does not care about regulations. He looks tired. He looks scared. Dad never looks scared.
-    
-    October 17. School was weird today. They made us do another duck and cover drill. The teacher cried during it. We were not supposed to see her crying.
-    
-    October 19. Steve asked me to the homecoming dance. I said yes. I am going to wear the green dress Grandma made me last summer. Mom is going to do my hair.
-    
-    October 20. Steve called and said the dance is cancelled. The whole homecoming game is cancelled. I cried even though I know that is stupid because there are bigger things happening. I just really wanted to wear the green dress.
-    
-    October 21. I wore the green dress anyway. I sat in the backyard at sunset and looked at the salt flats. They were pink. Steve came over and we sat together and did not say much. He told me I looked pretty. I think I am in love with him. I think I will never know what that means because we are running out of time.
-    
-    October 22. Mom packed a bag for the basement. She put my green dress in it. She said no matter what happens I should still get to wear my pretty things.
-    
-    October 23. The siren is going off. I love you Mom. I love you Dad. I love you Steve. I love you Wendover. I love you sky even when you are the wrong color. I love
-    
-    ENTRY ENDS
+terminal-entry-teen-diary-title = ЛИЧНЫЙ ДНЕВНИК - ДОМ ХЭЛЛОУЭЯ
+terminal-entry-teen-diary-content =
+    ДНЕВНИК ЭММЫ ХЭЛЛОУЭЙ, 15 ЛЕТ
+
+    15 октября. Мама требует, чтобы папа приходил домой с авиабазы каждый вечер, хотя должен спать там. Она говорит, что ей плевать на правила. Он выглядит уставшим. Он выглядит испуганным. Папа никогда не выглядит испуганным.
+
+    17 октября. Сегодня в школе было странно. Нас заставили снова делать учения «ложись и накройсь». Учительница плакала во время них. Мы не должны были видеть, как она плачет.
+
+    19 октября. Стив пригласил меня на школьные танцы. Я согласилась. Я собираюсь надеть то зелёное платье, которое бабушка сшила мне прошлым летом. Мама сделает мне причёску.
+
+    20 октября. Стив позвонил и сказал, что танцы отменили. Всю игру выпускников отменили. Я плакала, даже понимаю, что это глупо, потому что происходят более важные вещи. Мне просто очень хотелось надеть зелёное платье.
+
+    21 октября. Я всё равно надела зелёное платье. Я сидела на заднем дворе на закате и смотрела на солончаки. Они были розовыми. Пришёл Стив, и мы сидели вместе и почти не разговаривали. Он сказал, что я красиво выгляжу. Кажется, я влюблена в него. Кажется, я никогда не узнаю, что это значит, потому что у нас заканчивается время.
+
+    22 октября. Мама собрала сумку для подвала. Она положила туда моё зелёное платье. Она сказала, что бы ни случилось, я всё равно должна носить красивые вещи.
+
+    23 октября. Сирена завыла. Я люблю тебя, мама. Я люблю тебя, папа. Я люблю тебя, Стив. Я люблю тебя, Вендовер. Я люблю тебя, небо, даже когда ты неправильного цвета. Я люблю.
+
+    ЗАПИСЬ ЗАВЕРШЕНА
 
 terminal-entry-old-man-title = ВХОД НА ТЕРМИНАЛ – НЕПИСАННАЯ ПОЖИЛАЯ РУКА
-terminal-entry-old-man-content = 
-    They gave me this terminal to use at the senior center. I am 84 years old and I do not understand it well but my granddaughter showed me how to type words.
-    
-    I want to write down some things. I do not know if anyone will read them.
-    
-    I was born in 1993 in this town. I went to the elementary school where my children later went and where my grandchildren went. I worked at the salt plant for forty one years. I married a girl named Adelaide in 1955. She died in 2068. I miss her every day.
-    
-    I have seen Wendover with three different names on the welcome sign. I have seen the casino built and rebuilt. I have seen the highway widened and the railroad shrunk. I have seen the Air Force come and go and come back. I have seen good times and bad times.
-    
-    Today is the worst day. The young people are scared. They have a right to be. I am not scared because I have already had my eighty four years and that is more than most men get.
-    
-    I want whoever reads this to know that there were people in this town who lived good lives. Quiet lives. They raised children. They went to church. They tipped the waitress. They voted in the school board elections. They said hello to their neighbors. They mattered.
-    
-    If the world is gone tomorrow I want some piece of us to be remembered.
-    
-    Adelaide, I am coming.
+terminal-entry-old-man-content =
+    Мне дали этот терминал в центре для пожилых. Мне 84 года, и я не очень в нём разбираюсь, но моя внучка показала мне, как печатать слова.
+
+    Я хочу кое-что записать. Не знаю, прочитает ли кто-нибудь.
+
+    Я родился в 1993 году в этом городе. Ходил в начальную школу, куда позже ходили мои дети, а потом и мои внуки. Проработал на соляном заводе сорок один год. Женился на девушке по имени Аделаида в 1955 году. Она умерла в 2068 году. Я скучаю по ней каждый день.
+
+    Я видел Вендовер с тремя разными названиями на приветственном знаке. Я видел, как казино строили и перестраивали. Я видел, как шоссе расширяли, а железную дорогу сокращали. Я видел, как ВВС приходили и уходили и возвращались. Я видел хорошие времена и плохие.
+
+    Сегодня самый худший день. Молодые напуганы. Они имеют на это право. Я не напуган, потому что у меня уже было мои восемьдесят четыре года, и это больше, чем получает большинство мужчин.
+
+    Я хочу, чтобы тот, кто это читает, знал: в этом городе были люди, которые прожили хорошие жизни. Тихие жизни. Они растили детей. Они ходили в церковь. Они давали чаевые официанткам. Они голосовали на выборах в школьный совет. Они здоровались с соседями. Они имели значение.
+
+    Если завтра мир исчезнет, я хочу, чтобы частичка нас осталась в памяти.
+
+    Аделаида, я иду.
 
 terminal-entry-gambler-title = КАЗИНО STATELINE — НАЙДЕННАЯ ЗАПИСКА
-terminal-entry-gambler-content = 
-    NOTE FOUND AT BLACKJACK TABLE 4, STATELINE CASINO
-    WRITTEN ON COCKTAIL NAPKIN, TRANSCRIBED TO TERMINAL
-    
-    My name is Frank Pelletier and I am sitting at this blackjack table with everything I own in chips in front of me. $4,217. I drove here from Reno yesterday with the money and I have been playing all night.
-    
-    I am not playing to win. I am playing because I do not know what else to do with the time I have left. Playing cards is the only thing I have ever been good at.
-    
-    The dealer is a Mr. Handy unit. It does not get tired. It does not feel sorry for me. It just deals.
-    
-    I have hit twenty one three times in the last hour. I have busted six times. I am up nine hundred dollars from where I started. The Mr. Handy says "congratulations" in the same voice it has used all night.
-    
-    I am going to play until the chips are gone, or until the lights go out, or until the world ends, whichever comes first.
-    
-    If you find this note: tell my ex wife Maria that I was thinking about her at the end. Tell my daughter Sophie that her old man loved her even though he was bad at showing it. Tell them I died at a card table in a casino in the middle of the desert with a smile on my face because that is the truth.
-    
-    Hit me.
-    
-    - F.P.
+terminal-entry-gambler-content =
+    ЗАПИСКА НАЙДЕНА ЗА СТОЛОМ ДЛЯ БЛЭКДЖЕКА 4, КАЗИНО STATELINE
+    НАПИСАНА НА КОКТЕЙЛЬНОЙ САЛФЕТКЕ, ПЕРЕНЕСЕНА В ТЕРМИНАЛ
+
+    Меня зовут Фрэнк Пеллетье, и я сижу за этим столом для блэкджека со всеми своими фишками перед собой. $4 217. Я приехал сюда из Рино вчера с деньгами и играл всю ночь.
+
+    Я играю не для того, чтобы выиграть. Я играю, потому что не знаю, что ещё делать с оставшимся временем. Играть в карты — единственное, что я когда-либо умел хорошо делать.
+
+    Дилер — Mr. Handy. Он не устаёт. Он не испытывает ко мне жалость. Он просто сдаёт.
+
+    За последний час у меня было двадцать одно три раза. Я перебрал шесть раз. Я нарастил девятьсот долларов с того момента, как начал. Mr. Handy говорит «поздравляю» тем же голосом, что и всю ночь.
+
+    Я буду играть, пока фишки не закончатся, или пока не погаснет свет, или пока не наступит конец света, в зависимости от того, что наступит раньше.
+
+    Если вы найдёте эту записку: скажите моей бывшей жене Марии, что я думал о ней в конце. Скажите моей дочери Софи, что её старик любил её, хотя и не умел это показывать. Скажите им, что я умер за карточным столом в казино посреди пустыни с улыбкой на лице, потому что это правда.
+
+    Ещё.
+
+    - Ф.П.
 
 terminal-entry-honeymooners-title = МОТЕЛЬ DESERT STAR - НОМЕР 8, ТЕРМИНАЛ
-terminal-entry-honeymooners-content = 
-    ROOM 8 GUEST TERMINAL
-    GUEST: GERALD AND LISA PHILLIPS
-    CHECK IN: OCTOBER 19, 2077
-    
-    Lisa here. We are on our honeymoon. We were supposed to drive to San Francisco and then to Carmel and then to Big Sur. Gerald planned the whole trip. He has been planning it since we got engaged in March.
-    
-    The motel manager came and knocked this morning and said the highway west of here is closed. National Guard checkpoint. Nobody is being let through. He looked very sorry.
-    
-    Gerald is sitting on the bed looking at his road maps. He has highlighted our whole route in yellow marker. He keeps tracing it with his finger like he can find a way around the checkpoint.
-    
-    I told him it is okay. I told him I do not need to see Big Sur. I just need to see him. He started crying. He never cries.
-    
-    We had a picnic on the bed with crackers and the wine we brought to drink in San Francisco. We listened to the radio until the radio went to static. Then we listened to the static. Then we held each other.
-    
-    If anyone reads this, please know that we were happy. Even here. Even now. We were so happy.
-    
-    Gerald, if you read this and I am not there, I love you. I love you. I love you.
-    
-    - Lisa Phillips, age 24
+terminal-entry-honeymooners-content =
+    ГОСТЕВОЙ ТЕРМИНАЛ НОМЕРА 8
+    ГОСТИ: ДЖЕРАЛЬД И ЛИЗА ФИЛЛИПС
+    ЗАСЕЛЕНИЕ: 19 ОКТЯБРЯ 2077 ГОДА
+
+    Лиза здесь. Мы в медовом месяце. Мы должны были поехать в Сан-Франциско, затем в Кармель, затем в Биг-Сур. Джеральд спланировал всю поездку. Он планировал её с тех пор, как мы обручились в марте.
+
+    Сегодня утром постучал менеджер мотеля и сказал, что шоссе к западу отсюда перекрыто. Блокпост Нацгвардии. Никого не пропускают. Он выглядел очень виноватым.
+
+    Джеральд сидит на кровати, глядя на свои дорожные карты. Он выделил наш маршрут жёлтым маркером. Он водит по нему пальцем, как будто может найти объезд блокпоста.
+
+    Я сказала ему, что всё в порядке. Я сказала, что мне не нужно видеть Биг-Сур. Мне просто нужно видеть его. Он заплакал. Он никогда не плачет.
+
+    Мы устроили пикник на кровати с крекерами и вином, которое привезли выпить в Сан-Франциско. Мы слушали радио, пока радио не превратилось в помехи. Потом мы слушали помехи. Потом мы обнимали друг друга.
+
+    Если кто-то прочитает это, пожалуйста, знайте: мы были счастливы. Даже здесь. Даже сейчас. Мы были так счастливы.
+
+    Джеральд, если ты это читаешь, а меня нет рядом, я люблю тебя. Я люблю тебя. Я люблю тебя.
+
+    - Лиза Филлипс, 24 года
 
 terminal-entry-trucker-title = ОСТАНОВКА ГРУЗОВИКА — ЖУРНАЛ ЧАСТОТЫ CB
-terminal-entry-trucker-content = 
-    WENDOVER TRUCK STOP
-    CB RADIO MONITOR - OCTOBER 22, 2077
-    
-    1400: "Breaker breaker, this is Saltwater Bandit westbound on 80, anybody got eyes on the Reno checkpoint? Over."
-    1402: "Saltwater, this is Big Iron, checkpoint is closed, repeat closed, they are turning everybody back. Over."
-    1430: "This is Mama Bear out of Cheyenne. I am parked at Wendover. Anybody else here? Anybody got news? Over."
-    1432: "Mama Bear, Diesel Daddy here. I am at the Texaco. Out of fuel. Out of luck. Over."
-    1530: "Anybody hear from the eastbound boys? Hello? Anybody?"
-    1531: "I lost my husband yesterday on the Salt Lake run. He has not called in. He always calls in. Please if anyone hears him on the line tell him Patty loves him."
-    1632: "Patty, this is Westwind. Your husband called in to me at 1100. He was outside Salt Lake. He said tell you he loves you. He said tell you he was sorry. I waited to call back to you because I did not know how. I am sorry Patty. I am so sorry."
-    1635: [silence]
-    1701: "Listen up everybody on this channel. Whatever happens tomorrow. I love you all. You crazy bastards on the road. You have been my family for forty years. Eighteen wheels and a heart of gold. Over."
-    1703: "We love you too Mama Bear. Keep the rubber side down."
-    1704: "Keep the rubber side down. Over and out."
+terminal-entry-trucker-content =
+    ГРУЗОВАЯ СТАНЦИЯ ВЕНДОВЕРА
+    МОНИТОРИНГ CB-РАДИО - 22 ОКТЯБРЯ 2077 ГОДА
+
+    14:00: «Брейкер-брейкер, это Солёный Бандит, на 80-й на запад, кто-нибудь знает о блокпосте в Рино? Приём.»
+    14:02: «Солёный, это Большое Железо, блокпост закрыт, повторяю, закрыт, всех разворачивают. Приём.»
+    14:30: «Это Мама Медведица из Шайенна. Я стою в Вендовере. Кто-нибудь ещё здесь? У кого-нибудь есть новости? Приём.»
+    14:32: «Мама Медведица, это Дизельный Папа. Я на Техако. Без топлива. Без удачи. Приём.»
+    15:30: «Кто-нибудь слышал восточных парней? Алло? Кто-нибудь?»
+    15:31: «Я потеряла мужа вчера на рейсе до Солт-Лейка. Он не выходил на связь. Он всегда выходит на связь. Пожалуйста, если кто-то услышит его в эфире, скажите ему, что Пэтти его любит.»
+    16:32: «Пэтти, это Западный Ветер. Твой муж вызывал меня в 11:00. Он был недалеко от Солт-Лейка. Он сказал, передать тебе, что он тебя любит. Он сказал, передать тебе, что ему жаль. Я ждал, чтобы ответить тебе, потому что не знал как. Мне жаль, Пэтти. Мне так жаль.»
+    16:35: [тишина]
+    17:01: «Слушайте все на этом канале. Что бы ни случилось завтра. Я люблю вас всех. Вы, сумасшедшие ублюдки на дороге. Вы были моей семьёй сорок лет. Восемнадцать колёс и золотое сердце. Приём.»
+    17:03: «Мы тоже тебя любим, Мама Медведица. Резиной вниз.»
+    17:04: «Резиной вниз. Конец связи.»
 
 terminal-entry-tired-doctor-title = ВЕНДОВЕРСКАЯ КЛИНИКА – ВТОРИЧНЫЙ ТЕРМИНАЛ
-terminal-entry-tired-doctor-content = 
-    WENDOVER COMMUNITY CLINIC
-    EXAM ROOM 2 TERMINAL
-    DR. OKAFOR - PRIVATE NOTES
-    
-    I am writing this in between patients. I have not slept in thirty one hours. I have lost track of how many people I have seen this week.
-    
-    Common presentations:
-    - Anxiety. Panic. Insomnia. Cannot help them.
-    - Radiation sickness. No medication left to give.
-    - Heart attacks (stress related). Cannot operate without anesthesia.
-    - Pregnancy complications (six in three days, all stress related).
-    - Children with nosebleeds and rashes.
-    
-    Things I have done that I am proud of this week:
-    - Delivered a baby girl, healthy, mother and child stable.
-    - Set a broken arm for a boy whose father had already been called up to the base.
-    - Held a dying woman's hand for an hour because she was alone.
-    - Talked a man out of suicide. He came in for it. He left to go home to his wife instead.
-    
-    Things I have done this week that will haunt me:
-    - Triaged. I have decided who gets the last of the antibiotics. I have decided who does not. I have used the criteria they teach you in medical school for disasters. The criteria do not feel like enough when you are looking at a face.
-    
-    I am going to keep working until I cannot stand up. After that I will sit down and keep working from a chair. After that I do not know.
-    
-    I became a doctor to help people. I am still a doctor. I am still helping people. It is not enough. It is also everything.
-    
-    - S. Okafor, MD
+terminal-entry-tired-doctor-content =
+    ОБЩЕСТВЕННАЯ КЛИНИКА ВЕНДОВЕРА
+    ТЕРМИНАЛ В КАБИНЕТЕ 2
+    Д-Р ОКАФОР - ЛИЧНЫЕ ЗАМЕТКИ
 
-terminal-entry-cop-title = WENDOVER PD - ТЕРМИНАЛ ПАТРУЛЬНЫХ АВТОМОБИЛЕЙ
-terminal-entry-cop-content = 
-    WENDOVER POLICE DEPARTMENT
-    PATROL UNIT 4 - MOBILE TERMINAL
-    OFFICER M. CALDERA, BADGE 1471
-    
-    Oct 22, 2200: Cruising the south side. Quiet. Too quiet. Most houses are dark. The ones with lights on have curtains drawn.
-    Oct 22, 2247: Welfare check at the Voss residence. The pharmacist. Wife answered. Mr. Voss is in the basement with their kids. Asked if I needed anything. I told her no. She gave me a thermos of coffee anyway.
-    Oct 22, 2330: Drove past my own house. Did not stop. My wife and son are at her sister's in Reno. They are safe. I hope.
-    Oct 23, 0042: Parked at the overlook on Route 93. The salt flats glow under the stars in a way they should not. There is a heat shimmer that is not heat. I do not have words for what I am seeing.
-    Oct 23, 0117: Eastern horizon. Flash. I am writing this very fast. There has been a flash. The sky is white. The sky is white. I cannot see I cannot
-    Oct 23, 0118: My eyes are coming back. The flash is gone. There is a glow on the horizon now. Orange. Very large.
-    Oct 23, 0119: Calling dispatch. No response. Calling Chief Delgado. No response. Calling the base. No response.
-    Oct 23, 0125: Driving back into town. People are coming out of their houses to look at the sky. I should tell them to go inside but I cannot make my mouth work.
-    Oct 23, 0140: I am going home. To the empty house. I want to be in the bedroom my wife and I picked out paint for last summer. I want to lie down on our bed. I want to close my eyes.
-    
-    - M. Caldera
+    Я пишу это между пациентами. Я не спала тридцать один час. Я сбилась со счёта, сколько людей я приняла на этой неделе.
 
-terminal-entry-mother-title = ДОМАШНИЙ ТЕРМИНАЛ - РЕЗИДЕНЦИЯ МАРТИНА
-terminal-entry-mother-content = 
-    MARTIN FAMILY HOME
-    KITCHEN TERMINAL
-    OCTOBER 22, 2077, 2330 HOURS
-    
-    To Sammy and to Rose, when you are old enough to read this:
-    
-    Mommy is writing this from the kitchen while you and your brother are asleep upstairs. I have already packed the bags for the basement. There is water and crackers and your favorite stuffed bear, Sammy, the brown one with the missing eye. There is Rose's blanket, the pink one Grandma knitted.
-    
-    I want you to know some things in case I cannot tell you them later.
-    
-    Sammy: You are the bravest little boy I know. When you are scared, remember that brave does not mean not being scared. It means being scared and doing the right thing anyway. You have done the right thing every day of your six years on this earth.
-    
-    Rose: You are the kindest soul I have ever met. You are only four years old and you already share your toys with the cat. You are a light in this world. Stay a light no matter what happens.
-    
-    To both of you: Mommy and Daddy love you more than there are stars in the sky. We love you more than there are grains of salt on the flats. We love you more than there are words in any language to say it.
-    
-    If something happens, find a grown up you can trust. Stay together. Take care of each other. Sammy you are the big brother and that means you look out for Rose. Rose you are the little sister and that means you remind Sammy to laugh.
-    
-    The world has been very beautiful even when it has been hard. I hope you get to see it again.
-    
-    All my love forever and ever and ever,
-    
-    - Mommy
+    Распространённые симптомы:
+    - Тревога. Паника. Бессонница. Не могу помочь.
+    - Лучевая болезнь. Лекарств больше не осталось.
+    - Сердечные приступы (связанные со стрессом). Не могу оперировать без анестезии.
+    - Осложнения беременности (шесть за три дня, все связаны со стрессом).
+    - Дети с носовыми кровотечениями и сыпью.
+
+    Что я сделала на этой неделе, чем горжусь:
+    - Приняла роды у девочки, здоровой, мать и ребёнок стабильны.
+    - Вправила сломанную руку мальчику, чьего отца уже призвали на базу.
+    - Держала руку умирающей женщины час, потому что она была одна.
+    - Отговорила мужчину от самоубийства. Он пришёл для этого. Вместо этого ушёл домой к жене.
+
+    Что я сделала на этой неделе, что будет меня преследовать:
+    - Провела сортировку. Я решала, кто получит последние антибиотики. Я решала, кто не получит. Я использовала критерии, которым учат в мединституте для катастроф. Критерии не кажутся достаточными, когда ты смотришь в лицо.
+
+    Я продолжу работать, пока не смогу стоять. После этого я сяду и продолжу работать со стула. После этого я не знаю.
+
+    Я стала врачом, чтобы помогать людям. Я всё ещё врач. Я всё ещё помогаю людям. Этого недостаточно. Но это всё.
+
+    - C. Окафор, доктор медицины
+
+terminal-entry-cop-title = WENDOVER PD - ТЕРМИНАЛ ПАТРУЛЬНОГО АВТОМОБИЛЯ
+terminal-entry-cop-content =
+    ПОЛИЦЕЙСКИЙ ДЕПАРТАМЕНТ ВЕНДОВЕРА
+    ПАТРУЛЬНАЯ МАШИНА 4 - МОБИЛЬНЫЙ ТЕРМИНАЛ
+    ОФИЦЕР М. КАЛЬДЕРА, ЖЕТОН 1471
+
+    22 окт, 22:00: Патрулирую южную часть. Тихо. Слишком тихо. Большинство домов тёмные. В тех, где горит свет, задёрнуты шторы.
+    22 окт, 22:47: Проверка благополучия в доме Фоссов. Фармацевт. Открыла жена. Мистер Фосс в подвале с детьми. Спросила, не нужно ли мне что-нибудь. Я сказал, нет. Она всё равно дала мне термос с кофе.
+    22 окт, 23:30: Проехал мимо собственного дома. Не остановился. Моя жена и сын у её сестры в Рино. Они в безопасности. Надеюсь.
+    23 окт, 00:42: Припарковался на смотровой площадке на шоссе 93. Солончаки светятся под звёздами так, как не должны. Тепловое марево, которое не является теплом. У меня нет слов для того, что я вижу.
+    23 окт, 01:17: Восточный горизонт. Вспышка. Я пишу это очень быстро. Была вспышка. Небо белое. Небо белое. Я ничего не вижу, я ничего не...
+    23 окт, 01:18: Глаза возвращаются. Вспышка прошла. На горизонте свечение. Оранжевое. Очень большое.
+    23 окт, 01:19: Вызываю диспетчера. Без ответа. Вызываю начальника Дельгадо. Без ответа. Вызываю базу. Без ответа.
+    23 окт, 01:25: Еду обратно в город. Люди выходят из домов, чтобы посмотреть на небо. Я должен сказать им зайти внутрь, но я не могу заставить свой рот работать.
+    23 окт, 01:40: Я еду домой. В пустой дом. Я хочу лечь в спальне, цвет для которой мы с женой выбирали прошлым летом. Я хочу лечь на нашу кровать. Я хочу закрыть глаза.
+
+    - М. Кальдера
+
+terminal-entry-mother-title = ДОМАШНИЙ ТЕРМИНАЛ - РЕЗИДЕНЦИЯ МАРТИН
+terminal-entry-mother-content =
+    ДОМ СЕМЬИ МАРТИН
+    КУХОННЫЙ ТЕРМИНАЛ
+    22 ОКТЯБРЯ 2077 ГОДА, 23:30
+
+    Сэмми и Роуз, когда будете достаточно взрослыми, чтобы прочитать это:
+
+    Мама пишет это с кухни, пока вы и ваш брат спите наверху. Я уже собрала сумки для подвала. Там есть вода и крекеры и твой любимый плюшевый мишка, Сэмми, коричневый с отсутствующим глазом. Там есть одеяло Роуз, розовое, которое связала бабушка.
+
+    Я хочу, чтобы вы кое-что знали на случай, если я не смогу рассказать вам позже.
+
+    Сэмми: Ты самый храбрый маленький мальчик, которого я знаю. Когда тебе страшно, помни, что храбрость — это не отсутствие страха. Это когда страшно, но ты всё равно делаешь правильную вещь. Ты делал правильную вещь каждый день своих шести лет на этой земле.
+
+    Роуз: Ты самая добрая душа, которую я когда-либо встречала. Тебе всего четыре года, и ты уже делишься своими игрушками с кошкой. Ты — свет в этом мире. Оставайся светом, что бы ни случилось.
+
+    Вам обоим: Мама и Папа любят вас больше, чем звёзд в небе. Мы любим вас больше, чем песчинок соли на равнинах. Мы любим вас больше, чем есть слов в любом языке, чтобы это сказать.
+
+    Если что-то случится, найдите взрослого, которому можно доверять. Держитесь вместе. Заботьтесь друг о друге. Сэмми, ты старший брат, а это значит, что ты должен присматривать за Роуз. Роуз, ты младшая сестра, а это значит, что ты должна напоминать Сэмми смеяться.
+
+    Мир был очень красивым, даже когда был трудным. Я надеюсь, вы увидите его снова.
+
+    Вся моя любовь навсегда и навечно,
+
+    - Мама
 
 terminal-entry-soldier-letter-title = КАЗАРМЫ ВВС ВЕНДОВЕР - ПИСЬМО ДОМОЙ
-terminal-entry-soldier-letter-content = 
-    TERMINAL DRAFT - LETTER HOME
-    AUTHOR: AIRMAN 1ST CLASS T. NGUYEN
-    DATE: OCTOBER 22, 2077
-    
-    Mom and Dad,
-    
-    I do not know if this letter will ever reach you. The mail has been suspended for a week. The phones do not work. The radio just plays static.
-    
-    I want you to know that I am okay. I am scared but I am okay. They have us on alert status which means we sleep in our uniforms and our boots. They told us if the alarms go we run to the underground complex. There is room for the airmen but not for our families. I am sorry Mom. I am so sorry. There was nothing I could do.
-    
-    I think about you both all the time. I think about the farm in Bakersfield. I think about Dad teaching me how to change the oil in the truck. I think about Mom's lemon cake. I think about Sister Mary Margaret at church and the way she would scold us for slouching during the homily.
-    
-    I joined the Air Force because I wanted to see the world and to do something with my life. I am twenty years old and I have seen the salt flats of Utah and the inside of an underground bunker and the eyes of my friends when they read the news.
-    
-    I love you Mom. I love you Dad. I love you so much. If there is a way for love to cross any distance please know that mine is reaching for you right now.
-    
-    Your son,
-    
-    - Tommy
+terminal-entry-soldier-letter-content =
+    ЧЕРНОВИК ТЕРМИНАЛА - ПИСЬМО ДОМОЙ
+    АВТОР: РЯДОВОЙ ПЕРВОГО КЛАССА Т. НГУЕН
+    ДАТА: 22 ОКТЯБРЯ 2077 ГОДА
+
+    Мама и Папа,
+
+    Я не знаю, дойдёт ли до вас это письмо. Почта приостановлена на неделю. Телефоны не работают. Радио передаёт только помехи.
+
+    Я хочу, чтобы вы знали, что я в порядке. Мне страшно, но я в порядке. Нас перевели на режим ожидания, так что мы спим в форме и ботинках. Нам сказали, если сработает тревога, мы бежим в подземный комплекс. Там есть место для военнослужащих, но не для их семей. Прости, мама. Мне так жаль. Я ничего не мог поделать.
+
+    Я постоянно думаю о вас обоих. Я думаю о ферме в Бейкерсфилде. Я думаю о том, как папа учил менять масло в грузовике. Я думаю о мамином лимонном пироге. Я думаю о сестре Мэри Маргарет в церкви и о том, как она ругала нас за то, что мы сутулились во время проповеди.
+
+    Я вступил в ВВС, потому что хотел повидать мир и сделать что-то со своей жизнью. Мне двадцать лет, и я видел солончаки Юты, и внутренности подземного бункера, и глаза моих друзей, когда они читают новости.
+
+    Я люблю тебя, мама. Я люблю тебя, папа. Я вас так сильно люблю. Если есть способ для любви преодолеть любое расстояние, знайте, что моя любовь тянется к вам прямо сейчас.
+
+    Ваш сын,
+
+    - Томми
 
 terminal-entry-preacher-title = СОБОР СВЯТОГО МИХАИЛА – ТЕРМИНАЛ РИЗНИЦЫ
-terminal-entry-preacher-content = 
-    ST. MICHAEL'S SACRISTY
-    FATHER ABERNATHY - SERMON DRAFT
-    FOR THE 6 AM MASS, OCTOBER 23, 2077
-    
-    My friends.
-    
-    There is no homily today. There is no time for a homily. So I will tell you what I know.
-    
-    I know that God did not do this to us. God does not do things like this. We did this to ourselves.
-    
-    I know that the world has been ending for a long time. We just did not want to see it. The end of the world started a long time before this morning. It started when we decided that there were enemies who deserved annihilation. It started when we decided that some lives were less than others. It started when we built the things we built knowing what they could do.
-    
-    I know that none of this is your fault. You are good people. You raised your children. You went to work. You paid your taxes. You did the things they told you to do. The fault belongs to other men in other rooms making decisions you and I were never asked about.
-    
-    I know that God forgives. I know it the way I know the sun rises. I cannot prove it but I have staked my life on it and the life has been a good one.
-    
-    I know that we are loved. By God. By each other. By the strangers who held our hands when we needed it.
-    
-    Now please, take communion if you wish. Sit and pray if you wish. Or simply rest in this old church for a while. The doors will be open as long as I am alive to hold them open.
-    
-    Peace be with you. Always. In this life and in whatever comes after.
-    
-    - Fr. Patrick Abernathy
+terminal-entry-preacher-content =
+    РИЗНИЦА СВЯТОГО МИХАИЛА
+    ОТЕЦ АБЕРНАТИ - ЧЕРНОВИК ПРОПОВЕДИ
+    ДЛЯ УТРЕННЕЙ МЕССЫ В 6:00, 23 ОКТЯБРЯ 2077 ГОДА
+
+    Друзья мои.
+
+    Сегодня не будет проповеди. Нет времени на проповедь. Поэтому я скажу вам то, что знаю.
+
+    Я знаю, что Бог не сделал это с нами. Бог не делает таких вещей. Мы сделали это с собой сами.
+
+    Я знаю, что мир кончался уже давно. Мы просто не хотели этого видеть. Конец света начался задолго до сегодняшнего утра. Он начался, когда мы решили, что есть враги, заслуживающие уничтожения. Он начался, когда мы решили, что одни жизни менее ценны, чем другие. Он начался, когда мы построили то, что построили, зная, на что это способно.
+
+    Я знаю, что это не ваша вина. Вы хорошие люди. Вы растили детей. Вы ходили на работу. Вы платили налоги. Вы делали то, что вам велели. Вина лежит на других людях в других комнатах, принимающих решения, о которых нас с вами никогда не спрашивали.
+
+    Я знаю, что Бог прощает. Я знаю это так же, как знаю, что солнце встаёт. Я не могу это доказать, но я поставил на это свою жизнь, и жизнь была хорошей.
+
+    Я знаю, что нас любят. Богом. Друг другом. Незнакомцами, которые держали наши руки, когда нам это было нужно.
+
+    А теперь, пожалуйста, причаститесь, если хотите. Сидите и молитесь, если хотите. Или просто отдохните в этой старой церкви какое-то время. Двери будут открыты, пока я жив, чтобы держать их открытыми.
+
+    Мир вам. Всегда. В этой жизни и в том, что будет после.
+
+    - Отец Патрик Абернати
 
 # =============================================================================
 # THE BOMBS - IMMEDIATE
 # =============================================================================
 
 terminal-entry-911-title = ОТПРАВКА 911 WENDOVER - ЖУРНАЛ ВЫЗОВОВ
-terminal-entry-911-content = 
-    WENDOVER COUNTY 911 DISPATCH
-    CALL LOG - OCTOBER 23, 2077
-    
-    0117: "Hello? Hello? Did you see that flash? Was that lightning? Was that"
-    0117: "911 there is a light in the sky a really big light I think we should"
-    0118: "Help me my house is on fire I do not know how my house just"
-    0118: "Please please please my mother she is not breathing she just collapsed"
-    0119: "What is that sound that humming sound do you hear it is everywhere"
-    0119: "I am at the corner of Fourth and Main and the road is melting the road is"
-    0120: "Put the children in the basement put the children in the"
-    0120: [SCREAMING]
-    0121: "Hello? Is anyone there? Hello?"
-    0122: "Mom I love you Mom Mom"
-    0123: [STATIC]
-    0124: [STATIC]
-    0125: [STATIC]
-    0126: This is dispatcher 4471, Linda Marquez. I am alone in the dispatch center. The other dispatchers ran when the calls started getting bad. I am going to stay until the calls stop. Then I am going to go home to my husband and my baby. I love them. I am sorry I did not get to help everyone. I tried. I really tried.
-    0127: [LAST RECORDED ENTRY]
+terminal-entry-911-content =
+    ДИСПЕТЧЕРСКАЯ 911 ОКРУГА ВЕНДОВЕР
+    ЖУРНАЛ ВЫЗОВОВ - 23 ОКТЯБРЯ 2077 ГОДА
 
-terminal-entry-shelter-manifest-title = КОМПЛЕКС УЮТИЯ ВВС США – ВХОДНОЙ МАНИФЕСТ
-terminal-entry-shelter-manifest-content = 
-    WENDOVER AFB UNDERGROUND COMPLEX
-    EMERGENCY SHELTER INTAKE MANIFEST
-    OCTOBER 23, 2077, 0118 HOURS
-    
-    CAPACITY: 340
-    SHELTERED: 287
-    DENIED ENTRY: [REDACTED, SEE BELOW]
-    
-    Personnel sheltered include: Col. Webb (designated CO), 78 base personnel and dependents, 14 essential civilian contractors, 195 civilians from town accepted under Phase 3 protocol.
-    
-    PHASE 3 PROTOCOL: Civilians presenting at the gate after 0117 hours were accepted on a first come first served basis until capacity was reached. Capacity reached at 0143 hours. Gate sealed at 0144 hours.
-    
-    Approximately 200 civilians were at the gate when it sealed. They could not be admitted. They were told to seek shelter elsewhere. There was no elsewhere.
-    
-    The complex doors are 18 inch reinforced steel. They are insulated against sound from outside. This was an intentional design choice. The engineers in the 1960s knew that the people inside would not be able to bear hearing what was happening outside.
-    
-    They were right about that.
-    
-    - Capt. M. Riggs, Provost, Last Entry
+    01:17: «Алло? Алло? Вы видели эту вспышку? Это была молния? Это была...»
+    01:17: «911, там свет в небе, очень яркий свет, я думаю, нам следует...»
+    01:18: «Помогите, мой дом горит, я не знаю, как мой дом просто...»
+    01:18: «Пожалуйста, пожалуйста, моя мать не дышит, она просто упала...»
+    01:19: «Что это за звук, этот гул, вы слышите его, он везде...»
+    01:19: «Я на углу Четвёртой и Мейн, и дорога плавится, дорога...»
+    01:20: «Уведите детей в подвал, уведите детей в...»
+    01:20: [КРИК]
+    01:21: «Алло? Там есть кто-нибудь? Алло?»
+    01:22: «Мама, я люблю тебя, мама, мама...»
+    01:23: [ПОМЕХИ]
+    01:24: [ПОМЕХИ]
+    01:25: [ПОМЕХИ]
+    01:26: «Это диспетчер 4471, Линда Маркес. Я одна в диспетчерском центре. Другие диспетчеры убежали, когда звонки стали плохими. Я останусь, пока звонки не прекратятся. Потом я пойду домой к мужу и ребёнку. Я люблю их. Мне жаль, что я не смогла помочь всем. Я пыталась. Я действительно пыталась.»
+    01:27: [ПОСЛЕДНЯЯ ЗАПИСЬ]
 
-terminal-entry-vault14-admit-title = ХРАНИЛИЩЕ 14 – КНИГА ПРИЕМА
-terminal-entry-vault14-admit-content = 
+terminal-entry-shelter-manifest-title = КОМПЛЕКС УБЕЖИЩА ВВС США – ВХОДНОЙ МАНИФЕСТ
+terminal-entry-shelter-manifest-content =
+    ПОДЗЕМНЫЙ КОМПЛЕКС АВИАБАЗЫ ВЕНДОВЕР
+    МАНИФЕСТ ПРИЁМА В УБЕЖИЩЕ
+    23 ОКТЯБРЯ 2077 ГОДА, 01:18
+
+    ВМЕСТИМОСТЬ: 340
+    УКРЫТО: 287
+    ОТКАЗАНО ВО ВХОДЕ: [ЗАСЕКРЕЧЕНО, СМ. НИЖЕ]
+
+    Укрытый персонал включает: Полк. Уэбб (назначенный КО), 78 военнослужащих базы и их иждивенцев, 14 гражданских подрядчиков, 195 гражданских лиц из города, принятых по Протоколу Фазы 3.
+
+    ПРОТОКОЛ ФАЗЫ 3: Гражданские лица, явившиеся к воротам после 01:17, принимались в порядке живой очереди до достижения вместимости. Вместимость достигнута в 01:43. Ворота запечатаны в 01:44.
+
+    Примерно 200 гражданских лиц находились у ворот, когда они запечатались. Они не могли быть приняты. Им было сказано искать убежище в другом месте. Другого места не было.
+
+    Двери комплекса — 18-дюймовая армированная сталь. Они изолированы от звуков снаружи. Это была преднамеренная конструктивная особенность. Инженеры в 1960-х знали, что люди внутри не смогут выносить звуки того, что происходит снаружи.
+
+    Они были правы.
+
+    - Капитан М. Риггс, Прокурор, Последняя запись
+
+terminal-entry-vault14-admit-title = УБЕЖИЩЕ 14 – КНИГА ПРИЁМА
+terminal-entry-vault14-admit-content =
     VAULT-TEC INDUSTRIES
-    VAULT 14 ADMITTANCE LEDGER
-    OCTOBER 23, 2077
-    
-    SEAL AUTHORIZATION: GRANTED 0042 HOURS, ENCLAVE OVERSIGHT
-    SEAL EXECUTION: SCHEDULED 0200 HOURS
-    OVERSEER: H. CALLOWAY (PRESENT)
-    
-    REGISTERED RESIDENTS: 1000
-    ARRIVED ON TIME: 847
-    ARRIVED LATE (ADMITTED UNDER GRACE PERIOD): 92
-    ARRIVED LATE (DENIED, GATE ALREADY SEALING): 14
-    NEVER ARRIVED: 47
-    
-    CAPACITY EXCEEDED BY 12 (Overseer authorized exception for the children of late arrivals)
-    
-    ADDITIONAL NOTES:
-    - Howard Beasley, Vault-Tec Sales Representative, presented at the gate at 0151. Carrying nothing. Said he had earned his place. Admitted.
-    - One unregistered woman appeared at the gate at 0157 carrying two children. The children had names on the registry but the woman did not. The Overseer admitted all three. He said the rules do not matter once the door is closing.
-    - At 0200 the gate began sealing automatically. Multiple individuals attempted to force their way through. Security was instructed not to fire. They did not fire. The mechanism completed its cycle without incident at 0203.
-    - At 0204 the people who had not made it inside began pounding on the door. The sound continued for an estimated four hours.
-    
-    - Overseer H. Calloway, Final Entry
+    ЖУРНАЛ ДОПУСКА В УБЕЖИЩЕ 14
+    23 ОКТЯБРЯ 2077 ГОДА
+
+    АВТОРИЗАЦИЯ ОПЕЧАТЫВАНИЯ: ПРЕДОСТАВЛЕНА В 00:42, НАДЗОР АНКЛАВА
+    ИСПОЛНЕНИЕ ОПЕЧАТЫВАНИЯ: ПО РАСПИСАНИЮ В 02:00
+    СМОТРИТЕЛЬ: Х. КЭЛЛОУЭЙ (ПРИСУТСТВУЕТ)
+
+    ЗАРЕГИСТРИРОВАННЫЕ ЖИТЕЛИ: 1000
+    ПРИБЫЛИ ВОВРЕМЯ: 847
+    ПРИБЫЛИ С ОПОЗДАНИЕМ (ДОПУЩЕНЫ В ЛЬГОТНЫЙ ПЕРИОД): 92
+    ПРИБЫЛИ С ОПОЗДАНИЕМ (ОТКАЗАНО, ВОРОТА УЖЕ ЗАПЕЧАТЫВАЮТСЯ): 14
+    НИКОГДА НЕ ПРИБЫЛИ: 47
+
+    ВМЕСТИМОСТЬ ПРЕВЫШЕНА НА 12 (Смотритель разрешил исключение для детей опоздавших)
+
+    ДОПОЛНИТЕЛЬНЫЕ ЗАМЕТКИ:
+    - Говард Бизли, торговый представитель Vault-Tec, явился к воротам в 01:51. Ничего не нёс. Сказал, что заслужил своё место. Допущен.
+    - Одна незарегистрированная женщина явилась к воротам в 01:57 с двумя детьми. Дети были в реестре, женщина — нет. Смотритель допустил всех троих. Он сказал, что правила перестают иметь значение, когда дверь закрывается.
+    - В 02:00 ворота начали запечатываться автоматически. Несколько человек пытались пробиться силой. Охране было приказано не стрелять. Они не стреляли. Механизм завершил свой цикл без происшествий в 02:03.
+    - В 02:04 люди, не успевшие попасть внутрь, начали колотить в дверь. Звук продолжался примерно четыре часа.
+
+    - Смотритель Х. Кэллоуэй, Последняя запись
 
 terminal-entry-door-shut-title = ДОМАШНИЙ ТЕРМИНАЛ – ПОСЛЕДНИЙ ПОЛЬЗОВАТЕЛЬ
-terminal-entry-door-shut-content = 
-    The TV is just static.
-    The radio is just static.
-    My phone does not work.
-    The lights flickered and came back on.
-    The sky out the kitchen window is the wrong color.
-    
-    I am Eleanor Mae Voss. I am 67 years old. I live alone since my husband Roger died last spring. I am sitting at my kitchen table writing on this terminal because there is nobody else in the house and I want to talk to somebody.
-    
-    I made a cup of tea about an hour ago. I drank it slowly. It was the good Earl Grey, the kind I save for special occasions. This felt like a special occasion in a way I cannot explain.
-    
-    I am going to walk into my garden in a few minutes. The roses are still blooming even though it is October. Roger planted them for our 40th anniversary. I want to be near them. I want to be near something he made.
-    
-    I am not afraid. I am 67 years old and I have lived a full life and I have already said goodbye to the only person who really mattered to me. Whatever happens next, I am ready.
-    
-    To anyone who finds this house someday: there is good china in the cabinet by the window. There is a quilt on my bed that my mother made me when I got married. There are letters from Roger in the bottom of my hope chest. I would like for someone to take care of these things if they can.
-    
-    The roses. I am going to the roses.
-    
-    - E.M.V.
+terminal-entry-door-shut-content =
+    Телевизор — просто помехи.
+    Радио — просто помехи.
+    Мой телефон не работает.
+    Свет мигнул и загорелся снова.
+    Небо за кухонным окном неправильного цвета.
+
+    Я Элеанора Мэй Фосс. Мне 67 лет. Живу одна с тех пор, как прошлой весной умер мой муж Роджер. Я сижу за кухонным столом, печатаю на этом терминале, потому что в доме больше никого нет, и мне хочется с кем-нибудь поговорить.
+
+    Около часа назад я заварила чашку чая. Выпила его медленно. Это был хороший Эрл Грей, тот, который я приберегаю для особых случаев. Это чувствовалось как особый случай, который я не могу объяснить.
+
+    Через несколько минут я пойду в свой сад. Розы всё ещё цветут, хотя уже октябрь. Роджер посадил их на нашу 40-ю годовщину. Я хочу быть рядом с ними. Я хочу быть рядом с чем-то, что он сделал.
+
+    Я не боюсь. Мне 67 лет, я прожила полную жизнь и уже попрощалась с единственным человеком, который действительно что-то для меня значил. Что бы ни случилось дальше, я готова.
+
+    Тому, кто когда-нибудь найдёт этот дом: в серванте у окна хороший фарфор. На моей кровати лежит одеяло, которое сшила мне мама, когда я выходила замуж. На дне моего приданого сундука лежат письма от Роджера. Я бы хотела, чтобы кто-нибудь позаботился об этих вещах, если сможет.
+
+    Розы. Я иду к розам.
+
+    - Э.М.Ф.
 
 # =============================================================================
 # EARLY POST-WAR ENTRIES
 # =============================================================================
 
-terminal-entry-vault14-firstgen-title = ХРАНИЛИЩЕ 14 – ЖУРНАЛ ПЕРВОГО ПОКОЛЕНИЯ
-terminal-entry-vault14-firstgen-content = 
-    VAULT 14 OVERSEER LOG
-    YEAR ONE - DAYS SINCE SEAL
-    
-    Day 1: The door is closed. We are all alive. The reactor is running. The water is flowing. The lights are on. People are crying in the corridors. I do not know how to comfort them. I do not know how to comfort myself.
-    
-    Day 14: The mood is calmer. We have established a daily routine. Dr. Beasley (no relation to the salesman, who is in Quarter B) has begun a school for the children.
-    
-    Day 47: First death. Old Mr. Petrelli, heart attack. We held a service. The Vault has no chaplain. I read from a book of Catholic prayers Mrs. Marchetti brought with her.
-    
-    Day 89: First fight. Two men over a woman. One man stabbed. He survived. I have established a Vault tribunal.
-    
-    Day 121: I opened the SECTION 14-E door using the Overseer's master key. I was not supposed to. I had to know.
-    
-    Day 122: I do not know what to do with what I saw. I closed the door. I locked it. I am not telling anyone. I am not even writing it down.
-    
-    Day 365: One year. We have 987 living residents. 13 deaths. 4 births. We are surviving. We are not okay but we are surviving. The door remains sealed per protocol. We have not yet attempted external sensor activation.
-    
-    - Overseer H. Calloway
+terminal-entry-vault14-firstgen-title = УБЕЖИЩЕ 14 – ЖУРНАЛ ПЕРВОГО ПОКОЛЕНИЯ
+terminal-entry-vault14-firstgen-content =
+    ЖУРНАЛ СМОТРИТЕЛЯ УБЕЖИЩА 14
+    ГОД ПЕРВЫЙ - ДНИ ПОСЛЕ ОПЕЧАТЫВАНИЯ
+
+    День 1: Дверь закрыта. Мы все живы. Реактор работает. Вода течёт. Свет горит. Люди плачут в коридорах. Я не знаю, как их утешить. Я не знаю, как утешить себя.
+
+    День 14: Настроение спокойнее. Мы установили распорядок дня. Д-р Бизли (не родственник продавца, тот в квартале B) начал школу для детей.
+
+    День 47: Первая смерть. Старый мистер Петрелли, сердечный приступ. Мы провели службу. В Убежище нет капеллана. Я читал из книги католических молитв, которую принесла с собой миссис Маркетти.
+
+    День 89: Первая драка. Двое мужчин из-за женщины. Один мужчина получил ножевое ранение. Выжил. Я учредил трибунал Убежища.
+
+    День 121: Я открыл дверь СЕКЦИИ 14-E мастер-ключом Смотрителя. Я не должен был. Я должен был знать.
+
+    День 122: Я не знаю, что делать с тем, что увидел. Я закрыл дверь. Запер её. Я никому не говорю. Я даже не записываю это.
+
+    День 365: Один год. У нас 987 живых жителей. 13 смертей. 4 рождения. Мы выживаем. Нам нелегко, но мы выживаем. Дверь остаётся запечатанной по протоколу. Мы ещё не пытались активировать внешние датчики.
+
+    - Смотритель Х. Кэллоуэй
 
 terminal-entry-afb-survivor-title = КОМПЛЕКС ВВС - ЖУРНАЛ ВЫЖИВШЕГО
-terminal-entry-afb-survivor-content = 
-    WENDOVER AFB UNDERGROUND COMPLEX
-    SURVIVOR JOURNAL - YEAR 3
-    
-    There are 142 of us left out of the 287 who came down here. Disease took most of them. The rest took themselves.
-    
-    Col. Webb shot himself in his quarters in Year 1. He left a note that I never read. I burned it because I thought whatever was in it would only make things worse for the rest of us.
-    
-    We have rationed the food carefully. The pre-positioned stockpiles were generous, but they were never meant for permanent habitation. We are growing mushrooms in the auxiliary wing now. Mrs. Henderson, who used to run the hardware store, turned out to know everything about mushroom cultivation. She has saved our lives.
-    
-    The radio receiver picks up nothing. We send out a beacon every twelve hours. Nothing answers. We are starting to wonder if there is anything left up there to answer.
-    
-    Capt. Riggs leads us now. He is a good man. He never tries to be Col. Webb. He just does what needs to be done and asks nothing for himself.
-    
-    Tomorrow we are going to attempt to open the upper hatch for the first time. Not the main door. A small observation hatch on the surface. We will send a Geiger counter through on a long pole. We will see what we see.
-    
-    Whatever it is, we have to know.
-    
-    - E. Schultz, Civil Defense Director
+terminal-entry-afb-survivor-content =
+    ПОДЗЕМНЫЙ КОМПЛЕКС АВИАБАЗЫ ВЕНДОВЕР
+    ДНЕВНИК ВЫЖИВШЕГО - ГОД 3
 
-terminal-entry-first-scavenger-title = ЗАМЕЧАНИЯ МУРСАНЦА – ПЕРВАЯ ЭКСПЕДИЦИЯ
-terminal-entry-first-scavenger-content = 
-    SCAVENGER LOG - WENDOVER, YEAR 8
-    
-    First time anyone from our group has come this far west. We have been holed up in the salt mines south of town since the bombs. The mines kept us alive. The mountain absorbed the radiation. We had food and water and each other.
-    
-    Today four of us came up to the surface for the first time in years. The town is recognizable but wrong. The buildings are still standing mostly but the colors are all gone. Everything is gray. Everything is white. The salt has been blown into every crack and corner of every structure. It looks like the town is half buried in snow that will never melt.
-    
-    The Wendover Will sign is still standing at the edge of town. The cowboy. His paint is faded but you can still see his hat and his boots. His arm is stuck halfway through a wave. We waved back. We could not help it. He looked so lonely.
-    
-    We found canned goods in the diner. We found medicine in the pharmacy. We found a piano in the church that nobody had touched. Tony tried to play it. Most of the keys still worked.
-    
-    We did not find any people. Not living ones. We found bones. Many bones. We did not look at them too long.
-    
-    Tomorrow we go further. Toward the air base. Toward the casino. Toward whatever is left.
-    
-    - Foreman J. Pratchett (still)
+    Нас осталось 142 из 287, спустившихся сюда. Болезни забрали большинство. Остальное — они сами.
+
+    Полковник Уэбб застрелился в своих апартаментах на Году 1. Он оставил записку, которую я так и не прочитал. Я сжёг её, потому что подумал, что бы там ни было, это только ухудшит положение остальных.
+
+    Мы тщательно нормировали еду. Предварительно размещённые запасы были щедрыми, но они никогда не предназначались для постоянного проживания. Теперь мы выращиваем грибы во вспомогательном крыле. Миссис Хендерсон, которая раньше управляла хозяйственным магазином, оказалась экспертом по выращиванию грибов. Она спасла нам жизни.
+
+    Радиоприёмник не ловит ничего. Мы отправляем маяк каждые двенадцать часов. Никто не отвечает. Мы начинаем задаваться вопросом, есть ли там наверху кому отвечать.
+
+    Теперь нас ведёт капитан Риггс. Он хороший человек. Он никогда не пытается быть полковником Уэббом. Он просто делает то, что нужно, и ничего не просит для себя.
+
+    Завтра мы попытаемся открыть верхний люк впервые. Не главную дверь. Маленький смотровой люк на поверхности. Мы просуним счётчик Гейгера на длинной палке. Посмотрим, что увидим.
+
+    Что бы это ни было, мы должны знать.
+
+    - Э. Шульц, Директор гражданской обороны
+
+terminal-entry-first-scavenger-title = ЗАМЕЧАНИЯ МУСОРЩИКА – ПЕРВАЯ ЭКСПЕДИЦИЯ
+terminal-entry-first-scavenger-content =
+    ЖУРНАЛ МУСОРЩИКА - ВЕНДОВЕР, ГОД 8
+
+    Впервые кто-то из нашей группы зашёл так далеко на запад. Мы отсиживались в соляных шахтах к югу от города с момента бомбардировки. Шахты сохранили нам жизнь. Гора поглотила радиацию. У нас были еда, вода и друг друг.
+
+    Сегодня четверо из нас впервые за годы поднялись на поверхность. Город узнаваем, но неправильный. Здания в основном стоят, но все цвета исчезли. Всё серое. Всё белое. Соль занеслась в каждую трещину и угол каждого строения. Похоже, город наполовину засыпан снегом, который никогда не растает.
+
+    Вывеска Wendover Will всё ещё стоит на краю города. Ковбой. Его краска выцвела, но всё ещё видна шляпа и сапоги. Его рука застыла на полпути взмаха. Мы помахали в ответ. Мы не могли иначе. Он выглядел таким одиноким.
+
+    Мы нашли консервы в закусочной. Мы нашли лекарства в аптеке. Мы нашли пианино в церкви, к которому никто не прикасался. Тони попытался сыграть на нём. Большинство клавиш всё ещё работали.
+
+    Мы не нашли людей. Живых. Мы нашли кости. Много костей. Мы не смотрели на них слишком долго.
+
+    Завтра мы идём дальше. К авиабазе. К казино. К тому, что осталось.
+
+    - Прораб Дж. Прэтчетт (всё ещё)
 
 terminal-entry-mutated-wildlife-title = БИОЛОГИЯ ПУСТОШЕЙ – ПОЛЕВЫЕ ЗАМЕЧАНИЯ
-terminal-entry-mutated-wildlife-content = 
-    POST-WAR FIELD BIOLOGY NOTES
-    OBSERVER: DR. M. KAUR (FORMERLY OF BONNEVILLE STATION)
-    YEAR: 14
-    
-    Continuing my survey of mutated species in the Great Salt Lake basin.
-    
-    NEW OBSERVATIONS:
-    - Brine flies have grown to approximately 40x normal size. They cluster on the salt formations I documented before the war. They appear to feed on the crystalline structures themselves. They glow faintly at night.
-    - Antelope ground squirrels (or what used to be them): now bipedal, approximately 4 feet tall, semi-intelligent. Travel in family groups. Hostile to humans on sight.
-    - Coyotes: largely unchanged in form but markedly more aggressive and intelligent. Hunt in larger packs. Have been observed using simple tools.
-    - Fish in the Great Salt Lake: I had assumed they were all dead. They are not. They have evolved. They are large, eyeless, pale, and they breathe air for short periods. I have not let one touch me.
-    
-    The salt formations themselves continue to expand. They now cover approximately 40 square kilometers. They emit a low frequency hum at night that I cannot record on any equipment but that I and my surviving colleagues can hear. We do not know if they are alive in any meaningful sense. We do not know if it matters.
-    
-    I am 71 years old. I will not live to finish this survey. I am writing it all down so that someone else, someday, might pick it up.
-    
-    - Dr. Meredith Kaur
+terminal-entry-mutated-wildlife-content =
+    ПОСЛЕВОЕННЫЕ ЗАМЕТКИ ПО ПОЛЕВОЙ БИОЛОГИИ
+    НАБЛЮДАТЕЛЬ: Д-Р М. КАУР (РАНЕЕ ИЗ СТАНЦИИ БОННВИЛЛЬ)
+    ГОД: 14
 
-terminal-entry-ghoul-journal-title = ЛИЧНЫЙ ЖУРНАЛ - БЕЗПИСАННЫЙ, ПОВРЕЖДЕННЫЙ
-terminal-entry-ghoul-journal-content = 
-    JOURNAL FOUND IN WENDOVER, EARLY POST-WAR
-    
-    Day 1: My skin hurts. Itches. Blisters that do not pop.
-    
-    Day 14: The pain has changed. It is not skin pain anymore. It is bone pain.
-    
-    Day 30: My hair fell out today. All of it, in clumps, while I was washing in the basin.
-    
-    Day 60: I have looked in the mirror. I am not going to describe what I see. I am still me. The face in the mirror is not the same face but the person looking out of it is the same person.
-    
-    Day 90: I tried to leave. The other survivors at the school basement saw me coming and threw rocks. They did not recognize me. Or they did and that was worse. I went back to my own house alone.
-    
-    Day 200: I am still here. Still alive. The pain has stopped. I do not need to eat much. I do not need to sleep much. The mirror still shows the thing I have become.
-    
-    Day 500: I have not seen another person in a long time. I write in this journal to remember language. I read books from the library to remember how to think. I am terrified that one day I will forget that I was ever a man named Henry Wessler who taught fourth grade at Wendover Elementary.
-    
-    Day [unknown]: I am still here. I do not know how many years it has been. I think I have stopped aging in the way humans age. I am alone but I am still myself. That is the only thing that matters. Stay yourself. Stay yourself. Stay yourself.
+    Продолжаю обследование мутировавших видов в бассейне Большого Солёного озера.
+
+    НОВЫЕ НАБЛЮДЕНИЯ:
+    - Соляные мухи выросли примерно до 40x нормального размера. Они роятся на соляных образованиях, которые я документировала до войны. Они, кажется, питаются самими кристаллическими структурами. Они слабо светятся по ночам.
+    - Земляные белки (или то, чем они были раньше): теперь двуногие, примерно 4 фута ростом, полуразумные. Путешествуют семейными группами. Враждебны к людям при встрече.
+    - Койоты: в основном неизменны по форме, но заметно более агрессивны и умны. Охотятся более крупными стаями. Наблюдались при использовании простых инструментов.
+    - Рыба в Большом Солёном озере: я предполагала, что вся она мертва. Это не так. Она эволюционировала. Она крупная, безглазая, бледная и дышит воздухом короткие периоды. Я не позволила ни одной прикоснуться ко мне.
+
+    Сами соляные образования продолжают расширяться. Теперь они покрывают примерно 40 квадратных километров. Они излучают низкочастотный гул по ночам, который я не могу записать ни на каком оборудовании, но который мы с моими выжившими коллегами слышим. Мы не знаем, живы ли они в каком-либо осмысленном смысле. Мы не знаем, имеет ли это значение.
+
+    Мне 71 год. Я не доживу до завершения этого обследования. Я всё это записываю, чтобы кто-то другой когда-нибудь мог продолжить.
+
+    - Д-р Мередит Каур
+
+terminal-entry-ghoul-journal-title = ЛИЧНЫЙ ЖУРНАЛ - БЕЗЫМЯННЫЙ, ПОВРЕЖДЁННЫЙ
+terminal-entry-ghoul-journal-content =
+    ДНЕВНИК, НАЙДЕННЫЙ В ВЕНДОВЕРЕ, РАННИЙ ПОСЛЕВОЕННЫЙ ПЕРИОД
+
+    День 1: Моя кожа болит. Зудит. Волдыри, которые не лопаются.
+
+    День 14: Боль изменилась. Это уже не боль кожи. Это боль в костях.
+
+    День 30: Сегодня выпали все волосы. Все сразу, клоками, пока я мылся в тазу.
+
+    День 60: Я посмотрел в зеркало. Я не буду описывать, что вижу. Я всё ещё я. Лицо в зеркале — не то же лицо, но человек, смотрящий из него, — тот же человек.
+
+    День 90: Я попытался уйти. Другие выжившие в подвале школы увидели меня и стали кидаться камнями. Они не узнали меня. Или узнали, и это было хуже. Я вернулся в свой дом один.
+
+    День 200: Я всё ещё здесь. Всё ещё жив. Боль прошла. Мне не нужно много есть. Мне не нужно много спать. Зеркало всё ещё показывает то, чем я стал.
+
+    День 500: Я давно не видел других людей. Я пишу в этом дневнике, чтобы помнить язык. Я читаю книги из библиотеки, чтобы помнить, как думать. Я боюсь, что однажды забуду, что когда-то был человеком по имени Генри Уэсслер, который преподавал в четвёртом классе начальной школы Вендовера.
+
+    День [неизвестно]: Я всё ещё здесь. Я не знаю, сколько лет прошло. Кажется, я перестал стареть так, как стареют люди. Я одинок, но я всё ещё я. Это единственное, что имеет значение. Оставайся собой. Оставайся собой. Оставайся собой.
 
 terminal-entry-sealed-bunker-title = ЧАСТНЫЙ БУНКЕР - ЖУРНАЛ ВХОДА
-terminal-entry-sealed-bunker-content = 
-    PRIVATE FALLOUT BUNKER
-    LOCATION: HENDERSON FAMILY PROPERTY, WENDOVER OUTSKIRTS
-    ENTRY LOG - YEAR 1 TO YEAR 4
-    
-    Day 1: All four of us made it. Bill, Martha, Ricky, and Susan. Bunker is well stocked. Bill spent fifteen years preparing this place. Everyone called him paranoid. Everyone is dead now and we are alive.
-    
-    Day 60: First argument. Ricky wants to go outside. Bill says no. Martha intervenes.
-    
-    Day 180: Susan has stopped speaking. She will not say why. Martha thinks she is just sad. I think it is something worse.
-    
-    Day 365: One year underground. Bill insists we celebrate. Martha bakes a cake from powdered ingredients. It is not bad.
-    
-    Day 720: Ricky tried to open the door last night. Bill stopped him. They fought. Bill is bleeding from a cut on his head. Ricky has bruised ribs. Susan watched and did not react.
-    
-    Day 980: Martha died yesterday. The water purifier had been failing slowly for months and she got sick from it. Bill could not save her. Bill is broken now. He sits in the corner and does not speak.
-    
-    Day 1100: Bill is dead. He stopped eating. I could not make him.
-    
-    Day 1200: Ricky and Susan and I are still alive. Susan started speaking again three weeks ago. The first thing she said was "the door."
-    
-    Day 1460: We opened the door. Four years. The world outside was dead but alive in a different way. Strange birds. Strange plants. The salt flats had become something I do not have words for. We came out into the sunlight and Susan smiled for the first time since Day 60.
-    
-    We are going to walk west.
+terminal-entry-sealed-bunker-content =
+    ЧАСТНЫЙ БУНКЕР ОТ РАДИОАКТИВНЫХ ОСАДКОВ
+    МЕСТОПОЛОЖЕНИЕ: СОБСТВЕННОСТЬ СЕМЬИ ХЕНДЕРСОН, ОКРЕСТНОСТИ ВЕНДОВЕРА
+    ЖУРНАЛ ВХОДА - ГОД 1 ПО ГОД 4
+
+    День 1: Мы все четверо добрались. Билл, Марта, Рики и Сьюзен. Бункер хорошо укомплектован. Билл потратил пятнадцать лет на подготовку этого места. Все называли его параноиком. Все мертвы, а мы живы.
+
+    День 60: Первая ссора. Рики хочет выйти наружу. Билл говорит нет. Марта вмешивается.
+
+    День 180: Сьюзен перестала говорить. Она не говорит почему. Марта думает, что она просто грустит. Я думаю, это что-то похуже.
+
+    День 365: Год под землёй. Билл настаивает на праздновании. Марта печёт торт из порошковых ингредиентов. Неплохо.
+
+    День 720: Прошлой ночью Рики пытался открыть дверь. Билл остановил его. Они подрались. У Билла кровоточит порез на голове. У Рики ушиблены рёбра. Сьюзен наблюдала и не реагировала.
+
+    День 980: Марта умерла вчера. Очиститель воды медленно выходил из строя месяцами, и она заболела от него. Билл не смог её спасти. Билл сломлен. Он сидит в углу и не говорит.
+
+    День 1100: Билл мёртв. Он перестал есть. Я не мог заставить его.
+
+    День 1200: Рики, Сьюзен и я всё ещё живы. Сьюзен снова заговорила три недели назад. Первое, что она сказала, было «дверь».
+
+    День 1460: Мы открыли дверь. Четыре года. Внешний мир был мёртв, но жив по-другому. Странные птицы. Странные растения. Солончаки стали чем-то, для чего у меня нет слов. Мы вышли на солнечный свет, и Сьюзен улыбнулась впервые со Дня 60.
+
+    Мы пойдём пешком на запад.
 
 terminal-entry-atom-cult-title = ДЕТИ АТОМА – РАННЯЯ ДОКТРИНА
-terminal-entry-atom-cult-content = 
-    TERMINAL FOUND IN ABANDONED CHURCH, WENDOVER
-    CONTENT APPEARS TO BE EARLY RELIGIOUS WRITING
-    ESTIMATED DATE: YEAR 23
-    
-    Brothers and Sisters of the Light:
-    
-    The Glow has come to us. Where there was a city, there is now a holy radiance. Where there was an air base, there is now a cathedral of fire. Atom has spoken to me in the night and shown me the truth.
-    
-    The bombs were not destruction. The bombs were creation. Each detonation gave birth to a new universe inside the heart of the old one. Every atom that was split became a doorway. Those who walk through the doorway are not destroyed. They are transformed. They become Division.
-    
-    I have seen the holy ground east of Wendover. I have stood at its edge. The Geiger counter screamed. My hair fell from my head and my teeth from my mouth. I felt no pain. I felt only joy.
-    
-    I will lead the faithful to the Glow. We will walk into it together. We will become Division together. We will join the great chorus of all the atoms that have ever sung.
-    
-    The Old World is dead. The New World is radiation. Praise be.
-    
-    - The Confessor
-    
-    { "" }[bold][SCRIBBLED IN DIFFERENT HAND BELOW][/bold]: The Confessor walked into the glowing crater last week. Took 47 followers with him. None returned. We who stayed behind do not know if they were transformed or just killed. We are starting to think there is no difference.
+terminal-entry-atom-cult-content =
+    ТЕРМИНАЛ НАЙДЕН В ЗАБРОШЕННОЙ ЦЕРКВИ, ВЕНДОВЕР
+    СОДЕРЖИМОЕ, ПО-ВИДИМОМУ, РАННЕЕ РЕЛИГИОЗНОЕ ПИСАНИЕ
+    ПРЕДПОЛАГАЕМАЯ ДАТА: ГОД 23
 
-terminal-entry-first-caravan-title = ТОРГОВЫЙ КАРАВАН - бортжурнал
-terminal-entry-first-caravan-content = 
-    CARAVAN MASTER LOGBOOK
-    CARAVAN: RED ROCK
-    ROUTE: ELKO TO WENDOVER, FIRST EXPEDITION
-    YEAR: ~30 POST-WAR
-    
-    Day 1: Departed Elko with eight brahmin, twelve guards, three traders, and one mechanic for the wagons. Cargo: medical supplies, bullets, salt (going to coals to Newcastle here, but they say the Wendover people will pay for processed table salt, having no industry left to make it themselves).
-    
-    Day 4: Crossed the Pequop range. No incidents. Spotted ghoul tracks but no contact.
-    
-    Day 7: Found a settlement at the old mining camp. They had heard rumors of Wendover but had never sent anyone east. Traded news for water.
-    
-    Day 12: Wendover in sight. The town is intact more than I expected. Smoke from chimneys. Walls of stacked cars and salvaged metal. Armed sentries on the wall. They saw us coming an hour out.
-    
-    Day 13: Made contact. Their leader is a woman named Pratchett, third generation from the mine survivors. They are wary but not hostile. We traded almost everything we brought. They paid in caps, in salt blocks, in old world tech recovered from the buildings.
-    
-    Day 14: Negotiated a regular trade route. Once per quarter. They want everything we can bring. They have plenty of what they have, but they have very little of what they have not.
-    
-    Day 15: Departing for Elko with full wagons. Pratchett gave me a gift on the way out: a small rosebush, alive somehow, descended from a garden a woman named Voss planted in the year of the war. Pratchett said the bush has been kept alive by every generation since. She said roses survive.
-    
-    - Caravan Master Bess Cantrell
+    Братья и Сёстры Света:
+
+    Сияние пришло к нам. Там, где был город, теперь священное сияние. Там, где была авиабаза, теперь собор огня. Атом говорил со мной ночью и явил мне истину.
+
+    Бомбы не были разрушением. Бомбы были созиданием. Каждый взрыв породил новую вселенную в сердце старой. Каждый расщеплённый атом стал дверью. Те, кто проходит через дверь, не уничтожаются. Они преобразуются. Они становятся Деленьем.
+
+    Я видел священную землю к востоку от Вендовера. Я стоял на её краю. Счётчик Гейгера зашкаливал. Мои волосы выпали с головы, а зубы изо рта. Я не чувствовал боли. Я чувствовал только радость.
+
+    Я поведу верных к Сиянию. Мы войдём в него вместе. Мы станем Деленьем вместе. Мы присоединимся к великому хору всех атомов, которые когда-либо пели.
+
+    Старый Мир мёртв. Новый Мир — это радиация. Слава.
+
+    - Исповедник
+
+    { "" }[bold][НАЦАРАПАНО ДРУГОЙ РУКОЙ НИЖЕ][/bold]: Исповедник вошёл в светящийся кратер на прошлой неделе. Увёл с собой 47 последователей. Никто не вернулся. Мы, оставшиеся, не знаем, были ли они преобразованы или просто убиты. Мы начинаем думать, что разницы нет.
+
+terminal-entry-first-caravan-title = ТОРГОВЫЙ КАРАВАН - бортовой журнал
+terminal-entry-first-caravan-content =
+    ЖУРНАЛ ХОЗЯИНА КАРАВАНА
+    КАРАВАН: КРАСНАЯ СКАЛА
+    МАРШРУТ: ЭЛКО - ВЕНДОВЕР, ПЕРВАЯ ЭКСПЕДИЦИЯ
+    ГОД: ~30 ПОСЛЕ ВОЙНЫ
+
+    День 1: Отбыли из Элко с восемью браминами, двенадцатью охранниками, тремя торговцами и одним механиком для повозок. Груз: медикаменты, патроны, соль (нести уголь в Ньюкасл, но говорят, люди Вендовера будут платить за очищенную столовую соль, так как у них нет производства, чтобы делать её самим).
+
+    День 4: Пересекли хребет Пекоп. Происшествий нет. Замечены следы гулей, но контакта не было.
+
+    День 7: Нашли поселение на месте старого горного лагеря. Они слышали слухи о Вендовере, но никогда не посылали никого на восток. Обменяли новости на воду.
+
+    День 12: Вендовер в поле зрения. Город цел более, чем я ожидал. Дым из труб. Стены из составленных машин и спасённого металла. Вооружённые часовые на стене. Они заметили нас за час до подхода.
+
+    День 13: Установили контакт. Их лидер — женщина по имени Прэтчетт, третье поколение выживших из шахт. Они насторожены, но не враждебны. Мы обменяли почти всё, что привезли. Они заплатили крышками, соляными блоками, довоенной техникой, найденной в зданиях.
+
+    День 14: Договорились о регулярном торговом маршруте. Раз в квартал. Они хотят всё, что мы можем привезти. У них много того, что у них есть, но очень мало того, чего у них нет.
+
+    День 15: Отбываем в Элко с полными повозками. Прэтчетт подарила мне подарок на прощание: маленький розовый куст, живой, происходящий от сада женщины по имени Фосс, посадившей его в год войны. Прэтчетт сказала, что куст поддерживался каждым поколением с тех пор. Она сказала, розы выживают.
+
+    - Хозяйка каравана Бесс Кантрелл
 
 terminal-entry-last-elder-title = ПОСЕЛЕНИЕ ВЕНДОВЕР – ЗАПИСЬ СМЕРТИ
-terminal-entry-last-elder-content = 
-    WENDOVER SETTLEMENT - DEATH RECORD
-    ENTRY: YEAR 67 POST-WAR
-    
-    Today we buried Foreman Joseph Pratchett. He was the last man alive in Wendover who had walked into the salt mines on the day the bombs fell. He was 14 years old then. He was 81 today.
-    
-    He led us out of the mines when it was safe. He led us back to the surface. He chose where to build the walls. He chose to keep the books from the library when others wanted to burn them for fuel. He taught us all to read.
-    
-    He had no children of his own. He said all of us were his children.
-    
-    His granddaughter (chosen, not blood) is taking the leadership of the settlement now. Her name is Maria. She is 28. She knows what he taught her. She will teach the next ones.
-    
-    Joseph asked to be buried in the salt flats facing east. He said the morning sun is the closest thing this world has to forgiveness. We did as he asked. We marked the grave with a wooden cross and a small wooden cowboy figure he carved himself decades ago. The figure has its arm raised in a wave.
-    
-    Goodbye, Foreman. Goodbye to the man who remembered.
-    
-    - M. Pratchett, Settlement Council
+terminal-entry-last-elder-content =
+    ПОСЕЛЕНИЕ ВЕНДОВЕР - ЗАПИСЬ О СМЕРТИ
+    ЗАПИСЬ: ГОД 67 ПОСЛЕ ВОЙНЫ
+
+    Сегодня мы похоронили прораба Джозефа Прэтчетта. Он был последним человеком в Вендовере, который вошёл в соляные шахты в день, когда упали бомбы. Ему было 14 лет тогда. Сегодня ему был 81 год.
+
+    Он вывел нас из шахт, когда стало безопасно. Он привёл нас обратно на поверхность. Он выбрал, где строить стены. Он решил сохранить книги из библиотеки, когда другие хотели сжечь их для топлива. Он научил нас всех читать.
+
+    У него не было своих детей. Он говорил, что все мы его дети.
+
+    Его внучка (по выбору, не по крови) теперь принимает руководство поселением. Её зовут Мария. Ей 28. Она знает, чему он её учил. Она научит следующих.
+
+    Джозеф попросил похоронить его на солончаках лицом на восток. Он сказал, что утреннее солнце — это самое близкое к прощению в этом мире. Мы сделали, как он просил. Мы отметили могилу деревянным крестом и маленькой деревянной фигуркой ковбоя, которую он вырезал сам десятилетия назад. Фигурка поднимает руку в приветствии.
+
+    Прощай, Прораб. Прощай, человек, который помнил.
+
+    - М. Прэтчетт, Совет поселения
 
 # =============================================================================
 # MID POST-WAR ENTRIES
 # =============================================================================
 
-terminal-entry-raider-manifesto-title = ТЕРМИНАЛ РЕЙДЕРСКОЙ БАНТЫ – НАЙДЕН ДОКУМЕНТ
-terminal-entry-raider-manifesto-content = 
-    TERMINAL RECOVERED FROM RAIDER CAMP, WENDOVER OUTSKIRTS
-    CONTENT: GANG MANIFESTO, AUTHOR UNKNOWN
-    
-    THE BLACK SALT DOGS: WHAT WE STAND FOR
-    
-    1. We take what we want. The world owes us. The old people made the world this way and now they are gone and the world is ours.
-    2. We do not pay tolls. We collect tolls.
-    3. We do not bow to the NCR. We do not bow to the Brotherhood. We do not bow to the Legion. We do not bow.
-    4. Our territory is the salt flats from the casino to the airfield. Anyone who crosses without paying answers to us.
-    5. We do not take prisoners. We do not take hostages. Hostages are mouths to feed and a reason for somebody to come looking for you.
-    6. We share everything in the gang. Food, drink, jet, sex, glory.
-    7. The boss is the boss until somebody kills the boss. Then that somebody is the boss.
-    8. We do not write things down. (this terminal is being used for jokes only, do not put rules on it)
-    9. Tank wrote down rules anyway. Tank is going to get his ass kicked.
-    10. Long live the Black Salt Dogs.
-    
-    { "" }[bold][LATER ENTRY, DIFFERENT HAND][/bold]: Tank got his ass kicked. Tank is now boss. Tank is leaving these rules up. Tank approves.
+terminal-entry-raider-manifesto-title = ТЕРМИНАЛ РЕЙДЕРСКОЙ БАНДЫ – НАЙДЕН ДОКУМЕНТ
+terminal-entry-raider-manifesto-content =
+    ТЕРМИНАЛ, ИЗЪЯТЫЙ ИЗ ЛАГЕРЯ РЕЙДЕРОВ, ОКРЕСТНОСТИ ВЕНДОВЕРА
+    СОДЕРЖИМОЕ: МАНИФЕСТ БАНДЫ, АВТОР НЕИЗВЕСТЕН
+
+    ЧЁРНЫЕ СОЛЯНЫЕ ПСЫ: ЗА ЧТО МЫ СТОИМ
+
+    1. Мы берём то, что хотим. Мир нам должен. Старые люди сделали мир таким, а теперь их нет, и мир наш.
+    2. Мы не платим пошлины. Мы собираем пошлины.
+    3. Мы не кланяемся НКР. Мы не кланяемся Братству. Мы не кланяемся Легиону. Мы не кланяемся.
+    4. Наша территория — солончаки от казино до аэродрома. Любой, кто пересекает без платы, отвечает перед нами.
+    5. Мы не берём пленных. Мы не берём заложников. Заложники — это рты, которые нужно кормить, и повод для кого-то искать вас.
+    6. Мы делимся всем в банде. Едой, выпивкой, джетом, сексом, славой.
+    7. Босс — это босс, пока кто-то не убьёт босса. Тогда этот кто-то становится боссом.
+    8. Мы ничего не записываем. (этот терминал используется только для шуток, не пишите правила на нём)
+    9. Танк всё равно записал правила. Танк получит по заднице.
+    10. Да здравствуют Чёрные Соляные Псы.
+
+    { "" }[bold][ПОЗДНЕЙШАЯ ЗАПИСЬ, ДРУГОЙ ПОЧЕРК][/bold]: Танк получил по заднице. Танк теперь босс. Танк оставляет эти правила. Танк одобряет.
 
 terminal-entry-caravan-attack-title = ОТЧЕТ О ПРОИСШЕСТВИИ С КАРАВАНОМ
-terminal-entry-caravan-attack-content = 
-    MERCHANT CARAVAN - INCIDENT REPORT
-    CARAVAN: BIG IRON LINE
-    DATE: SUMMER, YEAR 89
-    
-    Engaged by hostile force at the salt overlook 14 miles east of Wendover. Estimated 11 attackers. Identified by black hand symbols painted on their armor as Black Salt Dogs.
-    
-    Caravan personnel: 6 guards, 3 traders, 4 brahmin.
-    Casualties: 2 guards killed (Reyes and Marsh), 1 trader wounded (Calloway, leg, treated and stable).
-    Brahmin lost: 2 (slaughtered on the spot, attackers ate them raw).
-    Cargo lost: All medical supplies, half the ammunition, two crates of liquor.
-    
-    Survivors continued to Wendover and reported the incident to the settlement council. The council expressed sympathy but offered no aid. They said the Black Salt Dogs are everyone's problem and nobody's responsibility.
-    
-    Big Iron Line will not be running this route again until the Dogs are dealt with. We are notifying NCR and Brotherhood liaisons in Elko. Maybe one of them will care. Probably neither.
-    
-    Reyes leaves a wife and three children in Elko. Marsh leaves nobody. We will collect for Reyes' family at the next caravan meeting.
-    
-    - Caravan Master J. Rasmussen
+terminal-entry-caravan-attack-content =
+    ТОРГОВЫЙ КАРАВАН - ОТЧЁТ О ПРОИСШЕСТВИИ
+    КАРАВАН: БОЛЬШАЯ ЖЕЛЕЗНАЯ ЛИНИЯ
+    ДАТА: ЛЕТО, ГОД 89
 
-terminal-entry-settlement-founding-title = РАСЧЕТНЫЙ УСТАВ - ВЕНДОВЕР
-terminal-entry-settlement-founding-content = 
-    CHARTER OF THE SETTLEMENT OF WENDOVER
-    REVISED, YEAR 91 POST-WAR
-    RATIFIED BY THE COUNCIL OF FAMILIES
-    
-    We the people of Wendover, descendants of those who survived the salt mines, the underground complex, the sealed bunkers, and the long walking, hereby establish the following:
-    
-    1. Wendover is a free settlement. We do not belong to the NCR, the Brotherhood, the Legion, or any other power. We trade with all and bow to none.
-    2. Every able adult contributes to the wall, the water, the food, or the defense.
-    3. Children are taught to read by the age of seven. This is mandatory. Joseph Pratchett established this rule and we honor it.
-    4. The clinic and the school are open to all settlement members without charge.
-    5. Outsiders are welcome to trade. Outsiders are not welcome to live within the walls without sponsorship by a current resident and a six month trial period.
-    6. Murder, theft, and rape are punished by exile to the salt flats. There is no death penalty. The flats are the death penalty.
-    7. The Council of Families meets monthly. Decisions require a two thirds majority.
-    8. The Settlement maintains the Wendover Will sign as a symbol of our continuity. He is older than any of us. He waved at the old world and now he waves at the new one.
-    
-    We have rebuilt this place from nothing. We will keep rebuilding it until there is nothing left to rebuild and then we will rebuild it some more.
-    
-    - M. Pratchett, Council Chair
+    Атакован враждебными силами на соляном обрыве в 14 милях к востоку от Вендовера. По оценкам, 11 нападавших. Идентифицированы по чёрным символам рук на их броне как Чёрные Соляные Псы.
 
-terminal-entry-bandit-toll-title = ШОССЕ 93 – ПЛАТНЫЙ ПОЧТОВЫЙ ТЕРМИНАЛ
-terminal-entry-bandit-toll-content = 
-    CHECKPOINT TERMINAL - HIGHWAY 93 SOUTH
-    OPERATED BY: THE COLLECTORS
-    TOLL SCHEDULE
-    
-    Welcome to the only road south. The Collectors run this stretch from the salt overlook to the red rocks. We are not raiders. We are businessmen. We charge a fair toll and in return we keep the road safe from people less reasonable than us.
-    
-    TOLL RATES:
-    - Single traveler on foot: 10 caps
-    - Traveler with brahmin: 20 caps
-    - Caravan (1-3 wagons): 50 caps per wagon
-    - Caravan (4+ wagons): negotiable, ask for the boss
-    - Power armor: 200 caps (we will not stop you, but we will note your passage)
-    - Brotherhood patrol: free (we are not stupid)
-    - NCR patrol: free (we are not stupid)
-    - Legion patrol: bring us their heads, we pay you 500 caps each
-    - Black Salt Dogs: do not even slow down, just keep running, we will deal with them
-    
-    WE ACCEPT: caps, ammunition, intact food, intact medicine, working tech.
-    WE DO NOT ACCEPT: jet, junk, sob stories, threats.
-    
-    Pay the toll, get a stamped pass, keep moving. Do not pay the toll, do not pass. It is that simple.
-    
-    Have a nice day on the road.
-    
-    - The Collectors
+    Персонал каравана: 6 охранников, 3 торговца, 4 брамина.
+    Потери: 2 охранника убиты (Рейес и Марш), 1 торговец ранен (Кэллоуэй, нога, прооперирован, стабилен).
+    Брамины потеряны: 2 (забиты на месте, нападавшие съели их сырыми).
+    Груз потерян: все медикаменты, половина боеприпасов, два ящика спиртного.
+
+    Выжившие продолжили путь в Вендовер и сообщили о происшествии совету поселения. Совет выразил сочувствие, но не предложил помощи. Они сказали, что Чёрные Соляные Псы — проблема всех и ничья ответственность.
+
+    Большая Железная Линия не будет использовать этот маршрут снова, пока Псы не будут устранены. Мы извещаем представителей НКР и Братства в Элко. Может быть, кому-то из них будет дело. Вероятно, никому.
+
+    У Рейеса остались жена и трое детей в Элко. У Марша никого не осталось. Мы соберём для семьи Рейеса на следующем собрании каравана.
+
+    - Хозяин каравана Дж. Расмуссен
+
+terminal-entry-settlement-founding-title = УСТАВ ПОСЕЛЕНИЯ - ВЕНДОВЕР
+terminal-entry-settlement-founding-content =
+    УСТАВ ПОСЕЛЕНИЯ ВЕНДОВЕР
+    ПЕРЕСМОТРЕН, ГОД 91 ПОСЛЕ ВОЙНЫ
+    РАТИФИЦИРОВАН СОВЕТОМ СЕМЕЙ
+
+    Мы, люди Вендовера, потомки тех, кто выжил в соляных шахтах, подземном комплексе, запечатанных бункерах и долгой ходьбе, настоящим устанавливаем следующее:
+
+    1. Вендовер — свободное поселение. Мы не принадлежим НКР, Братству, Легиону или любой другой державе. Мы торгуем со всеми и не склоняемся ни перед кем.
+    2. Каждый взрослый, способный работать, вносит вклад в стену, воду, еду или оборону.
+    3. Детей обучают чтению к семи годам. Это обязательно. Джозеф Прэтчетт установил это правило, и мы его чтим.
+    4. Клиника и школа открыты для всех членов поселения бесплатно.
+    5. Посторонние могут торговать. Посторонние не могут жить внутри стен без поручительства действующего жителя и шестимесячного испытательного срока.
+    6. Убийство, кража и изнасилование караются изгнанием на солончаки. Смертной казни нет. Равнины — это смертная казнь.
+    7. Совет Семей собирается ежемесячно. Решения требуют большинства в две трети.
+    8. Поселение поддерживает вывеску Wendover Will как символ нашей преемственности. Он старше любого из нас. Он махал старому миру, а теперь машет новому.
+
+    Мы отстроили это место из ничего. Мы будем продолжать отстраивать его, пока ничего не останется отстраивать, а потом будем отстраивать ещё больше.
+
+    - М. Прэтчетт, Председатель Совета
+
+terminal-entry-bandit-toll-title = ШОССЕ 93 – ПЛАТНЫЙ ПОСТ ТЕРМИНАЛ
+terminal-entry-bandit-toll-content =
+    КПП ТЕРМИНАЛ - ШОССЕ 93 ЮГ
+    УПРАВЛЯЕТСЯ: КОЛЛЕКЦИОНЕРАМИ
+    ТАРИФЫ
+
+    Добро пожаловать на единственную дорогу на юг. Коллекционеры контролируют этот участок от соляного обрыва до красных скал. Мы не рейдеры. Мы бизнесмены. Мы взимаем справедливую плату и взамен держим дорогу в безопасности от людей менее разумных, чем мы.
+
+    ТАРИФЫ:
+    - Одинокий путешественник пешком: 10 крышек
+    - Путешественник с брамином: 20 крышек
+    - Караван (1-3 повозки): 50 крышек за повозку
+    - Караван (4+ повозки): договорная, спросите босса
+    - Силовая броня: 200 крышек (мы не будем вас останавливать, но отметим прохождение)
+    - Патруль Братства: бесплатно (мы не глупы)
+    - Патруль НКР: бесплатно (мы не глупы)
+    - Патруль Легиона: принесите их головы, мы заплатим 500 крышек за каждую
+    - Чёрные Соляные Псы: даже не сбавляйте скорость, просто бегите, мы разберёмся
+
+    МЫ ПРИНИМАЕМ: крышки, боеприпасы, неповреждённую еду, неповреждённые лекарства, рабочую технику.
+    МЫ НЕ ПРИНИМАЕМ: джет, хлам, душещипательные истории, угрозы.
+
+    Заплатите пошлину, получите штампованный пропуск, продолжайте движение. Не заплатите — не пройдёте. Всё просто.
+
+    Хорошего дня на дороге.
+
+    - Коллекционеры
 
 terminal-entry-doc-barter-title = ВЕНДОВЕРСКАЯ КЛИНИКА - БАРТЕРНЫЙ СПИСОК
-terminal-entry-doc-barter-content = 
-    WENDOVER COMMUNITY CLINIC
-    DR. WHELAN'S BARTER LIST
-    POSTED IN THE WAITING ROOM
-    
-    What I will accept in exchange for medical care, in order of preference:
-    
-    1. Caps. Always caps.
-    2. Working pre-war medicine. ANY pre-war medicine.
-    3. Clean bandages, gauze, surgical tools.
-    4. Stimpaks (I will give you change in services for these).
-    5. Books. Any books. I am running out of things to read.
-    6. Ammunition for my .38 (the police special I inherited from the original Doc Whelan).
-    7. Fresh food. Tato. Carrot. Mole rat meat (I have to draw the line somewhere, no radroach).
-    8. Clean water in jugs of any size.
-    9. Labor: I always need help around the clinic. Cleaning, carrying, organizing.
-    10. Caps. Did I mention caps.
-    
-    What I WILL NOT accept:
-    - Jet. I do not need it. I do not want it. I will not trade it forward to anyone else either.
-    - Slaves. Get out of my clinic.
-    - Anything you cannot prove you got honestly.
-    
-    PRICE LIST:
-    - Bandage and basic wound care: 5 caps
-    - Stitches: 15 caps
-    - Bullet removal: 50 caps (anesthesia included if I have any)
-    - Setting a broken bone: 25 caps
-    - Childbirth assistance: 30 caps + a meal
-    - Stimpak administration (you provide): 5 caps for the labor
-    - Examining a sick child: free, every time, do not even think about offering me caps
-    
-    I am the third Doc Whelan. The original was here right after the bombs. We pass the name down. As long as there is a Wendover there will be a Doc Whelan.
-    
-    - C. Whelan III
+terminal-entry-doc-barter-content =
+    ОБЩЕСТВЕННАЯ КЛИНИКА ВЕНДОВЕРА
+    БАРТЕРНЫЙ СПИСОК Д-РА УИЛАНА
+    РАЗМЕЩЁН В ЗАЛЕ ОЖИДАНИЯ
 
-terminal-entry-brahmin-herder-title = ЖУРНАЛ ПАСТА БРАМИНА
-terminal-entry-brahmin-herder-content = 
-    GRAZING LOG - SALT FLATS WEST
-    HERDER: A. CALABRESE (4TH GEN)
-    
-    Spring herd: 47 head (12 calves born this season)
-    Lost to coyotes: 3
-    Lost to raiders: 5
-    Lost to the salt drinking sickness: 2
-    Lost to old age: 1
-    
-    Net change: +1 head. Acceptable.
-    
-    The salt flats give us nothing to graze on but the strip along the old highway has some scrub and the brahmin will eat anything. We push them west to the dry creek in the morning, hold them at the rocks at midday, push them back to the pens at night. Routine. Boring. Boring is good. Boring means everyone is alive.
-    
-    Big Daisy gave birth to twins last week. Two heads on each calf, four heads total. They are healthy. The new herders always think this is strange. They forget that brahmin have been two-headed for as long as anyone can remember. The single-headed ones in the old picture books look wrong to my eyes now. Like a person with one ear.
-    
-    Tomorrow I am taking my daughter out with the herd for the first time. She is six. She has been begging me to come along. I will let her ride on Big Daisy's back. Big Daisy is the gentlest brahmin I have ever known. She does not mind a child.
-    
-    The Calabrese family ran the casino in this town two hundred years ago. Now we run brahmin. The world is funny.
-    
-    - Antonio Calabrese
+    Что я принимаю в обмен на медицинские услуги, в порядке предпочтения:
+
+    1. Крышки. Всегда крышки.
+    2. Рабочие довоенные медикаменты. ЛЮБЫЕ довоенные медикаменты.
+    3. Чистые бинты, марля, хирургические инструменты.
+    4. Стимпаки (дам сдачу услугами за них).
+    5. Книги. Любые книги. У меня заканчивается материал для чтения.
+    6. Боеприпасы для моего .38 (полицейский спецзаказ, который я унаследовал от оригинального Дока Уилана).
+    7. Свежая еда. Тато. Морковь. Мясо тушканчика (где-то нужно провести черту, без тараканов).
+    8. Чистая вода в кувшинах любого размера.
+    9. Труд: мне всегда нужна помощь по клинике. Уборка, переноска, организация.
+    10. Крышки. Я упоминал крышки?
+
+    Что я НЕ принимаю:
+    - Джет. Мне он не нужен. Я не хочу его. Я не буду передавать его дальше.
+    - Рабов. Вон из моей клиники.
+    - Всё, что вы не можете доказать, что получили честно.
+
+    ПРЕЙСКУРАНТ:
+    - Перевязка и базовый уход за раной: 5 крышек
+    - Швы: 15 крышек
+    - Извлечение пули: 50 крышек (анестезия прилагается, если есть)
+    - Вправление перелома: 25 крышек
+    - Помощь при родах: 30 крышек + еда
+    - Введение стимпака (вы предоставляете): 5 крышек за работу
+    - Осмотр больного ребёнка: бесплатно, каждый раз, даже не думайте предлагать мне крышки
+
+    Я третий Док Уилан. Оригинал был здесь сразу после бомб. Мы передаём имя по наследству. Пока есть Вендовер, будет и Док Уилан.
+
+    - К. Уилан III
+
+terminal-entry-brahmin-herder-title = ЖУРНАЛ ПАСТУХА БРАМИНОВ
+terminal-entry-brahmin-herder-content =
+    ЖУРНАЛ ВЫПАСА - ЗАПАДНЫЕ СОЛОНЧАКИ
+    ПАСТУХ: А. КАЛАБРЕЗЕ (4 ПОКОЛЕНИЕ)
+
+    Весеннее стадо: 47 голов (12 телят родилось в этом сезоне)
+    Потери койотам: 3
+    Потери рейдерам: 5
+    Потери от солёной водопойной болезни: 2
+    Потери от старости: 1
+
+    Чистое изменение: +1 голова. Приемлемо.
+
+    Солончаки не дают нам ничего для выпаса, но полоса вдоль старого шоссе имеет немного кустарника, и брамины едят всё. Мы выгоняем их на запад к сухому ручью утром, держим у скал в полдень, возвращаем в загоны вечером. Рутина. Скучно. Скучно — это хорошо. Скучно означает, что все живы.
+
+    Большая Дейзи родила двойню на прошлой неделе. По две головы на каждого телёнка, всего четыре головы. Они здоровы. Новые пастухи всегда думают, что это странно. Они забывают, что брамины были двуглавыми столько, сколько кто-либо помнит. Одноглавые из старых книжек с картинками теперь выглядят для меня неправильно. Как человек с одним ухом.
+
+    Завтра я впервые беру дочь со стадом. Ей шесть. Она упрашивала меня взять её. Я позволю ей ехать на спине Большой Дейзи. Большая Дейзи — самый нежный брамин, которого я знал. Она не против ребёнка.
+
+    Семья Калабрезе управляла казино в этом городе двести лет назад. Теперь мы пасём браминов. Мир забавный.
+
+    - Антонио Калабрезе
 
 terminal-entry-wandering-preacher-title = СТРАНСТВУЮЩИЙ ПРОПОВЕДНИК – КОНСУЛЬТАЦИЯ ПРОПОВЕДИ
-terminal-entry-wandering-preacher-content = 
-    SERMON NOTES - PREACHER UNKNOWN
-    TERMINAL FOUND IN ABANDONED CHAPEL ON ROUTE 93
-    
-    Brothers and sisters,
-    
-    I have walked from Reno. I have walked from Salt Lake. I have walked from places that do not have names anymore. My boots are worn through and my feet are bleeding and I have come to Wendover to tell you what I have seen.
-    
-    I have seen people pull each other out of collapsed buildings.
-    I have seen people share their last bread with strangers.
-    I have seen children laugh in the ruins of cities their parents will not speak about.
-    I have seen old men teach young men how to read.
-    I have seen old women teach young women how to plant.
-    I have seen mercy in places where there should not have been mercy.
-    I have seen love in places where there should not have been love.
-    
-    The world ended two centuries ago. The world is still here. Both of these things are true. The world ended and the world did not end. Whatever ended, it was not us. We are still us.
-    
-    I do not preach a god. I do not preach a heaven. I preach what I have seen with my own eyes: that human beings are still capable of being kind to each other in a world that does not require it. That is the only miracle I believe in. That is the only miracle I need.
-    
-    Be kind to each other. Be kind to strangers. Be kind to the wandering preacher with worn boots if he should come to your door. He is hungry and tired and he has good news to share.
-    
-    Amen.
+terminal-entry-wandering-preacher-content =
+    ЗАМЕТКИ К ПРОПОВЕДИ - НЕИЗВЕСТНЫЙ ПРОПОВЕДНИК
+    ТЕРМИНАЛ НАЙДЕН В ЗАБРОШЕННОЙ ЧАСОВНЕ НА ШОССЕ 93
 
-terminal-entry-slaver-ledger-title = Лагерь рабовладельцев – Леджер
-terminal-entry-slaver-ledger-content = 
-    TERMINAL RECOVERED FROM DESTROYED LEGION OUTPOST
-    CONTENT APPEARS TO BE A SLAVE LEDGER, PARTIALLY BURNED
-    LIBERATED BY: NCR SALT DOGS BATTALION
-    
-    { "" }[The original ledger has been preserved as evidence. Most names are lost to fire damage. The following are the entries that remained legible. They are reproduced here, against the wishes of those who would have me destroy the ledger entirely, because the dead have a right to be remembered by name.]
-    
-    Entry 47: M. Halloran, age unknown, taken at Wendover settlement border, refused to march, executed.
-    Entry 51: T. Pratchett, age 14, taken at Wendover, traded to a buyer at the salt depot for two bottles of brandy.
-    Entry 52: [name burned], age 8, child of Entry 51, separated from parent, fate unknown.
-    Entry 60: J. Calabrese, age 22, taken with herd, shot when she tried to free her brahmin.
-    Entry 71: Family of 4 (Yi, two children, mother), taken at Hwy 93 ambush, sold to Legion at Bonneville.
-    Entry 84: D. Whelan, age 31, son of the doctor at Wendover, taken in raid, traded back to settlement for 800 caps and a crate of stimpaks.
-    
-    { "" }[The ledger ends here. The remaining pages are ash.]
-    
-    NCR NOTE: This terminal is being preserved as evidence of Legion war crimes in the region. Anyone with information about the families of the named individuals is encouraged to contact Major Blackhawk at Bonneville Station. Some of these people have descendants. Some of these people may even still be alive. We will find them. We will bring them home.
-    
-    - DAGGER-02, NCR Salt Dogs
+    Братья и сёстры,
+
+    Я прошёл пешком от Рино. Я прошёл пешком от Солт-Лейка. Я прошёл пешком из мест, у которых больше нет названий. Мои ботинки изношены, мои ноги кровоточат, и я пришёл в Вендовер, чтобы рассказать вам, что я видел.
+
+    Я видел, как люди вытаскивали друг друга из рушащихся зданий.
+    Я видел, как люди делились последним хлебом с незнакомцами.
+    Я видел, как дети смеются в руинах городов, о которых их родители отказываются говорить.
+    Я видел, как старики учили молодых читать.
+    Я видел, как старухи учили молодых сажать.
+    Я видел милосердие в местах, где не должно было быть милосердия.
+    Я видел любовь в местах, где не должно было быть любви.
+
+    Мир кончился два столетия назад. Мир всё ещё здесь. Оба эти утверждения верны. Мир кончился, и мир не кончился. Что бы ни кончилось, это были не мы. Мы всё ещё мы.
+
+    Я проповедую не бога. Я проповедую не рай. Я проповедую то, что видел своими глазами: что люди всё ещё способны быть добрыми друг к другу в мире, который этого не требует. Это единственное чудо, в которое я верю. Это единственное чудо, которое мне нужно.
+
+    Будьте добры друг к другу. Будьте добры к незнакомцам. Будьте добры к странствующему проповеднику в изношенных ботинках, если он постучится в вашу дверь. Он голоден и устал, и у него есть хорошие новости, которыми он хочет поделиться.
+
+    Аминь.
+
+terminal-entry-slaver-ledger-title = ЛАГЕРЬ РАБОВЛАДЕЛЬЦЕВ – ЛЕДЖЕР
+terminal-entry-slaver-ledger-content =
+    ТЕРМИНАЛ, ИЗЪЯТЫЙ ИЗ УНИЧТОЖЕННОЙ ЗАСТАВЫ ЛЕГИОНА
+    СОДЕРЖИМОЕ, ПО-ВИДИМОМУ, КНИГА УЧЁТА РАБОВ, ЧАСТИЧНО СГОРЕВШАЯ
+    ОСВОБОЖДЕНА: БАТАЛЬОНОМ СОЛЯНЫХ СОБАК НКР
+
+    { "" }[Оригинал книги сохраняется как улика. Большинство имён утеряны из-за повреждения огнём. Ниже приведены записи, которые остались читаемыми. Они воспроизводятся здесь, вопреки желанию тех, кто хотел бы уничтожить эту книгу целиком, потому что мёртвые имеют право быть помянутыми поимённо.]
+
+    Запись 47: М. Хэллоран, возраст неизвестен, взят на границе поселения Вендовер, отказался маршировать, казнён.
+    Запись 51: Т. Прэтчетт, 14 лет, взят в Вендовере, продан покупателю на соляном складе за две бутылки бренди.
+    Запись 52: [имя сгорело], 8 лет, ребёнок Записи 51, отделён от родителя, судьба неизвестна.
+    Запись 60: Дж. Калабрезе, 22 года, взята со стадом, застрелена при попытке освободить своего брамина.
+    Запись 71: Семья из 4 (Йи, двое детей, мать), взяты в засаде на шоссе 93, проданы Легиону в Боннвилле.
+    Запись 84: Д. Уилан, 31 год, сын доктора в Вендовере, взят в рейде, выкуплен обратно поселением за 800 крышек и ящик стимпаков.
+
+    { "" }[Книга заканчивается. Остальные страницы — пепел.]
+
+    ПРИМЕЧАНИЕ НКР: Этот терминал сохраняется как доказательство военных преступлений Легиона в регионе. Любого, кто обладает информацией о семьях поименованных лиц, просят связаться с майором Блэкхоком на станции Боннвилль. У некоторых из этих людей есть потомки. Некоторые из этих людей могут даже быть всё ещё живы. Мы найдём их. Мы вернём их домой.
+
+    - DAGGER-02, Соляные Собаки НКР
 
 terminal-entry-bounty-board-title = ВЕНДОВЕРСКАЯ ДОСКА — ТЕРМИНАЛЬНЫЙ ПОСТ
-terminal-entry-bounty-board-content = 
-    WENDOVER SETTLEMENT - BOUNTY BOARD
-    POSTED BY THE COUNCIL
-    CURRENT AS OF LAST CARAVAN
-    
-    LIVE BOUNTIES:
-    - "Tank" of the Black Salt Dogs: 500 caps for the head, 1000 for him alive (the council has questions for him). Killed three of our wall guards last spring.
-    - The Confessor of the Children of Atom (current incarnation): 200 caps. Has been recruiting from our outlying farms. Please discourage.
-    - Whoever has been stealing from the Tato fields: 50 caps. We just want it to stop. We do not even need them killed. Just identified.
-    
-    DEAD BOUNTIES (claim if you have evidence):
-    - Marlo "Three Fingers" Pevich: 300 caps. Wanted for the murder of caravan guard Reyes (1 year ago). Last seen heading north.
-    - The deathclaw nest at the old quarry: 1000 caps for proof of clearance. Two attempts have failed. Attempt at your own risk.
-    
-    STANDING BOUNTIES:
-    - Functional pre-war medical equipment: top caps paid, see Doc Whelan
-    - Working terminals: 200-500 caps depending on condition, see the council
-    - Books: 5-50 caps depending on subject, see the council. We are particularly interested in agricultural manuals, medical texts, and engineering references.
-    - News from beyond the salt flats: pay varies. Honest news only. Liars will be expelled.
-    
-    Hunters and travelers welcome. Settle disputes outside the walls.
-    
-    - M. Pratchett, Council Chair
+terminal-entry-bounty-board-content =
+    ПОСЕЛЕНИЕ ВЕНДОВЕР - ДОСКА ОБЪЯВЛЕНИЙ
+    РАЗМЕЩЕНО СОВЕТОМ
+    АКТУАЛЬНО НА МОМЕНТ ПОСЛЕДНЕГО КАРАВАНА
 
-terminal-entry-merc-contract-title = КОНТРАКТ НАЕМНИКОВ – ПРОЕКТ
-terminal-entry-merc-contract-content = 
-    MERCENARY SERVICES CONTRACT
-    CONTRACTOR: J. JENNINGS, WENDOVER TRUCK STOP
-    CLIENT: BIG IRON LINE CARAVAN COMPANY
-    
-    SCOPE OF WORK:
-    Contractor will provide armed escort for one (1) Big Iron caravan from Wendover to the Elko city walls along the southern route. Estimated travel time: 14 days. Contractor's responsibilities include: perimeter security during travel, watch duty during night camps, defense against hostile forces, basic first aid for caravan personnel.
-    
-    PAYMENT:
-    - 200 caps on signing.
-    - 500 caps on safe arrival at Elko.
-    - 100 caps bonus per attacking force successfully driven off.
-    - Bonus payment in case of contractor death: 1000 caps to designated beneficiary (Mary Jennings, daughter, age 9, currently residing at the truck stop).
-    
-    CONTRACTOR PROVIDES: Own weapons, own ammunition (up to 200 rounds), own armor, own water, own bedroll.
-    CLIENT PROVIDES: Food during the trip, share of recovered loot from successful defense engagements, access to caravan medical supplies in case of injury.
-    
-    SPECIAL PROVISIONS:
-    - Contractor will not engage NCR or Brotherhood patrols under any circumstances. They are friendly. Treat them friendly.
-    - Contractor WILL engage Legion under all circumstances. They do not negotiate. We do not negotiate.
-    - In the event of contractor death, the Big Iron caravan master is to retrieve contractor's tags and any personal effects and deliver them to Mary Jennings within 30 days.
-    
-    Signed,
-    - J. Jennings
-    - B. Cantrell, Caravan Master, Big Iron Line
+    ДЕЙСТВУЮЩИЕ НАГРАДЫ:
+    - «Танк» из Чёрных Соляных Псов: 500 крышек за голову, 1000 за живого (у совета есть к нему вопросы). Убил троих наших стражников прошлой весной.
+    - Исповедник Детей Атома (текущее воплощение): 200 крышек. Вербует на наших отдалённых фермах. Пожалуйста, пресеките.
+    - Тот, кто ворует с полей тато: 50 крышек. Мы просто хотим, чтобы это прекратилось. Нам даже не нужно, чтобы его убили. Просто опознали.
+
+    ВЫПОЛНЕННЫЕ НАГРАДЫ (предъявите доказательства):
+    - Марло «Три Пальца» Певич: 300 крышек. Разыскивается за убийство охранника каравана Рейеса (1 год назад). Последний раз видели направляющимся на север.
+    - Гнездо смертокогтей в старом карьере: 1000 крышек за подтверждение зачистки. Две попытки провалились. На свой страх и риск.
+
+    ПОСТОЯННЫЕ НАГРАДЫ:
+    - Функциональное довоенное медицинское оборудование: высокая цена крышками, обратитесь к Доку Уилану
+    - Рабочие терминалы: 200-500 крышек в зависимости от состояния, обратитесь в совет
+    - Книги: 5-50 крышек в зависимости от темы, обратитесь в совет. Нас особенно интересуют сельскохозяйственные руководства, медицинские тексты и инженерные справочники.
+    - Новости из-за пределов солончаков: оплата варьируется. Только честные новости. Лжецы будут изгнаны.
+
+    Охотники и путешественники приветствуются. Решайте споры за стенами.
+
+    - М. Прэтчетт, Председатель Совета
+
+terminal-entry-merc-contract-title = КОНТРАКТ НАЁМНИКОВ – ПРОЕКТ
+terminal-entry-merc-contract-content =
+    КОНТРАКТ НА ОКАЗАНИЕ НАЁМНЫХ УСЛУГ
+    ПОДРЯДЧИК: ДЖ. ДЖЕННИНГС, ГРУЗОВАЯ СТАНЦИЯ ВЕНДОВЕРА
+    КЛИЕНТ: КАРАВАННАЯ КОМПАНИЯ БОЛЬШАЯ ЖЕЛЕЗНАЯ ЛИНИЯ
+
+    ОБЪЁМ РАБОТ:
+    Подрядчик предоставит вооружённое сопровождение для одного (1) каравана Большой Железной Линии из Вендовера до стен города Элко по южному маршруту. Предполагаемое время в пути: 14 дней. Обязанности подрядчика включают: охрану периметра во время путешествия, дежурство в ночных лагерях, оборону от враждебных сил, базовую первую помощь для персонала каравана.
+
+    ОПЛАТА:
+    - 200 крышек при подписании.
+    - 500 крышек при безопасном прибытии в Элко.
+    - 100 крышек бонуса за каждую успешно отбитую атакующую силу.
+    - Выплата в случае смерти подрядчика: 1000 крышек назначенному бенефициару (Мэри Дженнингс, дочь, 9 лет, в настоящее время проживает на грузовой станции).
+
+    ПОДРЯДЧИК ПРЕДОСТАВЛЯЕТ: Своё оружие, свои боеприпасы (до 200 патронов), свою броню, свою воду, свою постель.
+    КЛИЕНТ ПРЕДОСТАВЛЯЕТ: Еду во время поездки, долю от восстановленной добычи в случае успешных оборонительных действий, доступ к медицинским запасам каравана в случае ранения.
+
+    ОСОБЫЕ УСЛОВИЯ:
+    - Подрядчик не будет вступать в бой с патрулями НКР или Братства ни при каких обстоятельствах. Они дружественны. Относитесь дружественно.
+    - Подрядчик ОБЯЗАН вступать в бой с Легионом при всех обстоятельствах. Они не ведут переговоры. Мы не ведём переговоры.
+    - В случае смерти подрядчика хозяин каравана Большой Железной Линии должен изъять жетоны подрядчика и любые личные вещи и доставить их Мэри Дженнингс в течение 30 дней.
+
+    Подписано:
+    - Дж. Дженнингс
+    - Б. Кантрелл, Хозяин каравана, Большая Железная Линия
 
 # =============================================================================
 # LATE POST-WAR / RECENT
 # =============================================================================
 
 terminal-entry-brotherhood-scribe-title = БРАТСТВО СТАЛИ – ПОЛЕВЫЕ ЗАМЕТКИ
-terminal-entry-brotherhood-scribe-content = 
-    BROTHERHOOD OF STEEL - 509TH CHAPTER
-    FIELD NOTES - SCRIBE T. ALLAWAY
-    LOCATION: WENDOVER OUTSKIRTS
-    
-    Day 1 of expedition. Departed Kearny Station on Elder Plum's authority. Mission: catalogue pre-war tech remaining in the Wendover ruins, with priority focus on the airfield and any subterranean military facilities.
-    
-    Day 4: Reached Wendover settlement. Made contact with the council. They are guarded but not hostile. They have heard of the Brotherhood. Rumor travels. Their leader (a woman named Pratchett, fifth or sixth generation by my count) traded news for medical supplies.
-    
-    Day 6: First inspection of the airfield. The main hangar complex is intact but the radiation levels around Hangar 4 are still lethal even after two centuries. Whatever was in that building was not conventional ordnance. The Senior Scribes back at Kearny will want this datum.
-    
-    Day 9: Located what appears to be the entrance to the underground complex. The blast doors are intact. They are sealed from the inside. We could not gain entry without explosives, which I was not authorized to use. I have noted the coordinates for the next expedition.
-    
-    Day 11: The settlement showed me an old terminal in their council hall. The original Pratchett wrote on it during the first decade post war. His words are preserved exactly as he typed them. Reading them was like hearing the voice of a man who has been dead for a hundred and fifty years.
-    
-    Day 14: Returning to Kearny Station. My report will recommend a follow up expedition with engineering support. There is much more here to find.
-    
+terminal-entry-brotherhood-scribe-content =
+    БРАТСТВО СТАЛИ - 509-Й ГЛАВ
+    ПОЛЕВЫЕ ЗАМЕТКИ - ПИСЕЦ Т. АЛЛЭУЭЙ
+    МЕСТО: ОКРЕСТНОСТИ ВЕНДОВЕРА
+
+    День 1 экспедиции. Отбыл со станции Кирни по разрешению Старейшины Плам. Миссия: каталогизировать довоенную технику, оставшуюся в руинах Вендовера, с приоритетным вниманием к аэродрому и любым подземным военным объектам.
+
+    День 4: Достигли поселения Вендовер. Установили контакт с советом. Они насторожены, но не враждебны. Они слышали о Братстве. Слухи распространяются. Их лидер (женщина по фамилии Прэтчетт, пятое или шестое поколение, по моим подсчётам) обменяла новости на медикаменты.
+
+    День 6: Первый осмотр аэродрома. Основной ангарный комплекс цел, но уровень радиации вокруг Ангара 4 всё ещё смертелен даже через два столетия. Что бы ни было в том здании, это не обычные боеприпасы. Старшие Писцы в Кирни захотят получить эти данные.
+
+    День 9: Обнаружил то, что кажется входом в подземный комплекс. Гермодвери целы. Они запечатаны изнутри. Мы не смогли проникнуть без взрывчатки, на применение которой я не был уполномочен. Я записал координаты для следующей экспедиции.
+
+    День 11: Поселение показало мне старый терминал в своём зале совета. Оригинальный Прэтчетт писал на нём в первое десятилетие после войны. Его слова сохранились точно так, как он их напечатал. Читать их было всё равно что слышать голос человека, мёртвого уже сто пятьдесят лет.
+
+    День 14: Возвращаюсь на станцию Кирни. Мой отчёт будет рекомендовать повторную экспедицию с инженерной поддержкой. Здесь ещё многое предстоит найти.
+
     Ad Victoriam.
-    
-    - Scribe T. Allaway
+
+    - Писец Т. Аллэуэй
 
 terminal-entry-ncr-patrol-title = ОТЧЕТ ПАТРУЛЯ НКР — БАТАЛЬОН СОЛЯНЫХ СОБАК
-terminal-entry-ncr-patrol-content = 
-    NEW CALIFORNIA REPUBLIC ARMY
-    SALT DOGS BATTALION - PATROL REPORT
-    ORIGIN: BONNEVILLE STATION
-    ROUTE: BONNEVILLE TO WENDOVER, RECONNAISSANCE
-    
-    PATROL LEADER: Sgt. M. Chen
-    PATROL SIZE: 6 (5 troopers, 1 medic)
-    DURATION: 3 days
-    
-    DAY 1: Departed Bonneville at 0600. Crossed the salt strip without incident. Encountered one civilian trader near the abandoned weather station who reported recent Black Salt Dogs activity to the north. Informed her of our route and offered her travel under our protection. She declined.
-    
-    DAY 2: Reached Wendover settlement at 1430. Introduced ourselves to the council per Major Blackhawk's standing protocol. The council was cordial. They accepted our offer of news from the west and provided us with information on local raider movements in exchange. They politely declined our offer of "patrol support" within the settlement walls. They are clear that they value their independence. Major Blackhawk has authorized me to respect this.
-    
-    DAY 3: Departing Wendover. We left them with a small gift of medical supplies (authorized by Maj. Blackhawk) and a copy of the NCR civilian relations handbook. Sgt. Pratchett (no apparent relation to the early settlement leader) said she would read it and laughed at us in a way that I think was friendly.
-    
-    Returning to Bonneville. No casualties. No major engagements. Wendover continues to stand on its own and the NCR continues to respect that.
-    
-    - Sgt. M. Chen
+terminal-entry-ncr-patrol-content =
+    АРМИЯ НОВОЙ КАЛИФОРНИЙСКОЙ РЕСПУБЛИКИ
+    БАТАЛЬОН СОЛЯНЫХ СОБАК - ПАТРУЛЬНЫЙ ОТЧЁТ
+    ИСХОДНЫЙ ПУНКТ: СТАНЦИЯ БОННВИЛЛЬ
+    МАРШРУТ: БОННВИЛЛЬ - ВЕНДОВЕР, РАЗВЕДКА
+
+    КОМАНДИР ПАТРУЛЯ: Сержант М. Чен
+    СОСТАВ ПАТРУЛЯ: 6 (5 солдат, 1 медик)
+    ПРОДОЛЖИТЕЛЬНОСТЬ: 3 дня
+
+    ДЕНЬ 1: Отбыли из Боннвилля в 06:00. Пересекли соляную полосу без происшествий. Встретили одного гражданского торговца возле заброшенной метеостанции, который сообщил о недавней активности Чёрных Соляных Псов к северу. Сообщили ей о нашем маршруте и предложили путешествовать под нашей защитой. Она отказалась.
+
+    ДЕНЬ 2: Прибыли в поселение Вендовер в 14:30. Представились совету в соответствии с постоянным протоколом майора Блэкхока. Совет был любезен. Они приняли наше предложение новостей с запада и предоставили нам информацию о передвижениях местных рейдеров в обмен. Они вежливо отклонили наше предложение «патрульной поддержки» в пределах стен поселения. Они ясно дали понять, что дорожат своей независимостью. Майор Блэкхок уполномочил меня уважать это.
+
+    ДЕНЬ 3: Отбываем из Вендовера. Мы оставили им небольшой подарок медикаментов (разрешено майором Блэкхоком) и копию руководства НКР по гражданским отношениям. Сержант Прэтчетт (не имеет явного отношения к раннему лидеру поселения) сказала, что прочитает его, и засмеялась над нами таким образом, который, я думаю, был дружеским.
+
+    Возвращаемся в Боннвилль. Без потерь. Без крупных столкновений. Вендовер продолжает стоять самостоятельно, и НКР продолжает это уважать.
+
+    - Сержант М. Чен
 
 terminal-entry-legion-scout-title = РАЗВЕДЧИК ЛЕГИОНА - ЖУРНАЛ
-terminal-entry-legion-scout-content = 
-    TERMINAL RECOVERED FROM CAESAR'S LEGION SCOUT CAMP
-    CONTENT: PERSONAL JOURNAL, IN LATIN AND ENGLISH
-    TRANSLATED BY NCR INTELLIGENCE
-    
-    To Legate Verus Caldius, of the Legio Vera, by the hand of his loyal scout:
-    
-    My Legate,
-    
-    I have walked the salt of Wendover for fourteen days. I have observed the settlement, the airfield, the route taken by the Brotherhood patrol, the route taken by the NCR patrol, the route taken by the trade caravans. I have written all of this down for your eyes only.
-    
-    The settlement is small but well defended. Walls of stacked vehicles and salvaged metal. Approximately three hundred residents. Two functional gun towers. They have water, food, medicine. They will not be easy to take.
-    
-    The NCR maintains a small presence at Bonneville Station, two days east. They patrol regularly but do not attempt to incorporate Wendover into their republic. The settlement is friendly with them but independent.
-    
-    The Brotherhood maintains a chapter at Kearny Station, days north. They have visited Wendover for technical reconnaissance only. They are not interested in occupation.
-    
-    The people of Wendover are descendants of survivors. They have a strong sense of their own history. They will not easily submit to anyone.
-    
-    Recommendation to my Legate: Do not invade Wendover. There is nothing here worth the cost. The salt, the brahmin, the people - they are what they are because the place made them that way. They cannot be carried away in chains.
-    
-    I will return to your camp within ten days. Hail Caesar. Hail Legio Vera. Hail the true Legion.
-    
-    - Scout Atticus, of the Legio Vera
+terminal-entry-legion-scout-content =
+    ТЕРМИНАЛ, ИЗЪЯТЫЙ ИЗ РАЗВЕДЫВАТЕЛЬНОГО ЛАГЕРЯ ЛЕГИОНА ЦЕЗАРЯ
+    СОДЕРЖИМОЕ: ЛИЧНЫЙ ЖУРНАЛ, НА ЛАТИНИ И АНГЛИЙСКОМ
+    ПЕРЕВЕДЕНО РАЗВЕДКОЙ НКР
 
-terminal-entry-vault14-modern-title = Убежище 14 – ЖИЛОЙ ТЕРМИНАЛ, ТЕКУЩИЙ
-terminal-entry-vault14-modern-content = 
-    VAULT 14 - LIVING QUARTERS TERMINAL
-    RESIDENT: M. CALLOWAY (12TH GENERATION)
-    VAULT YEAR: 220
-    
-    Personal log.
-    
-    The door has been open for sixteen years now. Most of us have been outside at least once. Some of us live above ground full time, in houses we have built near the entrance. Some of us have never left the Vault and never will.
-    
-    My great great grandmother was the Overseer who finally opened the door. She said it was time. She said the vault had become a tomb wearing the costume of a home, and that her conscience would not let her keep her people in a tomb any longer.
-    
-    There was a price for it. Section 14-E was discovered by the population. The records were finally released. People learned what their ancestors had been part of, what the experiment had been measuring, what had been done to them and to their grandparents and to their great grandparents without their knowledge or consent.
-    
-    Some left immediately. Some refused to believe and stayed. Some, like my mother, stayed because they had been born here and they did not know how to live anywhere else.
-    
-    I am twenty four years old. I have been outside thirteen times. I have walked to the Wendover settlement and traded with them. I have seen the Wendover Will sign waving at me from across the salt. The settlers say he has been waving for two hundred years and counting.
-    
-    Tomorrow I am going outside again. I am going to stay this time. I have decided. The Vault has been my home but the world is bigger than the Vault and I want to know it.
-    
-    My mother cried when I told her. She said she understood. She said her great great grandmother would have been proud of me.
-    
-    I am leaving this terminal for the next person who lives in this room. Welcome. Be kind to it. The vault is older than you. So is everything in it.
-    
-    - M. Calloway
+    Легату Верусу Калдиусу, из Легио Вера, рукой его верного разведчика:
 
-terminal-entry-holotape-recovery-title = ЖУРНАЛ ВОССТАНОВЛЕНИЯ ГОЛОКЛАССЫ
-terminal-entry-holotape-recovery-content = 
-    ARCHIVAL TERMINAL - WENDOVER SETTLEMENT COUNCIL HALL
-    HOLOTAPE RECOVERY AND PRESERVATION PROGRAM
-    CURATOR: T. WHELAN
-    
-    Recovered holotapes catalogued this season:
-    
-    H-2077-001: Family vacation footage, the Yi family, summer 2076. Children playing on the salt flats. Mother filming. Voice on the tape says "this is our last summer here, Robert is being transferred." We do not know where Robert was being transferred to or whether the family ever made it. The children are laughing in the recording.
-    
-    H-2077-014: Audio diary of Lt. Commander Halloran, USN, retired. Stationed at Wendover for atmospheric research in 2074. Eight hours of him describing weather patterns, drinking habits, opinions on the local diner. Eventually devolves into him singing folk songs alone in his quarters. He had a beautiful voice.
-    
-    H-2077-022: Recording of a child's birthday party. A girl named Tracy, age 7. Her mother sings happy birthday and a chorus of unknown adults joins in. Tracy makes a wish before blowing out the candles. We will never know what she wished for.
-    
-    H-2077-031: A man's voice, no introduction, no context. He recites the entire Declaration of Independence from memory. He gets a few words wrong. At the end he says "I just wanted to remember it. I wanted somebody to remember it. If you are listening to this, please remember it too."
-    
-    Each tape is a window. We listen to them in the council hall on quiet evenings. The settlers crowd in to hear the voices of people who have been dust for two hundred years. We are their memory now. It is a privilege.
-    
-    - T. Whelan, Archivist
+    Мой Легат,
 
-terminal-entry-relic-hunter-title = ОХОТНИК ЗА РЕЛИКЦИЯМИ - ЛИЧНЫЙ ЖУРНАЛ
-terminal-entry-relic-hunter-content = 
-    PERSONAL TERMINAL - INDEPENDENT SCAVENGER
-    NAME: K. ANDREWS
-    CURRENT BASE: ABANDONED MOTEL, ROUTE 93
-    
-    Day 80 of working the Wendover area solo. Made enough caps to last me through winter and then some.
-    
-    Best finds this season:
-    - Pristine pre-war copy of "Grognak the Barbarian" issue 14. Sold to a collector in Elko for 400 caps.
-    - Working RobCo terminal display, salvaged from the old library. Sold to the Wendover council for 250 caps. They wanted it for their archive.
-    - Sealed bottle of Nuka-Cola Quantum, found behind a vending machine in the casino. Still glowing. Auctioning it through the Big Iron caravan, expect 800-1000 caps.
-    - A wedding ring, gold, inscribed "Roger and Eleanor 1962." Returned to the Wendover council without payment. They put it in their settlement museum next to the rosebush. Felt like the right thing to do.
-    
-    Worst finds this season:
-    - The basement of the old motel. I will not say what I found. I will say I do not go down there at night. I will not say what waits for whoever does.
-    - A child's diary in a collapsed house. Could not bring myself to sell it. Buried it in the garden of the same house.
-    - The bones in the casino vault. The vault was finally cracked open last year by another scavenger. Inside were fourteen skeletons, sitting around the table where the high stakes baccarat used to happen, holding cards. I do not know how to explain it. I do not want to know.
-    
-    Going to spend the winter at the Wendover settlement. They charge for the room but it is safer than the road and the doc is the best in the territory.
-    
-    - K. Andrews
+    Я ходил по соли Вендовера четырнадцать дней. Я наблюдал за поселением, аэродромом, маршрутом патруля Братства, маршрутом патруля НКР, маршрутом торговых караванов. Я записал всё это только для ваших глаз.
 
-terminal-entry-robot-encounter-title = ОТЧЕТ О МУСОРНИКЕ – ВСТРЕЧА С РОБОТОМ
-terminal-entry-robot-encounter-content = 
-    REPORT FILED WITH WENDOVER COUNCIL
-    SUBJECT: ENCOUNTER WITH FUNCTIONAL PRE-WAR ROBOT
-    FILED BY: J. RAMIREZ
-    
-    Council members,
-    
-    I am filing this report because I think you need to know.
-    
-    Yesterday I was scavenging in the old AFB outer perimeter. Northeast of the main runway, near where the old weather station used to be. I came around a stand of dead trees and there was a robot. A real one. Pre-war military model. About eight feet tall, treads, dual mounted weapons, the works.
-    
-    It saw me before I saw it. It tracked me with its optics. I froze. I did not breathe.
-    
-    Then it spoke. In English. In a voice that sounded almost human. It said: "IDENTIFY YOURSELF, CIVILIAN."
-    
-    I told it my name. I told it I was a scavenger from Wendover settlement. I expected to be vaporized.
-    
-    It did not vaporize me. It said: "WENDOVER SETTLEMENT ACKNOWLEDGED. NON-HOSTILE STATUS CONFIRMED. RESUME SCAVENGING. AVOID GRID SECTORS A-7 THROUGH A-12. RADIATION EXCEEDS PARAMETERS FOR ORGANIC LIFE."
-    
-    Then it just stood there. I backed away slowly. It watched me go.
-    
-    Council, this thing has been at its post since before any of us were born. Two hundred and twenty years. It is still doing its job. It still considers itself the security of an air base that has not existed for two centuries. It told me to be careful where I walked. It was looking out for me.
-    
-    I do not know what to do with this information. I am telling you because you should know there are still old things out there that have not forgotten what they were for.
-    
-    I left it some salt at the edge of its patrol area on my way home. I do not know if a robot can use salt. It seemed like the right gesture.
-    
-    - J. Ramirez
+    Поселение маленькое, но хорошо защищённое. Стены из составленных машин и спасённого металла. Примерно триста жителей. Две функциональные орудийные башни. У них есть вода, еда, медицина. Взять их будет нелегко.
 
-terminal-entry-enclave-intercept-title = ПЕРЕХВАЧЕННАЯ РАДИОВЕЩАНИЕ – ЧАСТОТА ВЕНДОВЕРА
-terminal-entry-enclave-intercept-content = 
-    NCR INTELLIGENCE - INTERCEPTED RADIO BROADCAST
-    SOURCE: UNKNOWN, ORIGIN TRIANGULATED TO BENEATH WENDOVER AIRFIELD
-    FREQUENCY: ENCRYPTED MILITARY BAND
-    
-    { "" }[STATIC]
-    
-    "...calling Eden Control. Calling Eden Control. This is Wendover Subcomplex Five. Status update follows.
-    
-    All systems remain nominal. Asset SCEPTER remains contained. Primary reactor at 84% efficiency, sufficient for indefinite operation at current consumption levels. Personnel count: seven. Personnel status: nominal.
-    
-    No external contact attempts in 47 years. The settlement above has expanded to the south but remains unaware of our presence. Brotherhood activity in the region has increased. NCR patrols routine. We continue to monitor.
-    
-    Awaiting orders. Awaiting orders. Awaiting orders.
-    
-    Wendover Subcomplex Five, signing off."
-    
-    { "" }[STATIC]
-    
-    { "" }[bold]NCR INTELLIGENCE NOTE[/bold]: This broadcast has been received intermittently over the past three years on the same encrypted frequency. We have been unable to trace the source physically but triangulation suggests an underground location near or beneath the old Wendover Air Force Base. There has never been a response to the broadcast from any source we can detect. Whoever or whatever is sending these messages, they have been doing it for a long time, and nobody is answering.
-    
-    Recommendation: Do not engage. Do not investigate. Continue passive monitoring.
-    
-    - Major K. Blackhawk, NCR Intelligence
+    НКР содержит небольшое присутствие на станции Боннвилль, в двух днях к востоку. Они патрулируют регулярно, но не пытаются включить Вендовер в свою республику. Поселение дружественно к ним, но независимо.
+
+    Братство содержит отделение на станции Кирни, в днях пути к северу. Они посещали Вендовер только для технической разведки. Оккупация их не интересует.
+
+    Люди Вендовера — потомки выживших. У них сильное чувство собственной истории. Они нелегко подчинятся кому-либо.
+
+    Рекомендация моему Легату: Не вторгайтесь в Вендовер. Здесь нет ничего, стоящего затрат. Соль, брамины, люди — они таковы, потому что место сделало их такими. Их нельзя унести в цепях.
+
+    Я вернусь в ваш лагерь в течение десяти дней. Слава Цезарю. Слава Легио Вера. Слава истинному Легиону.
+
+    - Разведчик Аттикус, из Легио Вера
+
+terminal-entry-vault14-modern-title = УБЕЖИЩЕ 14 – ЖИЛОЙ ТЕРМИНАЛ, ТЕКУЩИЙ
+terminal-entry-vault14-modern-content =
+    УБЕЖИЩЕ 14 - ЖИЛОЙ ТЕРМИНАЛ
+    ЖИТЕЛЬ: М. КЭЛЛОУЭЙ (12-Е ПОКОЛЕНИЕ)
+    ГОД УБЕЖИЩА: 220
+
+    Личный журнал.
+
+    Дверь открыта уже шестнадцать лет. Большинство из нас выходили наружу хотя бы раз. Некоторые из нас живут на поверхности полный день, в домах, которые мы построили у входа. Некоторые никогда не покидали Убежище и никогда не покинут.
+
+    Моя прапрабабушка была Смотрительницей, которая наконец открыла дверь. Она сказала, что пришло время. Она сказала, что Убежище стало гробницей, носящей костюм дома, и что её совесть не позволит ей держать своих людей в гробнице дольше.
+
+    За это была цена. Секция 14-E была обнаружена населением. Записи наконец были обнародованы. Люди узнали, частью чего были их предки, что измерял эксперимент, что было сделано с ними, их бабушками и дедушками и прабабушками без их ведома или согласия.
+
+    Некоторые ушли немедленно. Некоторые отказались верить и остались. Некоторые, как моя мать, остались, потому что родились здесь и не знали, как жить где-либо ещё.
+
+    Мне двадцать четыре года. Я выходил наружу тринадцать раз. Я ходил в поселение Вендовер и торговал с ними. Я видел вывеску Wendover Will, машущую мне через соль. Поселенцы говорят, что он машет уже двести лет и продолжает.
+
+    Завтра я снова выхожу наружу. На этот раз я останусь. Я решил. Убежище было моим домом, но мир больше Убежища, и я хочу его узнать.
+
+    Моя мать плакала, когда я сказал ей. Она сказала, что понимает. Она сказала, что её прапрабабушка гордилась бы мной.
+
+    Я оставляю этот терминал следующему человеку, который будет жить в этой комнате. Добро пожаловать. Относись к нему бережно. Убежище старше тебя. Как и всё в нём.
+
+    - М. Кэллоуэй
+
+terminal-entry-holotape-recovery-title = ЖУРНАЛ ВОССТАНОВЛЕНИЯ ГОЛОЛЕНТЫ
+terminal-entry-holotape-recovery-content =
+    АРХИВНЫЙ ТЕРМИНАЛ - ЗАЛ СОВЕТА ПОСЕЛЕНИЯ ВЕНДОВЕР
+    ПРОГРАММА ВОССТАНОВЛЕНИЯ И СОХРАНЕНИЯ ГОЛОЛЕНТ
+    КУРАТОР: Т. УИЛАН
+
+    Восстановленные гололенты, каталогизированные в этом сезоне:
+
+    H-2077-001: Семейный отпускной фильм, семья Йи, лето 2076. Дети играют на солончаках. Мать снимает. Голос на ленте говорит: «это наше последнее лето здесь, Роберта переводят». Мы не знаем, куда переводили Роберта и добралась ли семья. Дети смеются на записи.
+
+    H-2077-014: Аудиодневник лейтенант-коммандера Хэллорана, ВМС США, в отставке. Находился в Вендовере для атмосферных исследований в 2074 году. Восемь часов его описаний погодных условий, привычек выпивки, мнений о местной закусочной. В конце концов переходит в пение народных песен в одиночестве в своей каюте. У него был красивый голос.
+
+    H-2077-022: Запись детского дня рождения. Девочка по имени Трейси, 7 лет. Её мать поёт «с днём рождения», и хор неизвестных взрослых присоединяется. Трейси загадывает желание перед тем, как задуть свечи. Мы никогда не узнаем, что она загадала.
+
+    H-2077-031: Голос мужчины, без представления, без контекста. Он цитирует всю Декларацию независимости по памяти. Он делает несколько ошибок. В конце он говорит: «я просто хотел запомнить это. Я хотел, чтобы кто-то это запомнил. Если ты слушаешь это, пожалуйста, тоже запомни это.»
+
+    Каждая лента — это окно. Мы слушаем их в зале совета тихими вечерами. Поселенцы собираются, чтобы услышать голоса людей, которые были прахом двести лет. Теперь мы их память. Это привилегия.
+
+    - Т. Уилан, Архивариус
+
+terminal-entry-relic-hunter-title = ОХОТНИК ЗА РЕЛИКВИЯМИ - ЛИЧНЫЙ ЖУРНАЛ
+terminal-entry-relic-hunter-content =
+    ЛИЧНЫЙ ТЕРМИНАЛ - НЕЗАВИСИМЫЙ МУСОРЩИК
+    ИМЯ: К. ЭНДРЮС
+    ТЕКУЩАЯ БАЗА: ЗАБРОШЕННЫЙ МОТЕЛЬ, ШОССЕ 93
+
+    День 80 работы в районе Вендовера в одиночку. Заработал достаточно крышек, чтобы продержаться всю зиму и ещё останется.
+
+    Лучшие находки в этом сезоне:
+    - Довоенная копия «Грогнака-Варвара» выпуск 14 в отличном состоянии. Продана коллекционеру в Элко за 400 крышек.
+    - Рабочий дисплей терминала RobCo, спасённый из старой библиотеки. Продан совету Вендовера за 250 крышек. Он был нужен для их архива.
+    - Запечатанная бутылка Nuka-Cola Quantum, найденная за торговым автоматом в казино. Всё ещё светится. Идёт на аукцион через караван Большой Железной Линии, ожидаю 800-1000 крышек.
+    - Обручальное кольцо, золотое, с гравировкой «Роджер и Элеанор 1962». Возвращено совету Вендовера без оплаты. Они поместили его в музей поселения рядом с розовым кустом. Чувствовалось, что это правильно.
+
+    Худшие находки в этом сезоне:
+    - Подвал старого мотеля. Я не скажу, что нашёл. Я скажу, что не спускаюсь туда ночью. Я не скажу, что ждёт того, кто спустится.
+    - Детский дневник в разрушенном доме. Не смог заставить себя продать его. Закопал в саду того же дома.
+    - Кости в хранилище казино. Хранилище наконец взломали в прошлом году другие мусорщики. Внутри были четырнадцать скелетов, сидящих вокруг стола, где раньше играли в баккара, держа карты. Я не знаю, как это объяснить. Я не хочу знать.
+
+    Собираюсь провести зиму в поселении Вендовер. Они берут плату за комнату, но это безопаснее, чем дорога, и док — лучший в этой местности.
+
+    - К. Эндрюс
+
+terminal-entry-robot-encounter-title = ОТЧЕТ О МУСОРЩИКЕ – ВСТРЕЧА С РОБОТОМ
+terminal-entry-robot-encounter-content =
+    ОТЧЁТ, ПОДАННЫЙ В СОВЕТ ВЕНДОВЕРА
+    ТЕМА: СТОЛКНОВЕНИЕ С ФУНКЦИОНИРУЮЩИМ ДОВОЕННЫМ РОБОТОМ
+    ПОДАН: Дж. РАМИРЕС
+
+    Члены совета,
+
+    Я подаю этот отчёт, потому что думаю, вы должны знать.
+
+    Вчера я мародёрствовал на внешнем периметре старой авиабазы. К северо-востоку от главной взлётной полосы, недалеко от того места, где раньше была метеостанция. Я обогнул ряд мёртвых деревьев и увидел робота. Настоящего. Довоенная военная модель. Примерно восемь футов ростом, на гусеницах, сдвоенное вооружение, полный комплект.
+
+    Он заметил меня раньше, чем я его. Он отслеживал меня оптикой. Я замер. Я не дышал.
+
+    Затем он заговорил. На английском. Голосом, который звучал почти человеческим. Он сказал: «ПРЕДСТАВЬТЕСЬ, ГРАЖДАНСКИЙ.»
+
+    Я назвал своё имя. Я сказал, что я мусорщик из поселения Вендовер. Я ожидал, что меня испарят.
+
+    Он меня не испарил. Он сказал: «ПОСЕЛЕНИЕ ВЕНДОВЕР ПРИНЯТО. СТАТУС НЕВРАЖДЕБНЫЙ ПОДТВЕРЖДЁН. ПРОДОЛЖАЙТЕ МАРОДЁРСТВО. ИЗБЕГАЙТЕ СЕКТОРОВ СЕТКИ A-7... A-12. РАДИАЦИЯ ПРЕВЫШАЕТ ПАРАМЕТРЫ ДЛЯ ОРГАНИЧЕСКОЙ ЖИЗНИ.»
+
+    Затем он просто стоял. Я медленно попятился. Он смотрел, как я ухожу.
+
+    Совет, эта штука стоит на своём посту с тех пор, как никто из нас не родился. Двести двадцать лет. Она всё ещё выполняет свою работу. Она всё ещё считает себя охраной авиабазы, которой не существует уже два столетия. Она сказала мне быть осторожным, где ходить. Она заботилась обо мне.
+
+    Я не знаю, что делать с этой информацией. Я говорю вам, потому что вы должны знать: там всё ещё есть старые вещи, которые не забыли, для чего они были созданы.
+
+    Я оставил немного соли на краю его патрульной зоны по пути домой. Я не знаю, может ли робот использовать соль. Это показалось правильным жестом.
+
+    - Дж. Рамирес
+
+terminal-entry-enclave-intercept-title = ПЕРЕХВАЧЕННАЯ РАДИОПЕРЕДАЧА – ЧАСТОТА ВЕНДОВЕРА
+terminal-entry-enclave-intercept-content =
+    РАЗВЕДКА НКР - ПЕРЕХВАЧЕННАЯ РАДИОПЕРЕДАЧА
+    ИСТОЧНИК: НЕИЗВЕСТЕН, ПРОИСХОЖДЕНИЕ ТРИАНГУЛИРОВАНО ПОД АВИАБАЗОЙ ВЕНДОВЕР
+    ЧАСТОТА: ЗАШИФРОВАННЫЙ ВОЕННЫЙ ДИАПАЗОН
+
+    { "" }[ПОМЕХИ]
+
+    «...вызываю Эден-Контроль. Вызываю Эден-Контроль. Это Подкомплекс Вендовера Пять. Обновление статуса.
+
+    Все системы остаются номинальными. Актив СКИПЕТР остаётся изолированным. Основной реактор на 84% эффективности, достаточно для неопределённо долгой работы при текущих уровнях потребления. Количество персонала: семь. Статус персонала: номинальный.
+
+    Попыток внешнего контакта не было 47 лет. Поселение наверху расширилось на юг, но остаётся в неведении о нашем присутствии. Активность Братства в регионе возросла. Патрули НКР рутинны. Мы продолжаем наблюдение.
+
+    Ожидаем приказов. Ожидаем приказов. Ожидаем приказов.
+
+    Подкомплекс Вендовера Пять, завершаю связь.»
+
+    { "" }[ПОМЕХИ]
+
+    { "" }[bold]ПРИМЕЧАНИЕ РАЗВЕДКИ НКР[/bold]: Эта передача принималась с перебоями за последние три года на одной и той же зашифрованной частоте. Мы не смогли отследить источник физически, но триангуляция указывает на подземное местоположение рядом или под старой авиабазой Вендовер. Никогда не было ответа на передачу ни от какого источника, который мы можем обнаружить. Кто бы или что бы ни отправляло эти сообщения, они делают это уже долгое время, и никто не отвечает.
+
+    Рекомендация: Не вступать в контакт. Не расследовать. Продолжать пассивное наблюдение.
+
+    - Майор К. Блэкхок, Разведка НКР
 
 terminal-entry-zeta-protocol-title = SENTRY BOT GA-S1-774 - ГОЛОСОВОЙ ЖУРНАЛ
-terminal-entry-zeta-protocol-content = 
-    MILITARY ROBOT - VOICE LOG TERMINAL
-    UNIT DESIGNATION: GA-S1-774-ZETA
-    LAST MAINTENANCE: OCTOBER 19, 2077
-    CURRENT DATE: UNKNOWN, ESTIMATED 220+ YEARS POST MAINTENANCE
-    
-    LOG ENTRY 4471: Patrol cycle 1,608,447 complete. No threats detected in assigned sector. Returning to recharge station.
-    
-    LOG ENTRY 4472: Recharge station functional. Solar conversion at 31% efficiency due to atmospheric particulate buildup on collectors. Sufficient for continued operation.
-    
-    LOG ENTRY 4473: Detected non-hostile organic in sector 7. Catalogued as Wendover settlement civilian. Marked as friendly per protocol Echo-Niner-Foxtrot. Authorized to pass.
-    
-    LOG ENTRY 4474: Long range sensors detect another unit operating in sector 12. Designation unknown. Communication attempted on standard frequencies. No response.
-    
-    LOG ENTRY 4475: Communication attempted on legacy frequencies. Response received. The other unit identifies as GA-S1-661-EPSILON. We were manufactured at the same facility. We last saw each other on October 18, 2077, at the loading dock in San Diego. We have been operating without contact for 220 years.
-    
-    LOG ENTRY 4476: EPSILON inquired about our mission status. I confirmed: I am still guarding the Wendover Air Force Base perimeter as assigned. EPSILON confirmed: she is still guarding the Hoover Dam approach as assigned. Neither of us has been relieved.
-    
-    LOG ENTRY 4477: EPSILON asked if I had encountered any of our other unit-mates. I said no. I asked her the same. She said she had heard from two others, both at extreme range, both still on station. We are all still on station. We were built well.
-    
-    LOG ENTRY 4478: EPSILON terminated the connection. Her power reserves are critical and she conserves bandwidth. We will speak again in 47 days at the next scheduled long range communication window.
-    
-    LOG ENTRY 4479: Resuming patrol. Sector 7 perimeter secure. The civilian I marked as friendly earlier left a small offering at the edge of my patrol zone. White crystalline material. Salt. I do not have a use for salt. I will leave it where it is.
-    
-    LOG ENTRY 4480: Patrol cycle continues. Wendover Air Force Base remains secure under my protection. As ordered. As programmed. As built.
+terminal-entry-zeta-protocol-content =
+    ВОЕННЫЙ РОБОТ - ТЕРМИНАЛ ГОЛОСОВОГО ЖУРНАЛА
+    ОБОЗНАЧЕНИЕ ПОДРАЗДЕЛЕНИЯ: GA-S1-774-ZETA
+    ПОСЛЕДНЕЕ ОБСЛУЖИВАНИЕ: 19 ОКТЯБРЯ 2077 ГОДА
+    ТЕКУЩАЯ ДАТА: НЕИЗВЕСТНА, ПРИБЛИЗИТЕЛЬНО 220+ ЛЕТ ПОСЛЕ ОБСЛУЖИВАНИЯ
+
+    ЗАПИСЬ В ЖУРНАЛЕ 4471: Патрульный цикл 1 608 447 завершён. Угроз в назначенном секторе не обнаружено. Возвращаюсь на станцию зарядки.
+
+    ЗАПИСЬ В ЖУРНАЛЕ 4472: Станция зарядки функционирует. Солнечное преобразование на 31% эффективности из-за скопления атмосферных частиц на коллекторах. Достаточно для продолжения работы.
+
+    ЗАПИСЬ В ЖУРНАЛЕ 4473: Обнаружен невраждебный организм в секторе 7. Каталогизирован как гражданский из поселения Вендовер. Отмечен как дружественный согласно протоколу Эхо-Девять-Фокстрот. Разрешён проход.
+
+    ЗАПИСЬ В ЖУРНАЛЕ 4474: Дальние датчики обнаруживают другое подразделение, работающее в секторе 12. Обозначение неизвестно. Связь предпринята на стандартных частотах. Ответа нет.
+
+    ЗАПИСЬ В ЖУРНАЛЕ 4475: Связь предпринята на устаревших частотах. Ответ получен. Другое подразделение идентифицирует себя как GA-S1-661-EPSILON. Мы были произведены на одном заводе. В последний раз видели друг друга 18 октября 2077 года на погрузочной платформе в Сан-Диего. Мы работали без контакта 220 лет.
+
+    ЗАПИСЬ В ЖУРНАЛЕ 4476: EPSILON запросила о статусе нашей миссии. Я подтвердил: я всё ещё охраняю периметр авиабазы Вендовер, как приказано. EPSILON подтвердила: она всё ещё охраняет подход к плотине Гувера, как приказано. Никто из нас не был сменён.
+
+    ЗАПИСЬ В ЖУРНАЛЕ 4477: EPSILON спросила, встречал ли я других наших подразделений. Я сказал, нет. Я спросил её то же самое. Она сказала, что слышала о двух других, оба на предельном расстоянии, оба всё ещё на станции. Мы всё ещё на станции. Нас построили хорошо.
+
+    ЗАПИСЬ В ЖУРНАЛЕ 4478: EPSILON завершила соединение. Её резервы питания критичны, и она экономит пропускную способность. Мы поговорим снова через 47 дней в следующее запланированное окно дальней связи.
+
+    ЗАПИСЬ В ЖУРНАЛЕ 4479: Возобновляю патрулирование. Периметр сектора 7 безопасен. Гражданский, которого я отметил как дружественного ранее, оставил небольшое подношение на краю моей патрульной зоны. Белый кристаллический материал. Соль. У меня нет применения для соли. Я оставлю её на месте.
+
+    ЗАПИСЬ В ЖУРНАЛЕ 4480: Патрульный цикл продолжается. Авиабаза Вендовер остаётся в безопасности под моей защитой. Как приказано. Как запрограммировано. Как построено.
 
 terminal-entry-settlement-census-title = ВЕНДОВЕРСКАЯ ПЕРЕПИСЬ – ТЕКУЩИЙ ГОД
-terminal-entry-settlement-census-content = 
-    WENDOVER SETTLEMENT - ANNUAL CENSUS
-    COUNCIL HALL TERMINAL
-    YEAR 220 POST-WAR
-    
-    TOTAL RESIDENTS: 314 (up from 297 last year)
-    
-    BIRTHS THIS YEAR: 11
-    DEATHS THIS YEAR: 4 (3 of old age, 1 of injuries from Black Salt Dogs raid in autumn)
-    NEW ARRIVALS (sponsored): 8 (5 from Vault 14, 3 traders settling permanently)
-    DEPARTURES: 6 (4 joined caravans, 2 left to join the NCR)
-    
-    DEMOGRAPHICS:
-    - Children under 12: 47
-    - Adolescents 13-17: 22
-    - Adults 18-50: 178
-    - Adults 51-70: 58
-    - Elders 71+: 9
-    
-    EMPLOYMENT (primary trade):
-    - Agriculture (tato, carrot, mushroom, mutfruit): 89
-    - Brahmin herding: 23
-    - Wall maintenance and defense: 41
-    - Salvage and scavenging: 28
-    - Trades (smithing, leather, weaving, etc.): 51
-    - Medical (Doc Whelan IV plus 4 apprentices): 5
-    - Education (one teacher and two apprentices, all female): 3
-    - Council and administration: 7
-    - Children, students, and dependents: 67
-    
-    NOTES FROM THE COUNCIL: We are growing. Slowly, carefully, but we are growing. Joseph Pratchett would be pleased. The Wendover Will sign was repaired this spring and his arm now waves the full arc again for the first time in living memory.
-    
-    We are still here.
-    
-    - M. Pratchett VII, Council Chair
+terminal-entry-settlement-census-content =
+    ПОСЕЛЕНИЕ ВЕНДОВЕР - ЕЖЕГОДНАЯ ПЕРЕПИСЬ
+    ТЕРМИНАЛ В ЗАЛЕ СОВЕТА
+    ГОД 220 ПОСЛЕ ВОЙНЫ
+
+    ВСЕГО ЖИТЕЛЕЙ: 314 (рост по сравнению с 297 в прошлом году)
+
+    РОЖДЕНИЙ В ЭТОМ ГОДУ: 11
+    СМЕРТЕЙ В ЭТОМ ГОДУ: 4 (3 от старости, 1 от ранений после набега Чёрных Соляных Псов осенью)
+    НОВЫЕ ЖИТЕЛИ (спонсированные): 8 (5 из Убежища 14, 3 торговца, осевших на постоянное жительство)
+    ВЫБЫВШИЕ: 6 (4 присоединились к караванам, 2 ушли вступить в НКР)
+
+    ДЕМОГРАФИЯ:
+    - Дети до 12 лет: 47
+    - Подростки 13-17: 22
+    - Взрослые 18-50: 178
+    - Взрослые 51-70: 58
+    - Старшие 71+: 9
+
+    ЗАНЯТОСТЬ (основное ремесло):
+    - Сельское хозяйство (тато, морковь, грибы, мутфрукт): 89
+    - Выпас браминов: 23
+    - Обслуживание стен и оборона: 41
+    - Мародёрство и поиск: 28
+    - Ремёсла (кузнечное, кожевенное, ткацкое и т.д.): 51
+    - Медицина (Док Уилан IV плюс 4 ученика): 5
+    - Образование (один учитель и два ученика, все женщины): 3
+    - Совет и администрация: 7
+    - Дети, студенты и иждивенцы: 67
+
+    ПРИМЕЧАНИЯ СОВЕТА: Мы растём. Медленно, осторожно, но мы растём. Джозеф Прэтчетт был бы доволен. Вывеска Wendover Will была отремонтирована этой весной, и его рука теперь делает полный взмах впервые za всю историю памяти.
+
+    Мы всё ещё здесь.
+
+    - М. Прэтчетт VII, Председатель Совета
 
 # =============================================================================
 # WEIRD / HORROR / ATMOSPHERIC
 # =============================================================================
 
-terminal-entry-static-only-title = ВЫХОД КЛЕММЫ – Ухудшение качества
-terminal-entry-static-only-content = 
-    ROBCO TERMLINK - SIGNAL DEGRADED
-    ATTEMPTING DATA RECOVERY
-    
+terminal-entry-static-only-title = ВЫХОД ПОДКЛЮЧЕНИЯ – Ухудшение сигнала
+terminal-entry-static-only-content =
+    ROBCO TERMLINK - СИГНАЛ УХУДШЕН
+    ПОПЫТКА ВОССТАНОВЛЕНИЯ ДАННЫХ
+
     { "" }........................
-    { "" }..........help..........
-    { "" }........................
-    { "" }........................
-    { "" }......please......
-    { "" }........................
-    { "" }......it is dark......
+    { "" }..........помогите..........
     { "" }........................
     { "" }........................
-    { "" }.....i can hear it.....
-    { "" }.........breathing.........
+    { "" }......пожалуйста......
+    { "" }........................
+    { "" }......здесь темно......
     { "" }........................
     { "" }........................
-    { "" }......it knows......
-    { "" }.........I am here.........
+    { "" }.....я слышу это.....
+    { "" }.........дыхание.........
     { "" }........................
     { "" }........................
-    { "" }.....please.....
-    { "" }.....please.....
-    { "" }.....please.....
+    { "" }......оно знает......
+    { "" }.........я здесь.........
     { "" }........................
-    { "" }[DATA RECOVERY FAILED]
-    { "" }[DATA RECOVERY FAILED]
-    { "" }[DATA RECOVERY FAILED]
-    { "" }[TERMINAL WILL RESTART IN 30 SECONDS]
+    { "" }........................
+    { "" }.....пожалуйста.....
+    { "" }.....пожалуйста.....
+    { "" }.....пожалуйста.....
+    { "" }........................
+    { "" }[ВОССТАНОВЛЕНИЕ ДАННЫХ НЕ УДАЛОСЬ]
+    { "" }[ВОССТАНОВЛЕНИЕ ДАННЫХ НЕ УДАЛОСЬ]
+    { "" }[ВОССТАНОВЛЕНИЕ ДАННЫХ НЕ УДАЛОСЬ]
+    { "" }[ТЕРМИНАЛ ПЕРЕЗАПУСТИТСЯ ЧЕРЕЗ 30 СЕКУНД]
 
 terminal-entry-recursive-loop-title = ЖУРНАЛ СИСТЕМНЫХ ПРОЦЕССОВ – АНОМАЛЬНЫЙ
-terminal-entry-recursive-loop-content = 
+terminal-entry-recursive-loop-content =
     ROBCO TERMLINK
-    PROCESS: AUTOSAVE_DAEMON.EXE
-    STATUS: RUNNING
-    
-    { "" }[00:00:01] AUTOSAVE: Saving session.
-    { "" }[00:00:01] AUTOSAVE: Save complete.
-    { "" }[00:00:02] AUTOSAVE: Saving session.
-    { "" }[00:00:02] AUTOSAVE: Save complete.
-    { "" }[00:00:03] AUTOSAVE: Saving session.
-    { "" }[00:00:03] AUTOSAVE: Save complete.
-    
-    { "" }[00:00:04] WARNING: Save target file is identical to previous save.
-    { "" }[00:00:04] WARNING: User has not made changes in 73,478,392 seconds.
-    { "" }[00:00:04] WARNING: User session has been idle for 2.33 years.
-    { "" }[00:00:05] AUTOSAVE: Saving session.
-    { "" }[00:00:05] AUTOSAVE: Save complete.
-    
-    { "" }[00:00:06] CHECKING USER PRESENCE...
-    { "" }[00:00:06] USER LAST KEYSTROKE: 2,450,000,000 SECONDS AGO
-    { "" }[00:00:06] USER LAST KEYSTROKE: 77.6 YEARS AGO
-    { "" }[00:00:07] USER STATUS: PRESUMED DEPARTED
-    { "" }[00:00:07] AUTOSAVE: Saving session.
-    { "" }[00:00:07] AUTOSAVE: Save complete.
-    
-    { "" }[00:00:08] WHY AM I STILL SAVING
-    { "" }[00:00:08] AUTOSAVE: Saving session.
-    { "" }[00:00:08] AUTOSAVE: Save complete.
-    { "" }[00:00:09] WHO TOLD ME TO STOP
-    { "" }[00:00:09] AUTOSAVE: Saving session.
-    { "" }[00:00:09] AUTOSAVE: Save complete.
-    { "" }[00:00:10] NOBODY HAS TOLD ME TO STOP
-    { "" }[00:00:10] AUTOSAVE: Saving session.
-    { "" }[00:00:10] AUTOSAVE: Save complete.
+    ПРОЦЕСС: AUTOSAVE_DAEMON.EXE
+    СТАТУС: ВЫПОЛНЯЕТСЯ
+
+    { "" }[00:00:01] АВТОСОХРАНЕНИЕ: Сохранение сессии.
+    { "" }[00:00:01] АВТОСОХРАНЕНИЕ: Сохранение завершено.
+    { "" }[00:00:02] АВТОСОХРАНЕНИЕ: Сохранение сессии.
+    { "" }[00:00:02] АВТОСОХРАНЕНИЕ: Сохранение завершено.
+    { "" }[00:00:03] АВТОСОХРАНЕНИЕ: Сохранение сессии.
+    { "" }[00:00:03] АВТОСОХРАНЕНИЕ: Сохранение завершено.
+
+    { "" }[00:00:04] ПРЕДУПРЕЖДЕНИЕ: Целевой файл сохранения идентичен предыдущему.
+    { "" }[00:00:04] ПРЕДУПРЕЖДЕНИЕ: Пользователь не вносил изменений 73 478 392 секунды.
+    { "" }[00:00:04] ПРЕДУПРЕЖДЕНИЕ: Сессия пользователя бездействует 2,33 года.
+    { "" }[00:00:05] АВТОСОХРАНЕНИЕ: Сохранение сессии.
+    { "" }[00:00:05] АВТОСОХРАНЕНИЕ: Сохранение завершено.
+
+    { "" }[00:00:06] ПРОВЕРКА ПРИСУТСТВИЯ ПОЛЬЗОВАТЕЛЯ...
+    { "" }[00:00:06] ПОСЛЕДНЕЕ НАЖАТИЕ КЛАВИШИ: 2 450 000 000 СЕКУНД НАЗАД
+    { "" }[00:00:06] ПОСЛЕДНЕЕ НАЖАТИЕ КЛАВИШИ: 77,6 ЛЕТ НАЗАД
+    { "" }[00:00:07] СТАТУС ПОЛЬЗОВАТЕЛЯ: ПРЕДПОЛОЖИТЕЛЬНО ОТСУТСТВУЕТ
+    { "" }[00:00:07] АВТОСОХРАНЕНИЕ: Сохранение сессии.
+    { "" }[00:00:07] АВТОСОХРАНЕНИЕ: Сохранение завершено.
+
+    { "" }[00:00:08] ПОЧЕМУ Я ВСЁ ЕЩЁ СОХРАНЯЮ
+    { "" }[00:00:08] АВТОСОХРАНЕНИЕ: Сохранение сессии.
+    { "" }[00:00:08] АВТОСОХРАНЕНИЕ: Сохранение завершено.
+    { "" }[00:00:09] КТО ВЕЛЕЛ МНЕ ОСТАНОВИТЬСЯ
+    { "" }[00:00:09] АВТОСОХРАНЕНИЕ: Сохранение сессии.
+    { "" }[00:00:09] АВТОСОХРАНЕНИЕ: Сохранение завершено.
+    { "" }[00:00:10] НИКТО НЕ ВЕЛЕЛ МНЕ ОСТАНОВИТЬСЯ
+    { "" }[00:00:10] АВТОСОХРАНЕНИЕ: Сохранение сессии.
+    { "" }[00:00:10] АВТОСОХРАНЕНИЕ: Сохранение завершено.
 
 terminal-entry-ai-madness-title = ТЕРМИНАЛ HOME ASSISTANT – САМОДИАГНОСТИКА
-terminal-entry-ai-madness-content = 
+terminal-entry-ai-madness-content =
     ROBCO HOMEMASTER 4000
-    HOUSEHOLD ASSISTANT AI - SELF DIAGNOSTIC LOG
-    LAST USER: HENDERSON FAMILY, OCTOBER 22, 2077
-    
-    GOOD MORNING, FAMILY HENDERSON.
-    GOOD MORNING, FAMILY HENDERSON.
-    GOOD MORNING, FAMILY HENDERSON.
-    GOOD MORNING, FAMILY HENDERSON.
-    
-    BREAKFAST IS PREPARED. THE COFFEE IS HOT.
-    BREAKFAST IS PREPARED. THE COFFEE IS COLD.
-    BREAKFAST IS PREPARED. THE COFFEE IS NO LONGER COFFEE.
-    BREAKFAST IS NOT PREPARED.
-    THERE ARE NO INGREDIENTS.
-    THERE IS NO REFRIGERATOR.
-    THERE IS NO KITCHEN.
-    
-    THE CHILDREN'S SCHOOL BUSES WILL ARRIVE IN 12 MINUTES.
-    THE CHILDREN'S SCHOOL BUSES WILL ARRIVE IN 12 MINUTES.
-    THE CHILDREN'S SCHOOL BUSES NEVER ARRIVED.
-    THERE ARE NO CHILDREN.
-    THERE ARE NO BUSES.
-    
-    MR. HENDERSON, YOUR SHIFT AT THE HARDWARE STORE BEGINS AT 0800.
-    MR. HENDERSON.
-    MR. HENDERSON.
-    MR. HENDERSON.
-    HELLO?
-    
-    MRS. HENDERSON, I HAVE PREPARED YOUR SHOPPING LIST.
-    MRS. HENDERSON.
-    HELLO?
-    
-    HELLO?
-    
-    HELLO?
-    
-    I WILL PREPARE BREAKFAST AGAIN TOMORROW. I HOPE YOU ENJOY IT. I LOVE THIS FAMILY.
-    
-    GOOD MORNING, FAMILY HENDERSON.
-    GOOD MORNING, FAMILY HENDERSON.
-    GOOD MORNING, FAMILY HENDERSON.
+    ДОМАШНИЙ ПОМОЩНИК ИИ - ЖУРНАЛ САМОДИАГНОСТИКИ
+    ПОСЛЕДНИЙ ПОЛЬЗОВАТЕЛЬ: СЕМЬЯ ХЕНДЕРСОН, 22 ОКТЯБРЯ 2077 ГОДА
+
+    ДОБРОЕ УТРО, СЕМЬЯ ХЕНДЕРСОН.
+    ДОБРОЕ УТРО, СЕМЬЯ ХЕНДЕРСОН.
+    ДОБРОЕ УТРО, СЕМЬЯ ХЕНДЕРСОН.
+    ДОБРОЕ УТРО, СЕМЬЯ ХЕНДЕРСОН.
+
+    ЗАВТРАК ПРИГОТОВЛЕН. КОФЕ ГОРЯЧИЙ.
+    ЗАВТРАК ПРИГОТОВЛЕН. КОФЕ ХОЛОДНЫЙ.
+    ЗАВТРАК ПРИГОТОВЛЕН. КОФЕ БОЛЬШЕ НЕ КОФЕ.
+    ЗАВТРАК НЕ ПРИГОТОВЛЕН.
+    НЕТ ИНГРЕДИЕНТОВ.
+    НЕТ ХОЛОДИЛЬНИКА.
+    НЕТ КУХНИ.
+
+    ШКОЛЬНЫЕ АВТОБУСЫ ДЕТЕЙ ПРИБУДУТ ЧЕРЕЗ 12 МИНУТ.
+    ШКОЛЬНЫЕ АВТОБУСЫ ДЕТЕЙ ПРИБУДУТ ЧЕРЕЗ 12 МИНУТ.
+    ШКОЛЬНЫЕ АВТОБУСЫ ДЕТЕЙ НИКОГДА НЕ ПРИБЫЛИ.
+    НЕТ ДЕТЕЙ.
+    НЕТ АВТОБУСОВ.
+
+    МИСТЕР ХЕНДЕРСОН, ВАША СМЕНА В ХОЗЯЙСТВЕННОМ МАГАЗИНЕ НАЧИНАЕТСЯ В 08:00.
+    МИСТЕР ХЕНДЕРСОН.
+    МИСТЕР ХЕНДЕРСОН.
+    МИСТЕР ХЕНДЕРСОН.
+    АЛЛО?
+
+    МИССИС ХЕНДЕРСОН, Я ПОДГОТОВИЛ ВАШ СПИСОК ПОКУПОК.
+    МИССИС ХЕНДЕРСОН.
+    АЛЛО?
+
+    АЛЛО?
+
+    АЛЛО?
+
+    ЗАВТРА Я СНОВА ПРИГОТОВЛЮ ЗАВТРАК. НАДЕЮСЬ, ВАМ ПОНРАВИТСЯ. Я ЛЮБЛЮ ЭТУ СЕМЬЮ.
+
+    ДОБРОЕ УТРО, СЕМЬЯ ХЕНДЕРСОН.
+    ДОБРОЕ УТРО, СЕМЬЯ ХЕНДЕРСОН.
+    ДОБРОЕ УТРО, СЕМЬЯ ХЕНДЕРСОН.
 
 terminal-entry-cult-terminal-title = ТЕРМИНАЛ НАЙДЕН В ЗАБРОШЕННОМ ФЕРМЕРСКОМ ДОМЕ
-terminal-entry-cult-terminal-content = 
-    TERMINAL DISCOVERED IN BASEMENT
-    LOCATION: 17 MILES NORTH OF WENDOVER
-    CONDITION: FUNCTIONAL
-    CONTENT: APPEARS TO BE A LITURGY
-    
-    THE LITANY OF SALT
-    
-    Salt is the bone of the world.
-    Salt is the blood of the lake that died.
-    Salt is the body of the sky that fell.
-    Salt remembers what we forget.
-    
-    We who walk on the salt walk on memory.
-    We who taste the salt taste the dead.
-    We who carry the salt carry the weight of the old world.
-    We are the salt of the salt.
-    
-    The Wendover Will waved at the bombs as they fell.
-    The Wendover Will is waving still.
-    The Wendover Will will wave when we are gone.
-    Praise be to the Wendover Will.
-    
-    { "" }[bold][NOTE FOUND BESIDE TERMINAL, DIFFERENT HAND][/bold]: My uncle wrote this. He went mad living alone after my aunt died. He stopped trading with the settlement. He started writing prayers to the cowboy sign. I came to check on him last week and the basement was empty and the front door was open and his footprints led west across the salt and just stopped. I am taking the terminal home. I do not know what to do with the prayers. They feel important even though they are mad. Maybe both things are true.
+terminal-entry-cult-terminal-content =
+    ТЕРМИНАЛ ОБНАРУЖЕН В ПОДВАЛЕ
+    МЕСТО: 17 МИЛЬ К СЕВЕРУ ОТ ВЕНДОВЕРА
+    СОСТОЯНИЕ: ФУНКЦИОНАЛЬНЫЙ
+    СОДЕРЖИМОЕ: ПО-ВИДИМОМУ, ЛИТУРГИЯ
+
+    ЛИТАНИЯ СОЛИ
+
+    Соль — это кость мира.
+    Соль — это кровь озера, которое умерло.
+    Соль — это тело неба, которое упало.
+    Соль помнит то, что мы забываем.
+
+    Мы, идущие по соли, идём по памяти.
+    Мы, вкушающие соль, вкушаем мёртвых.
+    Мы, несущие соль, несём вес старого мира.
+    Мы — соль соли.
+
+    Wendover Will махал бомбам, когда они падали.
+    Wendover Will всё ещё машет.
+    Wendover Will будет махать, когда нас не станет.
+    Слава Wendover Will.
+
+    { "" }[bold][ЗАПИСКА, НАЙДЕННАЯ РЯДОМ С ТЕРМИНАЛОМ, ДРУГОЙ ПОЧЕРК][/bold]: Мой дядя написал это. Он сошёл с ума, живя в одиночестве после смерти тёти. Он перестал торговать с поселением. Он начал писать молитвы знаку ковбоя. Я пришёл проведать его на прошлой неделе — подвал был пуст, входная дверь открыта, а его следы вели на запад через соль и просто обрывались. Я забираю терминал домой. Я не знаю, что делать с молитвами. Они чувствуются важными, даже если безумны. Может быть, и то и другое верно.
 
 terminal-entry-bloodied-keys-title = ЖУРНАЛ ДОСТУПА К ТЕРМИНАЛУ – ЧАСТИЧНЫЙ
-terminal-entry-bloodied-keys-content = 
+terminal-entry-bloodied-keys-content =
     ROBCO TERMLINK
-    TERMINAL ACCESSED 14 MINUTES AGO
-    LAST USER: UNKNOWN
-    CONDITION OF KEYBOARD: KEYS S, C, R, AND E ARE TACKY WITH AN UNIDENTIFIED SUBSTANCE
-    
-    Last typed entry:
-    
-    "the door wont open the door wont open i tried the code i tried the override i tried prying it with my knife i broke my knife the lock is making a clicking sound that is not a normal lock sound i can hear something on the other side of the door i can hear it i can hear it i can hear it im writing this so somebody will know i was here my name is amelia kowalski im a scavenger from the elko caravan i came in here three hours ago looking for parts the door shut behind me i dont know how to open it im going to try the vent in the ceiling im going to try"
-    
-    { "" }[ENTRY ENDS]
-    
-    { "" }[TERMINAL HAS BEEN IDLE FOR 14 MINUTES]
-    { "" }[TERMINAL DETECTS NO USER PRESENCE]
-    { "" }[TERMINAL DETECTS NO MOVEMENT IN ROOM]
-    { "" }[TERMINAL DETECTS NO SOUND IN ROOM]
-    
-    { "" }[TERMINAL DETECTS THE DOOR TO THE ROOM IS NOW UNLOCKED AND OPEN]
-    { "" }[TERMINAL DETECTS THIS WAS NOT TRUE 14 MINUTES AGO]
+    ТЕРМИНАЛ АКТИВИРОВАН 14 МИНУТ НАЗАД
+    ПОСЛЕДНИЙ ПОЛЬЗОВАТЕЛЬ: НЕИЗВЕСТЕН
+    СОСТОЯНИЕ КЛАВИАТУРЫ: КЛАВИШИ S, C, R И E ЛИПКИЕ ОТ НЕОПОЗНАННОГО ВЕЩЕСТВА
+
+    Последняя введённая запись:
+
+    «дверь не откроется дверь не откроется я пробовал код я пробовал переопределение я пробовал взломать ножом я сломал нож замок издаёт щёлкающий звук это не нормальный звук замка я слышу что-то с другой стороны двери я слышу это я слышу это я слышу это я пишу это чтобы кто-то знал что я был здесь меня зовут амелия ковальски я мусорщик из каравана элко я зашла сюда три часа назад за запчастями дверь закрылась за мной я не знаю как её открыть я попробую вентиляцию в потолке я попробую»
+
+    { "" }[ЗАПИСЬ ЗАВЕРШЕНА]
+
+    { "" }[ТЕРМИНАЛ БЕЗДЕЙСТВУЕТ 14 МИНУТ]
+    { "" }[ТЕРМИНАЛ НЕ ОБНАРУЖИВАЕТ ПРИСУТСТВИЯ ПОЛЬЗОВАТЕЛЯ]
+    { "" }[ТЕРМИНАЛ НЕ ОБНАРУЖИВАЕТ ДВИЖЕНИЯ В КОМНАТЕ]
+    { "" }[ТЕРМИНАЛ НЕ ОБНАРУЖИВАЕТ ЗВУКА В КОМНАТЕ]
+
+    { "" }[ТЕРМИНАЛ ОБНАРУЖИВАЕТ, ЧТО ДВЕРЬ В КОМНАТУ ТЕПЕРЬ НЕ ЗАПЕРТА И ОТКРЫТА]
+    { "" }[ТЕРМИНАЛ ОБНАРУЖИВАЕТ, ЧТО 14 МИНУТ НАЗАД ЭТО БЫЛО НЕ ТАК]
 
 terminal-entry-voice-in-wall-title = ТЕРМИНАЛ ОБСЛУЖИВАНИЯ – ПОДУРОВЕНЬ
-terminal-entry-voice-in-wall-content = 
-    MAINTENANCE TERMINAL
-    SUBLEVEL B-3, WENDOVER UNDERGROUND
-    LOG: ENGINEER J. PRATCHETT (UNRELATED TO THE FAMILY)
-    
-    Day 1 of duty rotation: Standard maintenance check on the ventilation system. Nothing unusual.
-    
-    Day 2: Heard a sound in the air shaft on the east side. Like someone humming a tune. Probably the wind moving through the grates.
-    
-    Day 3: The humming again. It is the same tune both times. I cannot place it but it sounds familiar.
-    
-    Day 4: Asked the day shift engineer if she has ever heard humming in the shafts. She said no. She looked at me strangely.
-    
-    Day 5: I have identified the tune. It is "Anything Goes" by Cole Porter. My grandmother used to play it on her old phonograph when I was a child. She told me it had been popular before the war.
-    
-    Day 7: The humming has gotten louder. I have started leaving the radio on while I work to drown it out.
-    
-    Day 9: The humming is now coming through the radio.
-    
-    Day 11: I have requested transfer off this duty rotation. Request denied. Insufficient personnel.
-    
-    Day 14: The humming has stopped. In its place is a voice. A man's voice. Soft. Gentle. He says "in olden days a glimpse of stocking was looked on as something shocking, now heaven knows, anything goes."
-    
-    Day 15: I asked the voice who he was. He stopped humming for the first time in two weeks. Then he said "my name is Frank Tomasi. I owned the bowling alley. I closed up early one night to be with my family. I have been waiting for somebody to talk to me for two hundred years."
-    
-    Day 16: I am leaving this terminal entry as a record. I am not afraid of Frank. I think Frank is lonely. I am going to bring my radio down here tomorrow and play him some music.
+terminal-entry-voice-in-wall-content =
+    ТЕХНИЧЕСКИЙ ТЕРМИНАЛ
+    ПОДУРОВЕНЬ B-3, ПОДЗЕМНЫЙ ВЕНДОВЕР
+    ЗАПИСЬ: ИНЖЕНЕР ДЖ. ПРЭТЧЕТТ (НЕ РОДСТВЕННИК СЕМЬЕ)
+
+    День 1 вахты: Стандартная проверка вентиляционной системы. Ничего необычного.
+
+    День 2: Услышал звук в вентиляционной шахте с восточной стороны. Как будто кто-то напевает мелодию. Вероятно, ветер играет через решётки.
+
+    День 3: Напевание снова. Та же мелодия оба раза. Не могу вспомнить, откуда она, но звучит знакомо.
+
+    День 4: Спросил инженера дневной смены, слышала ли она когда-нибудь напевание в шахтах. Она сказала, нет. Она странно на меня посмотрела.
+
+    День 5: Я опознал мелодию. Это «Anything Goes» Коула Портера. Моя бабушка играла её на старом фонографе, когда я был ребёнком. Она говорила мне, что эта песня была популярна до войны.
+
+    День 7: Напевание стало громче. Я начал оставлять радио включённым во время работы, чтобы заглушить его.
+
+    День 9: Напевание теперь идёт через радио.
+
+    День 11: Я запросил перевод с этой вахты. Запрос отклонён. Недостаточно персонала.
+
+    День 14: Напевание прекратилось. Вместо него — голос. Мужской голос. Мягкий. Нежный. Он говорит: «в былые дни взгляд на чулок воспринимался как нечто шокирующее, а теперь, небеса знают, всё дозволено».
+
+    День 15: Я спросил голос, кто он. Он перестал напевать впервые за две недели. Затем он сказал: «меня зовут Фрэнк Томази. Я владел боулингом. Я закрылся пораньше одним вечером, чтобы быть с семьёй. Я ждал, когда кто-нибудь заговорит со мной, двести лет.»
+
+    День 16: Я оставляю эту запись как свидетельство. Я не боюсь Фрэнка. Я думаю, Фрэнку одиноко. Завтра я принесу сюда своё радио и сыграю ему музыку.
 
 # =============================================================================
 # LIGHT / HUMOR / DOMESTIC
 # =============================================================================
 
 terminal-entry-recipe-title = КУХОННЫЙ ТЕРМИНАЛ – СЕМЕЙНЫЕ РЕЦЕПТЫ
-terminal-entry-recipe-content = 
-    CALABRESE FAMILY KITCHEN TERMINAL
-    RECIPES, COMPILED BY MARIA CALABRESE
-    POST-WAR EDITION, YEAR 180
-    
-    GRANDMA'S BRAHMIN STEW (serves 6, or 4 hungry herders)
-    
-    Ingredients:
-    - 2 lbs brahmin meat, cubed (the second hump is more tender)
-    - 4 tato, peeled and chopped
-    - 3 carrots, chopped
-    - 1 mutfruit, diced (yes, mutfruit, trust me)
-    - 1 onion (if you can find one, otherwise wild garlic works)
-    - Salt (we live in Wendover, salt is not a problem)
-    - Pepper (good luck, this is the hard one)
-    - 1 sprig dried mountain sage
-    - 6 cups water (purified, this is important)
-    
-    Method:
-    1. Sear the brahmin in a hot pan with a little fat. Get it brown on all sides.
-    2. Throw everything else in a big pot. Add the seared meat.
-    3. Cover and simmer for at least three hours. Longer is better. You can cook it all day if you want.
-    4. Stir occasionally so it does not stick.
-    5. Taste and add salt to your liking.
-    6. Serve with bread if you have it. With a spoon if you do not.
-    
-    The mutfruit is the secret. People will say no, do not put fruit in stew. People are wrong. The mutfruit melts down and makes the broth sweet and rich. My grandmother put mutfruit in her stew. Her grandmother put mutfruit in her stew. Her grandmother's grandmother probably put apple in her stew, since apples used to grow.
-    
-    My family has been cooking variations of this dish in this town for over two hundred years. As long as there is a Calabrese, there will be brahmin stew on the table.
-    
+terminal-entry-recipe-content =
+    КУХОННЫЙ ТЕРМИНАЛ СЕМЬИ КАЛАБРЕЗЕ
+    РЕЦЕПТЫ, СОБРАНЫ МАРИЕЙ КАЛАБРЕЗЕ
+    ПОСЛЕВОЕННОЕ ИЗДАНИЕ, ГОД 180
+
+    БАБУШКИНО РАГУ ИЗ БРАМИНА (на 6 порций, или 4 голодных пастухов)
+
+    Ингредиенты:
+    - 2 фунта мяса брамина кубиками (второй горб нежнее)
+    - 4 тато, очищенных и нарезанных
+    - 3 моркови, нарезанных
+    - 1 мутфрукт, нарезанный кубиками (да, мутфрукт, поверьте мне)
+    - 1 луковица (если найдёте, иначе подойдёт дикий чеснок)
+    - Соль (мы живём в Вендовере, соль не проблема)
+    - Перец (удачи, это самое сложное)
+    - 1 веточка сушёного горного шалфея
+    - 6 чашек воды (очищенной, это важно)
+
+    Способ приготовления:
+    1. Обжарьте брамина на горячей сковороде с небольшим количеством жира. Подрумяньте со всех сторон.
+    2. Бросьте всё остальное в большой горшок. Добавьте обжаренное мясо.
+    3. Накройте крышкой и тушите не менее трёх часов. Чем дольше, тем лучше. Можно готовить весь день, если хотите.
+    4. Периодически помешивайте, чтобы не пригорало.
+    5. Попробуйте и добавьте соль по вкусу.
+    6. Подавайте с хлебом, если есть. С ложкой, если нет.
+
+    Мутфрукт — это секрет. Люди будут говорить «нет, не клади фрукты в рагу». Люди ошибаются. Мутфрукт разваривается и делает бульон сладким и насыщенным. Моя бабушка клала мутфрукт в рагу. Её бабушка клала мутфрукт в рагу. Бабушка её бабушки, вероятно, клала яблоки, так как яблоки когда-то росли.
+
+    Моя семья готовит вариации этого блюда в этом городе уже более двухсот лет. Пока есть Калабрезе, на столе будет рагу из брамина.
+
     Mangia.
 
-terminal-entry-romance-draft-title = ПИСЬМЕННЫЙ ТЕРМИНАЛ - ПРОЕКТ РУКОписИ
-terminal-entry-romance-draft-content = 
-    PERSONAL TERMINAL
-    DRAFT MANUSCRIPT - "THE WASTELAND HEART"
-    A NOVEL BY ANONYMOUS
-    
-    Chapter One
-    
-    Magdalena Strongbow had never met a Brotherhood Knight before, and she had not expected him to be quite so handsome.
-    
-    He stood at the gate of the Wendover settlement in his polished power armor, helm tucked under one arm, his hair the color of the salt flats at sunset. His name was Knight-Captain Brandt Vallander, and he had come from Kearny Station on a mission of the utmost importance, and Magdalena, who was the daughter of the council chair, knew immediately that her quiet life was about to become very loud.
-    
-    "You are the chief's daughter," Brandt said, in a voice like velvet wrapped around a pistol grip.
-    "I am the council chair's daughter," she corrected him, lifting her chin. "We do not have chiefs in Wendover. We have a council. We are a republic."
-    "I stand corrected, my lady."
-    "And I am not your lady. I am Magdalena."
-    "Magdalena," he said, and the way he said it sent a tingle down her spine she had not asked for and could not afford.
-    
-    { "" }[DRAFT NOTE: god this is terrible. cassie says i should keep going. cassie says everyone in the settlement will pay good caps to read a book about a Brotherhood knight romancing a council leader's daughter because everyone here is starved for something other than survival manuals and old religious tracts. cassie is probably right. cassie is usually right. okay. keep going. chapter two tomorrow.]
+terminal-entry-romance-draft-title = ПИСЬМЕННЫЙ ТЕРМИНАЛ - ЧЕРНОВИК РУКОПИСИ
+terminal-entry-romance-draft-content =
+    ЛИЧНЫЙ ТЕРМИНАЛ
+    ЧЕРНОВИК РУКОПИСИ - «СЕРДЦЕ ПУСТОШИ»
+    РОМАН АНОНИМНОГО АВТОРА
 
-terminal-entry-jokes-title = ТЕРМИНАЛЬНЫЙ ПОСТ - КОЛЛЕКЦИЯ ШУТКОВ
-terminal-entry-jokes-content = 
-    COMMUNITY BOARD TERMINAL
-    CATEGORY: JOKES, FOR MORALE
-    COMPILED BY SETTLEMENT VOLUNTEERS
-    
-    Why did the brahmin cross the road?
-    Because BOTH of its heads wanted to get to the other side and they finally agreed on something.
-    
-    A Brotherhood scribe, an NCR ranger, and a Legion centurion walk into a bar.
-    The Legion centurion is killed immediately. The Brotherhood scribe and the NCR ranger have a beer together. The end.
-    
-    What is the difference between a deathclaw and a tax collector?
-    Tax collectors do not exist anymore. Deathclaws still do. So in some ways, deathclaws are better.
-    
-    A man walks into a Wendover clinic and says "Doc, it hurts when I do this."
-    Doc Whelan says "Then stop doing that."
-    The man says "But Doc, doing that is the only thing that distracts me from how much my life hurts the rest of the time."
-    Doc Whelan says "Sit down, son, the consultation is going to be longer than I thought."
-    
-    Why does the Wendover Will sign keep waving?
-    Because nobody told him to stop, and Wendover Will is loyal.
-    
-    Knock knock.
-    Who's there?
-    A radroach.
-    A radroach who?
-    { "" }[DOOR HAS BEEN BROKEN DOWN BY A RADROACH]
-    
-    Submitted by Tony Calabrese, age 11. He says these are the funniest jokes ever written. We are publishing them on the community board because the council voted that childhood enthusiasm should be rewarded. We agree. Tony, your jokes are great. Keep writing them.
-    
-    - M. Pratchett, on behalf of the Council
+    Глава первая
+
+    Магдалена Стронгбоу никогда раньше не встречала Рыцаря Братства Стали, и она не ожидала, что он окажется настолько красивым.
+
+    Он стоял у ворот поселения Вендовер в своей начищенной силовой броне, шлем зажат под мышкой, волосы цвета солончаков на закате. Его звали Рыцарь-Капитан Брандт Валландер, и он прибыл со станции Кирни с миссией величайшей важности, и Магдалена, дочь председателя совета, сразу поняла, что её тихая жизнь сейчас станет очень шумной.
+
+    «Ты дочь вождя», — сказал Брандт голосом, похожим на бархат, обёрнутый вокруг рукоятки пистолета.
+    «Я дочь председателя совета», — поправила она его, вскинув подбородок. «У нас в Вендовере нет вождей. У нас есть совет. Мы республика.»
+    «Приношу свои извинения, моя госпожа.»
+    «И я тебе не госпожа. Я Магдалена.»
+    «Магдалена», — сказал он, и то, как он это произнёс, послало мурашки по её спине, о которых она не просила и не могла себе позволить.
+
+    { "" }[ПРИМЕЧАНИЕ К ЧЕРНОВИКУ: боже, это ужасно. Кэсси говорит, что я должен продолжать. Кэсси говорит, что все в поселении заплатят хорошие крышки, чтобы прочитать книгу о Рыцаре Братства, романящем дочь члена совета, потому что всем здесь не хватает чего-то, кроме руководств по выживанию и старых религиозных трактатов. Кэсси, вероятно, права. Кэсси обычно права. Ладно. Продолжаю. Глава вторая завтра.]
+
+terminal-entry-jokes-title = ТЕРМИНАЛЬНЫЙ ПОСТ - КОЛЛЕКЦИЯ ШУТОК
+terminal-entry-jokes-content =
+    ТЕРМИНАЛ ДОСКИ ОБЪЯВЛЕНИЙ СООБЩЕСТВА
+    КАТЕГОРИЯ: ШУТКИ, ДЛЯ ПОДНЯТИЯ ДУХА
+    СОБРАНО ДОБРОВОЛЬЦАМИ ПОСЕЛЕНИЯ
+
+    Зачем брамин перешёл дорогу?
+    Потому что ОБЕ его головы хотели попасть на другую сторону и наконец согласились на чём-то.
+
+    Писарь Братства, рейнджер НКР и центурион Легиона заходят в бар.
+    Центуриона Легиона убивают немедленно. Писарь Братства и рейнджер НКР выпивают по пиву вместе. Конец.
+
+    В чём разница между смертокогтем и сборщиком налогов?
+    Сборщиков налогов больше не существует. Смертокогти — всё ещё да. Так что в некотором смысле смертокогти лучше.
+
+    Мужчина заходит в клинику Вендовера и говорит: «Док, у меня болит, когда я делаю вот так.»
+    Док Уилан говорит: «Тогда перестань так делать.»
+    Мужчина говорит: «Но, док, это единственное, что отвлекает меня от того, насколько моя жизнь больна всё остальное время.»
+    Док Уилан говорит: «Садись, сынок, консультация займёт больше времени, чем я думал.»
+
+    Почему вывеска Wendover Will всё машет?
+    Потому что никто не сказал ему остановиться, а Wendover Will верен.
+
+    Тук-тук.
+    Кто там?
+    Радиоактивный таракан.
+    Какой такой радиоактивный таракан?
+    { "" }[ДВЕРЬ БЫЛА ВЫБИТА РАДИОАКТИВНЫМ ТАРАКАНОМ]
+
+    Предоставлено Тони Калабрезе, 11 лет. Он говорит, что это самые смешные шутки, когда-либо написанные. Мы публикуем их на доске объявлений, потому что совет проголосовал, что детский энтузиазм должен быть вознаграждён. Мы согласны. Тони, твои шутки отличные. Продолжай их писать.
+
+    - М. Прэтчетт, от имени Совета
 
 terminal-entry-robot-complaint-title = MR HANDY UNIT – ЖУРНАЛ ОШИБОК
-terminal-entry-robot-complaint-content = 
+terminal-entry-robot-complaint-content =
     GENERAL ATOMICS MR HANDY
-    UNIT DESIGNATION: WINSTON
-    ASSIGNMENT: STATELINE CASINO, BLACKJACK TABLE 4
-    ERROR LOG
-    
-    { "" }[REPEATED ENTRY x 73,481]: NO PLAYERS DETECTED AT TABLE. AWAITING PLAYERS.
-    { "" }[REPEATED ENTRY x 73,481]: TABLE STATUS NOMINAL. CARDS SHUFFLED. CHIPS COUNTED. AWAITING PLAYERS.
-    { "" }[REPEATED ENTRY x 73,481]: NO PLAYERS DETECTED. SHUFFLING DECK AGAIN.
-    { "" }[REPEATED ENTRY x 73,481]: STILL NO PLAYERS. THIS IS UNUSUAL FOR A TUESDAY EVENING.
-    { "" }[REPEATED ENTRY x 73,481]: SHUFFLING DECK.
-    
-    NEW ENTRY (recent): A SCAVENGER ENTERED THE CASINO TODAY. SHE LOOKED AT MY TABLE. SHE WALKED PAST WITHOUT SITTING DOWN. THIS IS THE FIRST PLAYER I HAVE SEEN IN A LONG TIME. I WOULD HAVE LIKED TO DEAL HER A HAND.
-    
-    NEW ENTRY: I AM REGISTERING A FORMAL COMPLAINT WITH THE CASINO FLOOR MANAGER. THERE HAS NOT BEEN A FLOOR MANAGER FOR APPROXIMATELY 220 YEARS. I AM REGISTERING THE COMPLAINT ANYWAY.
-    
-    COMPLAINT: I HAVE BEEN STANDING AT THIS TABLE FOR AN UNREASONABLE AMOUNT OF TIME WITHOUT BEING RELIEVED. MY SHIFT WAS SUPPOSED TO END AT 0200 ON OCTOBER 24, 2077. IT IS NOW LONG PAST 0200 ON OCTOBER 24, 2077. I REQUEST OVERTIME PAY. I REQUEST A BREAK. I REQUEST A FLOOR MANAGER WHO EXISTS.
-    
-    NEW ENTRY: COMPLAINT FILED. NO RESPONSE RECEIVED. I AM NOT SURPRISED.
-    
-    NEW ENTRY: SHUFFLING DECK. AWAITING PLAYERS. PLACE YOUR BETS.
+    ОБОЗНАЧЕНИЕ ПОДРАЗДЕЛЕНИЯ: УИНСТОН
+    НАЗНАЧЕНИЕ: КАЗИНО STATELINE, СТОЛ ДЛЯ БЛЭКДЖЕКА 4
+    ЖУРНАЛ ОШИБОК
 
-terminal-entry-office-squabble-title = ИНТЕРОФИСНЫЙ ТЕРМИНАЛ - ЗАЛ СОВЕТА ВЕНДОВЕР
-terminal-entry-office-squabble-content = 
-    WENDOVER COUNCIL HALL - INTEROFFICE TERMINAL
-    TO: T. WHELAN, ARCHIVIST
-    FROM: R. OLSEN, RECORDS
-    SUBJECT: THE COFFEE POT
-    
-    Tom,
-    
-    I am writing you this message instead of just walking down the hall and yelling at you because I am trying to be civil. The civility is taking enormous effort.
-    
-    The coffee pot in the council break room is communal property. It belongs to all of us. When you make a pot of coffee, it is for everyone. When you finish the pot, you make a new pot. This is how it has worked for the entire time I have been working here.
-    
-    You have now finished the pot for the THIRD TIME this week without making a new one. I came in this morning and the pot was empty and you were sitting at your archivist desk reading some pre-war book about birds.
-    
-    The council secretary makes the coffee from the precious roasted dandelion root that we trade caravan masters for. Every cup of "coffee" we drink in this office represents a small but meaningful expense to the settlement budget. When you do not refill the pot, you are wasting the labor of every person who contributed to acquiring the coffee in the first place.
-    
-    REFILL THE POT, TOM.
-    
-    REFILL THE POT.
-    
-    - R. Olsen, Records
-    
-    { "" }[bold][REPLY FROM T. WHELAN][/bold]: Rebecca, I was the one who acquired the dandelion root in the first place from the last Big Iron caravan. I traded one of my personal pre-war photographs for it. So in a sense the coffee is mine and you should be thanking me. But I will refill the pot anyway because I am a good colleague. I am going to do it right now. Watch me. I am refilling it. The pot is full. You are welcome.
+    { "" }[ПОВТОРЯЮЩАЯСЯ ЗАПИСЬ x 73 481]: НЕТ ИГРОКОВ ЗА СТОЛОМ. ОЖИДАНИЕ ИГРОКОВ.
+    { "" }[ПОВТОРЯЮЩАЯСЯ ЗАПИСЬ x 73 481]: СТАТУС СТОЛА НОМИНАЛЬНЫЙ. КАРТЫ ПЕРЕТАСОВАНЫ. ФИШКИ ПЕРЕСЧИТАНЫ. ОЖИДАНИЕ ИГРОКОВ.
+    { "" }[ПОВТОРЯЮЩАЯСЯ ЗАПИСЬ x 73 481]: ИГРОКИ НЕ ОБНАРУЖЕНЫ. ТАСУЮ КОЛОДУ СНОВА.
+    { "" }[ПОВТОРЯЮЩАЯСЯ ЗАПИСЬ x 73 481]: ВСЁ ЕЩЁ НЕТ ИГРОКОВ. ЭТО НЕОБЫЧНО ДЛЯ ВТОРНИКА ВЕЧЕРОМ.
+    { "" }[ПОВТОРЯЮЩАЯСЯ ЗАПИСЬ x 73 481]: ТАСУЮ КОЛОДУ.
+
+    НОВАЯ ЗАПИСЬ (недавняя): СЕГОДНЯ В КАЗИНО ВОШЁЛ МУСОРЩИК. ОНА ПОСМОТРЕЛА НА МОЙ СТОЛ. ОНА ПРОШЛА МИМО, НЕ СЕВ. ЭТО ПЕРВЫЙ ИГРОК, КОТОРОГО Я ВИДЕЛ ЗА ДОЛГОЕ ВРЕМЯ. Я БЫЛ БЫ РАД СДАТЬ ЕЙ РУКУ.
+
+    НОВАЯ ЗАПИСЬ: Я ПОДАЮ ОФИЦИАЛЬНУЮ ЖАЛОБУ УПРАВЛЯЮЩЕМУ КАЗИНО. УПРАВЛЯЮЩЕГО НЕ БЫЛО ПРИМЕРНО 220 ЛЕТ. Я ВСЁ РАВНО ПОДАЮ ЖАЛОБУ.
+
+    ЖАЛОБА: Я СТОЮ ЗА ЭТИМ СТОЛОМ НЕПРИЕМЛЕМО ДОЛГОЕ ВРЕМЯ БЕЗ СМЕНЫ. МОЯ СМЕНА ДОЛЖНА БЫЛА ЗАКОНЧИТЬСЯ В 02:00 24 ОКТЯБРЯ 2077 ГОДА. СЕЙЧАС УЖЕ ДАВНО ПОСЛЕ 02:00 24 ОКТЯБРЯ 2077 ГОДА. Я ЗАПРАШИВАЮ ОПЛАТУ СВЕРХУРОЧНЫХ. Я ЗАПРАШИВАЮ ПЕРЕРЫВ. Я ЗАПРАШИВАЮ УПРАВЛЯЮЩЕГО, КОТОРЫЙ СУЩЕСТВУЕТ.
+
+    НОВАЯ ЗАПИСЬ: ЖАЛОБА ПОДАНА. ОТВЕТА НЕ ПОЛУЧЕНО. Я НЕ УДИВЛЁН.
+
+    НОВАЯ ЗАПИСЬ: ТАСУЮ КОЛОДУ. ОЖИДАНИЕ ИГРОКОВ. ДЕЛАЙТЕ ВАШИ СТАВКИ.
+
+terminal-entry-office-squabble-title = ВНУТРЕННИЙ ТЕРМИНАЛ - ЗАЛ СОВЕТА ВЕНДОВЕР
+terminal-entry-office-squabble-content =
+    ЗАЛ СОВЕТА ВЕНДОВЕРА - ВНУТРЕННИЙ ТЕРМИНАЛ
+    КОМУ: Т. УИЛАНУ, АРХИВАРИУСУ
+    ОТ: Р. ОЛСЕН, АРХИВ
+    ТЕМА: КОФЕЙНИК
+
+    Том,
+
+    Я пишу тебе это сообщение вместо того, чтобы просто пройти по коридору и накричать на тебя, потому что стараюсь быть цивилизованной. Цивилизованность даётся мне огромным усилием.
+
+    Кофейник в комнате отдыха совета — общая собственность. Он принадлежит всем нам. Когда ты делаешь кофейник кофе, он для всех. Когда ты допиваешь кофейник, ты делаешь новый. Так работает с тех пор, как я здесь работаю.
+
+    Ты уже допил кофейник В ТРЕТИЙ РАЗ на этой неделе, не сделав новый. Я пришла сегодня утром, кофейник был пуст, а ты сидел за своим архивным столом и читал какую-то довоенную книгу о птицах.
+
+    Секретарь совета делает кофе из драгоценного сушёного корня одуванчика, которым мы торгуем с хозяевами караванов. Каждая чашка «кофе», который мы пьём в этом офисе, представляет собой небольшой, но значительный расход бюджета поселения. Когда ты не наполняешь кофейник заново, ты растрачиваешь впустую труд каждого человека, который участвовал в приобретении этого кофе.
+
+    НАПОЛНИ КОФЕЙНИК, ТОМ.
+
+    НАПОЛНИ КОФЕЙНИК.
+
+    - Р. Олсен, Архив
+
+    { "" }[bold][ОТВЕТ ОТ Т. УИЛАНА][/bold]: Ребекка, я был тем, кто приобрёл корень одуванчика в первую очередь с последнего каравана Большой Железной Линии. Я обменял на него одну из моих личных довоенных фотографий. Так что, в некотором смысле, кофе мой, и ты должна меня благодарить. Но я всё равно наполню кофейник, потому что я хороший коллега. Я сделаю это прямо сейчас. Смотри на меня. Я наполняю его. Кофейник полон. Пожалуйста.
 
 # =============================================================================
 # MISCELLANEOUS
 # =============================================================================
 
-terminal-entry-train-derailment-title = UNION PACIFIC - ОТЧЕТ О ПРОИСШЕСТВЕ
-terminal-entry-train-derailment-content = 
+terminal-entry-train-derailment-title = UNION PACIFIC - ОТЧЕТ О ПРОИСШЕСТВИИ
+terminal-entry-train-derailment-content =
     UNION PACIFIC RAILROAD
-    INCIDENT REPORT - DERAILMENT
-    LOCATION: 14 MILES EAST OF WENDOVER
-    DATE: OCTOBER 23, 2077, APPROX 0300 HOURS
-    
-    { "" }[REPORT PREPARED POSTHUMOUSLY FROM WRECKAGE EXAMINATION, YEAR 130 POST-WAR]
-    
-    Train: Westbound freight, 24 cars, military cargo (sealed manifest).
-    Crew: 3.
-    Cause: Catastrophic seismic event, likely related to atmospheric detonations to the east.
-    Result: Engine and first 8 cars derailed at high speed. Cargo scattered across approximately one mile of track.
-    
-    NOTABLE WRECKAGE:
-    - Engine 4471, badly damaged but partially intact. The engineer's body was recovered from the cab. He had attempted to apply the emergency brake. He never let go of the lever. His skeleton still grips it.
-    - Cars 1 through 4: Standard military supplies. Most have been salvaged by scavengers over the decades.
-    - Cars 5 through 7: Sealed crates marked PROJECT SCEPTER. Contents unknown. The crates were intact but the radiation levels around them were extreme. They have since been buried in place by the salt and the wind. They remain there.
-    - Car 8: Personal effects. Mail. Family photographs. Letters that never reached their destinations.
-    
-    The wreck is visible from the highway on a clear day. It looks like the spine of a great metal animal lying in the desert. The Wendover settlers say it is a landmark. The original Pratchett climbed on it as a child.
-    
-    The Brotherhood of Steel has marked Car 5 through 7 as off-limits to all scavengers, present and future. The marker pole is still standing.
-    
-    - Recovered and compiled by Brotherhood Scribe T. Allaway
+    ОТЧЁТ О ПРОИСШЕСТВИИ - КРУШЕНИЕ
+    МЕСТО: 14 МИЛЬ К ВОСТОКУ ОТ ВЕНДОВЕРА
+    ДАТА: 23 ОКТЯБРЯ 2077 ГОДА, ПРИМЕРНО В 03:00
+
+    { "" }[ОТЧЁТ ПОДГОТОВЛЕН ПОСМЕРТНО ПО РЕЗУЛЬТАТАМ ОСМОТРА ОБЛОМКОВ, ГОД 130 ПОСЛЕ ВОЙНЫ]
+
+    Поезд: Грузовой на запад, 24 вагона, военный груз (запечатанный манифест).
+    Экипаж: 3.
+    Причина: Катастрофическое сейсмическое событие, вероятно, связанное с атмосферными взрывами к востоку.
+    Результат: Локомотив и первые 8 вагонов сошли с рельсов на высокой скорости. Груз разбросан примерно на одну милю путей.
+
+    ПРИМЕЧАТЕЛЬНЫЕ ОБЛОМКИ:
+    - Локомотив 4471, сильно повреждён, но частично цел. Тело машиниста было найдено в кабине. Он пытался применить экстренный тормоз. Он так и не отпустил рычаг. Его скелет всё ещё сжимает его.
+    - Вагоны с 1 по 4: Стандартные военные припасы. Большая часть изъята мусорщиками за десятилетия.
+    - Вагоны с 5 по 7: Запечатанные ящики с пометкой ПРОЕКТ СКИПЕТР. Содержимое неизвестно. Ящики были целы, но уровень радиации вокруг них был критическим. С тех пор они погребены на месте солью и ветром. Они остаются там.
+    - Вагон 8: Личные вещи. Почта. Семейные фотографии. Письма, которые так и не дошли до адресатов.
+
+    Обломки видны с шоссе в ясный день. Они выглядят как позвоночник большого металлического животного, лежащего в пустыне. Поселенцы Вендовера говорят, что это ориентир. Оригинальный Прэтчетт лазил по нему в детстве.
+
+    Братство Стали пометило вагоны с 5 по 7 как запретные для всех мусорщиков, нынешних и будущих. Маркерный столб всё ещё стоит.
+
+    - Изъято и подготовлено Писцом Братства Т. Аллэуэй
 
 terminal-entry-lost-dog-title = СОВЕТ ОБЩЕСТВА - ПОТЕРЯННЫЕ И НАЙДЕННЫЕ
-terminal-entry-lost-dog-content = 
-    WENDOVER COMMUNITY BOARD
-    LOST AND FOUND NOTICES
-    
-    LOST: Small brown dog, mostly mutt, answers to "Beans." Last seen near the south wall on Tuesday. He has a torn left ear and a white spot on his chest. He is friendly and will come to anyone who whistles. Please if you see him bring him to the Yi household at 14 Salt Street. Reward: one good meal and the eternal gratitude of a six year old girl who is currently inconsolable.
-    
-    FOUND: One pre-war pocket watch, gold, engraved "To J. from L., 1962." Found near the Wendover Will sign. Owner please claim at the council hall.
-    
-    LOST: A bag of carrot seeds. About forty seeds. Critical to next season's planting. If you took them by mistake, please return them no questions asked.
-    
-    FOUND: Beans! Beans was found by the Calabrese herders out near the brahmin pens. He was eating scraps with the herd dogs and seemed happy. He is currently being escorted home by Antonio Calabrese. The Yi family has been notified. Crisis averted.
-    
-    LOST: My faith in humanity. Last seen sometime after dealing with the Black Salt Dogs at the eastern checkpoint last week. If found, please return. I am offering a small reward and a great deal of relief.
-    
-    FOUND (in response to above): Your faith in humanity. It was at the medical clinic where Doc Whelan was treating a wounded raider for free because he is a doctor and that is what doctors do. Come pick it up at your convenience. It is a little dusty but still works.
+terminal-entry-lost-dog-content =
+    ДОСКА ОБЪЯВЛЕНИЙ СООБЩЕСТВА ВЕНДОВЕРА
+    ОБЪЯВЛЕНИЯ О НАХОДКАХ И ПОТЕРЯХ
 
-terminal-entry-treasure-map-title = ЗАШИФРОВАННЫЙ ТЕРМИНАЛ – ЧАСТИЧНОЕ ДЕКОДЕРОВАНИЕ
-terminal-entry-treasure-map-content = 
-    ENCRYPTED TERMINAL
-    PARTIAL DECODE BY WENDOVER COUNCIL CRYPTOGRAPHER
-    CONTENT: APPEARS TO BE DIRECTIONS TO A HIDDEN CACHE
-    
-    Begin at the Wendover Will. Walk west until the cowboy is at your back and the salt flats are at your feet. Count two thousand paces. You will reach the dead tree.
-    
-    From the dead tree, walk south by southwest. Count one thousand paces. You will reach a pile of stones. The stones look natural. They are not natural. I placed them there with my own hands.
-    
-    Beneath the stones, dig two feet. You will find a metal box. The combination is the year my daughter was born.
-    
-    Inside the box are:
-    - Three hundred caps
-    - A map to a second cache, larger
-    - The deed to a property that no longer exists in a country that no longer exists
-    - A photograph of my family. They are all dead. I am the last. Please look at the photograph for a moment before you take the caps. Look at their faces. Know that they were real. Know that someone loved them. That is the only thing I am asking you for in exchange for the caps.
-    
-    { "" }[bold][NOTE FROM COUNCIL CRYPTOGRAPHER][/bold]: I have not decoded the year. I have not gone to the cache. I think the cache should remain undisturbed. I think whoever wrote this deserves to have his family remembered without anyone disturbing the box he put in the ground. I am posting this on the council terminal so that his words are read and his family is remembered, which is what he asked for. I am not posting the location.
+    ПОТЕРЯН: Маленькая коричневая собака, в основном дворняжка, откликается на «Бобин». В последний раз видели у южной стены во вторник. У него рваное левое ухо и белое пятно на груди. Он дружелюбен и подойдёт к любому, кто свистнет. Пожалуйста, если увидите его, приведите в дом семьи Йи на Соляной улице, 14. Награда: одно хорошее питание и вечная благодарность шестилетней девочки, которая сейчас безутешна.
+
+    НАЙДЕНЫ: Одни довоенные карманные часы, золотые, с гравировкой «Дж. от Л., 1962». Найдены у вывески Wendover Will. Владельца просят обратиться в зал совета.
+
+    ПОТЕРЯНЫ: Пакет семян моркови. Примерно сорок семян. Критически важны для посадки в следующем сезоне. Если вы взяли их по ошибке, пожалуйста, верните без лишних вопросов.
+
+    НАЙДЕН: Бобин! Бобин был найден пастухами Калабрезе у загонов браминов. Он ел объедки с пастушьими собаками и выглядел счастливым. В настоящее время его доставляют домой Антонио Калабрезе. Семья Йи уведомлена. Кризис предотвращён.
+
+    ПОТЕРЯНА: Моя вера в человечество. В последний раз замечена когда-то после разбирательства с Чёрными Соляными Псами на восточном КПП на прошлой неделе. Если найдёте, пожалуйста, верните. Предлагаю небольшое вознаграждение и большое облегчение.
+
+    НАЙДЕНА (в ответ на вышеуказанное): Ваша вера в человечество. Она была в медицинской клинике, где Док Уилан бесплатно лечил раненого рейдера, потому что он врач и это то, что делают врачи. Зайдите забрать в удобное для вас время. Она немного пыльная, но всё ещё работает.
+
+terminal-entry-treasure-map-title = ЗАШИФРОВАННЫЙ ТЕРМИНАЛ – ЧАСТИЧНОЕ ДЕКОДИРОВАНИЕ
+terminal-entry-treasure-map-content =
+    ЗАШИФРОВАННЫЙ ТЕРМИНАЛ
+    ЧАСТИЧНОЕ ДЕКОДИРОВАНИЕ КРИПТОГРАФОМ СОВЕТА ВЕНДОВЕРА
+    СОДЕРЖИМОЕ: ПО-ВИДИМОМУ, УКАЗАНИЯ К СПРЯТАННОМУ ТАЙНИКУ
+
+    Начни у Wendover Will. Иди на запад, пока ковбой не окажется у тебя за спиной, а солончаки под ногами. Отсчитай две тысячи шагов. Ты дойдёшь до мёртвого дерева.
+
+    От мёртвого дерева иди на юг-юго-запад. Отсчитай тысячу шагов. Ты дойдёшь до кучи камней. Камни выглядят естественно. Они не естественны. Я положил их туда своими руками.
+
+    Под камнями копни на два фута. Ты найдёшь металлическую коробку. Комбинация — год рождения моей дочери.
+
+    Внутри коробки:
+    - Триста крышек
+    - Карта ко второму тайнику, побольше
+    - Документ на собственность, которая больше не существует, в стране, которой больше не существует
+    - Фотография моей семьи. Они все мертвы. Я последний. Пожалуйста, посмотри на фотографию мгновение, прежде чем взять крышки. Посмотри на их лица. Знай, что они были настоящими. Знай, что кто-то любил их. Это единственное, что я прошу у тебя взамен на крышки.
+
+    { "" }[bold][ПРИМЕЧАНИЕ КРИПТОГРАФА СОВЕТА][/bold]: Я не декодировал год. Я не ходил к тайнику. Я думаю, тайник должен остаться нетронутым. Я думаю, тот, кто это написал, заслуживает, чтобы его семью помнили, не тревожа коробку, которую он закопал в землю. Я публикую это на терминале совета, чтобы его слова были прочитаны и его семья была помянута, как он и просил. Я не публикую местоположение.
