@@ -26,7 +26,7 @@ public sealed partial class RulesControl : BoxContainer, ILinkClickHandler
 
         SetGuide();
 
-        OpenRulesButton.OnPressed += _ => _uriOpener.OpenUri("https://wiki.misfitsystems.net/index.php/Rules");
+        OpenRulesButton.OnPressed += _ => _uriOpener.OpenUri("https://discord.gg/YdwBK7NqzG");
 
         HomeButton.OnPressed += _ => SetGuide();
 
@@ -91,7 +91,7 @@ public sealed partial class RulesControl : BoxContainer, ILinkClickHandler
                 Margin = new Thickness(4)
             };
 
-            openButton.OnPressed += _ => _uriOpener.OpenUri("https://wiki.misfitsystems.net/index.php/Rules");
+            openButton.OnPressed += _ => _uriOpener.OpenUri("https://discord.gg/YdwBK7NqzG");
 
             fallbackBox.AddChild(fallback);
             fallbackBox.AddChild(openButton);

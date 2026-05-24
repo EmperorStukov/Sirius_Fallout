@@ -7,7 +7,7 @@
     <BoxContainer Margin="8 8 8 10" HorizontalExpand="True" Orientation="Horizontal" VerticalAlignment="Bottom">
         <Control HorizontalExpand="True"/>
         <Button Name="OpenRulesButton"
-                Text="{Loc 'Click me for rules'}"
+                Text="{Loc 'Дискорд'}"
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center"
                 MinWidth="160"
