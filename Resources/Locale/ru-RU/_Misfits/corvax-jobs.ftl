@@ -85,8 +85,8 @@ id-card-access-level-ncr-major = Основной доступ НКР
  # #Misfits Add - NCR Military Police
 
 job-name-ncr-military-police-recruit = Специалист ВП НКР
-job-description-ncr-military-police-recruit = Обучайся у старших и следи за исполнунием закона.
-department-NCRMilitaryPolice-description = Enforce justice and law upon the members of the NCR.
+job-description-ncr-military-police-recruit = Обучайся у старших и следи за исполнением закона.
+department-NCRMilitaryPolice-description = Обеспечьте соблюдение справедливости и закона в отношении членов НКР.
 department-MilitaryPolice = Военная полиция НКР
 job-name-ncr-military-police-sergeant = Штаб-сержант ВП НКР
 job-description-ncr-military-police-sergeant = Вы несете ответственность за соблюдение закона в этом батальоне НКР. Возглавьте молодых новобранцев военной полиции и изучите каждую букву закона.
