@@ -28,7 +28,7 @@ job-name-caravan-leader = Лидер Каравана
 job-description-caravan-leader = Координируйте деятельность караванной компании в этом районе и заключайте торговые сделки с местными жителями.
 job-name-caravan-trader = Торговец Каравана
 job-description-caravan-trader = Проводите торговые миссии и путешествуйте по караванным маршрутам, чтобы приносить прибыль компании.
-job-name-caravan-guard = Стражник Каравана
+job-name-caravan-guard = Охранник Каравана
 job-description-caravan-guard = Защитите торговцев караванной компании, их скот и инвентарь.
 
 # NCR
@@ -122,7 +122,7 @@ job-name-waste-musician = Музыкант
 job-description-waste-musician = Эта роль будет удалена из игры, пожалуйста, установите для всех своих персонажей значение «НИКОГДА»!
 job-name-scavenger = Мусорщик
 job-description-scavenger = Эта роль будет удалена из игры, пожалуйста, установите для всех своих персонажей значение «НИКОГДА»!
-job-name-wastelander = Выходец из пустоши
+job-name-wastelander = Выходец с пустоши
 job-description-wastelander = Выживайте в пустоши и прокладывайте свой собственный путь. В одиночку там тяжело, подумай о поиске других.
 
 # Town
