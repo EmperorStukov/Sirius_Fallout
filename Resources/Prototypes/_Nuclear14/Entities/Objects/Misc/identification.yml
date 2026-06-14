@@ -351,8 +351,8 @@
   - type: IdCard # #Misfits Add - display "holotags" instead of default "ID card"
     nameLocId: n14-id-holotag-name
     fullNameLocId: n14-id-holotag-full-name
-   - type: PresetIdCard
-     job: EnclaveReformer
+  - type: PresetIdCard
+    job: EnclaveReformer
 
 - type: entity
   parent: N14IDPassportBlank
@@ -368,8 +368,8 @@
   - type: IdCard # #Misfits Add - display "holotags" instead of default "ID card"
     nameLocId: n14-id-holotag-name
     fullNameLocId: n14-id-holotag-full-name
-   - type: PresetIdCard
-     job: EnclaveCommander
+  - type: PresetIdCard
+    job: EnclaveCommander
 
 - type: entity
   parent: N14IDPassportBlank
@@ -377,7 +377,7 @@
   name: Enclave senior officer holotag
   description: An ID holotag worn by higher ranking memebers of the Enclave. This one belongs to a senior officer.
   categories: [ HideSpawnMenu ]
-  suffix: Officer; Captan, Major, Liutenant-colonel
+  suffix: Officer; Captain, Major, Lieutenant-colonel
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -385,8 +385,8 @@
   - type: IdCard # #Misfits Add - display "holotags" instead of default "ID card"
     nameLocId: n14-id-holotag-name
     fullNameLocId: n14-id-holotag-full-name
-   - type: PresetIdCard
-     job: EnclaveSeniorOfficer
+  - type: PresetIdCard
+    job: EnclaveSeniorOfficer
 
 - type: entity
   parent: N14IDPassportBlank
@@ -394,7 +394,7 @@
   name: Enclave junior officer holotag
   description: An ID holotag worn by higher ranking memebers of the Enclave. This one belongs to a junior officer.
   categories: [ HideSpawnMenu ]
-  suffix: Officer; 2nd Liutenant, 1st Liutenant
+  suffix: Officer; 2nd Lieutenant, 1st Lieutenant
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/identification.rsi
@@ -402,8 +402,8 @@
   - type: IdCard # #Misfits Add - display "holotags" instead of default "ID card"
     nameLocId: n14-id-holotag-name
     fullNameLocId: n14-id-holotag-full-name
-   - type: PresetIdCard
-     job: EnclaveJuniorOfficer
+  - type: PresetIdCard
+    job: EnclaveJuniorOfficer
 
 - type: entity
   parent: N14IDPassportBlank
@@ -419,8 +419,8 @@
   - type: IdCard # #Misfits Add - display "holotags" instead of default "ID card"
     nameLocId: n14-id-holotag-name
     fullNameLocId: n14-id-holotag-full-name
-   - type: PresetIdCard
-     job: EnclaveNCO
+  - type: PresetIdCard
+    job: EnclaveNCO
   # #Misfits Change - enables Enclave shared map (tactical helmet HUDs, Pip-Boy)
   - type: Tag
     tags:
@@ -440,8 +440,8 @@
   - type: IdCard # #Misfits Add - display "holotags" instead of default "ID card"
     nameLocId: n14-id-holotag-name
     fullNameLocId: n14-id-holotag-full-name
-   - type: PresetIdCard
-     job: EnclaveEnlisted
+  - type: PresetIdCard
+    job: EnclaveEnlisted
   # #Misfits Change - enables Enclave shared map (tactical helmet HUDs, Pip-Boy)
   - type: Tag
     tags:
@@ -461,8 +461,8 @@
   - type: IdCard # #Misfits Add - display "holotags" instead of default "ID card"
     nameLocId: n14-id-holotag-name
     fullNameLocId: n14-id-holotag-full-name
-   - type: PresetIdCard
-     job: EnclaveHeadScientist
+  - type: PresetIdCard
+    job: EnclaveHeadScientist
 
 - type: entity
   parent: N14IDPassportBlank
@@ -478,8 +478,8 @@
   - type: IdCard # #Misfits Add - display "holotags" instead of default "ID card"
     nameLocId: n14-id-holotag-name
     fullNameLocId: n14-id-holotag-full-name
-   - type: PresetIdCard
-     job: EnclaveScientist
+  - type: PresetIdCard
+    job: EnclaveScientist
 
 - type: entity
   parent: N14IDPassportBlank
@@ -495,8 +495,8 @@
   - type: IdCard # #Misfits Add - display "holotags" instead of default "ID card"
     nameLocId: n14-id-holotag-name
     fullNameLocId: n14-id-holotag-full-name
-   - type: PresetIdCard
-     job: EnclaveJuniorScientist
+  - type: PresetIdCard
+    job: EnclaveJuniorScientist
 
 # MARK: NCR
 - type: entity
