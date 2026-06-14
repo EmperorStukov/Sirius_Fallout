@@ -1,11 +1,11 @@
 # Brotherhood of Steel
-job-name-bos-mid-paladin-comm = Главный паладин Братства
+job-name-bos-mid-paladin-comm = Паладин-командор Братства
 job-description-bos-mid-paladin-comm = Возглавьте боевое крыло отделения Братства и руководите полевыми операциями.
 job-name-bos-mid-paladin = Старший паладин Братства
 job-description-bos-mid-paladin = Служите ветераном полевого командира и командиром тяжелой пехоты Братства.
-job-name-bos-mid-knight = Старший рыцарь Братства
+job-name-bos-mid-knight = Рыцарь-сержант Братства
 job-description-bos-mid-knight = Возглавьте патрули Братства, поддерживайте дисциплину и защищайте восстановленные технологии.
-job-name-bos-mid-scribe = Старший писарь Братства
+job-name-bos-mid-scribe = Проктор Братства
 job-description-bos-mid-scribe = Координируйте исследования, каталогизируйте технологии и консультируйте командный состав отделения.
 job-name-bos-mid-squire = Оруженосец Братства
 job-description-bos-mid-squire = Тренируйтесь под руководством ветеранов Братства и докажите, что вы готовы к более высоким обязанностям.

@@ -107,7 +107,7 @@
 - type: radioChannel
   id: FollowersOfApocalypse
   name: chat-radio-followers
-  keycode: 'п'
+  keycode: 'ф'
   frequency: 1700
   color: "#5cbf82"
   longRange: true
