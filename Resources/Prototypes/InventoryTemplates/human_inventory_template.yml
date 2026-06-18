@@ -15,6 +15,9 @@
       uiWindowPos: 0,1
       strippingWindowPos: 0,2
       displayName: Jumpsuit
+      blacklist: #sirius-change
+        tags:
+        - SuperMutantWearable
     - name: outerClothing
       slotTexture: suit
       slotFlags: OUTERCLOTHING
@@ -22,6 +25,9 @@
       uiWindowPos: 1,1
       strippingWindowPos: 1,2
       displayName: Suit
+      blacklist: #sirius-change
+        tags:
+        - SuperMutantWearable
     - name: gloves
       slotTexture: gloves
       slotFlags: GLOVES

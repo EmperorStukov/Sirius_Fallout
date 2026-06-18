@@ -73,12 +73,31 @@
       - map: [ "pocket2" ]
   - type: Perishable
     rotAfter: 3600
-  - type: Hunger
+  - type: Butcherable #sirius-change
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatHuman
+      amount: 4
+  - type: Hunger #sirius-change
+    thresholds:
+      Overfed: 400
+      Okay: 300
+      Peckish: 200
+      Starving: 100
+      Dead: 0
+    baseDecayRate: 0.09
     starvationDamage:
       types:
-        Cold: 0.15 # Misfits Change - use Cold damage for Malnutrition instead of custom Starvation type (no brute/bleed from hunger)
+        Cold: 0.15
     starvingSlowdownModifier: 0.5
-  - type: Thirst
+  - type: Thirst #sirius-change
+    thresholds:
+      OverHydrated: 400
+      Okay: 300
+      Thirsty: 200
+      Parched: 100
+      Dead: 0
+    baseDecayRate: 0.15
     dehydrationDamage:
       types:
         Cold: 0.15 # Misfits Change - use Cold damage for Dehydration instead of custom Dehydration type (no brute/bleed from thirst)
@@ -94,13 +113,21 @@
       200: Critical
       400: Dead
   - type: Stamina
-    critThreshold: 1000000
+    critThreshold: 200 #sirius-change
+  - type: Respirator #sirius-change
+    damage:
+      types:
+        Asphyxiation: 1
+        Bloodloss: 0.5
+    damageRecovery:
+      types:
+        Asphyxiation: -1
   # Misfits Change - radiation is absorbed as healing fuel rather than damage.
   # healFactor 0.1 (default) ≈ 2× super stimpack rate in a moderate rad zone (~50 rads/sec).
   # healCap scaled to SM health: 360 = 90% of 400 dead threshold (vs 90 = 90% of 100 crit for humans).
-  - type: RadiationReceiver
-  - type: RadiationHealing
-    healCap: 360
+#   - type: RadiationReceiver #sirius-change
+#   - type: RadiationHealing #Radiation healing non canon and too imbalance
+#     healCap: 360
   # Misfits Change - base fist damage 15 (2x Oni modifier brings effective damage to 30).
   - type: MeleeWeapon
     soundHit:
@@ -119,16 +146,62 @@
   - type: Oni
     modifiers:
       coefficients:
-        Blunt: 2.0
-        Slash: 2.0
-        Piercing: 2.0
-        Shock: 2.0
+        Blunt: 1.5
+        Slash: 1.5
+        Piercing: 1.5
+        Shock: 1.5
   - type: MeleeThrowOnHit
     speed: 15
     lifetime: 0.025
   # Misfits Change - stuns the grabbed target for 1 second on successful carry.
   - type: GrabStun
     stunTime: 1
+  - type: Vocal #sirius-add
+    sounds:
+      Male: MaleSupermutant
+      Female: FemaleSupermutant
+      Unsexed: MaleSupermutant
+  - type: Speech
+    speechSounds: Alto
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      100: 1
+      120: 0.9
+      150: 0.8
+      175: 0.7
+      190: 0.5
+  - type: WhitelistClothing
+    whitelist: SuperMutantWearable
+    whitelistState: humanoid
+  - type: Bloodstream
+    bloodlossDamage:
+      types:
+        Bloodloss: 0.5
+    bloodlossHealDamage:
+      types:
+        Bloodloss: -1.5
+    bloodRegenerationHunger: 1.5
+    bloodRegenerationThirst: 2
+    bloodMaxVolume: 200
+    bloodReagent: WastelandBlood
+  - type: Barotrauma
+    damage:
+      types:
+        Blunt: 0.30 #per second, scales with pressure and other constants.
+        Heat: 0.05
+  - type: PassiveDamage # Slight passive regen. Assuming one damage type, comes out to about 4 damage a minute.
+    allowedStates:
+    - Alive
+    - Critical
+    damageCap: 300
+    damage:
+      types:
+        Heat: -0.5
+        Poison: -0.5
+        Radiation: -0.1
+      groups:
+        Brute: -0.5
+        Genetic: -10
 
 - type: entity
   save: false
@@ -193,3 +266,52 @@
   - type: Inventory
     templateId: supermutant
     speciesId: supermutant
+
+#   - type: Fixtures
+#     fixtures:
+#       fix1:
+#         shape:
+#           !type:PhysShapeCircle
+#           radius: 0.4
+#         # they r smaller
+#         density: 150
+#         restitution: 0.0
+#         mask:
+#         - MobMask
+#         layer:
+#         - MobLayer
+#   - type: Tag
+#     tags:
+#     - CanPilot
+#     - FootstepSound
+#     - DoorBumpOpener
+#     - SuperMutantWearable
+#   - type: Destructible
+#   thresholds:
+#   - trigger:
+#       !type:DamageTypeTrigger
+#       damageType: Blunt
+#       damage: 2500
+#     behaviors:
+#     - !type:GibPartBehavior {}
+#   - trigger:
+#       !type:DamageTypeTrigger
+#       damageType: Heat
+#       damage: 2500
+#     behaviors:
+#     - !type:SpawnEntitiesBehavior
+#       spawnInContainer: true
+#       spawn:
+#         Ash:
+#           min: 2
+#           max: 5
+#     - !type:BurnBodyBehavior {}
+#     - !type:PlaySoundBehavior
+#       sound:
+#         collection: MeatLaserImpact
+
+#   - type: DamageVisuals
+#     damageOverlayGroups:
+#       Brute:
+#         sprite: Mobs/Effects/brute_damage.rsi
+#         color: "#88221f"
