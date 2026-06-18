@@ -49,13 +49,14 @@
   markingLimits: MobSuperMutantMarkingLimits
   dollPrototype: N14MobSuperMutantDummy
   skinColoration: Hues
-  defaultSkinTone: "#6b8e23"
-  minHeight: 1.5
-  defaultHeight: 1.5
-  maxHeight: 1.5
-  minWidth: 1.5
-  defaultWidth: 1.5
-  maxWidth: 1.5
+#   defaultSkinTone: "#6b8e23"
+  minHeight: 1.45 #sirius-change
+  maxHeight: 1.72 #sirius-change
+  minWidth: 1.45 #sirius-change
+  maxWidth: 1.77 #sirius-change
+  minAge: 50 #sirius-change
+  oldAge: 150 #sirius-change
+  maxAge: 200 #sirius-change
   sexes:
   - Male
   - Female
@@ -65,7 +66,10 @@
   id: MobSuperMutantSprites
   sprites:
     Head: MobSuperMutantHead
+    Hair: MobHumanoidAnyMarking #sirius-change
+    Snout: MobHumanoidAnyMarking #sirius-change
     Chest: MobSuperMutantTorso
+    Eyes: MobHumanoidEyes #sirius-change
     LArm: MobSuperMutantLArm
     RArm: MobSuperMutantRArm
     LHand: MobSuperMutantLHand
@@ -79,6 +83,9 @@
   id: MobSuperMutantMarkingLimits
   onlyWhitelisted: true
   points:
+    Hair: #sirius-change
+      points: 1
+      required: false
     Chest:
       points: 1
       required: false

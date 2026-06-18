@@ -169,7 +169,7 @@
   - type: SolutionContainerManager
     solutions:
       stomach:
-        maxVol: 50
+        maxVol: 100 #sirius-change
       food:
         maxVol: 5
         reagents:
@@ -177,7 +177,7 @@
           Quantity: 5
   - type: Stomach
   - type: Metabolizer
-    maxReagents: 3
+    maxReagents: 5 #sirius-change
     metabolizerTypes: [SuperMutant] # Misfits Change: use SuperMutant metabolizer type
     groups:
     - id: Food
