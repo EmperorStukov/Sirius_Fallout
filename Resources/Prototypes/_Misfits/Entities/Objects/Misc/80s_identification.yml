@@ -1,0 +1,51 @@
+#Stukov add: 80s Dogtags
+
+- type: entity
+  parent: N14IDNCRDogtag
+  id: SiriusID80sDogtagRoadRash
+  name: road rash dogtags
+  description: An ID dogtag worn by raiders.
+  suffix: Soldier
+  components:
+  - type: PresetIdCard
+    job: EightiesRoadRash
+
+- type: entity
+  parent: N14IDNCRDogtag
+  id: SiriusID80sDogtagOilers
+  name: oiler dogtags
+  description: An ID dogtag worn by raiders.
+  suffix: Private First Class
+  components:
+  - type: PresetIdCard
+    job: EightiesOilers
+
+- type: entity
+  parent: N14IDNCRDogtagNCO
+  id: SiriusID80sDogtagPiston
+  name: piston dogtags
+  description: An ID dogtag worn by raiders.
+  suffix: Sergeant First Class
+  components:
+  - type: PresetIdCard
+    job: EightiesPistons
+
+- type: entity
+  parent: N14IDNCRDogtagNCO
+  id: SiriusID80sDogtagCylinder
+  name: cylinder dogtags
+  description: An ID dogtag worn by raiders.
+  suffix: MP Investigator
+  components:
+  - type: PresetIdCard
+    job: EightiesCylinders
+
+- type: entity
+  parent: N14IDNCRDogtagDoctor
+  id: SiriusID80sDogtagBlock
+  name: the Block dogtags
+  description: An ID dogtag worn by raider boss.
+  suffix: Doctor
+  components:
+  - type: PresetIdCard
+    job: EightiesTheBlock

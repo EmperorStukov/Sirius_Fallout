@@ -1063,3 +1063,31 @@
     sprite: Corvax/Markers/jobs.rsi
     layers:
       - state: green
+
+### Sirius Stukov's Add
+# Vault Manager — admin-whitelisted Vault-Tec leader role; spawn point referenced by Vault map  # #Misfits Add
+# Vault
+- type: entity
+  id: SiriusSpawnPointVaultManagement
+  parent: N14SpawnPointWastelander
+  name: Vault Manager
+  components:
+  - type: SpawnPoint
+    job_id: VaultManagement
+  - type: Sprite
+    sprite: _Nuclear14/Markers/Jobs/vault.rsi
+    layers:
+      - state: green
+      - state: overseer
+
+- type: entity
+  id: N14SpawnPointNCRRangerChief
+  parent: N14SpawnPointNCRCadet
+  name: NCR Chief Ranger
+  components:
+  - type: SpawnPoint
+    job_id: NCRChiefRanger
+  - type: Sprite
+    layers:
+      - state: green
+      - state: rangerveteran
