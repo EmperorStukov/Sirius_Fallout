@@ -37,29 +37,29 @@
     - LargeBeaker
     - Dropper
     - ClothingEyesGlassesChemical
-    - N14X-02Enclave
-    - N14PowerDrill
-    - N14MiningDrill
-    - N14Scalpel
-    - N14Retractor
-    - N14Cautery
-    - N14Drill
-    - N14Saw
-    - N14Hemostat
-    - N14Syringe
-    - N14PillCanister
-    - N14ChemistryEmptyBottle01
-    - N14PowerCellMicroreactor
-    - N14PowerCellHigh
-    - N14WeaponPistolCHIMP
-    - N14ClothingMaskWeldingGas
-    - N14SynthesizerInstrument
-    - N14SyringeBluespace
-    - N14WeaponForceGun
-    - N14WelderExperimental
-    - N14ClothingEyesNightVisionGoggles
-    - N14ClothingEyesNightVisionDiagnosticGoggles
-    - N14ClothingEyesThermalVisionGoggles
+    - N14ClothingOuterPowerArmorT60Enclave
+    - PowerDrill
+    - MiningDrill
+    - Scalpel
+    - Retractor
+    - Cautery
+    - Drill
+    - Saw
+    - Hemostat
+    - Syringe
+    - PillCanister
+    - ChemistryEmptyBottle01
+    - PowerCellMicroreactor
+    - PowerCellHigh
+    - WeaponPistolCHIMP
+    - ClothingMaskWeldingGas
+    - SynthesizerInstrument
+    - SyringeBluespace
+    - WeaponForceGun
+    - WelderExperimental
+    - ClothingEyesNightVisionGoggles
+    - ClothingEyesNightVisionDiagnosticGoggles
+    - ClothingEyesThermalVisionGoggles
     # Shitmed Change
     - EnergyScalpel
     - EnergyCautery
