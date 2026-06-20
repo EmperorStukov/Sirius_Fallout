@@ -1,1 +1,84 @@
+- type: entity
+  id: N14BaseMagazine2mmECPistol
+  name: pistol magazine (2mmEC)
+  parent: BaseItem
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - N14MagazinePistol2mmEC
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - N14Cartridge2mmEC
+    capacity: 12
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: Sprite
+    netsync: false
+    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Magazines/2mmEC/2mmpistolmag.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    scale: 0.70, 0.70
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
 
+- type: entity
+  id: N14MagazinePistol2mmEC
+  name: pistol magazine (2mmEC)
+  parent: N14BaseMagazine2mmECPistol
+  components:
+  - type: BallisticAmmoProvider
+    proto: N14Cartridge2mmEC
+
+- type: entity
+  id: N14MagazineRifle2mmEC
+  name: Rifle magazine (2mmEC)
+  parent: N14BaseMagazine2mmECPistol
+  components:
+  - type: Tag
+    tags:
+      - N14MagazineRifle2mmEC
+  - type: Sprite
+    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Magazines/2mmEC/2mmRiflemag.rsi
+    scale: 0.70, 0.70
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+        - N14Cartridge2mmEC
+    capacity: 20
+    proto: N14Cartridge2mmEC
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+
+- type: entity
+  id: N14MagazineGaussMinigun2mmEC
+  name: Gauss minigun box (2mmEC)
+  parent: N14BaseMagazine2mmECPistol
+  components:
+  - type: Tag
+    tags:
+      - N14MagazineGaussMinigun2mmEC
+  - type: Sprite
+    sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Magazines/2mmEC/2mmminigunmag.rsi
+    scale: 0.70, 0.70
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+        - N14Cartridge2mmEC
+    capacity: 80
+    proto: N14Cartridge2mmEC
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false

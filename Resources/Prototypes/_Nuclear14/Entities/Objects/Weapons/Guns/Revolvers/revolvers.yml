@@ -93,7 +93,6 @@
   - type: StaticPrice
     price: 75
 
-
 - type: entity
   parent: N14WeaponRevolver10mm
   id: N14WeaponRevolver10mmEmpty
@@ -451,3 +450,29 @@
       collection: N14RevolverMagnunGunshot
   - type: StaticPrice
     price: 500
+
+- type: entity
+  name: calico revolver
+  parent: N14WeaponRevolverBase
+  id: N14WeaponRevolverCalicoSirius
+  description: An old trusty break-action pistol, easy to load and easy to use.
+  components:
+  - type: Tag
+    tags:
+    - Sidearm
+  - type: Sprite
+    sprite: _Nuclear14/Objects/Weapons/Guns/Revolvers/calico.rsi
+  - type: Clothing
+    sprite: _Nuclear14/Objects/Weapons/Guns/Revolvers/calico.rsi
+  - type: RevolverAmmoProvider
+    whitelist:
+      tags:
+        - N14CartridgePistol45
+        - SpeedLoader45
+    proto: N14CartridgePistol45
+  - type: Gun
+    fireRate: 6
+    soundGunshot:
+      collection: N14RevolverMagnunGunshot
+  - type: StaticPrice
+    price: 75

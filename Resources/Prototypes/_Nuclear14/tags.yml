@@ -230,6 +230,9 @@
   id: SpeedLoader44
 
 - type: Tag
+  id: SpeedLoader45
+
+- type: Tag
   id: SpeedLoader45-70
 
 - type: Tag
@@ -280,6 +283,9 @@
 
 - type: Tag
   id: N14Cartridge308Rifle
+
+- type: Tag
+  id: N14Cartridge2mmEC
 
 #MARK: Ammo tags(Magazines).
 - type: Tag
@@ -395,6 +401,15 @@
 
 - type: Tag
   id: Magazine2mmEC
+
+- type: Tag
+  id: N14MagazineGaussMinigun2mmEC
+
+- type: Tag
+  id: N14MagazinePistol2mmEC
+
+- type: Tag
+  id: N14MagazineRifle2mmEC
 
 - type: Tag
   id: N14AmmoCell

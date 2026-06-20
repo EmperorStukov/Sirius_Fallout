@@ -787,3 +787,78 @@
     backStrength: 4
   - type: StaticPrice
     price: 150
+
+- type: entity
+  name: M72 Gauss rifle
+  parent: N14WeaponRifleBase
+  id: N14WeaponSniperM72GaussRifleSirius
+  description: "An anti-materiel rifle with an ergonomic, sleek, skeletonized design. Simply looking at it can you tell it'll rip some limbs apart. Uses .50 anti-material ammo."
+  components:
+  - type: Clothing
+    sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/gaussrifle.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+  - type: Sprite
+    sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/gaussrifle.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    size: Huge
+  - type: Wieldable
+    wieldedSpeedModifier: 0.75
+  - type: GunWieldBonus
+    minAngle: -23
+    maxAngle: -104
+  - type: Gun
+    minAngle: 24
+    maxAngle: 105
+    angleIncrease: 4
+    angleDecay: 16
+    fireRate: 1.5
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/GaussRifle_SingleShot_1.ogg
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: N14MagazineRifle2mmEC
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - N14MagazineRifle2mmEC
+      gun_chamber:
+        name: Chamber
+        startingItem: N14Cartridge2mmEC
+        priority: 1
+        whitelist:
+          tags:
+            - N14Cartridge2mmEC
+      # #Misfits Add — scope attachment slot on anti-materiel rifle
+      # gun_scope:
+      #   name: Scope Slot
+      #   whitelist:
+      #     tags:
+      #     - RifleScope
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: FollowDistance
+    backStrength: 3
+  - type: StaticPrice
+    price: 200
+  - type: GunDamageBonus
+    bonusDamage:
+      types:
+        Piercing: 20
