@@ -26,6 +26,12 @@
       entity: ClothingNeckPinNCRCaptain
     - min: 72000   # 20 hours
       entity: ClothingNeckPinNCRMajor
+    - min: 126000   # 35 hours
+      entity: ClothingNeckPinNCRLTC
+    - min: 180000   # 50 hours
+      entity: ClothingNeckPinNCRColonel
+    - min: 360000   # 100 hours
+      entity: ClothingNeckPinNCRGeneralMajor
 
 # Medical Officers: Captain (O-3) → Major (O-4) at 20h
 - type: ncrRankPinProgression

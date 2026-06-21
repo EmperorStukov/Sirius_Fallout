@@ -5,7 +5,7 @@
   description: A worn Republic Armed Forces badge showing the wearer's rank.
   components:
   - type: RankTitle
-    rankTitle: Recruit
+    rankTitle: Рекрут НКР
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -22,7 +22,7 @@
   name: private pin
   components:
   - type: RankTitle
-    rankTitle: Private
+    rankTitle: Рядовой НКР
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -39,7 +39,7 @@
   name: private first class pin
   components:
   - type: RankTitle
-    rankTitle: Private First Class
+    rankTitle: Рядовой 1го кл. НКР
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -51,7 +51,7 @@
   name: corporal pin
   components:
   - type: RankTitle
-    rankTitle: Corporal
+    rankTitle: Капрал НКР
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -63,7 +63,7 @@
   name: specialist pin
   components:
   - type: RankTitle
-    rankTitle: Specialist
+    rankTitle: Специалист НКР
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -75,7 +75,7 @@
   name: sergeant pin
   components:
   - type: RankTitle
-    rankTitle: Sergeant
+    rankTitle: Сержант НКР
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -87,7 +87,7 @@
   name: staff sergeant pin
   components:
   - type: RankTitle
-    rankTitle: Staff Sergeant
+    rankTitle: Штаб-сержант НКР
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -99,7 +99,7 @@
   name: sergeant first class pin
   components:
   - type: RankTitle
-    rankTitle: Sergeant First Class
+    rankTitle: Сержант 1го кл. НКР
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -111,7 +111,7 @@
   name: sergeant major pin
   components:
   - type: RankTitle
-    rankTitle: Sergeant Major
+    rankTitle: Сержант-майор НКР
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -123,7 +123,7 @@
   name: second lieutenant pin
   components:
   - type: RankTitle
-    rankTitle: Second Lieutenant
+    rankTitle: Второй лейтенант НКР
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -135,7 +135,7 @@
   name: first lieutenant pin
   components:
   - type: RankTitle
-    rankTitle: First Lieutenant
+    rankTitle: Первый лейтенант НКР
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -152,7 +152,7 @@
   name: captain pin
   components:
   - type: RankTitle
-    rankTitle: Captain
+    rankTitle: Капитан НКР
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -169,7 +169,43 @@
   name: major pin
   components:
   - type: RankTitle
-    rankTitle: Major
+    rankTitle: Майор НКР
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
+    layers:
+    - state: major
+
+- type: entity
+  parent: ClothingNeckPinNCRPrivate
+  id: ClothingNeckPinNCRLTC
+  name: lieutenant-colonel pin
+  components:
+  - type: RankTitle
+    rankTitle: Подполковник НКР
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
+    layers:
+    - state: major
+
+- type: entity
+  parent: ClothingNeckPinNCRPrivate
+  id: ClothingNeckPinNCRColonel
+  name: colonel pin
+  components:
+  - type: RankTitle
+    rankTitle: Полковник НКР
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
+    layers:
+    - state: major
+
+- type: entity
+  parent: ClothingNeckPinNCRPrivate
+  id: ClothingNeckPinNCRGeneralMajor
+  name: general major pin
+  components:
+  - type: RankTitle
+    rankTitle: Генерал-майор НКР
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -181,7 +217,7 @@
   name: doctor pin
   components:
   - type: RankTitle
-    rankTitle: Corpsman
+    rankTitle: Санитар НКР
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -198,7 +234,7 @@
   name: chief physician pin
   components:
   - type: RankTitle
-    rankTitle: Chief Physician
+    rankTitle: Главный врач НКР
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
