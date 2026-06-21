@@ -217,7 +217,7 @@
   name: doctor pin
   components:
   - type: RankTitle
-    rankTitle: Санитар НКР
+    rankTitle: Врач НКР
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:

@@ -233,10 +233,10 @@ ent-ClothingNeckPinNCRSpecialist = значок специалиста НКР
 ent-ClothingNeckPinNCRSergeant = значок сержанта НКР
     .desc = Ношеный значок Вооруженных сил Республики, указывающий на звание владельца.
 
-ent-ClothingNeckPinNCRSergeant1st = значок сержанта первого класса НКР
+ent-ClothingNeckPinNCRSergeant1st = значок штаб-сержанта НКР
     .desc = Ношеный значок Вооруженных сил Республики, указывающий на звание владельца.
 
-ent-ClothingNeckPinNCRMasterSergeant = значок мастер-сержанта НКР
+ent-ClothingNeckPinNCRMasterSergeant = значок сержанта первого класса НКР
     .desc = Ношеный значок Вооруженных сил Республики, указывающий на звание владельца.
 
 ent-ClothingNeckPinNCRSergeantMajor = значок сержант-майора НКР
