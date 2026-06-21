@@ -14,7 +14,7 @@
 #   NCRHeavyTrooper      — NCR Heavy Trooper
 #   NCRTrooper           — NCR Trooper
 
-# Command Officers: Captain (O-3) → Major (O-4) at 20h NCR dept time
+# Command Officers: Captain (O-3) → Major (O-4) at 20h NCR dept time  → LTC (O-5) at 35h NCR dept time → Colonel (O-6) at 50h NCR dept time → General Major (O-7) at 100h NCR dept time
 - type: ncrRankPinProgression
   id: NCRCommandOfficerPins
   jobs:
@@ -26,6 +26,12 @@
       entity: ClothingNeckPinNCRCaptain
     - min: 72000   # 20 hours
       entity: ClothingNeckPinNCRMajor
+    - min: 126000   # 35 hours
+      entity: ClothingNeckPinNCRLTC
+    - min: 180000   # 50 hours
+      entity: ClothingNeckPinNCRColonel
+    - min: 360000   # 100 hours
+      entity: ClothingNeckPinNCRGeneralMajor
 
 # Medical Officers: Captain (O-3) → Major (O-4) at 20h
 - type: ncrRankPinProgression
@@ -36,9 +42,9 @@
   departmentTracker: false
   thresholds:
     - min: 0
-      entity: ClothingNeckPinNCRCaptain
+      entity: ClothingNeckPinNCRSecondLieutenant
     - min: 72000   # 20 hours
-      entity: ClothingNeckPinNCRMajor
+      entity: ClothingNeckPinNCRFirstlLieutenant
 
 # Junior Officers: 2LT (O-1) → 1LT (O-2) at 20h NCR dept time
 - type: ncrRankPinProgression
@@ -53,8 +59,10 @@
       entity: ClothingNeckPinNCRSecondLieutenant
     - min: 72000   # 20 hours
       entity: ClothingNeckPinNCRFirstlLieutenant
+    - min: 72000   # 20 hours
+      entity: ClothingNeckPinNCRCaptain
 
-# Squad Leaders: CPL (E-4) → SGT (E-5) at 20h → SSG (E-6) at 40h → SFC (E-7) at 60h
+# Squad Leaders: SGT (E-6) → SSG (E-7) at 20h → SFC (E-8) at 40h → SGM (E-9) at 60h
 # All 4 map slots share the NCRSquadLeader tracker so time accumulates across slots.
 - type: ncrRankPinProgression
   id: NCRNCOPins
@@ -64,15 +72,15 @@
   departmentTracker: false
   thresholds:
     - min: 0
-      entity: ClothingNeckPinNCRCorporal
-    - min: 72000   # 20 hours
       entity: ClothingNeckPinNCRSergeant
-    - min: 144000  # 40 hours
+    - min: 72000   # 20 hours
       entity: ClothingNeckPinNCRSergeant1st
-    - min: 216000  # 60 hours
+    - min: 144000  # 40 hours
       entity: ClothingNeckPinNCRMasterSergeant
+    - min: 216000  # 60 hours
+      entity: ClothingNeckPinNCRSergeantMajor
 
-# Medic: PFC (E-3) → SPC (E-4) at 20h NCR dept → SGT (E-5) at 40h
+# Medic: PFC (E-3) → CPL (E-4) at 10h NCR dept → SPC (E-5) at 20h NCR dept → SGT (E-6) at 40h
 - type: ncrRankPinProgression
   id: NCRMedicPins
   jobs:
@@ -82,12 +90,14 @@
   thresholds:
     - min: 0
       entity: ClothingNeckPinNCRPrivate1st
+    - min: 36000   # 10 hours
+      entity: ClothingNeckPinNCRCorporal
     - min: 72000   # 20 hours
       entity: ClothingNeckPinNCRSpecialist
     - min: 144000  # 40 hours
       entity: ClothingNeckPinNCRSergeant
 
-# Specialists: PV2 (E-2) → PFC (E-3) at 20h NCR dept → SPC (E-4) at 40h NCR dept
+# Specialists: PVT (E-2) → PFC (E-3) at 20h NCR dept → CPL (E-4) at 40h NCR dept → SCP (E-5) at 60h NCR dept
 - type: ncrRankPinProgression
   id: NCRSpecialistPins
   jobs:
@@ -102,6 +112,8 @@
     - min: 72000   # 20 hours
       entity: ClothingNeckPinNCRPrivate1st
     - min: 144000  # 40 hours
+      entity: ClothingNeckPinNCRCorporal
+    - min: 216000  # 60 hours
       entity: ClothingNeckPinNCRSpecialist
 
 # Troopers: Recruit (E-1) → PV2 at 20h NCR dept → PFC at 40h NCR dept → SPC at 60h NCR dept
@@ -119,4 +131,4 @@
     - min: 144000  # 40 hours
       entity: ClothingNeckPinNCRPrivate1st
     - min: 216000  # 60 hours
-      entity: ClothingNeckPinNCRSpecialist
+      entity: ClothingNeckPinNCRCorporal
