@@ -8,6 +8,8 @@
   name: enclave private pin
   description: A United States Government rank insignia showing the wearer's rank.
   components:
+  - type: RankTitle
+    rankTitle: Рядовой Анклава
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -24,6 +26,8 @@
   id: ClothingNeckPinEnclavePFC
   name: enclave private first class pin
   components:
+  - type: RankTitle
+    rankTitle: Рядовой 1го кл. Анклава
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -34,6 +38,8 @@
   id: ClothingNeckPinEnclaveSpecialist
   name: enclave specialist pin
   components:
+  - type: RankTitle
+    rankTitle: Капрал Анклава
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -45,6 +51,8 @@
   id: ClothingNeckPinEnclaveSergeant
   name: enclave sergeant pin
   components:
+  - type: RankTitle
+    rankTitle: Сержант Анклава
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -55,6 +63,8 @@
   id: ClothingNeckPinEnclaveStaffSergeant
   name: enclave staff sergeant pin
   components:
+  - type: RankTitle
+    rankTitle: Штаб-сержант Анклава
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -65,6 +75,8 @@
   id: ClothingNeckPinEnclaveSFC
   name: enclave sergeant first class pin
   components:
+  - type: RankTitle
+    rankTitle: Сержант 1го кл. Анклава
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -75,6 +87,8 @@
   id: ClothingNeckPinEnclaveMasterSergeant
   name: enclave master sergeant pin
   components:
+  - type: RankTitle
+    rankTitle: Мастер-сержант Анклава
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -86,6 +100,8 @@
   id: ClothingNeckPinEnclaveSecondLieutenant
   name: enclave second lieutenant pin
   components:
+  - type: RankTitle
+    rankTitle: 2й Лейтенант Анклава
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -101,6 +117,8 @@
   id: ClothingNeckPinEnclaveFirstLieutenant
   name: enclave first lieutenant pin
   components:
+  - type: RankTitle
+    rankTitle: 1й Лейтенант Анклава
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -112,6 +130,8 @@
   id: ClothingNeckPinEnclaveCaptain
   name: enclave captain pin
   components:
+  - type: RankTitle
+    rankTitle: Капитан Анклава
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -122,6 +142,8 @@
   id: ClothingNeckPinEnclaveMajor
   name: enclave major pin
   components:
+  - type: RankTitle
+    rankTitle: Майор Анклава
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -133,6 +155,8 @@
   id: ClothingNeckPinEnclaveLtColonel
   name: enclave lieutenant colonel pin
   components:
+  - type: RankTitle
+    rankTitle: Подполковник Анклава
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -143,6 +167,8 @@
   id: ClothingNeckPinEnclaveColonel
   name: enclave colonel pin
   components:
+  - type: RankTitle
+    rankTitle: Полковник Анклава
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:
@@ -153,6 +179,8 @@
   id: ClothingNeckPinEnclaveGeneral
   name: enclave general pin
   components:
+  - type: RankTitle
+    rankTitle: Генерал Анклава
   - type: Sprite
     sprite: _Nuclear14/Clothing/Neck/Misc/pins.rsi
     layers:

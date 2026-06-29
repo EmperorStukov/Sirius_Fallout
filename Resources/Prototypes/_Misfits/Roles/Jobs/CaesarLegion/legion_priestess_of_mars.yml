@@ -6,7 +6,7 @@
 - type: job
   id: CaesarLegionPriestessOfMars
   setPreference: true
-  hideWithoutJobWhitelist: false  # visible in all menus regardless of whitelist
+  hideWithoutJobWhitelist: true  # visible in all menus regardless of whitelist
   overrideConsoleVisibility: true # force display in crew manifest + job picker
   hideIfPlaytimeRequirementsNotMet: false
   jobWhitelistBypassesRoleTimers: true
